@@ -902,17 +902,18 @@ async function showLoginForm(role){
   document.getElementById('loginSubtitle').textContent=role==='admin'?'\uD83D\uDC51 \u041F\u0430\u0440\u043E\u043B\u044C \u0430\u0434\u043C\u0456\u043D\u0456\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u0430':'\uD83D\uDC77 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F...';
   document.getElementById('loginErr').textContent='';
   if(role==='manager'){
-    const tok=_gistToken();
-    if(tok){
-      try{
-        const r=await fetch(`https://api.github.com/gists/${_gistId()}`,{headers:{'Authorization':'token '+tok,'Accept':'application/vnd.github+json'}});
-        const j=await r.json();
-        if(r.ok&&j.files&&j.files['hsm_managers.json']){
-          const rec=JSON.parse(j.files['hsm_managers.json'].content||'{}');
-          if(rec.managers)localStorage.setItem('hsm_managers',JSON.stringify(rec.managers));
-        }
-      }catch(e){}
-    }
+    // Always fetch managers from Gist \u2014 works even without token for public gists
+    try{
+      const tok=_gistToken();
+      const hdrs={'Accept':'application/vnd.github+json'};
+      if(tok)hdrs['Authorization']='token '+tok;
+      const r=await fetch(`https://api.github.com/gists/${_gistId()}`,{headers:hdrs});
+      const j=await r.json();
+      if(r.ok&&j.files&&j.files['hsm_managers.json']){
+        const rec=JSON.parse(j.files['hsm_managers.json'].content||'{}');
+        if(rec.managers)localStorage.setItem('hsm_managers',JSON.stringify(rec.managers));
+      }
+    }catch(e){}
     document.getElementById('loginSubtitle').textContent='\uD83D\uDC77 \u041F\u0430\u0440\u043E\u043B\u044C \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430';
   }
   document.getElementById('loginPass').value='';
@@ -1915,7 +1916,7 @@ async function cloudPush(){
     }
     await _gistPatch(files);
     const adminCount=JSON.parse(localStorage.getItem('hsm_deals')||'[]').length;
-    showStatus(el,`\u2705 \u0417\u0435\u0435\u0435\u043E! ${adminCount} \u0430\u043C\u043D + ${totalMgr} \u043C\u043D\u0434\u0435\u0438 \u2014 ${new Date().toLocaleTimeString('uk-UA')}`,'ok');
+    showStatus(el,`\u2705 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E! ${adminCount} \u0430\u043C\u043D + ${totalMgr} \u043C\u043D\u0434\u0435\u0438 \u2014 ${new Date().toLocaleTimeString('uk-UA')}`,'ok');
   }catch(e){showStatus(el,'\u274C \u041F\u043C\u043B\u0430: '+e.message,'err');}
 }
 
@@ -1942,7 +1943,7 @@ async function cloudPull(){
     }
     loadDataForUser(currentMgrId);renderPipeline();
     const adminCount=JSON.parse(localStorage.getItem('hsm_deals')||'[]').length;
-    showStatus(el,`\u2705 \u0417\u0432\u043D\u0430\u0435\u043E! ${adminCount} \u0430\u043C\u043D + ${totalMgr} \u043C\u043D\u0434\u0435\u0438`,'ok');
+    showStatus(el,`\u2705 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043E! ${adminCount} \u0430\u043C\u043D + ${totalMgr} \u043C\u043D\u0434\u0435\u0438`,'ok');
   }catch(e){showStatus(el,'\u274C \u041F\u043C\u043B\u0430: '+e.message,'err');}
 }
 
@@ -2050,28 +2051,28 @@ function toggleMgrCloud(){
 
 async function mgrCloudPull(){
   const el=document.getElementById('mgr-cloud-status');
-  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0435\u0456\u044C \u0442\u043A\u043D \u0432\u0449';el.style.color='#e65100';return;}
-  el.textContent='\u23F3 \u0417\u0432\u043D\u0430\u0443...';el.style.color='#1565C0';
+  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D \u0432\u0438\u0449\u0435';el.style.color='#e65100';return;}
+  el.textContent='\u23F3 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
   try{
     const files=await _gistRead();
     const fname='hsm_mgr_'+currentMgrId+'.json';
-    if(!files[fname]){el.textContent='\u26A0 \u0421\u043E\u0430\u043A \u0437\u0435\u0435\u0456\u044C \u0432 \u0445\u0430\u0443';el.style.color='#e65100';return;}
+    if(!files[fname]){el.textContent='\u26A0 \u0421\u043F\u043E\u0447\u0430\u0442\u043A\u0443 \u0437\u0431\u0435\u0440\u0435\u0436\u0456\u0442\u044C \u0432 \u0445\u043C\u0430\u0440\u0456';el.style.color='#e65100';return;}
     const rec=JSON.parse(files[fname].content||'{}');
     localStorage.setItem(dealsKey(currentMgrId),JSON.stringify(rec.deals||[]));
     localStorage.setItem(actsKey(currentMgrId),JSON.stringify(rec.acts||[]));
     loadDataForUser(currentMgrId);renderPipeline();
-    el.textContent=`\u2705 \u0417\u0432\u043D\u0430\u0435\u043E! ${(rec.deals||[]).length} \u043A\u0456\u043D\u0456`;el.style.color='#2e7d32';
+    el.textContent=`\u2705 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043E! ${(rec.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
   }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
 }
 
 async function mgrCloudPush(){
   const el=document.getElementById('mgr-cloud-status');
-  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0435\u0456\u044C \u0442\u043A\u043D \u0432\u0449';el.style.color='#e65100';return;}
-  el.textContent='\u23F3 \u0417\u0435\u0456\u0430...';el.style.color='#1565C0';
+  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D \u0432\u0438\u0449\u0435';el.style.color='#e65100';return;}
+  el.textContent='\u23F3 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    el.textContent=`\u2705 \u0417\u0435\u0435\u0435\u043E! ${(payload.deals||[]).length} \u043A\u0456\u043D\u0456`;el.style.color='#2e7d32';
+    el.textContent=`\u2705 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E! ${(payload.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
   }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
 }
 
