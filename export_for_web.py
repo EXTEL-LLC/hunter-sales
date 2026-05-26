@@ -37,18 +37,15 @@ b14 = ws_st.cell(14, 2).value or 0
 b15 = ws_st.cell(15, 2).value or 0
 res = b11 + b12 + b13 + b14 + b15 * b3 / 365
 
-d6_sub = ws_st.cell(68, 9).value or 0.25   # D6 is now col I (9) after D4NI insert
+d6_sub = ws_st.cell(68, 8).value or 0.25
 
 ROLES       = ['Трафіковий', 'Основний', 'Маржинальний', 'Сезонний', 'Стратегічний']
 MARGIN_ROWS = [78, 80, 82, 84, 86]
-CHANNELS    = ['D1', 'D2', 'D3', 'D4 Нац', 'D4 Buy', 'D4 Drop', 'D5', 'D6']
+CHANNELS    = ['D1', 'D2', 'D3', 'D4 Buy', 'D4 Drop', 'D5', 'D6']
 
 MARGINS = {}
 for role, row in zip(ROLES, MARGIN_ROWS):
-    MARGINS[role] = [ws_st.cell(row, c).value or 0 for c in range(2, 10)]
-
-# Average D4 НІ markup (fallback for SKUs not in markup file)
-NI_AVG_MARKUP = 1.3445
+    MARGINS[role] = [ws_st.cell(row, c).value or 0 for c in range(2, 9)]
 
 ROLE_NT = {
     'Трафіковий':   0.16,
@@ -88,7 +85,6 @@ for r in range(2, ws_sk.max_row + 1):
     rrp_manual = ws_sk.cell(r, 19).value
     role       = ws_sk.cell(r, 21).value or 'Основний'
     if role not in MARGINS: role = 'Основний'
-    ni_markup  = ws_sk.cell(r, 48).value or None
 
     try:
         unit_mult = float(unit_raw) if unit_raw and float(unit_raw) > 1 else 1
@@ -114,9 +110,6 @@ for r in range(2, ws_sk.max_row + 1):
             ddp_all.append(0)
         elif ch_name == 'D6':
             ddp_all.append(ddp_round(rrp_eff * (1 - m) * (1 - d6_sub)))
-        elif ch_name == 'D4 Нац':
-            mu = ni_markup if ni_markup else NI_AVG_MARKUP
-            ddp_all.append(ddp_round(rrp_eff / mu) if rrp_eff > 0 else 0)
         else:
             ddp_all.append(ddp_round(rrp_eff * (1 - m)))
 
@@ -203,7 +196,7 @@ else:
 
 skus_data = {
     'version': version_str,
-    'ch_idx': {'D1':0,'D2':1,'D3':2,'D4 Нац':3,'D4 Buy':4,'D4 Drop':5,'D5':6,'D6':7},
+    'ch_idx': {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6},
     'cats': cats_set,
     'skus': skus,
     'policy': policy,
