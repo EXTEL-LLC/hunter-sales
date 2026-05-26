@@ -243,6 +243,7 @@ tr:hover{background:#EBF3FB}
           <option value="D3" selected>D3 — Дилери / магазини</option>
           <option value="D4 Buy">D4 Buy — Інтернет-магазини</option>
           <option value="D4 Drop">D4 Drop — Дропшип</option>
+          <option value="D4 Нац">D4 Нац — Національний інтернет</option>
           <option value="D5">D5 — Проектні продажі</option>
           <option value="D6">D6 — Регіональний дистриб'ютор</option>
         </select>
@@ -1381,9 +1382,9 @@ const SKUS = [
   ["H6902","WATER PUMP FOR H6101","PC",254.33,[371.28, 393.12, 382.2, 425.88, 447.72, 0, 339.9],546,"Годівниці та поїлки для тварин"],
   ["H6903","WATER PUMP FOR GOSMART FOUNTAIN","PC",457.0,[665.7, 704.88, 685.32, 763.62, 802.8, 0, 609.42],979,"Годівниці та поїлки для тварин"]
 ];
-// 0=code,1=name,2=unit,3=cost,4=[D1,D2,D3,D4Buy,D4Drop,D5,D6 ddp],5=rrp,6=category
+// 0=code,1=name,2=unit,3=cost,4=[D1,D2,D3,D4Buy,D4Drop,D5,D6,D4Нац ddp],5=rrp,6=category
 const CATS = ["Батарейки", "Зарядні пристрої для акумуляторів", "Ліхтарі", "Датчики руху", "Світильники та прожектори на соняній батареї", "Світильники для розсади", "Прожектори робочі акумуляторні", "Світильники для дзеркал", "Гирлянди вуличні", "GOSMART AMBIENT", "Світильники аварійні", "Powerbanks", "Зарядки USB", "Свинцеві акумулятори SLA", "Пооджувачи та адаптери", "Вуличні вимикачи та розетки", "Сигналізація", "Вентилятори для батарей опалення", "Таймери поливу", "Тестери, мультиметри", "Ізоляціна т а ініші стрічки", "Антени ТВ", "Метеостанції та термометри", "Ваги електронні", "Дверні дзвінки", "Відеосистеми, та IP камери", "Годівниці та поїлки для тварин"];
-const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6};
+const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6,'D4 Нац':7};
 
 // DDP prices loaded from EMOS_Pricing_MVP.xlsx (Channel_Prices sheet)
 // {sku_code: {'D1':val,'D2':val,'D3':val,'D4 Buy':val,'D4 Drop':val,'D5':val,'D6':val}}
@@ -2207,7 +2208,7 @@ function openKP() {
   const valid = new Date(Date.now()+30*864e5).toLocaleDateString('uk-UA',{day:'2-digit',month:'2-digit',year:'numeric'});
   const fmtN  = n => (n||0).toLocaleString('uk-UA',{minimumFractionDigits:2,maximumFractionDigits:2});
 
-  const chLabel = {'D1':'D1 — Національні мережі','D2':'D2 — Регіональні мережі / B2B','D3':'D3 — Дилери / магазини','D4 Buy':'D4 Buy — Інтернет-магазини','D4 Drop':'D4 Drop — Дропшип','D5':'D5 — Проектні продажі','D6':'D6 — Регіональний дистриб\'ютор'};
+  const chLabel = {'D1':'D1 — Національні мережі','D2':'D2 — Регіональні мережі / B2B','D3':'D3 — Дилери / магазини','D4 Buy':'D4 Buy — Інтернет-магазини','D4 Drop':'D4 Drop — Дропшип','D4 Нац':'D4 Нац — Національний інтернет','D5':'D5 — Проектні продажі','D6':'D6 — Регіональний дистриб\'ютор'};
 
   // Build order table rows
   var rows = order.map(function(item, i) {
@@ -2487,7 +2488,7 @@ function renderKP() {
   const today = new Date().toLocaleDateString('uk-UA',{day:'2-digit',month:'2-digit',year:'numeric'});
   const valid = new Date(Date.now()+30*864e5).toLocaleDateString('uk-UA',{day:'2-digit',month:'2-digit',year:'numeric'});
 
-  const chLabels = {'D1':'D1 — Дистрибутор великий','D2':'D2 — Дистрибутор середній','D3':'D3 — Регіональний','D4 Buy':'D4 Buy — Закупівельна орг.','D6':'D6 — Роздрібна мережа'};
+  const chLabels = {'D1':'D1 — Дистрибутор великий','D2':'D2 — Дистрибутор середній','D3':'D3 — Регіональний','D4 Buy':'D4 Buy — Закупівельна орг.','D4 Drop':'D4 Drop — Дропшип','D4 Нац':'D4 Нац — Національний інтернет','D5':'D5 — Проекти','D6':'D6 — Роздрібна мережа'};
   document.getElementById('kp-subtitle').textContent = 'Канал: '+(chLabels[ch]||ch)+'  |  Тип клієнта: '+(ct||'—');
   document.getElementById('kp-meta').innerHTML = '<b>Дата:</b> '+today+'<br><b>Дійсно до:</b> '+valid+'<br><b>Менеджер:</b> EMOS Sales';
   document.getElementById('kp-client-display').textContent = client;
@@ -2612,7 +2613,7 @@ function openKPNewTab() {
     + 'var POLICY_NT=' + JSON.stringify(POLICY) + ';'
     + 'var NT_CH=' + JSON.stringify(ch) + ';'
     + 'var NT_CT=' + JSON.stringify(ct||'') + ';'
-    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Buy":3,"D4 Drop":4,"D5":5,"D6":6};'
+    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Buy":3,"D4 Drop":4,"D5":5,"D6":6,"D4 Нац":7};'
     + 'var ntActiveCats=new Set(' + JSON.stringify(Array.from(kpActiveCatIds)) + ');'
     + 'var ntUpdateTime=null;'
     + 'var NT_LOGO_B64=' + JSON.stringify(logoB64) + ';';
@@ -2768,7 +2769,7 @@ function openKPNewTab() {
     '  var ts=document.getElementById("nt-ct-sel");',
     '  if(cs)NT_CH=cs.value;',
     '  if(ts)NT_CT=ts.value;',
-    '  var chL={"D1":"D1 — Нац. мережі","D2":"D2 — Рег. мережі / B2B","D3":"D3 — Дилери","D4 Buy":"D4 Buy — Інтернет","D4 Drop":"D4 Drop — Дропшип","D5":"D5 — Проекти","D6":"D6 — Дистриб."};',
+    '  var chL={"D1":"D1 — Нац. мережі","D2":"D2 — Рег. мережі / B2B","D3":"D3 — Дилери","D4 Buy":"D4 Buy — Інтернет","D4 Drop":"D4 Drop — Дропшип","D4 Нац":"D4 Нац — Нац. інтернет","D5":"D5 — Проекти","D6":"D6 — Дистриб."};',
     '  var sub=document.getElementById("kp-subtitle");',
     '  if(sub)sub.textContent="Канал: "+(chL[NT_CH]||NT_CH)+"  |  Тип: "+(NT_CT||"—");',
     '  var pol=NT_CT?findPolNT(NT_CH,NT_CT):null;',
@@ -2895,6 +2896,7 @@ function openKPNewTab() {
     {v:'D3',l:'D3 — Дилери'},
     {v:'D4 Buy',l:'D4 Buy — Інтернет'},
     {v:'D4 Drop',l:'D4 Drop — Дропшип'},
+    {v:'D4 Нац',l:'D4 Нац — Нац. інтернет'},
     {v:'D5',l:'D5 — Проекти'},
     {v:'D6',l:'D6 — Дистриб\'ютор'}
   ];
