@@ -1384,7 +1384,7 @@ const SKUS = [
 ];
 // 0=code,1=name,2=unit,3=cost,4=[D1,D2,D3,D4Buy,D4Drop,D5,D6,D4Нац ddp],5=rrp,6=category
 const CATS = ["Батарейки", "Зарядні пристрої для акумуляторів", "Ліхтарі", "Датчики руху", "Світильники та прожектори на соняній батареї", "Світильники для розсади", "Прожектори робочі акумуляторні", "Світильники для дзеркал", "Гирлянди вуличні", "GOSMART AMBIENT", "Світильники аварійні", "Powerbanks", "Зарядки USB", "Свинцеві акумулятори SLA", "Пооджувачи та адаптери", "Вуличні вимикачи та розетки", "Сигналізація", "Вентилятори для батарей опалення", "Таймери поливу", "Тестери, мультиметри", "Ізоляціна т а ініші стрічки", "Антени ТВ", "Метеостанції та термометри", "Ваги електронні", "Дверні дзвінки", "Відеосистеми, та IP камери", "Годівниці та поїлки для тварин"];
-const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6,'D4 Нац':7};
+const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Нац':3,'D4 Buy':4,'D4 Drop':5,'D5':6,'D6':7};
 
 // DDP prices loaded from EMOS_Pricing_MVP.xlsx (Channel_Prices sheet)
 // {sku_code: {'D1':val,'D2':val,'D3':val,'D4 Buy':val,'D4 Drop':val,'D5':val,'D6':val}}
@@ -2613,7 +2613,7 @@ function openKPNewTab() {
     + 'var POLICY_NT=' + JSON.stringify(POLICY) + ';'
     + 'var NT_CH=' + JSON.stringify(ch) + ';'
     + 'var NT_CT=' + JSON.stringify(ct||'') + ';'
-    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Buy":3,"D4 Drop":4,"D5":5,"D6":6,"D4 Нац":7};'
+    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Нац":3,"D4 Buy":4,"D4 Drop":5,"D5":6,"D6":7};'
     + 'var ntActiveCats=new Set(' + JSON.stringify(Array.from(kpActiveCatIds)) + ');'
     + 'var ntUpdateTime=null;'
     + 'var NT_LOGO_B64=' + JSON.stringify(logoB64) + ';';

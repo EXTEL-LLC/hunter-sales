@@ -37,11 +37,11 @@ b14 = ws_st.cell(14, 2).value or 0
 b15 = ws_st.cell(15, 2).value or 0
 res = b11 + b12 + b13 + b14 + b15 * b3 / 365
 
-d6_sub = ws_st.cell(68, 8).value or 0.25
+d6_sub = ws_st.cell(68, 9).value or 0.25   # D6 is now col I (9) after D4NI insert
 
 ROLES       = ['Трафіковий', 'Основний', 'Маржинальний', 'Сезонний', 'Стратегічний']
 MARGIN_ROWS = [78, 80, 82, 84, 86]
-CHANNELS    = ['D1', 'D2', 'D3', 'D4 Buy', 'D4 Drop', 'D5', 'D6', 'D4 Нац']
+CHANNELS    = ['D1', 'D2', 'D3', 'D4 Нац', 'D4 Buy', 'D4 Drop', 'D5', 'D6']
 
 MARGINS = {}
 for role, row in zip(ROLES, MARGIN_ROWS):
@@ -203,7 +203,7 @@ else:
 
 skus_data = {
     'version': version_str,
-    'ch_idx': {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6,'D4 Нац':7},
+    'ch_idx': {'D1':0,'D2':1,'D3':2,'D4 Нац':3,'D4 Buy':4,'D4 Drop':5,'D5':6,'D6':7},
     'cats': cats_set,
     'skus': skus,
     'policy': policy,
