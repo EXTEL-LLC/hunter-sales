@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XLSX → XML Telemart</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f1117;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 16px 60px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #60a5fa, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      margin-top: 8px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .card {
+      background: #1e2130;
+      border: 1px solid #2d3248;
+      border-radius: 16px;
+      padding: 32px;
+      width: 100%;
+      max-width: 780px;
+      margin-bottom: 24px;
+    }
+
+    /* Drop zone */
+    #dropzone {
+      border: 2px dashed #3b4268;
+      border-radius: 12px;
+      padding: 56px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      position: relative;
+    }
+    #dropzone:hover, #dropzone.dragover {
+      border-color: #60a5fa;
+      background: rgba(96, 165, 250, 0.05);
+    }
+    #dropzone svg { color: #475569; margin-bottom: 16px; }
+    #dropzone .dz-title {
+      font-size: 17px;
+      font-weight: 600;
+      color: #cbd5e1;
+      margin-bottom: 6px;
+    }
+    #dropzone .dz-sub {
+      font-size: 13px;
+      color: #64748b;
+    }
+    #dropzone .dz-sub span { color: #60a5fa; text-decoration: underline; cursor: pointer; }
+    #fileInput { display: none; }
+
+    /* Loaded file badge */
+    #fileBadge {
+      display: none;
+      align-items: center;
+      gap: 10px;
+      background: #12161f;
+      border: 1px solid #2d3248;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-top: 16px;
+    }
+    #fileBadge.visible { display: flex; }
+    #fileBadge .fb-icon { font-size: 22px; }
+    #fileBadge .fb-name { font-size: 14px; font-weight: 600; color: #e2e8f0; flex: 1; }
+    #fileBadge .fb-rows { font-size: 12px; color: #64748b; }
+    #fileBadge .fb-clear {
+      background: none; border: none; color: #64748b; font-size: 18px;
+      cursor: pointer; padding: 4px 8px; border-radius: 6px; transition: color 0.15s;
+    }
+    #fileBadge .fb-clear:hover { color: #f87171; }
+
+    /* Settings */
+    .section-title {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #64748b;
+      margin-bottom: 16px;
+    }
+    .field-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    @media (max-width: 560px) { .field-grid { grid-template-columns: 1fr; } }
+    .field label {
+      display: block;
+      font-size: 12px;
+      color: #94a3b8;
+      margin-bottom: 6px;
+    }
+    .field input, .field select {
+      width: 100%;
+      background: #12161f;
+      border: 1px solid #2d3248;
+      border-radius: 8px;
+      padding: 9px 12px;
+      color: #e2e8f0;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .field input:focus, .field select:focus { border-color: #60a5fa; }
+    .field select option { background: #1e2130; }
+
+    /* Toggle */
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+      border-bottom: 1px solid #1e2130;
+    }
+    .toggle-row:last-child { border-bottom: none; }
+    .toggle-label { font-size: 14px; color: #cbd5e1; }
+    .toggle-desc { font-size: 12px; color: #64748b; margin-top: 2px; }
+    .toggle {
+      position: relative; width: 40px; height: 22px; flex-shrink: 0;
+    }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .slider {
+      position: absolute; inset: 0; background: #2d3248;
+      border-radius: 22px; cursor: pointer; transition: background 0.2s;
+    }
+    .slider::before {
+      content: ''; position: absolute; width: 16px; height: 16px;
+      left: 3px; top: 3px; background: #fff; border-radius: 50%;
+      transition: transform 0.2s;
+    }
+    .toggle input:checked + .slider { background: #3b82f6; }
+    .toggle input:checked + .slider::before { transform: translateX(18px); }
+
+    /* Stats preview */
+    #statsBox {
+      display: none;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 0;
+    }
+    #statsBox.visible { display: grid; }
+    @media (max-width: 420px) { #statsBox { grid-template-columns: 1fr 1fr; } }
+    .stat {
+      background: #12161f;
+      border: 1px solid #2d3248;
+      border-radius: 10px;
+      padding: 14px;
+    }
+    .stat-val { font-size: 22px; font-weight: 700; color: #60a5fa; }
+    .stat-key { font-size: 12px; color: #64748b; margin-top: 2px; }
+
+    /* Convert button */
+    #btnConvert {
+      width: 100%;
+      padding: 15px;
+      border-radius: 12px;
+      border: none;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+      letter-spacing: 0.02em;
+    }
+    #btnConvert:disabled { opacity: 0.4; cursor: not-allowed; }
+    #btnConvert:not(:disabled):hover { opacity: 0.9; transform: translateY(-1px); }
+    #btnConvert:not(:disabled):active { transform: translateY(0); }
+
+    /* Progress */
+    #progressWrap { display: none; margin-top: 16px; }
+    #progressWrap.visible { display: block; }
+    #progressBar {
+      height: 4px; background: #2d3248; border-radius: 4px; overflow: hidden;
+    }
+    #progressFill {
+      height: 100%; width: 0%;
+      background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+      border-radius: 4px;
+      transition: width 0.3s;
+    }
+    #progressText { font-size: 12px; color: #64748b; margin-top: 8px; text-align: center; }
+
+    /* Result */
+    #resultCard {
+      display: none;
+      width: 100%;
+      max-width: 780px;
+    }
+    #resultCard.visible { display: block; }
+    .result-inner {
+      background: #1e2130;
+      border: 1px solid #2d3248;
+      border-radius: 16px;
+      padding: 32px;
+    }
+    .result-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .result-icon { font-size: 42px; }
+    .result-info { flex: 1; min-width: 200px; }
+    .result-info h3 { font-size: 16px; font-weight: 700; color: #e2e8f0; }
+    .result-info p { font-size: 13px; color: #64748b; margin-top: 4px; }
+    #btnDownload {
+      padding: 12px 28px;
+      border-radius: 10px;
+      border: none;
+      background: #22c55e;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: opacity 0.15s, transform 0.1s;
+      white-space: nowrap;
+    }
+    #btnDownload:hover { opacity: 0.9; transform: translateY(-1px); }
+    #btnDownload:active { transform: translateY(0); }
+
+    /* XML preview */
+    #previewWrap {
+      margin-top: 20px;
+      background: #12161f;
+      border: 1px solid #2d3248;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .preview-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 16px;
+      border-bottom: 1px solid #2d3248;
+    }
+    .preview-header span { font-size: 12px; color: #64748b; font-family: monospace; }
+    #btnCopy {
+      background: none; border: 1px solid #2d3248; border-radius: 6px;
+      padding: 4px 12px; color: #94a3b8; font-size: 12px; cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+    #btnCopy:hover { background: #2d3248; color: #e2e8f0; }
+    #xmlPreview {
+      font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+      font-size: 11px;
+      line-height: 1.5;
+      color: #94a3b8;
+      padding: 16px;
+      max-height: 320px;
+      overflow-y: auto;
+      white-space: pre;
+    }
+    /* XML syntax highlight */
+    .xml-tag { color: #60a5fa; }
+    .xml-attr { color: #a78bfa; }
+    .xml-val { color: #f59e0b; }
+    .xml-text { color: #cbd5e1; }
+    .xml-pi { color: #64748b; }
+    .xml-cdata { color: #6ee7b7; }
+
+    /* Error */
+    #errorBox {
+      display: none;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #fca5a5;
+    }
+    #errorBox.visible { display: block; }
+
+    /* Footer */
+    footer { margin-top: 40px; font-size: 12px; color: #475569; text-align: center; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>XLSX → XML для Telemart</h1>
+  <p>Завантажте прайс-лист Excel — отримайте готовий XML для імпорту на telemart.ua</p>
+</header>
+
+<!-- Upload Card -->
+<div class="card">
+  <div class="section-title">1. Файл</div>
+
+  <div id="dropzone">
+    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+      <polyline points="17 8 12 3 7 8"/>
+      <line x1="12" y1="3" x2="12" y2="15"/>
+    </svg>
+    <div class="dz-title">Перетягніть .xlsx файл сюди</div>
+    <div class="dz-sub">або <span id="browseLink">оберіть файл</span> на комп'ютері</div>
+  </div>
+  <input type="file" id="fileInput" accept=".xlsx,.xls" />
+
+  <div id="fileBadge">
+    <div class="fb-icon">📊</div>
+    <div>
+      <div class="fb-name" id="fbName">—</div>
+      <div class="fb-rows" id="fbRows">—</div>
+    </div>
+    <button class="fb-clear" id="fbClear">✕</button>
+  </div>
+
+  <div id="errorBox"></div>
+</div>
+
+<!-- Stats Card -->
+<div class="card" id="statsCard" style="display:none;">
+  <div class="section-title">Знайдено товарів</div>
+  <div id="statsBox">
+    <div class="stat"><div class="stat-val" id="stTotal">0</div><div class="stat-key">Всього рядків</div></div>
+    <div class="stat"><div class="stat-val" id="stAvail">0</div><div class="stat-key">В наявності</div></div>
+    <div class="stat"><div class="stat-val" id="stPhotos">0</div><div class="stat-key">Фото (загалом)</div></div>
+    <div class="stat"><div class="stat-val" id="stCats">0</div><div class="stat-key">Унікальних категорій</div></div>
+  </div>
+</div>
+
+<!-- Settings Card -->
+<div class="card">
+  <div class="section-title">2. Налаштування XML</div>
+  <div class="field-grid" style="margin-bottom: 20px;">
+    <div class="field">
+      <label>Кореневий елемент</label>
+      <input id="cfgRoot" value="price" />
+    </div>
+    <div class="field">
+      <label>Елемент товару</label>
+      <input id="cfgItem" value="offer" />
+    </div>
+    <div class="field">
+      <label>Роздільник фото</label>
+      <select id="cfgSep">
+        <option value=";">Крапка з комою ( ; )</option>
+        <option value=",">Кома ( , )</option>
+        <option value=" ">Пробіл</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Формат доступності</label>
+      <select id="cfgAvail">
+        <option value="bool">true / false</option>
+        <option value="int">1 / 0</option>
+        <option value="text">В наявності / Немає</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="toggle-row">
+    <div>
+      <div class="toggle-label">Окремий блок категорій</div>
+      <div class="toggle-desc">Генерувати &lt;categories&gt; + &lt;categoryId&gt; у товарах</div>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="cfgCatBlock" checked />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="toggle-row">
+    <div>
+      <div class="toggle-label">Розбивати батьківські категорії</div>
+      <div class="toggle-desc">Розділяти «Батьківська/Дочірня» через parentId</div>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="cfgCatParent" checked />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="toggle-row">
+    <div>
+      <div class="toggle-label">CDATA для описів</div>
+      <div class="toggle-desc">Обгортати HTML-опис у &lt;![CDATA[...]]&gt;</div>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="cfgCdata" checked />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="toggle-row">
+    <div>
+      <div class="toggle-label">Кожне фото в окремому тезі</div>
+      <div class="toggle-desc">Декілька &lt;picture&gt; замість одного рядка</div>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="cfgMultiPic" checked />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <div class="toggle-row">
+    <div>
+      <div class="toggle-label">Пропускати порожні поля</div>
+      <div class="toggle-desc">Не додавати тег якщо значення відсутнє</div>
+    </div>
+    <label class="toggle">
+      <input type="checkbox" id="cfgSkipEmpty" checked />
+      <span class="slider"></span>
+    </label>
+  </div>
+</div>
+
+<!-- Convert button -->
+<div class="card" style="padding: 24px;">
+  <button id="btnConvert" disabled>Конвертувати в XML</button>
+  <div id="progressWrap">
+    <div id="progressBar"><div id="progressFill"></div></div>
+    <div id="progressText">Обробка...</div>
+  </div>
+</div>
+
+<!-- Result -->
+<div id="resultCard">
+  <div class="result-inner">
+    <div class="result-row">
+      <div class="result-icon">✅</div>
+      <div class="result-info">
+        <h3 id="resultTitle">XML готовий</h3>
+        <p id="resultDesc">Файл сформовано успішно</p>
+      </div>
+      <button id="btnDownload">⬇ Завантажити XML</button>
+    </div>
+    <div id="previewWrap">
+      <div class="preview-header">
+        <span>Попередній перегляд (перші 3 товари)</span>
+        <button id="btnCopy">Копіювати все</button>
+      </div>
+      <div id="xmlPreview"></div>
+    </div>
+  </div>
+</div>
+
+<footer>Конвертер прайс-листів для telemart.ua · Всі дані обробляються локально у браузері</footer>
+
+<script>
+/* ===== State ===== */
+let workbook = null;
+let rows = [];
+let headers = [];
+let xmlResult = '';
+let fileName = '';
+
+/* ===== Column mapping (Ukrainian → XML tag) ===== */
+const COL_MAP = {
+  'Артикул':              'article',
+  'Назва':                'name',
+  'Посилання на товар':   'url',
+  'Бренд':                'brand',
+  'Категорія':            'category',
+  'Ціна':                 'price',
+  'РРЦ':                  'price_rrc',
+  'Валюта':               'currencyId',
+  'Наявність':            'available',
+  'Фото':                 'pictures',
+  'Постачальник':         'vendor',
+  'Опис':                 'description',
+};
+
+const HTML_COLS = new Set(['Опис', 'Назва']);
+const PHOTO_COL = 'Фото';
+const AVAIL_COL = 'Наявність';
+
+/* ===== DOM refs ===== */
+const dropzone     = document.getElementById('dropzone');
+const fileInput    = document.getElementById('fileInput');
+const fileBadge    = document.getElementById('fileBadge');
+const fbName       = document.getElementById('fbName');
+const fbRows       = document.getElementById('fbRows');
+const fbClear      = document.getElementById('fbClear');
+const errorBox     = document.getElementById('errorBox');
+const statsCard    = document.getElementById('statsCard');
+const statsBox     = document.getElementById('statsBox');
+const stTotal      = document.getElementById('stTotal');
+const stAvail      = document.getElementById('stAvail');
+const stPhotos     = document.getElementById('stPhotos');
+const stCats       = document.getElementById('stCats');
+const btnConvert   = document.getElementById('btnConvert');
+const progressWrap = document.getElementById('progressWrap');
+const progressFill = document.getElementById('progressFill');
+const progressText = document.getElementById('progressText');
+const resultCard   = document.getElementById('resultCard');
+const resultTitle  = document.getElementById('resultTitle');
+const resultDesc   = document.getElementById('resultDesc');
+const btnDownload  = document.getElementById('btnDownload');
+const xmlPreview   = document.getElementById('xmlPreview');
+const btnCopy      = document.getElementById('btnCopy');
+
+/* ===== Settings ===== */
+const cfgRoot      = document.getElementById('cfgRoot');
+const cfgItem      = document.getElementById('cfgItem');
+const cfgSep       = document.getElementById('cfgSep');
+const cfgAvail     = document.getElementById('cfgAvail');
+const cfgCatBlock  = document.getElementById('cfgCatBlock');
+const cfgCatParent = document.getElementById('cfgCatParent');
+const cfgCdata     = document.getElementById('cfgCdata');
+const cfgMultiPic  = document.getElementById('cfgMultiPic');
+const cfgSkipEmpty = document.getElementById('cfgSkipEmpty');
+
+/* ===== Drag & drop ===== */
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('dragover'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
+dropzone.addEventListener('drop', e => {
+  e.preventDefault();
+  dropzone.classList.remove('dragover');
+  const f = e.dataTransfer.files[0];
+  if (f) loadFile(f);
+});
+dropzone.addEventListener('click', () => fileInput.click());
+document.getElementById('browseLink').addEventListener('click', e => { e.stopPropagation(); fileInput.click(); });
+fileInput.addEventListener('change', () => { if (fileInput.files[0]) loadFile(fileInput.files[0]); });
+fbClear.addEventListener('click', resetState);
+
+/* ===== Load file ===== */
+function loadFile(file) {
+  if (!/\.(xlsx|xls)$/i.test(file.name)) { showError('Будь ласка, оберіть файл у форматі .xlsx або .xls'); return; }
+  hideError();
+  fileName = file.name.replace(/\.[^.]+$/, '');
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      workbook = XLSX.read(e.target.result, { type: 'array', cellText: false, cellDates: true });
+      const ws   = workbook.Sheets[workbook.SheetNames[0]];
+      const data = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
+      if (data.length < 2) { showError('Файл порожній або містить лише заголовки.'); return; }
+      headers = data[0].map(h => String(h || '').trim());
+      rows = data.slice(1).filter(r => r.some(v => v !== '' && v !== null && v !== undefined));
+      showFileBadge(file.name, rows.length);
+      showStats();
+      btnConvert.disabled = false;
+      resultCard.classList.remove('visible');
+    } catch(err) {
+      showError('Помилка читання файлу: ' + err.message);
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function showFileBadge(name, count) {
+  fbName.textContent = name;
+  fbRows.textContent = `${count} рядків даних`;
+  fileBadge.classList.add('visible');
+}
+
+function showStats() {
+  let totalPhotos = 0, totalAvail = 0;
+  const uniqueCats = new Set();
+  const sep      = cfgSep.value;
+  const photoIdx = headers.indexOf(PHOTO_COL);
+  const availIdx = headers.indexOf(AVAIL_COL);
+  const catIdx   = headers.indexOf('Категорія');
+
+  rows.forEach(r => {
+    if (availIdx >= 0) {
+      const v = String(r[availIdx] || '').toLowerCase();
+      if (v.includes('наявн') || v === '1' || v === 'true') totalAvail++;
+    }
+    if (photoIdx >= 0) {
+      const pics = String(r[photoIdx] || '').split(sep).map(s => s.trim()).filter(Boolean);
+      totalPhotos += pics.length;
+    }
+    if (catIdx >= 0) {
+      const raw = String(r[catIdx] || '').trim();
+      if (raw) uniqueCats.add(raw);
+    }
+  });
+
+  stTotal.textContent  = rows.length;
+  stAvail.textContent  = totalAvail;
+  stPhotos.textContent = totalPhotos;
+  stCats.textContent   = uniqueCats.size;
+  statsBox.classList.add('visible');
+  statsCard.style.display = 'block';
+}
+
+function resetState() {
+  workbook = null; rows = []; headers = []; xmlResult = ''; fileName = '';
+  fileBadge.classList.remove('visible');
+  fileBadge.querySelector('#fileBadge').style && null;
+  statsCard.style.display = 'none';
+  statsBox.classList.remove('visible');
+  resultCard.classList.remove('visible');
+  progressWrap.classList.remove('visible');
+  btnConvert.disabled = true;
+  fileInput.value = '';
+  hideError();
+}
+
+function showError(msg) { errorBox.textContent = msg; errorBox.classList.add('visible'); }
+function hideError()    { errorBox.classList.remove('visible'); }
+
+/* ===== Convert ===== */
+btnConvert.addEventListener('click', () => {
+  if (!rows.length) return;
+  btnConvert.disabled = true;
+  progressWrap.classList.add('visible');
+  progressFill.style.width = '0%';
+  progressText.textContent = 'Генерація XML...';
+  resultCard.classList.remove('visible');
+
+  setTimeout(() => {
+    try {
+      xmlResult = buildXml();
+      progressFill.style.width = '100%';
+      progressText.textContent = 'Готово!';
+      showResult();
+    } catch(err) {
+      showError('Помилка генерації XML: ' + err.message);
+      btnConvert.disabled = false;
+      progressWrap.classList.remove('visible');
+    }
+  }, 50);
+});
+
+/* ===== Build category map ===== */
+function buildCategoryMap(useParent) {
+  // Returns: { fullName → id }, and lines for <categories> block
+  const catIdx   = headers.indexOf('Категорія');
+  const fullNames = [...new Set(
+    rows.map(r => (catIdx >= 0 ? String(r[catIdx] ?? '') : '').trim()).filter(Boolean)
+  )];
+
+  // id map: fullCategoryName → numeric id
+  const idMap    = {};  // fullName → id
+  const catLines = [];
+  let nextId     = 1;
+
+  if (useParent) {
+    // Collect parent names first
+    const parentNames = [...new Set(
+      fullNames.map(n => n.includes('/') ? n.split('/')[0].trim() : null).filter(Boolean)
+    )];
+    // Assign ids to parents
+    const parentId = {};
+    parentNames.forEach(p => {
+      parentId[p] = nextId;
+      catLines.push(`    <category id="${nextId}">${escXml(p)}</category>`);
+      nextId++;
+    });
+    // Assign ids to leaf categories
+    fullNames.forEach(full => {
+      const slash = full.indexOf('/');
+      if (slash >= 0) {
+        const parent = full.slice(0, slash).trim();
+        const child  = full.slice(slash + 1).trim();
+        const pid    = parentId[parent];
+        idMap[full]  = nextId;
+        catLines.push(`    <category id="${nextId}" parentId="${pid}">${escXml(child)}</category>`);
+      } else {
+        // No slash — it's already a top-level, reuse parent id
+        idMap[full] = parentId[full] ?? nextId;
+        if (!parentId[full]) {
+          catLines.push(`    <category id="${nextId}">${escXml(full)}</category>`);
+          nextId++;
+        }
+      }
+      nextId++;
+    });
+  } else {
+    // Flat list — no parent splitting
+    fullNames.forEach(full => {
+      idMap[full] = nextId;
+      catLines.push(`    <category id="${nextId}">${escXml(full)}</category>`);
+      nextId++;
+    });
+  }
+
+  return { idMap, catLines };
+}
+
+/* ===== Build XML ===== */
+function buildXml() {
+  const root       = cfgRoot.value.trim() || 'price';
+  const itemTag    = cfgItem.value.trim() || 'offer';
+  const sep        = cfgSep.value;
+  const useCdata   = cfgCdata.checked;
+  const multiPic   = cfgMultiPic.checked;
+  const skipEmpty  = cfgSkipEmpty.checked;
+  const availFmt   = cfgAvail.value;
+  const catBlock   = cfgCatBlock.checked;
+  const catParent  = cfgCatParent.checked;
+
+  const now     = new Date();
+  const dateStr = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}`;
+
+  const lines = [];
+  lines.push('<?xml version="1.0" encoding="UTF-8"?>');
+  lines.push(`<${root} date="${dateStr}">`);
+
+  // --- Categories block ---
+  let catIdMap = {};
+  if (catBlock) {
+    const { idMap, catLines } = buildCategoryMap(catParent);
+    catIdMap = idMap;
+    lines.push('  <categories>');
+    catLines.forEach(l => lines.push(l));
+    lines.push('  </categories>');
+    lines.push(`  <offers>`);
+  }
+
+  const total = rows.length;
+  rows.forEach((row, idx) => {
+    if (idx % 20 === 0) progressFill.style.width = Math.round((idx / total) * 95) + '%';
+
+    const get = col => {
+      const i = headers.indexOf(col);
+      return i >= 0 ? String(row[i] ?? '').trim() : '';
+    };
+
+    // Availability
+    const availRaw = get(AVAIL_COL);
+    const isAvail  = availRaw.toLowerCase().includes('наявн') || availRaw === '1' || availRaw.toLowerCase() === 'true';
+    let availVal;
+    if (availFmt === 'bool') availVal = isAvail ? 'true' : 'false';
+    else if (availFmt === 'int') availVal = isAvail ? '1' : '0';
+    else availVal = isAvail ? 'В наявності' : 'Немає';
+
+    const indent  = catBlock ? '    ' : '  ';
+    const indent2 = catBlock ? '      ' : '    ';
+    const article = get('Артикул');
+
+    // Resolve categoryId for this row (used in group_id attr and inside offer)
+    const catVal  = get('Категорія');
+    const catId   = catBlock ? (catIdMap[catVal] ?? '') : '';
+    const groupAttr = (catBlock && catId !== '') ? ` group_id="${catId}"` : '';
+
+    lines.push(`${indent}<${itemTag} id="${escAttr(article)}" available="${availVal}"${groupAttr}>`);
+
+    headers.forEach(colName => {
+      if (!COL_MAP[colName]) return;
+      const tag = COL_MAP[colName];
+      const val = get(colName);
+
+      if (colName === 'Категорія') {
+        if (catBlock) {
+          if (!skipEmpty || catId !== '') {
+            lines.push(`${indent2}<categoryId>${catId}</categoryId>`);
+          }
+        } else {
+          if (!skipEmpty || val) lines.push(`${indent2}<${tag}>${escXml(val)}</${tag}>`);
+        }
+        return;
+      }
+
+      if (skipEmpty && !val) return;
+
+      if (colName === AVAIL_COL) {
+        lines.push(`${indent2}<${tag}>${availVal}</${tag}>`);
+      } else if (colName === PHOTO_COL) {
+        if (multiPic) {
+          const pics = val.split(sep).map(s => s.replace(/\s+/g, '').trim()).filter(Boolean);
+          if (pics.length) {
+            lines.push(`${indent2}<pictures>`);
+            pics.forEach(pic => lines.push(`${indent2}  <picture>${escXml(pic)}</picture>`));
+            lines.push(`${indent2}</pictures>`);
+          } else if (!skipEmpty) {
+            lines.push(`${indent2}<pictures/>`);
+          }
+        } else {
+          lines.push(`${indent2}<${tag}>${escXml(val)}</${tag}>`);
+        }
+      } else if (useCdata && HTML_COLS.has(colName)) {
+        const inner = val.replace(/]]>/g, ']]]]><![CDATA[>');
+        lines.push(`${indent2}<${tag}><![CDATA[${inner}]]></${tag}>`);
+      } else {
+        lines.push(`${indent2}<${tag}>${escXml(val)}</${tag}>`);
+      }
+    });
+
+    lines.push(`${indent}</${itemTag}>`);
+  });
+
+  if (catBlock) lines.push('  </offers>');
+  lines.push(`</${root}>`);
+  return lines.join('\n');
+}
+
+function pad(n) { return String(n).padStart(2, '0'); }
+function escXml(s) {
+  return String(s)
+    .replace(/&/g,  '&amp;')
+    .replace(/</g,  '&lt;')
+    .replace(/>/g,  '&gt;')
+    .replace(/"/g,  '&quot;')
+    .replace(/'/g,  '&apos;');
+}
+function escAttr(s) {
+  return String(s).replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+/* ===== Show result ===== */
+function showResult() {
+  const bytes = new Blob([xmlResult], { type: 'application/xml' }).size;
+  resultTitle.textContent = 'XML успішно сформовано';
+  resultDesc.textContent  = `${rows.length} товарів · ${formatBytes(bytes)}`;
+
+  // Highlight preview (first 3 items)
+  const preview = previewXml(3);
+  xmlPreview.innerHTML = highlight(preview);
+
+  resultCard.classList.add('visible');
+  resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  btnConvert.disabled = false;
+}
+
+function previewXml(n) {
+  const lines   = xmlResult.split('\n');
+  const iTag    = cfgItem.value.trim() || 'offer';
+  const catBlock = cfgCatBlock.checked;
+
+  const out = [lines[0], lines[1]]; // declaration + root open
+  let i = 2;
+
+  // Include <categories> block if present (show all — usually small)
+  if (catBlock && lines[i] && lines[i].trim() === '<categories>') {
+    while (i < lines.length) {
+      out.push(lines[i]);
+      if (lines[i].trim() === '</categories>') { i++; break; }
+      i++;
+    }
+  }
+
+  // Include <offers> open tag if present
+  if (catBlock && lines[i] && lines[i].trim() === '<offers>') {
+    out.push(lines[i++]);
+  }
+
+  // Show first n offers
+  const openPfx  = `<${iTag}`;
+  const closeStr = `</${iTag}>`;
+  let count = 0, inside = false;
+
+  for (; i < lines.length - 1; i++) {
+    if (lines[i].trimStart().startsWith(openPfx)) { inside = true; count++; }
+    if (inside) {
+      out.push(lines[i]);
+      if (lines[i].trimStart() === closeStr) {
+        inside = false;
+        if (count >= n) break;
+      }
+    }
+  }
+
+  if (count < rows.length) out.push(`    <!-- ... ще ${rows.length - count} товарів ... -->`);
+  if (catBlock) out.push('  </offers>');
+  out.push(lines[lines.length - 1]);
+  return out.join('\n');
+}
+
+function highlight(xml) {
+  return xml
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    // undo for real tags:
+    .replace(/&lt;\?[^?]*\?&gt;/g, m => `<span class="xml-pi">${m}</span>`)
+    .replace(/&lt;!\[CDATA\[([\s\S]*?)\]\]&gt;/g, (_, c) =>
+      `<span class="xml-cdata">&lt;![CDATA[${c}]]&gt;</span>`)
+    .replace(/&lt;!--[\s\S]*?--&gt;/g, m => `<span class="xml-attr">${m}</span>`)
+    .replace(/&lt;\/?([\w:_-]+)([^&]*?)\/?\s*&gt;/g, (m, tag, attrs) => {
+      const attrH = attrs.replace(/([\w:_-]+)="([^"]*)"/g,
+        (_, k, v) => `<span class="xml-attr">${k}</span>="<span class="xml-val">${v}</span>"`);
+      return `&lt;<span class="xml-tag">${tag}</span>${attrH}&gt;`;
+    });
+}
+
+function formatBytes(b) {
+  if (b < 1024) return b + ' B';
+  if (b < 1048576) return (b/1024).toFixed(1) + ' KB';
+  return (b/1048576).toFixed(2) + ' MB';
+}
+
+/* ===== Download ===== */
+btnDownload.addEventListener('click', () => {
+  const blob = new Blob(['﻿' + xmlResult], { type: 'application/xml;charset=utf-8' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = (fileName || 'telemart_price') + '.xml';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+/* ===== Copy ===== */
+btnCopy.addEventListener('click', () => {
+  navigator.clipboard.writeText(xmlResult).then(() => {
+    btnCopy.textContent = 'Скопійовано!';
+    setTimeout(() => btnCopy.textContent = 'Копіювати все', 2000);
+  });
+});
+</script>
+</body>
+</html>

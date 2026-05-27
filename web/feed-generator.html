@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Генератор XML-фіду · Telemart</title>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#0d0f18;--surface:#161926;--border:#252a3d;--border2:#1e2235;
+      --text:#e2e8f0;--muted:#64748b;--accent:#3b82f6;--purple:#8b5cf6;
+      --green:#22c55e;--yellow:#f59e0b;--red:#ef4444;
+    }
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 16px 80px}
+
+    /* Header */
+    header{text-align:center;margin-bottom:36px}
+    header h1{font-size:26px;font-weight:800;background:linear-gradient(135deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+    header p{margin-top:8px;color:var(--muted);font-size:13px}
+
+    /* Card */
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;width:100%;max-width:820px;margin-bottom:20px}
+    .card-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;display:flex;align-items:center;gap:8px}
+    .card-title .step{width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center}
+
+    /* Upload zones */
+    .uploads{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    @media(max-width:580px){.uploads{grid-template-columns:1fr}}
+    .upload-zone{border:2px dashed var(--border);border-radius:12px;padding:28px 16px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative}
+    .upload-zone:hover,.upload-zone.over{border-color:var(--accent);background:rgba(59,130,246,.04)}
+    .upload-zone.loaded{border-color:var(--green);border-style:solid}
+    .upload-zone.optional-zone{border-color:var(--border2)}
+    .uz-icon{font-size:28px;margin-bottom:10px}
+    .uz-label{font-size:13px;font-weight:700;color:#cbd5e1;margin-bottom:4px}
+    .uz-sub{font-size:11px;color:var(--muted)}
+    .uz-sub span{color:var(--accent);text-decoration:underline}
+    .uz-badge{display:none;align-items:center;gap:8px;background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.2);border-radius:8px;padding:8px 12px;margin-top:12px;text-align:left}
+    .uz-badge.show{display:flex}
+    .uz-badge-name{font-size:12px;font-weight:600;color:#86efac;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .uz-badge-rows{font-size:11px;color:var(--muted)}
+    .uz-clear{background:none;border:none;color:var(--muted);cursor:pointer;padding:2px 6px;border-radius:4px;font-size:14px;transition:color .15s}
+    .uz-clear:hover{color:var(--red)}
+    .optional-tag{position:absolute;top:10px;right:10px;background:rgba(100,116,139,.15);border:1px solid var(--border);border-radius:4px;padding:2px 7px;font-size:10px;color:var(--muted)}
+
+    /* Cache info */
+    .cache-info{margin-top:14px;background:rgba(15,20,30,.6);border:1px solid var(--border2);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:10px}
+    .cache-dot{width:8px;height:8px;border-radius:50%;background:var(--muted);flex-shrink:0}
+    .cache-dot.active{background:var(--green)}
+    .cache-text{font-size:12px;color:var(--muted);flex:1}
+    .cache-text strong{color:#94a3b8}
+    .cache-clear{background:none;border:1px solid var(--border);border-radius:6px;padding:3px 10px;font-size:11px;color:var(--muted);cursor:pointer;transition:border-color .15s,color .15s;white-space:nowrap}
+    .cache-clear:hover{border-color:var(--red);color:#fca5a5}
+
+    /* Settings row */
+    .settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}
+    @media(max-width:480px){.settings-grid{grid-template-columns:1fr}}
+    .field label{display:block;font-size:11px;color:var(--muted);margin-bottom:5px}
+    .field select,.field input{width:100%;background:#0d0f18;border:1px solid var(--border);border-radius:8px;padding:8px 11px;color:var(--text);font-size:13px;outline:none;transition:border-color .15s}
+    .field select:focus,.field input:focus{border-color:var(--accent)}
+    .field select option{background:#161926}
+    .toggle-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border2)}
+    .toggle-row:last-child{border-bottom:none}
+    .tl{font-size:13px;color:#cbd5e1}.td{font-size:11px;color:var(--muted);margin-top:2px}
+    .toggle{position:relative;width:38px;height:21px;flex-shrink:0}
+    .toggle input{opacity:0;width:0;height:0}
+    .slider{position:absolute;inset:0;background:var(--border);border-radius:21px;cursor:pointer;transition:background .2s}
+    .slider::before{content:'';position:absolute;width:15px;height:15px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform .2s}
+    .toggle input:checked+.slider{background:var(--accent)}
+    .toggle input:checked+.slider::before{transform:translateX(17px)}
+
+    /* Stats */
+    #statsGrid{display:none;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:0}
+    #statsGrid.show{display:grid}
+    @media(max-width:560px){#statsGrid{grid-template-columns:repeat(2,1fr)}}
+    .stat{background:#0d0f18;border:1px solid var(--border2);border-radius:10px;padding:14px}
+    .stat-v{font-size:20px;font-weight:800;color:var(--accent)}
+    .stat-k{font-size:11px;color:var(--muted);margin-top:2px}
+    .stat-v.green{color:var(--green)}
+    .stat-v.yellow{color:var(--yellow)}
+
+    /* Generate button */
+    #btnGenerate{width:100%;padding:15px;border-radius:12px;border:none;background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;font-size:16px;font-weight:700;cursor:pointer;transition:opacity .15s,transform .1s;letter-spacing:.02em}
+    #btnGenerate:disabled{opacity:.35;cursor:not-allowed}
+    #btnGenerate:not(:disabled):hover{opacity:.9;transform:translateY(-1px)}
+    #btnGenerate:not(:disabled):active{transform:translateY(0)}
+
+    /* Progress */
+    #progressWrap{display:none;margin-top:16px}
+    #progressWrap.show{display:block}
+    #progressBar{height:4px;background:var(--border);border-radius:4px;overflow:hidden}
+    #progressFill{height:100%;width:0%;background:linear-gradient(90deg,#3b82f6,#8b5cf6);border-radius:4px;transition:width .3s}
+    #progressText{font-size:12px;color:var(--muted);margin-top:8px;text-align:center}
+
+    /* Result */
+    #resultCard{display:none;width:100%;max-width:820px}
+    #resultCard.show{display:block}
+    .result-inner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px}
+    .result-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+    .result-icon{font-size:40px}
+    .result-info{flex:1;min-width:180px}
+    .result-info h3{font-size:15px;font-weight:700}
+    .result-info p{font-size:12px;color:var(--muted);margin-top:3px}
+    #btnDownload{padding:12px 26px;border-radius:10px;border:none;background:var(--green);color:#fff;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s,transform .1s}
+    #btnDownload:hover{opacity:.9;transform:translateY(-1px)}
+
+    /* XML Preview */
+    #previewWrap{margin-top:20px;background:#0d0f18;border:1px solid var(--border2);border-radius:10px;overflow:hidden}
+    .preview-hdr{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;border-bottom:1px solid var(--border2)}
+    .preview-hdr span{font-size:11px;color:var(--muted);font-family:monospace}
+    #btnCopy{background:none;border:1px solid var(--border);border-radius:6px;padding:3px 11px;color:#94a3b8;font-size:11px;cursor:pointer;transition:background .15s}
+    #btnCopy:hover{background:var(--border)}
+    #xmlPreview{font-family:'Menlo','Courier New',monospace;font-size:11px;line-height:1.5;color:#94a3b8;padding:14px;max-height:300px;overflow-y:auto;white-space:pre}
+    .xt{color:#60a5fa}.xa{color:#a78bfa}.xv{color:#f59e0b}.xc{color:#6ee7b7}.xp{color:var(--muted)}
+
+    /* Error */
+    .err-box{display:none;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.25);border-radius:10px;padding:12px 16px;margin-top:14px;font-size:12px;color:#fca5a5}
+    .err-box.show{display:block}
+
+    /* Not-found list */
+    #notFoundWrap{display:none;margin-top:12px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:12px 16px}
+    #notFoundWrap.show{display:block}
+    #notFoundWrap summary{font-size:12px;color:var(--yellow);cursor:pointer;user-select:none}
+    #notFoundWrap ul{margin-top:8px;padding-left:16px;font-size:11px;color:#94a3b8;column-count:3;column-gap:12px}
+    @media(max-width:480px){#notFoundWrap ul{column-count:2}}
+
+    footer{margin-top:40px;font-size:11px;color:#334155;text-align:center}
+
+    /* GitHub publish */
+    #ghCard{display:none;width:100%;max-width:820px;margin-bottom:20px}
+    #ghCard.show{display:block}
+    .gh-inner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px}
+    .gh-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .gh-icon{font-size:32px}
+    .gh-info{flex:1;min-width:160px}
+    .gh-info h3{font-size:14px;font-weight:700}
+    .gh-info p{font-size:11px;color:var(--muted);margin-top:3px}
+    .gh-url{font-size:11px;color:#60a5fa;font-family:monospace;margin-top:4px;word-break:break-all}
+    #btnPublish{padding:11px 22px;border-radius:10px;border:none;background:linear-gradient(135deg,#24292e,#3b82f6);color:#fff;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s;display:flex;align-items:center;gap:8px}
+    #btnPublish:disabled{opacity:.4;cursor:not-allowed}
+    #btnPublish:not(:disabled):hover{opacity:.9}
+    .gh-token-row{margin-top:16px;background:#0d0f18;border:1px solid var(--border2);border-radius:10px;padding:14px 16px}
+    .gh-token-row label{font-size:11px;color:var(--muted);display:block;margin-bottom:6px}
+    .gh-token-input-row{display:flex;gap:8px}
+    .gh-token-input-row input{flex:1;background:#0d0f18;border:1px solid var(--border);border-radius:8px;padding:8px 11px;color:var(--text);font-size:12px;font-family:monospace;outline:none;transition:border-color .15s}
+    .gh-token-input-row input:focus{border-color:var(--accent)}
+    .gh-token-input-row button{padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:transparent;color:#94a3b8;font-size:12px;cursor:pointer;white-space:nowrap;transition:background .15s,color .15s}
+    .gh-token-input-row button:hover{background:var(--border);color:var(--text)}
+    .gh-token-hint{font-size:10px;color:var(--muted);margin-top:6px}
+    .gh-token-hint a{color:#60a5fa}
+    .gh-status{margin-top:12px;font-size:12px;padding:8px 12px;border-radius:8px;display:none}
+    .gh-status.show{display:block}
+    .gh-status.ok{background:rgba(34,197,94,.1);color:#86efac;border:1px solid rgba(34,197,94,.2)}
+    .gh-status.err{background:rgba(239,68,68,.1);color:#fca5a5;border:1px solid rgba(239,68,68,.2)}
+    .gh-status.loading{background:rgba(59,130,246,.08);color:#93c5fd;border:1px solid rgba(59,130,246,.2)}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Генератор XML-фіду · Telemart</h1>
+  <p>Завантажте файли — отримайте готовий <code>feed.xml</code> для імпорту</p>
+</header>
+
+<!-- Step 1: Files -->
+<div class="card">
+  <div class="card-title"><span class="step">1</span> Файли</div>
+
+  <div class="uploads">
+    <!-- Асортимент -->
+    <div class="upload-zone" id="zoneA" data-target="A">
+      <div class="uz-icon">📋</div>
+      <div class="uz-label">Асортимент.xlsx</div>
+      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputA').click()">оберіть файл</span></div>
+      <div class="uz-badge" id="badgeA">
+        <span>📊</span>
+        <div style="flex:1;overflow:hidden">
+          <div class="uz-badge-name" id="badgeAName"></div>
+          <div class="uz-badge-rows" id="badgeARows"></div>
+        </div>
+        <button class="uz-clear" onclick="clearFile('A',event)">✕</button>
+      </div>
+      <div class="err-box" id="errA"></div>
+    </div>
+    <input type="file" id="inputA" accept=".xlsx,.xls" hidden/>
+
+    <!-- Emos Прайс -->
+    <div class="upload-zone optional-zone" id="zoneP" data-target="P">
+      <span class="optional-tag">необов'язково</span>
+      <div class="uz-icon">💰</div>
+      <div class="uz-label">Emos Прайс.xlsx</div>
+      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputP').click()">оберіть файл</span></div>
+      <div class="uz-badge" id="badgeP">
+        <span>📊</span>
+        <div style="flex:1;overflow:hidden">
+          <div class="uz-badge-name" id="badgePName"></div>
+          <div class="uz-badge-rows" id="badgePRows"></div>
+        </div>
+        <button class="uz-clear" onclick="clearFile('P',event)">✕</button>
+      </div>
+      <div class="err-box" id="errP"></div>
+    </div>
+    <input type="file" id="inputP" accept=".xlsx,.xls" hidden/>
+  </div>
+
+  <!-- Cache info -->
+  <div class="cache-info" id="cacheInfo">
+    <div class="cache-dot" id="cacheDot"></div>
+    <div class="cache-text" id="cacheText">Кеш цін: завантаження…</div>
+    <button class="cache-clear" id="cacheClearBtn" onclick="clearCache()">Очистити кеш</button>
+  </div>
+</div>
+
+<!-- Step 2: Settings -->
+<div class="card">
+  <div class="card-title"><span class="step">2</span> Налаштування</div>
+  <div class="settings-grid">
+    <div class="field">
+      <label>Формат доступності</label>
+      <select id="cfgAvail">
+        <option value="bool">true / false</option>
+        <option value="int">1 / 0</option>
+        <option value="text">Текстом (з файлу)</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Роздільник фото</label>
+      <select id="cfgSep">
+        <option value=";">Крапка з комою ( ; )</option>
+        <option value=",">Кома ( , )</option>
+      </select>
+    </div>
+  </div>
+  <div class="toggle-row">
+    <div><div class="tl">Окремий блок категорій</div><div class="td">Генерувати &lt;categories&gt; + group_id + &lt;categoryId&gt;</div></div>
+    <label class="toggle"><input type="checkbox" id="cfgCatBlock" checked/><span class="slider"></span></label>
+  </div>
+  <div class="toggle-row">
+    <div><div class="tl">Батьківські категорії (parentId)</div><div class="td">Розбивати «Батьківська/Дочірня» через parentId</div></div>
+    <label class="toggle"><input type="checkbox" id="cfgParent" checked/><span class="slider"></span></label>
+  </div>
+  <div class="toggle-row">
+    <div><div class="tl">CDATA для описів та назв</div><div class="td">Обгортати HTML-вміст у &lt;![CDATA[...]]&gt;</div></div>
+    <label class="toggle"><input type="checkbox" id="cfgCdata" checked/><span class="slider"></span></label>
+  </div>
+</div>
+
+<!-- Step 3: Generate -->
+<div class="card" style="padding:22px">
+  <div id="statsGrid">
+    <div class="stat"><div class="stat-v" id="stTotal">0</div><div class="stat-k">Товарів</div></div>
+    <div class="stat"><div class="stat-v green" id="stMatched">0</div><div class="stat-k">З ціною DDP</div></div>
+    <div class="stat"><div class="stat-v yellow" id="stMissed">0</div><div class="stat-k">Без ціни DDP</div></div>
+    <div class="stat"><div class="stat-v" id="stCats">0</div><div class="stat-k">Категорій</div></div>
+  </div>
+  <div id="notFoundWrap">
+    <details>
+      <summary id="notFoundSum"></summary>
+      <ul id="notFoundList"></ul>
+    </details>
+  </div>
+  <div id="progressWrap">
+    <div id="progressBar"><div id="progressFill"></div></div>
+    <div id="progressText">Обробка…</div>
+  </div>
+  <button id="btnGenerate" disabled style="margin-top:16px">Згенерувати feed.xml</button>
+</div>
+
+<!-- Result -->
+<div id="resultCard">
+  <div class="result-inner">
+    <div class="result-row">
+      <div class="result-icon">✅</div>
+      <div class="result-info">
+        <h3 id="resultTitle">feed.xml готовий</h3>
+        <p id="resultDesc"></p>
+      </div>
+      <button id="btnDownload">⬇ Завантажити feed.xml</button>
+    </div>
+    <div id="previewWrap">
+      <div class="preview-hdr">
+        <span>Попередній перегляд — перші 2 товари</span>
+        <button id="btnCopy">Копіювати</button>
+      </div>
+      <div id="xmlPreview"></div>
+    </div>
+  </div>
+</div>
+
+<!-- GitHub Publish Card -->
+<div id="ghCard">
+  <div class="gh-inner">
+    <div class="gh-row">
+      <div class="gh-icon">🐙</div>
+      <div class="gh-info">
+        <h3>Опублікувати feed.xml на GitHub</h3>
+        <p>Файл оновиться за постійним посиланням автоматично (~1 хв)</p>
+        <div class="gh-url" id="ghFeedUrl">https://extel-llc.github.io/hunter-sales/web/feed.xml</div>
+      </div>
+      <button id="btnPublish" disabled>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        Опублікувати
+      </button>
+    </div>
+
+    <div class="gh-token-row">
+      <label>GitHub Personal Access Token (зберігається тільки у вашому браузері)</label>
+      <div class="gh-token-input-row">
+        <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" autocomplete="off"/>
+        <button id="btnSaveToken">Зберегти</button>
+        <button id="btnClearToken">Очистити</button>
+      </div>
+      <div class="gh-token-hint">
+        Потрібен токен з правом <code>contents: write</code> →
+        <a href="https://github.com/settings/tokens/new?description=feed-publisher&scopes=repo" target="_blank">Створити токен</a>
+      </div>
+    </div>
+
+    <div class="gh-status" id="ghStatus"></div>
+  </div>
+</div>
+
+<footer>Всі дані обробляються локально у вашому браузері · Ціни зберігаються у localStorage</footer>
+
+<script>
+'use strict';
+
+/* ══════════ Config ══════════ */
+const CACHE_KEY      = 'telemart_price_cache_v1';
+const CACHE_META_KEY = 'telemart_price_cache_meta';
+// Асортимент: залишаємо колонки (1-based → 0-based)
+const KEEP_IDX  = [0,5,7,8,9,10,11,13,15,19,37]; // cols 1,6,8,9,10,11,12,14,16,20,38
+const RENAME    = {5:'Назва', 8:'Категорія', 9:'РРЦ', 10:'Ціна дроп', 13:'Наявність', 37:'Опис'};
+const XML_MAP   = {
+  'Артикул':'article','Назва':'name','Бренд':'brand',
+  'Категорія':'__cat__','РРЦ':'price_rrc','Ціна дроп':'price',
+  'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
+  'Ссылка':'url','Опис':'description'
+};
+const HTML_COLS = new Set(['Назва','Опис']);
+const AVAIL_COL = 'Наявність';
+const CAT_COL   = 'Категорія';
+const ART_COL   = 'Артикул';
+const PIC_COL   = 'Фото';
+
+/* ══════════ State ══════════ */
+let aRows=[], aHeaders=[], pPriceMap={};
+let xmlResult='', assortFileName='';
+
+/* ══════════ Cache ══════════ */
+function loadCache(){
+  try{
+    const raw=localStorage.getItem(CACHE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){return {};}
+}
+function saveCache(map){
+  try{
+    localStorage.setItem(CACHE_KEY, JSON.stringify(map));
+    const meta={count:Object.keys(map).length, ts:Date.now()};
+    localStorage.setItem(CACHE_META_KEY, JSON.stringify(meta));
+    updateCacheInfo();
+  }catch(e){console.warn('localStorage full?',e);}
+}
+function clearCache(){
+  localStorage.removeItem(CACHE_KEY);
+  localStorage.removeItem(CACHE_META_KEY);
+  pPriceMap={};
+  updateCacheInfo();
+  // re-run stats if assortment loaded
+  if(aRows.length) computeStats();
+}
+function updateCacheInfo(){
+  const meta=localStorage.getItem(CACHE_META_KEY);
+  const dot=document.getElementById('cacheDot');
+  const txt=document.getElementById('cacheText');
+  if(meta){
+    const m=JSON.parse(meta);
+    const dt=new Date(m.ts);
+    const ds=dt.toLocaleDateString('uk-UA')+' '+dt.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'});
+    dot.className='cache-dot active';
+    txt.innerHTML=`Кеш цін: <strong>${m.count} артикулів</strong> · збережено ${ds}`;
+  }else{
+    dot.className='cache-dot';
+    txt.innerHTML='Кеш цін: <strong>порожній</strong> — завантажте файл «Emos Прайс» для заповнення';
+  }
+}
+
+/* ══════════ Drag & Drop ══════════ */
+['A','P'].forEach(t=>{
+  const zone=document.getElementById('zone'+t);
+  zone.addEventListener('dragover', e=>{e.preventDefault();zone.classList.add('over');});
+  zone.addEventListener('dragleave',()=>zone.classList.remove('over'));
+  zone.addEventListener('drop', e=>{
+    e.preventDefault(); zone.classList.remove('over');
+    const f=e.dataTransfer.files[0];
+    if(f) loadXlsx(f, t);
+  });
+  zone.addEventListener('click', e=>{
+    if(e.target.classList.contains('uz-clear')) return;
+    document.getElementById('input'+t).click();
+  });
+  document.getElementById('input'+t).addEventListener('change', function(){
+    if(this.files[0]) loadXlsx(this.files[0], t);
+  });
+});
+
+function showErr(t, msg){ const el=document.getElementById('err'+t); el.textContent=msg; el.classList.add('show'); }
+function hideErr(t){      document.getElementById('err'+t).classList.remove('show'); }
+
+function clearFile(t, e){
+  e && e.stopPropagation();
+  if(t==='A'){aRows=[];aHeaders=[];assortFileName='';document.getElementById('statsGrid').classList.remove('show');document.getElementById('notFoundWrap').classList.remove('show');}
+  document.getElementById('badge'+t).classList.remove('show');
+  document.getElementById('zone'+t).classList.remove('loaded');
+  document.getElementById('input'+t).value='';
+  hideErr(t);
+  updateBtn();
+}
+
+/* ══════════ Load XLSX ══════════ */
+function loadXlsx(file, target){
+  if(!/\.(xlsx|xls)$/i.test(file.name)){showErr(target,'Потрібен файл .xlsx або .xls'); return;}
+  hideErr(target);
+  const reader=new FileReader();
+  reader.onload=ev=>{
+    try{
+      const wb=XLSX.read(ev.target.result,{type:'array',cellText:false,cellDates:true});
+      if(target==='A') parseAssortment(wb, file.name);
+      else             parsePrice(wb, file.name);
+    }catch(err){showErr(target,'Помилка читання: '+err.message);}
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+/* ══════════ Parse Асортимент ══════════ */
+function parseAssortment(wb, fname){
+  const ws=wb.Sheets[wb.SheetNames[0]];
+  const data=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
+  if(data.length<2){showErr('A','Файл порожній або без даних'); return;}
+  const origH=data[0].map(h=>String(h||'').trim());
+  // Build final headers
+  aHeaders=KEEP_IDX.map(i=>{
+    const orig=origH[i]||`Col${i+1}`;
+    return RENAME[i]||orig;
+  });
+  // Parse rows
+  aRows=data.slice(1)
+    .filter(r=>r.some(v=>v!==''&&v!=null))
+    .map(r=>KEEP_IDX.reduce((obj,i,pos)=>{
+      obj[aHeaders[pos]]=r[i]!==undefined&&r[i]!==null ? String(r[i]).trim() : '';
+      return obj;
+    },{}));
+  assortFileName=fname.replace(/\.[^.]+$/,'');
+  showBadge('A', fname, aRows.length+' товарів');
+  computeStats();
+  updateBtn();
+}
+
+/* ══════════ Parse Emos Прайс ══════════ */
+function parsePrice(wb, fname){
+  const ws=wb.Sheets[wb.SheetNames[0]];
+  const data=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
+  // Find header row (contains "DDP")
+  let hRow=-1, skuCol=-1, ddpCol=-1;
+  for(let i=0;i<Math.min(data.length,15);i++){
+    const row=data[i];
+    if(row.some(v=>String(v||'').includes('DDP'))){
+      hRow=i;
+      row.forEach((v,j)=>{
+        const s=String(v||'').toUpperCase();
+        if(s.includes('SKU')||s.includes('КОД')) skuCol=j;
+        if(s.includes('DDP')) ddpCol=j;
+      });
+      break;
+    }
+  }
+  if(hRow<0||skuCol<0||ddpCol<0){
+    showErr('P','Не знайдено колонки «Код SKU» або «DDP ціна» у файлі прайсу'); return;
+  }
+  const newPrices={};
+  for(let i=hRow+1;i<data.length;i++){
+    const sku=String(data[i][skuCol]||'').trim();
+    const ddp=data[i][ddpCol];
+    if(sku&&ddp!==''&&ddp!=null){
+      const v=parseFloat(String(ddp).replace(',','.'));
+      if(!isNaN(v)) newPrices[sku]=v;
+    }
+  }
+  // Merge into cache
+  const existing=loadCache();
+  Object.assign(existing, newPrices);
+  saveCache(existing);
+  pPriceMap=existing;
+  showBadge('P', fname, Object.keys(newPrices).length+' цін DDP');
+  if(aRows.length) computeStats();
+  updateBtn();
+}
+
+function showBadge(t, name, rows){
+  document.getElementById('badge'+t+'Name').textContent=name;
+  document.getElementById('badge'+t+'Rows').textContent=rows;
+  document.getElementById('badge'+t).classList.add('show');
+  document.getElementById('zone'+t).classList.add('loaded');
+}
+
+/* ══════════ Stats ══════════ */
+function computeStats(){
+  const cache=loadCache();
+  let matched=0, missed=0;
+  const notFound=[];
+  aRows.forEach(r=>{
+    const art=r[ART_COL]||'';
+    if(art in cache) matched++;
+    else{ missed++; if(notFound.length<50) notFound.push(art); }
+  });
+  const cats=new Set(aRows.map(r=>r[CAT_COL]||'').filter(Boolean));
+  document.getElementById('stTotal').textContent=aRows.length;
+  document.getElementById('stMatched').textContent=matched;
+  document.getElementById('stMissed').textContent=missed;
+  document.getElementById('stCats').textContent=cats.size;
+  document.getElementById('statsGrid').classList.add('show');
+  // Not-found list
+  const nfw=document.getElementById('notFoundWrap');
+  if(missed>0){
+    document.getElementById('notFoundSum').textContent=`⚠ ${missed} артикулів без ціни DDP — розгорнути`;
+    const ul=document.getElementById('notFoundList');
+    ul.innerHTML=notFound.map(a=>`<li>${a}</li>`).join('');
+    nfw.classList.add('show');
+  }else{
+    nfw.classList.remove('show');
+  }
+}
+
+function updateBtn(){
+  document.getElementById('btnGenerate').disabled=aRows.length===0;
+}
+
+/* ══════════ Build Categories ══════════ */
+function buildCatMap(products){
+  const seen=[...new Set(products.map(p=>(p[CAT_COL]||'').trim()).filter(Boolean))];
+  let nid=1;
+  const parentIds={}, idMap={}, lines=[];
+  // Parents first
+  seen.forEach(n=>{
+    if(n.includes('/')){
+      const par=n.split('/')[0].trim();
+      if(!(par in parentIds)){
+        parentIds[par]=nid;
+        lines.push(`    <category id="${nid}">${ex(par)}</category>`);
+        nid++;
+      }
+    }
+  });
+  // Leaves
+  seen.forEach(full=>{
+    if(full.includes('/')){
+      const par=full.split('/')[0].trim();
+      const chi=full.slice(full.indexOf('/')+1).trim();
+      const pid=parentIds[par]||'';
+      idMap[full]=nid;
+      lines.push(`    <category id="${nid}"${pid?` parentId="${pid}"`:''}}>${ex(chi)}</category>`);
+    }else{
+      if(full in parentIds){ idMap[full]=parentIds[full]; }
+      else{ idMap[full]=nid; lines.push(`    <category id="${nid}">${ex(full)}</category>`); }
+    }
+    nid++;
+  });
+  return {idMap, lines};
+}
+
+function buildCatMapFlat(products){
+  const seen=[...new Set(products.map(p=>(p[CAT_COL]||'').trim()).filter(Boolean))];
+  let nid=1;
+  const idMap={}, lines=[];
+  seen.forEach(full=>{
+    idMap[full]=nid;
+    lines.push(`    <category id="${nid}">${ex(full)}</category>`);
+    nid++;
+  });
+  return {idMap, lines};
+}
+
+/* ══════════ Availability ══════════ */
+function availStr(raw){
+  const v=String(raw||'').toLowerCase();
+  const ok=v.includes('наявн')||v==='1'||v==='true';
+  const fmt=document.getElementById('cfgAvail').value;
+  if(fmt==='bool') return ok?'true':'false';
+  if(fmt==='int')  return ok?'1':'0';
+  return raw||'';
+}
+
+/* ══════════ Build XML ══════════ */
+function buildXml(){
+  const catBlock=document.getElementById('cfgCatBlock').checked;
+  const useParent=document.getElementById('cfgParent').checked;
+  const useCdata=document.getElementById('cfgCdata').checked;
+  const sep=document.getElementById('cfgSep').value;
+  const cache=loadCache();
+  const today=new Date().toISOString().slice(0,10);
+
+  // Apply DDP prices from cache
+  const products=aRows.map(r=>{
+    const obj=Object.assign({},r);
+    const art=obj[ART_COL]||'';
+    if(art in cache) obj['Ціна дроп']=String(cache[art]);
+    return obj;
+  });
+
+  const{idMap, lines:catLines}=catBlock
+    ? (useParent ? buildCatMap(products) : buildCatMapFlat(products))
+    : {idMap:{},lines:[]};
+
+  const out=[];
+  out.push('<?xml version="1.0" encoding="UTF-8"?>');
+  out.push(`<price date="${today}">`);
+  if(catBlock){
+    out.push('  <categories>');
+    catLines.forEach(l=>out.push(l));
+    out.push('  </categories>');
+    out.push('  <offers>');
+  }
+
+  products.forEach(p=>{
+    const art=(p[ART_COL]||'').trim();
+    const catFull=(p[CAT_COL]||'').trim();
+    const catId=catBlock?(idMap[catFull]||''):'';
+    const avail=availStr(p[AVAIL_COL]);
+    const grp=catId?` group_id="${catId}"`:'';
+    const indent=catBlock?'    ':'  ';
+    const ind2  =catBlock?'      ':'    ';
+    out.push(`${indent}<offer id="${ea(art)}" available="${avail}"${grp}>`);
+    aHeaders.forEach(col=>{
+      const tag=XML_MAP[col];
+      if(!tag) return;
+      const val=(p[col]||'').trim();
+      if(tag==='__cat__'){
+        if(catBlock&&catId) out.push(`${ind2}<categoryId>${catId}</categoryId>`);
+        else if(!catBlock&&val) out.push(`${ind2}<category>${ex(val)}</category>`);
+      }else if(tag==='__pics__'){
+        const pics=val.split(sep).map(s=>s.replace(/\s+/g,'').trim()).filter(Boolean);
+        if(pics.length){
+          out.push(`${ind2}<pictures>`);
+          pics.forEach(u=>out.push(`${ind2}  <picture>${ex(u)}</picture>`));
+          out.push(`${ind2}</pictures>`);
+        }
+      }else if(useCdata&&HTML_COLS.has(col)){
+        if(val) out.push(`${ind2}<${tag}><![CDATA[${val.replace(/]]>/g,']]]]><![CDATA[>')}]]></${tag}>`);
+      }else{
+        if(val) out.push(`${ind2}<${tag}>${ex(val)}</${tag}>`);
+      }
+    });
+    out.push(`${indent}</offer>`);
+  });
+
+  if(catBlock) out.push('  </offers>');
+  out.push('</price>');
+  return out.join('\n');
+}
+
+/* ══════════ Generate ══════════ */
+document.getElementById('btnGenerate').addEventListener('click',()=>{
+  if(!aRows.length) return;
+  const btn=document.getElementById('btnGenerate');
+  btn.disabled=true;
+  const pw=document.getElementById('progressWrap');
+  pw.classList.add('show');
+  document.getElementById('progressFill').style.width='0%';
+  document.getElementById('progressText').textContent='Генерація XML…';
+  document.getElementById('resultCard').classList.remove('show');
+
+  setTimeout(()=>{
+    try{
+      document.getElementById('progressFill').style.width='60%';
+      xmlResult=buildXml();
+      document.getElementById('progressFill').style.width='100%';
+      document.getElementById('progressText').textContent='Готово!';
+      showResult();
+    }catch(err){
+      document.getElementById('progressText').textContent='Помилка: '+err.message;
+      console.error(err);
+    }
+    btn.disabled=false;
+  },40);
+});
+
+function showResult(){
+  const bytes=new Blob([xmlResult],{type:'application/xml'}).size;
+  const kb=(bytes/1024).toFixed(0);
+  const mb=(bytes/1048576).toFixed(2);
+  document.getElementById('resultTitle').textContent='feed.xml успішно сформовано';
+  document.getElementById('resultDesc').textContent=`${aRows.length} товарів · ${kb} КБ (${mb} МБ)`;
+  document.getElementById('xmlPreview').innerHTML=highlight(preview2(2));
+  document.getElementById('resultCard').classList.add('show');
+  document.getElementById('resultCard').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+/* ══════════ Preview 2 offers ══════════ */
+function preview2(n){
+  const lines=xmlResult.split('\n');
+  const catBlock=document.getElementById('cfgCatBlock').checked;
+  const out=[lines[0],lines[1]];
+  let i=2;
+  // categories block
+  if(catBlock&&lines[i]&&lines[i].trim()==='<categories>'){
+    while(i<lines.length){out.push(lines[i]);if(lines[i].trim()==='</categories>'){i++;break;}i++;}
+    if(lines[i]&&lines[i].trim()==='<offers>') out.push(lines[i++]);
+  }
+  let count=0,inside=false;
+  for(;i<lines.length-1;i++){
+    if(lines[i].trimStart().startsWith('<offer')) {inside=true;count++;}
+    if(inside){
+      out.push(lines[i]);
+      if(lines[i].trimStart()==='</offer>'){inside=false;if(count>=n)break;}
+    }
+  }
+  if(count<aRows.length) out.push(`    <!-- … ще ${aRows.length-count} товарів … -->`);
+  if(catBlock) out.push('  </offers>');
+  out.push(lines[lines.length-1]);
+  return out.join('\n');
+}
+
+/* ══════════ Highlight ══════════ */
+function highlight(xml){
+  return xml
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/&lt;\?[^?]*\?&gt;/g,m=>`<span class="xp">${m}</span>`)
+    .replace(/&lt;!\[CDATA\[([\s\S]*?)\]\]&gt;/g,(_,c)=>`<span class="xc">&lt;![CDATA[${c}]]&gt;</span>`)
+    .replace(/&lt;!--[\s\S]*?--&gt;/g,m=>`<span class="xa">${m}</span>`)
+    .replace(/&lt;\/?([:\w_-]+)([^&]*?)\/?\s*&gt;/g,(m,tag,attrs)=>{
+      const ah=attrs.replace(/([:\w_-]+)="([^"]*)"/g,
+        (_,k,v)=>`<span class="xa">${k}</span>="<span class="xv">${v}</span>"`);
+      return `&lt;<span class="xt">${tag}</span>${ah}&gt;`;
+    });
+}
+
+/* ══════════ Download ══════════ */
+document.getElementById('btnDownload').addEventListener('click',()=>{
+  const blob=new Blob(['﻿'+xmlResult],{type:'application/xml;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');
+  a.href=url;
+  a.download='feed.xml';
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById('btnCopy').addEventListener('click',()=>{
+  navigator.clipboard.writeText(xmlResult).then(()=>{
+    const b=document.getElementById('btnCopy');
+    b.textContent='Скопійовано!';
+    setTimeout(()=>b.textContent='Копіювати',2000);
+  });
+});
+
+/* ══════════ XML escape ══════════ */
+function ex(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function ea(s){return String(s).replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ══════════ Init ══════════ */
+updateCacheInfo();
+pPriceMap=loadCache();
+
+/* ══════════ GitHub Publish ══════════ */
+const GH_REPO  = 'EXTEL-LLC/hunter-sales';
+const GH_PATH  = 'web/feed.xml';
+const GH_BRANCH= 'main';
+const GH_TOKEN_KEY = 'gh_feed_token';
+
+function ghTokenLoad(){ return localStorage.getItem(GH_TOKEN_KEY)||''; }
+function ghTokenSave(t){ t ? localStorage.setItem(GH_TOKEN_KEY,t) : localStorage.removeItem(GH_TOKEN_KEY); }
+
+function ghUpdateUI(){
+  const tok=ghTokenLoad();
+  const inp=document.getElementById('ghToken');
+  if(tok) inp.value=tok;
+  document.getElementById('btnPublish').disabled=!tok||!xmlResult;
+}
+
+document.getElementById('btnSaveToken').addEventListener('click',()=>{
+  const v=document.getElementById('ghToken').value.trim();
+  if(!v){ghStatus('err','Введіть токен'); return;}
+  ghTokenSave(v);
+  ghStatus('ok','Токен збережено у браузері');
+  ghUpdateUI();
+});
+
+document.getElementById('btnClearToken').addEventListener('click',()=>{
+  ghTokenSave('');
+  document.getElementById('ghToken').value='';
+  ghStatus('','');
+  ghUpdateUI();
+});
+
+function ghStatus(type, msg){
+  const el=document.getElementById('ghStatus');
+  el.className='gh-status'+(type?' show '+type:'');
+  el.textContent=msg;
+}
+
+document.getElementById('btnPublish').addEventListener('click', async()=>{
+  const token=ghTokenLoad();
+  if(!token||!xmlResult){return;}
+  const btn=document.getElementById('btnPublish');
+  btn.disabled=true;
+  ghStatus('loading','⏳ Публікація…');
+  try{
+    // 1. Get current SHA (needed for update)
+    const headRes=await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`,{
+      headers:{Authorization:`token ${token}`,Accept:'application/vnd.github+json'}
+    });
+    let sha=null;
+    if(headRes.ok){const j=await headRes.json(); sha=j.sha;}
+
+    // 2. PUT file
+    const content=btoa(unescape(encodeURIComponent('﻿'+xmlResult)));
+    const body={message:`feed: update ${new Date().toISOString().slice(0,10)}`,content,branch:GH_BRANCH};
+    if(sha) body.sha=sha;
+    const putRes=await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`,{
+      method:'PUT',
+      headers:{Authorization:`token ${token}`,Accept:'application/vnd.github+json','Content-Type':'application/json'},
+      body:JSON.stringify(body)
+    });
+    if(!putRes.ok){
+      const e=await putRes.json();
+      throw new Error(e.message||putRes.status);
+    }
+    const url=`https://extel-llc.github.io/${GH_REPO.split('/')[1]}/web/feed.xml`;
+    ghStatus('ok',`✅ Опубліковано! URL оновиться за ~1 хвилину: ${url}`);
+  }catch(err){
+    ghStatus('err','❌ Помилка: '+err.message);
+  }
+  btn.disabled=false;
+  ghUpdateUI();
+});
+
+// Show GH card after result
+const _origShowResult=showResult;
+showResult=function(){
+  _origShowResult();
+  document.getElementById('ghCard').classList.add('show');
+  ghUpdateUI();
+};
+// Init token UI
+ghUpdateUI();
+</script>
+</body>
+</html>
