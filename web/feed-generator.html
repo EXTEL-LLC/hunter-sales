@@ -566,7 +566,7 @@ function buildCatMap(products){
       const chi=full.slice(full.indexOf('/')+1).trim();
       const pid=parentIds[par]||'';
       idMap[full]=nid;
-      lines.push(`    <category id="${nid}"${pid?` parentId="${pid}"`:''}}>${ex(chi)}</category>`);
+      lines.push(`    <category id="${nid}"${pid?` parentId="${pid}"`:''}>${ex(chi)}</category>`);
     }else{
       if(full in parentIds){ idMap[full]=parentIds[full]; }
       else{ idMap[full]=nid; lines.push(`    <category id="${nid}">${ex(full)}</category>`); }
