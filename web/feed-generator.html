@@ -763,7 +763,7 @@ document.getElementById('btnCopy').addEventListener('click',()=>{
 
 /* ══════════ XML escape ══════════ */
 function ex(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function ea(s){return String(s).replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function ea(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
 /* ══════════ Init ══════════ */
 updateCacheInfo();
