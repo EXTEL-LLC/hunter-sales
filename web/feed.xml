@@ -11,74 +11,74 @@
     <category id="8">Електроніка для тварин</category>
     <category id="9">Терморегулятори, сигналізації та автоматика</category>
     <category id="10">Відеоспостереження та безпека</category>
-    <category id="11" parentId="1"}>Подовжувачі на котушках</category>
-    <category id="12" parentId="1"}>Подовжувачі</category>
-    <category id="13" parentId="1"}>Мережеві фільтри із захистом від перенапруг</category>
-    <category id="14" parentId="1"}>Таймери</category>
-    <category id="15" parentId="1"}>Розумні розетки Wi-Fi Zigbee</category>
-    <category id="16" parentId="1"}>Тревел-адаптери</category>
-    <category id="17" parentId="1"}>Колодки, адаптери, вилки та розетки</category>
-    <category id="18" parentId="2"}>Powerbank (зовнішні акумулятори)</category>
-    <category id="19" parentId="2"}>Свинцево-кислотні акумулятори</category>
-    <category id="20" parentId="2"}>Акумулятори RAVER SOLAR (перезаряджувані)</category>
-    <category id="21" parentId="2"}>Батарейки</category>
-    <category id="22" parentId="2"}>Зарядні пристрої для акумуляторів</category>
-    <category id="23" parentId="2"}>Зарядні пристрої для автомобільних акумуляторів</category>
-    <category id="24" parentId="2"}>Універсальні адаптери USB та блоки живлення</category>
-    <category id="25" parentId="2"}>Універсальні адаптери USB та блоки живлення/USB GaN зарядні пристрої</category>
-    <category id="26" parentId="2"}>Універсальні адаптери USB та блоки живлення/Трансформатори для дзвінків</category>
-    <category id="27" parentId="3"}>Вимикачі</category>
-    <category id="28" parentId="3"}>Розетки</category>
-    <category id="29" parentId="3"}>Блоки розетка + вимикач</category>
-    <category id="30" parentId="3"}>Ізоляційні стрічки/ПВХ-стрічки</category>
-    <category id="31" parentId="3"}>Ізоляційні стрічки/Текстильні стрічки</category>
-    <category id="32" parentId="3"}>Ізоляційні стрічки/Інші стрічки</category>
-    <category id="33" parentId="4"}>Акумуляторні ліхтарі</category>
-    <category id="34" parentId="4"}>Ручні ліхтарі</category>
-    <category id="35" parentId="4"}>Робочі ліхтарі</category>
-    <category id="36" parentId="4"}>Ліхтарі прожектори</category>
-    <category id="37" parentId="4"}>Налобні ліхтарі</category>
-    <category id="38" parentId="4"}>Велосипедні LED-ліхтарі</category>
-    <category id="39" parentId="4"}>Туристичні лампи та знищувачі комах</category>
-    <category id="40" parentId="4"}>Переносні робочі лампи</category>
-    <category id="41" parentId="5"}>Датчики руху PIR, MW</category>
-    <category id="42" parentId="5"}>Аварійне освітлення</category>
-    <category id="43" parentId="5"}>Настільні лампи</category>
-    <category id="44" parentId="5"}>Нічники</category>
-    <category id="45" parentId="5"}>Лампи для рослин</category>
-    <category id="46" parentId="6"}>Метеостанції</category>
-    <category id="47" parentId="6"}>Термометри</category>
-    <category id="48" parentId="6"}>Запасні датчики</category>
-    <category id="49" parentId="6"}>Монітори якості повітря</category>
-    <category id="50" parentId="6"}>Кухонні таймери</category>
-    <category id="51" parentId="6"}>Кухонні ваги</category>
-    <category id="52" parentId="7"}>Мультиметри</category>
-    <category id="53" parentId="7"}>Тестери напруги</category>
-    <category id="54" parentId="7"}>Набори універсальних вимірювальних щупів</category>
-    <category id="55" parentId="8"}>Розумні годівниці (GoSmart Feeder)</category>
-    <category id="56" parentId="8"}>Автоматичні поїлки, фонтани для тварин</category>
-    <category id="57" parentId="8"}>Комплекти фільтрів для поїлок</category>
-    <category id="58" parentId="8"}>Запасні помпи для поїлок</category>
-    <category id="59" parentId="9"}>Терморозетки</category>
-    <category id="60" parentId="9"}>Датчики протікання води</category>
-    <category id="61" parentId="9"}>CO та димові датчики (сигналізації)</category>
-    <category id="62" parentId="9"}>Автоматичні закривачі клапанів</category>
-    <category id="63" parentId="9"}>Таймери для поливу</category>
-    <category id="64" parentId="9"}>Вентилятори для радіаторів</category>
-    <category id="65" parentId="5"}>Вбудовані світильники</category>
-    <category id="66" parentId="5"}>Світильники настінні для сходів та фасаду</category>
-    <category id="67" parentId="5"}>Світильники на сонячній батареї</category>
-    <category id="68" parentId="5"}>Прожектори</category>
-    <category id="69" parentId="5"}>Декоративне та атмосферне освітлення AMBIENT</category>
-    <category id="70" parentId="5"}>Садово-паркове освітлення</category>
-    <category id="71" parentId="10"}>Камери відеоспостереження</category>
-    <category id="72" parentId="10"}>Відеодзвінки</category>
-    <category id="73" parentId="10"}>Домофони</category>
-    <category id="74" parentId="10"}>Дверні дзвінки, дротові та бездротові</category>
-    <category id="75" parentId="10"}>Дверні дзвінки, дротові та бездротові/Бездротові дверні дзвінки</category>
-    <category id="76" parentId="10"}>Дверні дзвінки, дротові та бездротові/Кнопка дзвінка</category>
-    <category id="77" parentId="10"}>Дверні дзвінки, дротові та бездротові/Дротові дверні дзвінки</category>
-    <category id="78" parentId="10"}>Аксесуари GoSmart</category>
+    <category id="11" parentId="1">Подовжувачі на котушках</category>
+    <category id="12" parentId="1">Подовжувачі</category>
+    <category id="13" parentId="1">Мережеві фільтри із захистом від перенапруг</category>
+    <category id="14" parentId="1">Таймери</category>
+    <category id="15" parentId="1">Розумні розетки Wi-Fi Zigbee</category>
+    <category id="16" parentId="1">Тревел-адаптери</category>
+    <category id="17" parentId="1">Колодки, адаптери, вилки та розетки</category>
+    <category id="18" parentId="2">Powerbank (зовнішні акумулятори)</category>
+    <category id="19" parentId="2">Свинцево-кислотні акумулятори</category>
+    <category id="20" parentId="2">Акумулятори RAVER SOLAR (перезаряджувані)</category>
+    <category id="21" parentId="2">Батарейки</category>
+    <category id="22" parentId="2">Зарядні пристрої для акумуляторів</category>
+    <category id="23" parentId="2">Зарядні пристрої для автомобільних акумуляторів</category>
+    <category id="24" parentId="2">Універсальні адаптери USB та блоки живлення</category>
+    <category id="25" parentId="2">Універсальні адаптери USB та блоки живлення/USB GaN зарядні пристрої</category>
+    <category id="26" parentId="2">Універсальні адаптери USB та блоки живлення/Трансформатори для дзвінків</category>
+    <category id="27" parentId="3">Вимикачі</category>
+    <category id="28" parentId="3">Розетки</category>
+    <category id="29" parentId="3">Блоки розетка + вимикач</category>
+    <category id="30" parentId="3">Ізоляційні стрічки/ПВХ-стрічки</category>
+    <category id="31" parentId="3">Ізоляційні стрічки/Текстильні стрічки</category>
+    <category id="32" parentId="3">Ізоляційні стрічки/Інші стрічки</category>
+    <category id="33" parentId="4">Акумуляторні ліхтарі</category>
+    <category id="34" parentId="4">Ручні ліхтарі</category>
+    <category id="35" parentId="4">Робочі ліхтарі</category>
+    <category id="36" parentId="4">Ліхтарі прожектори</category>
+    <category id="37" parentId="4">Налобні ліхтарі</category>
+    <category id="38" parentId="4">Велосипедні LED-ліхтарі</category>
+    <category id="39" parentId="4">Туристичні лампи та знищувачі комах</category>
+    <category id="40" parentId="4">Переносні робочі лампи</category>
+    <category id="41" parentId="5">Датчики руху PIR, MW</category>
+    <category id="42" parentId="5">Аварійне освітлення</category>
+    <category id="43" parentId="5">Настільні лампи</category>
+    <category id="44" parentId="5">Нічники</category>
+    <category id="45" parentId="5">Лампи для рослин</category>
+    <category id="46" parentId="6">Метеостанції</category>
+    <category id="47" parentId="6">Термометри</category>
+    <category id="48" parentId="6">Запасні датчики</category>
+    <category id="49" parentId="6">Монітори якості повітря</category>
+    <category id="50" parentId="6">Кухонні таймери</category>
+    <category id="51" parentId="6">Кухонні ваги</category>
+    <category id="52" parentId="7">Мультиметри</category>
+    <category id="53" parentId="7">Тестери напруги</category>
+    <category id="54" parentId="7">Набори універсальних вимірювальних щупів</category>
+    <category id="55" parentId="8">Розумні годівниці (GoSmart Feeder)</category>
+    <category id="56" parentId="8">Автоматичні поїлки, фонтани для тварин</category>
+    <category id="57" parentId="8">Комплекти фільтрів для поїлок</category>
+    <category id="58" parentId="8">Запасні помпи для поїлок</category>
+    <category id="59" parentId="9">Терморозетки</category>
+    <category id="60" parentId="9">Датчики протікання води</category>
+    <category id="61" parentId="9">CO та димові датчики (сигналізації)</category>
+    <category id="62" parentId="9">Автоматичні закривачі клапанів</category>
+    <category id="63" parentId="9">Таймери для поливу</category>
+    <category id="64" parentId="9">Вентилятори для радіаторів</category>
+    <category id="65" parentId="5">Вбудовані світильники</category>
+    <category id="66" parentId="5">Світильники настінні для сходів та фасаду</category>
+    <category id="67" parentId="5">Світильники на сонячній батареї</category>
+    <category id="68" parentId="5">Прожектори</category>
+    <category id="69" parentId="5">Декоративне та атмосферне освітлення AMBIENT</category>
+    <category id="70" parentId="5">Садово-паркове освітлення</category>
+    <category id="71" parentId="10">Камери відеоспостереження</category>
+    <category id="72" parentId="10">Відеодзвінки</category>
+    <category id="73" parentId="10">Домофони</category>
+    <category id="74" parentId="10">Дверні дзвінки, дротові та бездротові</category>
+    <category id="75" parentId="10">Дверні дзвінки, дротові та бездротові/Бездротові дверні дзвінки</category>
+    <category id="76" parentId="10">Дверні дзвінки, дротові та бездротові/Кнопка дзвінка</category>
+    <category id="77" parentId="10">Дверні дзвінки, дротові та бездротові/Дротові дверні дзвінки</category>
+    <category id="78" parentId="10">Аксесуари GoSmart</category>
   </categories>
   <offers>
     <offer id="P08215" available="true" group_id="11">
