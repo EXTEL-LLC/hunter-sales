@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-05-28">
+<price date="2026-05-29">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1147,7 +1147,7 @@
 <p>Кабель із провідником <strong>H05VV-F3G 1,5 мм²</strong> витримує максимальне навантаження до <strong>3 680 Вт</strong>. <strong>Захист від дітей</strong> і <strong>ПВХ-ізоляція</strong> забезпечують безпечне використання в будь-якому середовищі.</p> <h2>Зручність у використанні</h2>
 <p>Одна <strong>розетка 2P + PE SCHUKO</strong> дозволяє підключати стандартні електроприлади, а компактний дизайн робить подовжувач зручним для зберігання. Всі елементи виконані з <strong>пластика</strong>, що підвищує надійність і довговічність.</p> <p><strong>Подовжувач SCHUKO 10 м</strong> – це поєднання компактності, безпеки та надійності для дому, офісу або майстерні.</p>]]></description>
     </offer>
-    <offer id="P0121" available="true" group_id="12">
+    <offer id="P0121" available="false" group_id="12">
       <article>P0121</article>
       <name><![CDATA[Мережевий подовжувач Emos P0121 1 розеткa 1,4 м 1,0 мм²]]></name>
       <brand>EMOS</brand>
@@ -1155,7 +1155,7 @@
       <price_rrc>199.00</price_rrc>
       <price>163.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/45/21064017544613_+4311208927.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/45/99148702521002_+160c275439.jpg</picture>
@@ -20150,7 +20150,7 @@ Smart-керування через мобільний застосунок
 <p>Світильники повинні бути міцно закріплені на відповідній основі та підключені до мережі змінного струму 230 В, а всі електромонтажні роботи має виконувати кваліфікований спеціаліст.</p>
 <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
     </offer>
-    <offer id="ZGC040P" available="true" group_id="70">
+    <offer id="ZGC040P" available="false" group_id="70">
       <article>ZGC040P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGC040P e27, ip44, PIR ,15w, настінний]]></name>
       <brand>EMOS</brand>
@@ -20158,7 +20158,7 @@ Smart-керування через мобільний застосунок
       <price_rrc>1759.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/32/80462751992504_+921cdbbdf4.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/32/69465211493041_+164642eda7.jpg</picture>
