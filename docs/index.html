@@ -528,12 +528,13 @@ async function doAuth() {
   var h = await sha256(pass);
 
   if (_authRole === 'admin') {
+    if (!_webDataLoaded) {
+      document.getElementById('authError').textContent = '⏳ Завантаження даних... спробуйте ще раз через секунду';
+      return;
+    }
     var stored = localStorage.getItem('emos_admin_pass');
     if (!stored) {
-      localStorage.setItem('emos_admin_pass', h);
-      sessionStorage.setItem('emos_session', 'admin');
-      document.getElementById('authScreen').style.display = 'none';
-      _applySession('admin');
+      document.getElementById('authError').textContent = '❌ Адмін-пароль не налаштовано. Зверніться до постачальника.';
       return;
     }
     if (h === stored) {

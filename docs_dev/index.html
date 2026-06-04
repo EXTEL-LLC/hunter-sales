@@ -241,6 +241,7 @@ tr:hover{background:#EBF3FB}
           <option value="D1">D1 — Національні мережі</option>
           <option value="D2">D2 — Регіональні мережі / B2B</option>
           <option value="D3" selected>D3 — Дилери / магазини</option>
+          <option value="D4 Нац">D4 Нац — Нац. інтернет (Rozetka)</option>
           <option value="D4 Buy">D4 Buy — Інтернет-магазини</option>
           <option value="D4 Drop">D4 Drop — Дропшип</option>
           <option value="D5">D5 — Проектні продажі</option>
@@ -1382,9 +1383,9 @@ const SKUS = [
   ["H6902","WATER PUMP FOR H6101","PC",254.33,[371.28, 393.12, 382.2, 425.88, 447.72, 0, 339.9],546,"Годівниці та поїлки для тварин"],
   ["H6903","WATER PUMP FOR GOSMART FOUNTAIN","PC",457.0,[665.7, 704.88, 685.32, 763.62, 802.8, 0, 609.42],979,"Годівниці та поїлки для тварин"]
 ];
-// 0=code,1=name,2=unit,3=cost,4=[D1,D2,D3,D4Buy,D4Drop,D5,D6 ddp],5=rrp,6=category
+// 0=code,1=name,2=unit,3=cost,4=[D1,D2,D3,D4Нац,D4Buy,D4Drop,D5,D6 ddp],5=rrp,6=category
 const CATS = ["Батарейки", "Зарядні пристрої для акумуляторів", "Ліхтарі", "Датчики руху", "Світильники та прожектори на соняній батареї", "Світильники для розсади", "Прожектори робочі акумуляторні", "Світильники для дзеркал", "Гирлянди вуличні", "GOSMART AMBIENT", "Світильники аварійні", "Powerbanks", "Зарядки USB", "Свинцеві акумулятори SLA", "Пооджувачи та адаптери", "Вуличні вимикачи та розетки", "Сигналізація", "Вентилятори для батарей опалення", "Таймери поливу", "Тестери, мультиметри", "Ізоляціна т а ініші стрічки", "Антени ТВ", "Метеостанції та термометри", "Ваги електронні", "Дверні дзвінки", "Відеосистеми, та IP камери", "Годівниці та поїлки для тварин"];
-const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Buy':3,'D4 Drop':4,'D5':5,'D6':6};
+const CH_IDX = {'D1':0,'D2':1,'D3':2,'D4 Нац':3,'D4 Buy':4,'D4 Drop':5,'D5':6,'D6':7};
 
 // DDP prices loaded from EMOS_Pricing_MVP.xlsx (Channel_Prices sheet)
 // {sku_code: {'D1':val,'D2':val,'D3':val,'D4 Buy':val,'D4 Drop':val,'D5':val,'D6':val}}
@@ -1422,10 +1423,11 @@ function loadPricesFromFile(input) {
           'D1':      +row[5]  || 0,
           'D2':      +row[9]  || 0,
           'D3':      +row[13] || 0,
-          'D4 Buy':  +row[17] || 0,
-          'D4 Drop': +row[21] || 0,
-          'D5':      +row[25] || 0,
-          'D6':      +row[29] || 0
+          'D4 Нац':  +row[17] || 0,
+          'D4 Buy':  +row[21] || 0,
+          'D4 Drop': +row[25] || 0,
+          'D5':      +row[29] || 0,
+          'D6':      +row[33] || 0
         };
         updated++;
       }
@@ -2208,29 +2210,35 @@ function openKP() {
   const valid = new Date(Date.now()+30*864e5).toLocaleDateString('uk-UA',{day:'2-digit',month:'2-digit',year:'numeric'});
   const fmtN  = n => (n||0).toLocaleString('uk-UA',{minimumFractionDigits:2,maximumFractionDigits:2});
 
-  const chLabel = {'D1':'D1 — Національні мережі','D2':'D2 — Регіональні мережі / B2B','D3':'D3 — Дилери / магазини','D4 Buy':'D4 Buy — Інтернет-магазини','D4 Drop':'D4 Drop — Дропшип','D5':'D5 — Проектні продажі','D6':'D6 — Регіональний дистриб\'ютор'};
+  const chLabel = {'D1':'D1 — Національні мережі','D2':'D2 — Регіональні мережі / B2B','D3':'D3 — Дилери / магазини','D4 Нац':'D4 Нац — Нац. інтернет','D4 Buy':'D4 Buy — Інтернет-магазини','D4 Drop':'D4 Drop — Дропшип','D5':'D5 — Проектні продажі','D6':'D6 — Регіональний дистриб\'ютор'};
 
   // Build order table rows
+  function ddpR(v){return Math.round(Math.round(v/6*100)*6)/100;}
   var rows = order.map(function(item, i) {
-    var total = item.ddp * item.qty;
+    var discDdp = (disc > 0) ? ddpR(item.ddp * (1 - disc/100)) : item.ddp;
+    var total = Math.round(discDdp * item.qty * 100) / 100;
+    var ddpCell = (disc > 0)
+      ? '<td style="text-align:right;color:#999;text-decoration:line-through">'+fmtN(item.ddp)+'</td>'
+      : '<td style="text-align:right;color:#555">'+fmtN(item.ddp)+'</td>';
     return '<tr>'
       + '<td style="color:#999;font-size:10px;text-align:center">'+(i+1)+'</td>'
       + '<td style="color:#1F4E79;font-size:11px;font-weight:700">'+item.code+'</td>'
       + '<td>'+item.name+'</td>'
       + '<td style="text-align:center;color:#888">'+item.unit+'</td>'
       + '<td style="text-align:center;font-weight:600">'+item.qty+'</td>'
-      + '<td style="text-align:right">'+fmtN(item.ddp)+'</td>'
+      + ddpCell
+      + '<td style="text-align:right;font-weight:700;color:#C55A11">'+fmtN(discDdp)+'<br><span style="font-size:9px;font-weight:400;color:#888">з ПДВ</span></td>'
       + '<td style="text-align:right;font-weight:700;color:#1F4E79">'+fmtN(total)+'</td>'
       + '</tr>';
   }).join('');
+  var discTotalSum = Math.round(order.reduce(function(s,item){var d=(disc>0)?ddpR(item.ddp*(1-disc/100)):item.ddp;return s+d*item.qty;},0)*100)/100;
   // Totals row
   rows += '<tr style="background:#EBF3FB">'
     + '<td colspan="4"></td>'
     + '<td style="text-align:center;font-weight:700;color:#1F4E79">'+order.reduce((s,i)=>s+i.qty,0)+'</td>'
-    + '<td style="text-align:right;font-size:11px;color:#888">Разом DDP:</td>'
-    + '<td style="text-align:right;font-weight:700;color:#1F4E79;font-size:14px">'+fmtN(totalSum)+' грн</td>'
-    + '</tr>'
-    + '<tr><td colspan="7" style="text-align:right;font-size:11px;color:#888;padding:2px 8px 6px">Усі ціни вказані з урахуванням ПДВ</td></tr>';
+    + '<td colspan="2" style="text-align:right;font-size:11px;color:#888">Разом з урах. знижки (з ПДВ):</td>'
+    + '<td style="text-align:right;font-weight:700;color:#1F4E79;font-size:14px">'+fmtN(discTotalSum)+' грн</td>'
+    + '</tr>';
 
   // Policy conditions block (max limits from policy)
   var condsHtml = pol ? [
@@ -2286,9 +2294,11 @@ function openKP() {
     ct: ct||'—',
     today: today,
     order: order.map(function(item,idx){
+      var dDdp = (disc>0) ? ddpR(item.ddp*(1-disc/100)) : item.ddp;
       return [idx+1, item.code, item.name, item.unit, item.qty,
               Math.round(item.ddp*100)/100,
-              Math.round(item.ddp*item.qty*100)/100];
+              Math.round(dDdp*100)/100,
+              Math.round(dDdp*item.qty*100)/100];
     }),
     totalSum: totalSum,
     disc: disc, discAmt: discAmt,
@@ -2308,7 +2318,7 @@ function openKP() {
     '  var d='+xlsxPayload+';',
     '  var wb=new ExcelJS.Workbook();',
     '  var ws=wb.addWorksheet("КП Замовлення");',
-    '  ws.columns=[{width:5},{width:13},{width:44},{width:7},{width:8},{width:22},{width:18}];',
+    '  ws.columns=[{width:5},{width:13},{width:44},{width:7},{width:8},{width:18},{width:20},{width:18}];',
     // Logo row
     '  if(KP_LOGO_B64){',
     '    try{var imgId=wb.addImage({base64:KP_LOGO_B64,extension:"png"});',
@@ -2321,24 +2331,24 @@ function openKP() {
     '  ws.addRow([]);',
     // Title
     '  var tRow=ws.addRow(["Комерційна пропозиція","","","","","",""]);',
-    '  ws.mergeCells(tRow.number,1,tRow.number,7);',
+    '  ws.mergeCells(tRow.number,1,tRow.number,8);',
     '  tRow.getCell(1).font={bold:true,size:16,color:{argb:"FF1F4E79"}};',
     '  tRow.getCell(1).alignment={vertical:"middle"};',
     '  tRow.height=24;',
     // Subtitle
     '  var sRow=ws.addRow([d.ch+" | Тип клієнта: "+d.ct,"","","","","",""]);',
-    '  ws.mergeCells(sRow.number,1,sRow.number,7);',
+    '  ws.mergeCells(sRow.number,1,sRow.number,8);',
     '  sRow.getCell(1).font={size:11,color:{argb:"FF555555"}};',
     '  ws.addRow([]);',
     // Client
     '  var cRow=ws.addRow(["Підготовлено для: "+d.client,"","","","","",""]);',
-    '  ws.mergeCells(cRow.number,1,cRow.number,7);',
+    '  ws.mergeCells(cRow.number,1,cRow.number,8);',
     '  cRow.getCell(1).font={bold:true,size:12};',
     '  cRow.getCell(1).fill={type:"pattern",pattern:"solid",fgColor:{argb:"FFDEEAF1"}};',
     '  cRow.height=20;',
     '  ws.addRow([]);',
     // Table header
-    '  var hRow=ws.addRow(["#","Код SKU","Найменування","Од.","К-сть","DDP ціна, грн","Сума, грн"]);',
+    '  var hRow=ws.addRow(["#","Код SKU","Найменування","Од.","К-сть","DDP ціна, грн","DDP зі знижкою (з ПДВ), грн","Сума, грн"]);',
     '  hRow.eachCell(function(c){',
     '    c.fill={type:"pattern",pattern:"solid",fgColor:{argb:"FF1F4E79"}};',
     '    c.font={bold:true,color:{argb:"FFFFFFFF"},size:11};',
@@ -2352,8 +2362,9 @@ function openKP() {
     '    var bg=i%2===0?"FFFFFFFF":"FFF0F5FA";',
     '    row.eachCell(function(c){c.fill={type:"pattern",pattern:"solid",fgColor:{argb:bg}};c.font={size:11};c.alignment={vertical:"middle"};});',
     '    row.getCell(5).alignment={horizontal:"center"};',
-    '    row.getCell(6).numFmt="#,##0.00";row.getCell(6).alignment={horizontal:"right"};',
-    '    row.getCell(7).numFmt="#,##0.00";row.getCell(7).alignment={horizontal:"right"};row.getCell(7).font={bold:true,size:11,color:{argb:"FF1F4E79"}};',
+    '    row.getCell(6).numFmt="#,##0.00";row.getCell(6).alignment={horizontal:"right"};row.getCell(6).font={size:10,color:{argb:"FFAAAAAA"}};',
+    '    row.getCell(7).numFmt="#,##0.00";row.getCell(7).alignment={horizontal:"right"};row.getCell(7).font={bold:true,size:11,color:{argb:"FFC55A11"}};',
+    '    row.getCell(8).numFmt="#,##0.00";row.getCell(8).alignment={horizontal:"right"};row.getCell(8).font={bold:true,size:11,color:{argb:"FF1F4E79"}};',
     '    row.height=18;',
     '  });',
     // Total line
@@ -2370,7 +2381,7 @@ function openKP() {
     // VAT note
     '  ws.addRow([]);',
     '  var vatRow=ws.addRow(["Усі ціни вказані з урахуванням ПДВ","","","","","",""]);',
-    '  ws.mergeCells(vatRow.number,1,vatRow.number,7);',
+    '  ws.mergeCells(vatRow.number,1,vatRow.number,8);',
     '  vatRow.getCell(1).font={italic:true,size:10,color:{argb:"FF888888"}};',
     // Save
     '  var fn="EMOS_КП_"+(d.client||"Order").replace(/[^\\w\\u0400-\\u04FF]/g,"_")+"_"+d.today.replace(/\\./g,"")+".xlsx";',
@@ -2430,7 +2441,7 @@ function openKP() {
     + '<table class="kp-table"><thead><tr>'
     + '<th style="width:28px;text-align:center">#</th><th style="width:70px">Код</th><th>Найменування</th>'
     + '<th class="r" style="width:36px">Од.</th><th class="r" style="width:50px">К-сть</th>'
-    + '<th class="r" style="width:110px">DDP ціна, грн</th><th class="r" style="width:120px">Сума, грн</th>'
+    + '<th class="r" style="width:90px">DDP ціна, грн</th><th class="r" style="width:105px">DDP зі знижкою, грн<br><span style="font-size:9px;font-weight:400">(з ПДВ)</span></th><th class="r" style="width:115px">Сума, грн</th>'
     + '</tr></thead><tbody>'+rows+'</tbody></table>'
     + '<div style="margin-top:20px">'+offerTableHtml+'</div>'
     + '<div class="kp-footer"><div>EMOS — офіційний прайс-лист · Ціни в гривнях з ПДВ (DDP Україна)</div><div>Дата: '+today+'</div></div>'
@@ -2613,7 +2624,7 @@ function openKPNewTab() {
     + 'var POLICY_NT=' + JSON.stringify(POLICY) + ';'
     + 'var NT_CH=' + JSON.stringify(ch) + ';'
     + 'var NT_CT=' + JSON.stringify(ct||'') + ';'
-    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Buy":3,"D4 Drop":4,"D5":5,"D6":6};'
+    + 'var CH_IDX_NT={"D1":0,"D2":1,"D3":2,"D4 Нац":3,"D4 Buy":4,"D4 Drop":5,"D5":6,"D6":7};'
     + 'var ntActiveCats=new Set(' + JSON.stringify(Array.from(kpActiveCatIds)) + ');'
     + 'var ntUpdateTime=null;'
     + 'var NT_LOGO_B64=' + JSON.stringify(logoB64) + ';';
@@ -2726,7 +2737,7 @@ function openKPNewTab() {
     '        for(var r=1;r<cpData.length;r++){',
     '          var row2=cpData[r];var code2=row2[0];if(!code2)continue;',
     '          code2=String(code2).trim();',
-    '          newOvr[code2]={"D1":+row2[5]||0,"D2":+row2[9]||0,"D3":+row2[13]||0,"D4 Buy":+row2[17]||0,"D4 Drop":+row2[21]||0,"D5":+row2[25]||0,"D6":+row2[29]||0};',
+    '          newOvr[code2]={"D1":+row2[5]||0,"D2":+row2[9]||0,"D3":+row2[13]||0,"D4 Нац":+row2[17]||0,"D4 Buy":+row2[21]||0,"D4 Drop":+row2[25]||0,"D5":+row2[29]||0,"D6":+row2[33]||0};',
     '        }',
     '        PRICE_OVERRIDE_NT=newOvr;',
     '      }',
@@ -2769,7 +2780,7 @@ function openKPNewTab() {
     '  var ts=document.getElementById("nt-ct-sel");',
     '  if(cs)NT_CH=cs.value;',
     '  if(ts)NT_CT=ts.value;',
-    '  var chL={"D1":"D1 — Нац. мережі","D2":"D2 — Рег. мережі / B2B","D3":"D3 — Дилери","D4 Buy":"D4 Buy — Інтернет","D4 Drop":"D4 Drop — Дропшип","D5":"D5 — Проекти","D6":"D6 — Дистриб."};',
+    '  var chL={"D1":"D1 — Нац. мережі","D2":"D2 — Рег. мережі / B2B","D3":"D3 — Дилери","D4 Нац":"D4 Нац — Нац. інтернет","D4 Buy":"D4 Buy — Інтернет","D4 Drop":"D4 Drop — Дропшип","D5":"D5 — Проекти","D6":"D6 — Дистриб."};',
     '  var sub=document.getElementById("kp-subtitle");',
     '  if(sub)sub.textContent="Канал: "+(chL[NT_CH]||NT_CH)+"  |  Тип: "+(NT_CT||"—");',
     '  var pol=NT_CT?findPolNT(NT_CH,NT_CT):null;',
@@ -2894,6 +2905,7 @@ function openKPNewTab() {
     {v:'D1',l:'D1 — Нац. мережі'},
     {v:'D2',l:'D2 — Рег. мережі / B2B'},
     {v:'D3',l:'D3 — Дилери'},
+    {v:'D4 Нац',l:'D4 Нац — Нац. інтернет'},
     {v:'D4 Buy',l:'D4 Buy — Інтернет'},
     {v:'D4 Drop',l:'D4 Drop — Дропшип'},
     {v:'D5',l:'D5 — Проекти'},
