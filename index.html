@@ -809,7 +809,7 @@ const CH_TYPES={'D1':'\u041D\u0446. \u043C\u0440\u0436','D2':'\u0420\u0433\u043E
 const STATUS_LIST=[
   {k:'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440',c:'s-p01',fc:'#1565C0'},{k:'\u0417\u0430\u0434\u043D \u043A\u043D\u0430\u0442',c:'s-p02',fc:'#006064'},
   {k:'\u041D \u043E\u0440\u0431\u0435\u0438',c:'s-p03',fc:'#546e7a'},{k:'\u041F\u0440\u0438 \u043A\u043D\u0430\u0442',c:'s-p04',fc:'#283593'},
-  {k:'\u041D\u043C\u0454 \u0432\u0434\u043E\u0456\u0456',c:'s-p05',fc:'#6a1b9a'},{k:'\u0404 \u0456\u0442\u0440\u0441',c:'s-p06',fc:'#f57f17'},
+  {k:'\u041D\u0435\u043C\u0430\u0454 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0456',c:'s-p05',fc:'#6a1b9a'},{k:'\u0404 \u0456\u043D\u0442\u0435\u0440\u0435\u0441',c:'s-p06',fc:'#f57f17'},
   {k:'\u0412\u044F\u043B\u043D\u044F \u043F\u0442\u043D\u0456\u043B',c:'s-p07',fc:'#e65100'},{k:'\u041D\u0434\u0441\u0430\u043E \u043F\u0430\u0441',c:'s-p08',fc:'#4527a0'},
   {k:'\u041D\u0434\u0441\u0430\u043E \u043A\u0442\u043B\u0433',c:'s-p09',fc:'#1a237e'},{k:'\u041D\u0434\u0441\u0430\u043E \u041A',c:'s-p10',fc:'#5c35cc'},
   {k:'\u041F\u0440\u0433\u0432\u0440',c:'s-p11',fc:'#558b2f'},{k:'\u0423\u0433\u0434\u0435\u043D \u0443\u043E',c:'s-p12',fc:'#2e7d32'},
@@ -1172,13 +1172,13 @@ function renderPipeline(){
   const crits=allPipe.filter(d=>calcDeal(d).ctrlCls==='ctrl-crit').length;
   const risks=allPipe.filter(d=>calcDeal(d).ctrlCls==='ctrl-risk').length;
   document.getElementById('pipe-stats').innerHTML=`
-    <div class="stat-chip">\u0412\u044C\u0433: <strong>${allPipe.length}</strong></div>
+    <div class="stat-chip">\u0412\u0441\u044C\u043E\u0433\u043E: <strong>${allPipe.length}</strong></div>
     <div class="stat-chip">\u2705 Won: <strong style="color:#2e7d32">${won}</strong></div>
-    <div class="stat-chip">\uD83D\uDD34 \u041A\u0438\u0438\u043D\u0445: <strong style="color:#b71c1c">${crits}</strong></div>
-    <div class="stat-chip">\uD83D\uDFE1 \u0420\u0437\u043A: <strong style="color:#e65100">${risks}</strong></div>
-    <div class="stat-chip">\u041F\u043A\u0437\u043D: <strong>${rows.length}</strong></div>`;
+    <div class="stat-chip">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445: <strong style="color:#b71c1c">${crits}</strong></div>
+    <div class="stat-chip">\uD83D\uDFE1 \u0420\u0438\u0437\u0438\u043A: <strong style="color:#e65100">${risks}</strong></div>
+    <div class="stat-chip">\u041F\u043E\u043A\u0430\u0437\u0430\u043D\u043E: <strong>${rows.length}</strong></div>`;
   const tbody=document.getElementById('pipe-body');
-  if(!rows.length){tbody.innerHTML=`<tr><td colspan="25"><div class="empty"><div class="empty-icon">\uD83D\uDCCB</div>\u041D\u043C\u0454 \u0437\u043F\u0441\u0432. \u0414\u0434\u0439\u0435 \u043F\u0440\u043E\u043E \u043A\u0456\u043D\u0430!</div></td></tr>`;return;}
+  if(!rows.length){tbody.innerHTML=`<tr><td colspan="25"><div class="empty"><div class="empty-icon">\uD83D\uDCCB</div>\u041D\u0435\u043C\u0430\u0454 \u0437\u0430\u043F\u0438\u0441\u0456\u0432. \u0414\u043E\u0434\u0430\u0439\u0442\u0435 \u043F\u0435\u0440\u0448\u043E\u0433\u043E \u043A\u043B\u0456\u0454\u043D\u0442\u0430!</div></td></tr>`;return;}
   tbody.innerHTML=rows.map((d,i)=>{
     const{overdue,noStep,daysInact,ctrl,ctrlCls}=calcDeal(d);
     const isToday=d.stepdate&&d.stepdate===todayStr();
@@ -1210,7 +1210,7 @@ function renderPipeline(){
       <td style="color:#888;font-size:11px;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.comment)}">${esc(d.comment)}</td>
       <td style="max-width:130px;font-size:10px;line-height:1.6">${renderCatBadges(d)}</td>
       <td style="color:#b71c1c;font-weight:700;font-size:11px">${overdue?'\u041F\u0422\u0415':''}</td>
-      <td style="color:#b71c1c;font-weight:700;font-size:11px">${noStep?'\u0411 \u041A\u0423!':''}</td>
+      <td style="color:#b71c1c;font-weight:700;font-size:11px">${noStep?'\u0411\u0435\u0437 \u043A\u0440\u043E\u043A\u0443':''}</td>
       <td style="text-align:center;font-weight:600">${daysInact!==null?daysInact:''}</td>
       <td class="${ctrlCls}">${ctrl}</td>
       <td class="col-actions" style="white-space:nowrap">
@@ -1424,7 +1424,7 @@ function renderActivity(){
   const actAddBtn=document.querySelector('#tab-activity .toolbar .btn-primary');
   if(actAddBtn) actAddBtn.style.display=(role==='manager'&&!perms.activity)?'none':'';
   const tbody=document.getElementById('act-body');
-  if(!acts.length){tbody.innerHTML=`<tr><td colspan="14"><div class="empty"><div class="empty-icon">\uD83D\uDCCA</div>\u041D\u043C\u0454 \u0437\u043F\u0441\u0432. \u0414\u0434\u0439\u0435 \u043F\u0440\u0443 \u0434\u044E!</div></td></tr>`;return;}
+  if(!acts.length){tbody.innerHTML=`<tr><td colspan="14"><div class="empty"><div class="empty-icon">\uD83D\uDCCA</div>\u041D\u0435\u043C\u0430\u0454 \u0437\u0430\u043F\u0438\u0441\u0456\u0432. \u0414\u043E\u0434\u0430\u0439\u0442\u0435 \u043F\u0435\u0440\u0448\u0443 \u0434\u0456\u044E!</div></td></tr>`;return;}
   tbody.innerHTML=acts.map(a=>`<tr>
     <td style="font-weight:600;white-space:nowrap">${fmtDate(a.date)}</td>
     <td style="text-align:center">${a.newc}</td><td style="text-align:center">${a.calls}</td>
@@ -1540,7 +1540,7 @@ function renderDashboard(){
     <div class="kpi-card" style="border-top-color:#2e7d32"><div class="kpi-value" style="color:#2e7d32">${won}</div><div class="kpi-label">\u2705 \u0410\u0442\u0432\u0438 \u0434\u043B\u0440\u0432</div></div>
     <div class="kpi-card" style="border-top-color:#00838F"><div class="kpi-value" style="color:#00838F">${conv}%</div><div class="kpi-label">\u041A\u0435\u044F</div></div>
     <div class="kpi-card" style="border-top-color:#7B1FA2"><div class="kpi-value" style="color:#7B1FA2">${active}</div><div class="kpi-label">\u0410\u0432 \u0443</div></div>
-    <div class="kpi-card" style="border-top-color:#b71c1c"><div class="kpi-value" style="color:#b71c1c">${crits}</div><div class="kpi-label">\uD83D\uDD34 \u041A\u0438\u0438\u043D\u0445</div></div>
+    <div class="kpi-card" style="border-top-color:#b71c1c"><div class="kpi-value" style="color:#b71c1c">${crits}</div><div class="kpi-label">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445</div></div>
     <div class="kpi-card" style="border-top-color:#e65100"><div class="kpi-value" style="color:#e65100">${risks}</div><div class="kpi-label">\uD83D\uDFE1 \u0420\u043A</div></div>
   </div>
   <div class="grid2">
@@ -1563,7 +1563,7 @@ function renderDashboard(){
     <div class="card">
       <div class="card-title">\uD83D\uDEA8 \u041A\u043D\u0440\u043B</div>
       <div class="alert-box">
-        <div class="alert-item ${crits>0?'al-red':'al-green'}"><span>\uD83D\uDD34 \u041A\u0438\u0438\u043D\u0445 (\u043F\u043E\u0442\u043E\u0435\u043E/\u0431\u0437 \u043A\u043E\u0443)</span><strong>${crits}</strong></div>
+        <div class="alert-item ${crits>0?'al-red':'al-green'}"><span>\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445 (\u043F\u0440\u043E\u0441\u0442\u0440\u043E\u0447\u0435\u043D\u0456/\u0431\u0435\u0437 \u043A\u0440\u043E\u043A\u0443)</span><strong>${crits}</strong></div>
         <div class="alert-item ${overdues>0?'al-red':'al-green'}"><span>\u23F0 \u041F\u043E\u0442\u043E\u0435\u0456 \u043A\u043E\u0438</span><strong>${overdues}</strong></div>
         <div class="alert-item ${noSteps>0?'al-orange':'al-green'}"><span>\uD83D\uDEA8 \u0411\u0437 \u043D\u0441\u0443\u043D\u0433 \u043A\u043E\u0443</span><strong>${noSteps}</strong></div>
         <div class="alert-item ${risks>0?'al-orange':'al-green'}"><span>\uD83D\uDFE1 \u0411\u0437 \u0430\u0442\u0432\u043E\u0442 3+ \u0434\u0456</span><strong>${risks}</strong></div>
@@ -1571,7 +1571,7 @@ function renderDashboard(){
         <div class="alert-item al-blue"><span>\u274C Lost</span><strong>${lost}</strong></div>
       </div>
       <div style="margin-top:18px"><div class="section-title">\uD83D\uDCC5 KPI \u0437 7 \u0434</div>
-        ${_acts.length===0?`<div style="color:#bbb;text-align:center;padding:14px;font-size:13px">\u0414\u0434\u0439\u0435 \u0434\u043D \u0432 Activity Log</div>`:`
+        ${_acts.length===0?`<div style="color:#bbb;text-align:center;padding:14px;font-size:13px">\u0414\u043E\u0434\u0430\u0439\u0442\u0435 \u0434\u0430\u043D\u0456 \u0432 Activity Log</div>`:`
         <div class="alert-box">
           <div class="alert-item ${wNew>=70?'al-green':wNew>=50?'al-orange':'al-red'}"><span>\uD83C\uDD95 \u041D\u0432\u0445 \u043A\u0456\u043D\u0456 (\u0446\u043B 70+)</span><strong>${wNew}</strong></div>
           <div class="alert-item ${wDial>=35?'al-green':wDial>=25?'al-orange':'al-red'}"><span>\uD83D\uDCAC \u0414\u0430\u043E\u0456 (\u0446\u043B 35+)</span><strong>${wDial}</strong></div>
@@ -1633,7 +1633,7 @@ function renderMgrStatsTable(){
     <table class="mgr-stats-table">
       <thead><tr>
         <th>\u041C\u043D\u0434\u0435</th><th>\u041A\u0456\u043D\u0438</th><th>\u0410\u0442\u0432\u0438</th><th>\uD83D\uDD25 Warm+</th>
-        <th>\u2705 Won</th><th>\u274C Lost</th><th>\uD83D\uDD34 \u041A\u0438\u0438\u043D\u0445</th>
+        <th>\u2705 Won</th><th>\u274C Lost</th><th>\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445</th>
         <th>\uD83D\uDCDE \u0414\u043D (7\u0434)</th><th>\uD83E\uDD1D \u0417\u0440 (7\u0434)</th><th>\u041E\u043D \u0430\u0432\u0442</th>
       </tr></thead>
       <tbody>${rows.map(r=>`<tr>
@@ -1756,7 +1756,7 @@ function renderMgrList(){
   const managers=getManagers();
   const el=document.getElementById('mgr-list');
   if(!managers.length){
-    el.innerHTML=`<div style="color:#aaa;font-size:13px;padding:10px 0">\u041C\u043D\u0434\u0435\u0438 \u043F\u043A \u043D\u043C\u0454. \u0414\u0434\u0439\u0435 \u043F\u0440\u043E\u043E \u043D\u0436\u0435.</div>`;
+    el.innerHTML=`<div style="color:#aaa;font-size:13px;padding:10px 0">\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0438 \u043F\u043E\u043A\u0438 \u043D\u0435\u043C\u0430\u0454. \u0414\u043E\u0434\u0430\u0439\u0442\u0435 \u043F\u0435\u0440\u0448\u043E\u0433\u043E \u043D\u0438\u0436\u0447\u0435.</div>`;
     return;
   }
   el.innerHTML=`<div class="section-title">\u0410\u043A\u0442\u0438\u0432\u043D\u0456 \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0438 (${managers.length})</div>`+
