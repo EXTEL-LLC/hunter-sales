@@ -1406,7 +1406,7 @@ function renderContactLog(log){
 }
 
 function delDeal(id){
-  if(!confirm('\u0412\u043B \u0446 \u0437\u0441?'))return;
+  if(!confirm('\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438 \u0446\u0435\u0439 \u0437\u0430\u043F\u0438\u0441?'))return;
   deals=deals.filter(x=>x.id!==id);saveDeals();renderPipeline();scheduleAutoSync();
 }
 
@@ -1458,7 +1458,7 @@ function openActivity(id){
 
 function saveActivity(){
   const date=document.getElementById('a-date').value;
-  if(!date){alert('\u0412\u0456 \u0434!');return;}
+  if(!date){alert('\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0434\u0430\u0442\u0443!');return;}
   const calls=+document.getElementById('a-calls').value||0;
   const msg=+document.getElementById('a-msg').value||0;
   const di=+document.getElementById('a-dialogs').value||0;
@@ -1475,10 +1475,10 @@ function saveActivity(){
   if(editActId){const i=acts.findIndex(x=>x.id===editActId);acts[i]=act;}
   else acts.push(act);
   acts.sort((a,b)=>b.date.localeCompare(a.date));
-  saveActs();closeModal('actModal');renderActivity();
+  saveActs();closeModal('actModal');renderActivity();scheduleAutoSync();
 }
 
-function delAct(id){if(!confirm('\u0412\u043B?'))return;acts=acts.filter(x=>x.id!==id);saveActs();renderActivity();}
+function delAct(id){if(!confirm('\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438?'))return;acts=acts.filter(x=>x.id!==id);saveActs();renderActivity();scheduleAutoSync();}
 
 // ============================================================
 // DASHBOARD
@@ -1967,11 +1967,12 @@ async function _gistPatch(files){
 
 async function _autoMgrPush(){
   if(!currentMgrId)return;
+  if(!_gistToken()){_showSyncBadge('\u2601 \u043D\u0435\u043C\u0430 \u0442\u043E\u043A\u0435\u043D\u0430','#e65100');return;}
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    _showSyncBadge('\u2601');
-  }catch(e){_showSyncBadge('\u2601');}
+    _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E','#81c784');
+  }catch(e){_showSyncBadge('\u2601 \u043F\u043E\u043C\u0438\u043B\u043A\u0430','#ef9a9a');}
 }
 
 function scheduleAutoSync(){
@@ -2021,19 +2022,20 @@ async function autoCloudPull(){
 }
 
 let _syncBadgeTimer=null;
-function _showSyncBadge(text){
+function _showSyncBadge(text,color){
   let el=document.getElementById('sync-badge');
   if(!el){
     el=document.createElement('span');
     el.id='sync-badge';
-    el.style.cssText='font-size:11px;color:rgba(255,255,255,.75);margin-right:6px;transition:opacity .3s';
+    el.style.cssText='font-size:11px;margin-right:8px;transition:opacity .5s;font-weight:500;padding:2px 7px;border-radius:10px;background:rgba(0,0,0,.25)';
     const nr=document.querySelector('.nav-right');
     if(nr)nr.prepend(el);
   }
   el.textContent=text;
+  el.style.color=color||'rgba(255,255,255,.9)';
   el.style.opacity='1';
   clearTimeout(_syncBadgeTimer);
-  _syncBadgeTimer=setTimeout(()=>{el.style.opacity='0';},3000);
+  _syncBadgeTimer=setTimeout(()=>{el.style.opacity='0';},4000);
 }
 
 // ============================================================
