@@ -912,8 +912,6 @@ async function showLoginForm(role){
       if(r.ok&&j.files&&j.files['hsm_managers.json']){
         const rec=JSON.parse(j.files['hsm_managers.json'].content||'{}');
         if(rec.managers)localStorage.setItem('hsm_managers',JSON.stringify(rec.managers));
-        // Auto-save write token so manager can push without manual entry
-        if(j.files['hsm_config.json']&&!_gistToken()){const cfg=JSON.parse(j.files['hsm_config.json'].content||'{}');if(cfg.writeToken)localStorage.setItem('hsm_gist_token',cfg.writeToken);}
       }
     }catch(e){}
     document.getElementById('loginSubtitle').textContent='\uD83D\uDC77 \u041F\u0440\u043B \u043C\u043D\u0434\u0435\u0430';
@@ -1831,10 +1829,10 @@ function loadCloudSettings(){
 
 function saveGistToken(){
   const tok=document.getElementById('s-gist-token').value.trim();
-  if(!tok){showStatus(document.getElementById('cloud-status'),'\u274C \u0412\u0456 \u0442\u043D','err');return;}
+  if(!tok){showStatus(document.getElementById('cloud-status'),'\u274C \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D','err');return;}
   localStorage.setItem('hsm_gist_token',tok);
   document.getElementById('s-gist-token').value='';
-  showStatus(document.getElementById('cloud-status'),'\u2705 \u0422\u043D \u0437\u0435\u043E \u043B\u043B','ok');
+  showStatus(document.getElementById('cloud-status'),'\u2705 \u0422\u043E\u043A\u0435\u043D \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E','ok');
 }
 function saveMgrToken(){
   const tok=document.getElementById('mgr-token-input').value.trim();
@@ -1842,14 +1840,14 @@ function saveMgrToken(){
   localStorage.setItem('hsm_gist_token',tok);
   document.getElementById('mgr-token-input').value='';
   document.getElementById('mgr-token-wrap').style.display='none';
-  document.getElementById('mgr-cloud-status').textContent='\u2705 \u0422\u043D \u0437\u0435\u043E';
+  document.getElementById('mgr-cloud-status').textContent='\u2705 \u0422\u043E\u043A\u0435\u043D \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E';
   document.getElementById('mgr-cloud-status').style.color='#2e7d32';
 }
 function saveCloudSettings(){}
 function getCloudCfg(){return{apiKey:'',binId:''};}
 function loadCloudSettings(){
   const tok=localStorage.getItem('hsm_gist_token');
-  if(tok)document.getElementById('s-gist-token').placeholder='\u25CF\u25CF\u25CF (\u0437\u0435\u043E)';
+  if(tok)document.getElementById('s-gist-token').placeholder='\u25CF\u25CF\u25CF (\u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E)';
 }
 
 // Collect ALL data: admin + every manager
@@ -1909,8 +1907,6 @@ async function cloudPush(){
   try{
     const files={};
     files['hsm_managers.json']={content:JSON.stringify({version:3,savedAt:new Date().toISOString(),managers:getManagers(),adminDeals:JSON.parse(localStorage.getItem('hsm_deals')||'[]'),adminActs:JSON.parse(localStorage.getItem('hsm_acts')||'[]')})};
-    // Save write token so managers can push without entering token manually
-    const wt=_gistToken();if(wt)files['hsm_config.json']={content:JSON.stringify({writeToken:wt,savedAt:new Date().toISOString()})};
     // Admin ONLY pushes own data + managers list.
     // Manager individual files are pushed only by managers themselves (prevents data loss).
     await _gistPatch(files);
@@ -2065,8 +2061,6 @@ async function mgrCloudPull(){
     const rec=JSON.parse(files[fname].content||'{}');
     localStorage.setItem(dealsKey(currentMgrId),JSON.stringify(rec.deals||[]));
     localStorage.setItem(actsKey(currentMgrId),JSON.stringify(rec.acts||[]));
-    // Auto-save write token
-    if(files['hsm_config.json']&&!_gistToken()){const cfg=JSON.parse(files['hsm_config.json'].content||'{}');if(cfg.writeToken)localStorage.setItem('hsm_gist_token',cfg.writeToken);}
     loadDataForUser(currentMgrId);renderPipeline();
     el.textContent=`\u2705 \u0417\u0432\u043D\u0430\u0435\u043E! ${(rec.deals||[]).length} \u043A\u0456\u043D\u0456`;el.style.color='#2e7d32';
   }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
