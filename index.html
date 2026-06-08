@@ -1361,8 +1361,8 @@ function _buildContactLog(existingDeal){
 function logContact(){
   const date=document.getElementById('d-contactdate').value;
   const text=document.getElementById('d-result').value.trim();
-  if(!date){alert('\u0412\u0456 \u0434 \u043A\u0430!');return;}
-  if(!text){alert('\u041D\u0448 \u0440\u043B\u0442 \u043A\u0430!');return;}
+  if(!date){alert('\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0434\u0430\u0442\u0443 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0443!');return;}
+  if(!text){alert('\u041D\u0430\u043F\u0438\u0448\u0456\u0442\u044C \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0443!');return;}
   // Save to deal immediately if editing
   if(editDealId){
     const i=deals.findIndex(x=>x.id===editDealId);
@@ -1402,12 +1402,69 @@ function renderContactLog(log){
   if(!wrap||!list)return;
   if(!log||!log.length){wrap.style.display='none';return;}
   wrap.style.display='';
-  cnt.textContent=log.length+' \u0437\u0441'+(log.length===1?'':'\u0456');
+  cnt.textContent=log.length+' \u0437\u0430\u043F\u0438\u0441'+(log.length===1?'':'\u0456\u0432');
   list.innerHTML=log.map((e,idx)=>`
-    <div style="display:flex;gap:10px;padding:6px 8px;background:${idx===0?'#e8f5e9':'#fff'};border-radius:6px;border:1px solid ${idx===0?'#c8e6c9':'#eeeeee'}">
-      <div style="flex-shrink:0;font-size:11px;font-weight:700;color:#1565C0;white-space:nowrap;padding-top:1px">${fmtDate(e.date)}</div>
-      <div style="font-size:12px;color:#37474f;line-height:1.5;white-space:pre-wrap">${esc(e.text)}</div>
+    <div id="clog-row-${idx}" style="display:flex;gap:8px;padding:6px 8px;background:${idx===0?'#e8f5e9':'#fff'};border-radius:6px;border:1px solid ${idx===0?'#c8e6c9':'#eeeeee'};align-items:flex-start">
+      <div style="flex-shrink:0;font-size:11px;font-weight:700;color:#1565C0;white-space:nowrap;padding-top:2px">${fmtDate(e.date)}</div>
+      <div id="clog-text-${idx}" style="flex:1;font-size:12px;color:#37474f;line-height:1.5;white-space:pre-wrap">${esc(e.text)}</div>
+      <div style="display:flex;gap:4px;flex-shrink:0">
+        <button type="button" onclick="editLogEntry(${idx})" style="background:none;border:none;cursor:pointer;font-size:13px;padding:0 2px;opacity:.5" title="\u0420\u0435\u0434\u0430\u0433\u0443\u0432\u0430\u0442\u0438">\u270F\uFE0F</button>
+        <button type="button" onclick="deleteLogEntry(${idx})" style="background:none;border:none;cursor:pointer;font-size:13px;padding:0 2px;opacity:.5" title="\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438">\uD83D\uDDD1</button>
+      </div>
     </div>`).join('');
+}
+
+function _getCurrentLog(){
+  if(editDealId){const i=deals.findIndex(x=>x.id===editDealId);if(i>=0)return(deals[i].contactLog||[]).slice();}
+  return(window._tmpContactLog||[]).slice();
+}
+function _saveCurrentLog(log){
+  if(editDealId){const i=deals.findIndex(x=>x.id===editDealId);if(i>=0){deals[i].contactLog=log;saveDeals();scheduleAutoSync();}}
+  else window._tmpContactLog=log;
+}
+
+function editLogEntry(idx){
+  const log=_getCurrentLog();
+  const e=log[idx];if(!e)return;
+  const row=document.getElementById('clog-row-'+idx);
+  const textEl=document.getElementById('clog-text-'+idx);
+  // Replace text div with textarea
+  textEl.style.display='none';
+  const ta=document.createElement('textarea');
+  ta.id='clog-edit-ta-'+idx;
+  ta.value=e.text;
+  ta.style.cssText='flex:1;font-size:12px;color:#37474f;line-height:1.5;width:100%;border:1px solid #90caf9;border-radius:4px;padding:4px 6px;resize:vertical;min-height:48px;font-family:inherit';
+  const btnWrap=document.createElement('div');
+  btnWrap.style.cssText='display:flex;gap:4px;margin-top:4px';
+  btnWrap.innerHTML=`<button type="button" onclick="saveLogEntry(${idx})" style="font-size:11px;background:#1565C0;color:#fff;border:none;border-radius:4px;padding:3px 10px;cursor:pointer">\u0417\u0431\u0435\u0440\u0435\u0433\u0442\u0438</button>`+
+    `<button type="button" onclick="cancelLogEdit(${idx})" style="font-size:11px;background:#eee;border:none;border-radius:4px;padding:3px 10px;cursor:pointer">\u0421\u043A\u0430\u0441\u0443\u0432\u0430\u0442\u0438</button>`;
+  const wrapper=document.createElement('div');
+  wrapper.id='clog-edit-wrap-'+idx;
+  wrapper.style.flex='1';
+  wrapper.appendChild(ta);wrapper.appendChild(btnWrap);
+  row.insertBefore(wrapper,row.querySelector('div:last-child'));
+  ta.focus();ta.selectionStart=ta.value.length;
+}
+function saveLogEntry(idx){
+  const ta=document.getElementById('clog-edit-ta-'+idx);
+  if(!ta)return;
+  const newText=ta.value.trim();
+  if(!newText)return;
+  const log=_getCurrentLog();
+  log[idx]={...log[idx],text:newText,editedAt:new Date().toISOString()};
+  _saveCurrentLog(log);
+  renderContactLog(log);
+}
+function cancelLogEdit(idx){
+  const log=_getCurrentLog();
+  renderContactLog(log);
+}
+function deleteLogEntry(idx){
+  if(!confirm('\u0412\u0438\u0434\u0430\u043B\u0438\u0442\u0438 \u0446\u0435\u0439 \u0437\u0430\u043F\u0438\u0441 \u0437 \u0445\u0440\u043E\u043D\u043E\u043B\u043E\u0433\u0456\u0457?'))return;
+  const log=_getCurrentLog();
+  log.splice(idx,1);
+  _saveCurrentLog(log);
+  renderContactLog(log);
 }
 
 function delDeal(id){
