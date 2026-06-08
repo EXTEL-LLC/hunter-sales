@@ -963,7 +963,12 @@ function showApp(role){
   applyRole(role);
   initCatFilter();
   renderPipeline();
-  autoCloudPull();
+  if(role==='manager'){
+    // On login: immediately push local data to cloud (backup before anything else)
+    setTimeout(()=>_autoMgrPush(),1500);
+  } else {
+    autoCloudPull();
+  }
   startAutoPull();
 }
 
@@ -1917,7 +1922,8 @@ async function cloudPush(){
 
 async function cloudPull(){
   const el=document.getElementById('cloud-status');
-  if(!confirm('\u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u0430\u043D\u0456 \u0437 \u0445\u043C\u0430\u0440\u0438?\n\u041B\u043E\u043A\u0430\u043B\u044C\u043D\u0456 \u0434\u0430\u043D\u0456 \u0431\u0443\u0434\u0443\u0442\u044C \u0437\u0430\u043C\u0456\u043D\u0435\u043D\u0456!'))return;
+  const _localCount=JSON.parse(localStorage.getItem('hsm_deals')||'[]').length;
+  if(!confirm(`\u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u0430\u043D\u0456 \u0437 \u0445\u043C\u0430\u0440\u0438?\n\u041B\u043E\u043A\u0430\u043B\u044C\u043D\u0456 \u0434\u0430\u043D\u0456 (${_localCount} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432 \u0430\u0434\u043C\u0456\u043D\u0430) \u0431\u0443\u0434\u0443\u0442\u044C \u0437\u0430\u043C\u0456\u043D\u0435\u043D\u0456!`))return;
   showStatus(el,'\u23F3 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0443\u0454\u043C\u043E \u0437 \u0445\u043C\u0430\u0440\u0438...','loading');
   try{
     const files=await _gistRead();
@@ -2055,27 +2061,38 @@ function toggleMgrCloud(){
 
 async function mgrCloudPull(){
   const el=document.getElementById('mgr-cloud-status');
-  el.textContent='\u23F3 \u0417\u0432\u043D\u0430\u0435\u043D...';el.style.color='#1565C0';
+  // Safety: auto-export local backup before overwriting
+  const localDeals=JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]');
+  if(localDeals.length>0){
+    const backup={mgrId:currentMgrId,deals:localDeals,acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),backupAt:new Date().toISOString()};
+    const blob=new Blob([JSON.stringify(backup)],{type:'application/json'});
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download='backup_before_restore_'+new Date().toISOString().slice(0,10)+'.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  el.textContent='\u23F3 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
   try{
     const files=await _gistRead();
     const fname='hsm_mgr_'+currentMgrId+'.json';
-    if(!files[fname]){el.textContent='\u26A0 \u0421\u043E\u0430\u043A \u0437\u0435\u0435\u0456\u044C \u0432 \u0445\u0430\u0456';el.style.color='#e65100';return;}
+    if(!files[fname]){el.textContent='\u26A0 \u0421\u043F\u043E\u0447\u0430\u0442\u043A\u0443 \u0437\u0431\u0435\u0440\u0435\u0436\u0456\u0442\u044C \u0432 \u0445\u043C\u0430\u0440\u0456';el.style.color='#e65100';return;}
     const rec=JSON.parse(files[fname].content||'{}');
     localStorage.setItem(dealsKey(currentMgrId),JSON.stringify(rec.deals||[]));
     localStorage.setItem(actsKey(currentMgrId),JSON.stringify(rec.acts||[]));
     loadDataForUser(currentMgrId);renderPipeline();
-    el.textContent=`\u2705 \u0417\u0432\u043D\u0430\u0435\u043E! ${(rec.deals||[]).length} \u043A\u0456\u043D\u0456`;el.style.color='#2e7d32';
+    el.textContent=`\u2705 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043E! ${(rec.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
   }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
 }
 
 async function mgrCloudPush(){
   const el=document.getElementById('mgr-cloud-status');
-  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0435\u0456\u044C \u0442\u043A\u043D \u0432\u0449';el.style.color='#e65100';return;}
-  el.textContent='\u23F3 \u0417\u0435\u0435\u0435\u043D...';el.style.color='#1565C0';
+  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D \u0432\u0438\u0449\u0435';el.style.color='#e65100';return;}
+  el.textContent='\u23F3 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    el.textContent=`\u2705 \u0417\u0435\u0435\u0435\u043E! ${(payload.deals||[]).length} \u043A\u0456\u043D\u0456`;el.style.color='#2e7d32';
+    el.textContent=`\u2705 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E! ${(payload.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
   }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
 }
 
@@ -2086,7 +2103,7 @@ function generateShareCode(){
   const payload=Object.assign({v:3,ts:Date.now()},getAllData());
   const code=btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
   document.getElementById('shareCodeOut').value=code;
-  showStatus(document.getElementById('share-status'),'\u2705 \u041A\u0434 \u0437\u0435\u0435\u043E\u0430\u043E! \u041D\u0442\u0441\u0456\u044C \u043D \u0442\u043A\u0442\u0432 \u043F\u043B \u0449\u0431 \u0441\u043E\u0456\u0432\u0442','ok');
+  showStatus(document.getElementById('share-status'),'\u2705 \u041A\u043E\u0434 \u0437\u0433\u0435\u043D\u0435\u0440\u043E\u0432\u0430\u043D\u043E! \u041D\u0430\u0442\u0438\u0441\u043D\u0456\u0442\u044C \u0449\u043E\u0431 \u0441\u043A\u043E\u043F\u0456\u044E\u0432\u0430\u0442\u0438','ok');
 }
 
 function copyShareCode(){
