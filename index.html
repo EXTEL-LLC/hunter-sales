@@ -878,15 +878,15 @@ async function sha256(s){
 async function initAuth(){
   const stored=localStorage.getItem('hsm_pass');
   if(!stored){
-    document.getElementById('loginSubtitle').textContent='\u0412\u0448? \u0417\u0439 \u0441 \u043F\u043B';
-    document.getElementById('loginHint').textContent='\u0412\u0456 \u0431-\u044F \u043F\u043B \u2014 \u0432 \u0441\u0435 \u0432\u043C';
+    document.getElementById('loginSubtitle').textContent='\u0412\u043F\u0435\u0440\u0448\u0435? \u0417\u0430\u0439\u0434\u0438 \u044F\u043A \u0430\u0434\u043C\u0456\u043D';
+    document.getElementById('loginHint').textContent='\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0431\u0443\u0434\u044C-\u044F\u043A\u0438\u0439 \u043F\u0430\u0440\u043E\u043B\u044C \u2014 \u0432\u0456\u043D \u0441\u0442\u0430\u043D\u0435 \u0432\u0430\u0448\u0438\u043C';
     document.getElementById('loginScreen').style.display='flex';
     document.getElementById('appMain').style.display='none';
   } else {
-    const sess=sessionStorage.getItem('hsm_session');
+    const sess=localStorage.getItem('hsm_session');
     if(sess==='admin'||sess==='manager'){showApp(sess);}
     else{
-      document.getElementById('loginSubtitle').textContent='\u0412\u0456 \u043F\u043B \u0434 \u0434\u0443';
+      document.getElementById('loginSubtitle').textContent='\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C \u0434\u043B\u044F \u0434\u043E\u0441\u0442\u0443\u043F\u0443';
       document.getElementById('loginHint').textContent='';
       document.getElementById('loginScreen').style.display='flex';
       document.getElementById('appMain').style.display='none';
@@ -928,9 +928,9 @@ async function doLogin(){
     const managers=getManagers();
     const matched=managers.find(m=>m.passHash===h);
     if(matched){
-      sessionStorage.setItem('hsm_session','manager');
-      sessionStorage.setItem('hsm_mgr_id',matched.id);
-      sessionStorage.setItem('hsm_mgr_name',matched.name);
+      localStorage.setItem('hsm_session','manager');
+      localStorage.setItem('hsm_mgr_id',matched.id);
+      localStorage.setItem('hsm_mgr_name',matched.name);
       showApp('manager');return;
     }
     document.getElementById('loginErr').textContent='\u274C \u041D\u0432\u0440\u0438 \u043F\u0440\u043B \u043C\u043D\u0434\u0435\u0430';
@@ -942,12 +942,12 @@ async function doLogin(){
   if(!stored){
     if(pass.length<3){document.getElementById('loginErr').textContent='\u041F\u0440\u043B \u043C\u043D\u043C\u043C 3 \u0441\u043C\u043E\u0438';return;}
     localStorage.setItem('hsm_pass',h);
-    sessionStorage.setItem('hsm_session','admin');
+    localStorage.setItem('hsm_session','admin');
     showApp('admin');return;
   }
   if(h===stored){
-    sessionStorage.setItem('hsm_session','admin');
-    sessionStorage.removeItem('hsm_mgr_id');
+    localStorage.setItem('hsm_session','admin');
+    localStorage.removeItem('hsm_mgr_id');
     showApp('admin');return;
   }
   document.getElementById('loginErr').textContent='\u274C \u041D\u0432\u0440\u0438 \u043F\u0440\u043B';
@@ -956,7 +956,7 @@ async function doLogin(){
 }
 
 function showApp(role){
-  role=role||sessionStorage.getItem('hsm_session')||'admin';
+  role=role||localStorage.getItem('hsm_session')||'admin';
   document.getElementById('loginScreen').style.display='none';
   document.getElementById('appMain').style.display='block';
   document.getElementById('nav-date').textContent=new Date().toLocaleDateString('uk-UA',{weekday:'short',day:'numeric',month:'long'});
@@ -974,8 +974,8 @@ function showApp(role){
 
 function applyRole(role){
   const body=document.body;
-  currentMgrId = role==='manager' ? sessionStorage.getItem('hsm_mgr_id') : null;
-  const mgrName = sessionStorage.getItem('hsm_mgr_name')||'';
+  currentMgrId = role==='manager' ? localStorage.getItem('hsm_mgr_id') : null;
+  const mgrName = localStorage.getItem('hsm_mgr_name')||'';
 
   // Load correct data for this user
   loadDataForUser(currentMgrId);
@@ -1007,13 +1007,13 @@ function applyRole(role){
   }
 }
 
-function getRole(){return sessionStorage.getItem('hsm_session')||'admin';}
+function getRole(){return localStorage.getItem('hsm_session')||'admin';}
 
 function doLogout(){
-  sessionStorage.removeItem('hsm_session');
+  localStorage.removeItem('hsm_session');localStorage.removeItem('hsm_mgr_id');localStorage.removeItem('hsm_mgr_name');
   document.getElementById('loginPass').value='';
   document.getElementById('loginErr').textContent='';
-  document.getElementById('loginSubtitle').textContent='\u0412\u0456 \u043F\u043B \u0434 \u0434\u0443';
+  document.getElementById('loginSubtitle').textContent='\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C \u0434\u043B\u044F \u0434\u043E\u0441\u0442\u0443\u043F\u0443';
   document.getElementById('loginHint').textContent='';
   document.getElementById('loginScreen').style.display='flex';
   document.getElementById('appMain').style.display='none';
@@ -1058,7 +1058,7 @@ function showTab(name,el){
 function getPipelineDeals(){
   // Admin: can see everyone; manager: only own
   const role=getRole();
-  if(role!=='admin') return deals.map(d=>({...d,_owner:sessionStorage.getItem('hsm_mgr_name')||'\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440',_ownerId:currentMgrId}));
+  if(role!=='admin') return deals.map(d=>({...d,_owner:localStorage.getItem('hsm_mgr_name')||'\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440',_ownerId:currentMgrId}));
   const fMgr=document.getElementById('fMgr')?.value||'';
   const allMgrs=getManagers();
   const adminDeals=JSON.parse(localStorage.getItem('hsm_deals')||'[]').map(d=>({...migrateDeal(d),_owner:'\u0410\u043D',_ownerId:'__admin__'}));
@@ -1302,7 +1302,7 @@ function saveDeal(){
     company,
     addedBy: isNew
       ? (getRole()==='manager'
-          ? {id:currentMgrId, name:sessionStorage.getItem('hsm_mgr_name')||'\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440'}
+          ? {id:currentMgrId, name:localStorage.getItem('hsm_mgr_name')||'\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440'}
           : {id:'__admin__', name:'\u0410\u043D'})
       : (existingDeal?.addedBy||{id:'__admin__',name:'\u0410\u043D'}),
     contact:document.getElementById('d-contact').value.trim(),
