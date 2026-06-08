@@ -964,8 +964,8 @@ function showApp(role){
   initCatFilter();
   renderPipeline();
   if(role==='manager'){
-    // On login: immediately push local data to cloud (backup before anything else)
-    setTimeout(()=>_autoMgrPush(),1500);
+    // On login: push local data to cloud immediately
+    _autoMgrPush();
   } else {
     autoCloudPull();
   }
@@ -1973,21 +1973,41 @@ async function _gistPatch(files){
 
 async function _autoMgrPush(){
   if(!currentMgrId)return;
-  if(!_gistToken()){_showSyncBadge('\u2601 \u043D\u0435\u043C\u0430 \u0442\u043E\u043A\u0435\u043D\u0430','#e65100');return;}
+  if(!_gistToken()){_showSyncBadge('\u2601 \u043D\u0435\u043C\u0430 \u0442\u043E\u043A\u0435\u043D\u0430 \u2014 \u0434\u0430\u043D\u0456 \u0442\u0456\u043B\u044C\u043A\u0438 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E','#e65100');return;}
+  _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...','rgba(255,255,255,.7)');
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E','#81c784');
-  }catch(e){_showSyncBadge('\u2601 \u043F\u043E\u043C\u0438\u043B\u043A\u0430','#ef9a9a');}
+    _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E \u0432 \u0445\u043C\u0430\u0440\u0456 \u2713','#81c784');
+  }catch(e){
+    _showSyncBadge('\u2601 \u043F\u043E\u043C\u0438\u043B\u043A\u0430 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F!','#ef9a9a');
+    // Retry once after 3 seconds
+    setTimeout(()=>_autoMgrPush(),3000);
+  }
 }
 
-function scheduleAutoSync(){
-  clearTimeout(_autoSyncTimer);
-  _autoSyncTimer=setTimeout(async()=>{
-    if(getRole()==='admin')await autoCloudPush();
-    else if(getRole()==='manager')await _autoMgrPush();
-  },2000);
+// Immediate push \u2014 every save goes to Gist right away, no delay
+let _pendingSync=false;
+async function scheduleAutoSync(){
+  if(_pendingSync)return; // already pushing, queue it
+  _pendingSync=true;
+  try{
+    if(getRole()==='admin') await autoCloudPush();
+    else if(getRole()==='manager') await _autoMgrPush();
+  }finally{
+    _pendingSync=false;
+  }
 }
+// Save to cloud when closing/refreshing the page
+window.addEventListener('beforeunload', function(e){
+  if(getRole()==='manager'&&currentMgrId&&_gistToken()){
+    const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
+    // Use sendBeacon for reliable delivery even on page close
+    const blob=new Blob([JSON.stringify({files:{['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}}})],{type:'application/json'});
+    navigator.sendBeacon('https://api.github.com/gists/'+_gistId(),blob);
+  }
+});
+
 function startAutoPull(){
   if(_autoPullInterval)return;
   _autoPullInterval=setInterval(async()=>{
