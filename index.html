@@ -1148,7 +1148,7 @@ function renderPipeline(){
   const perms=window._mgrPerms||{add:true,edit:true,export:true};
   const addBtn=document.querySelector('#tab-pipeline .toolbar .btn-primary');
   if(addBtn) addBtn.style.display=(role==='manager'&&!perms.add)?'none':'';
-  const expBtn=document.querySelector('#tab-pipeline .toolbar .btn-ghost');
+  const expBtn=document.getElementById('export-wrap');
   if(expBtn) expBtn.style.display=(role==='manager'&&!perms.export)?'none':'';
   initPipeMgrFilter();
 
@@ -1837,7 +1837,7 @@ function renderMgrList(){
           m.perms.edit?'\u270F \u0420\u0433\u0442':'',
           m.perms.activity?'\uD83D\uDCCA Activity':'',
           m.perms.dashboard?'\uD83D\uDE80 Dashboard':'',
-          m.perms.export?'\u2B07 CSV':''
+          m.perms.export?'\u2B07 \u0415\u043A\u0441\u043F\u043E\u0440\u0442':''
         ].filter(Boolean).join(' \u00B7 ')}</span>
       </div>
       <div style="display:flex;gap:6px">
