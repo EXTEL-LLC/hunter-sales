@@ -2712,7 +2712,7 @@ function initCatFilter(){
   const sel=document.getElementById('fCat');
   if(!sel)return;
   const cur=sel.value;
-  sel.innerHTML=`<option value="">\uD83D\uDCE6 \u0412 \u043A\u0433\u0457</option>`+
+  sel.innerHTML=`<option value="">\uD83D\uDCE6 \u0412\u0441\u0456 \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0456\u0457</option>`+
     CATEGORIES.map(c=>`<option value="${esc(c)}"${cur===c?' selected':''}>${esc(c)}</option>`).join('');
 }
 
