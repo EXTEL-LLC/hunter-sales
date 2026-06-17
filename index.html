@@ -1197,7 +1197,7 @@ function renderPipeline(){
     const em0=esc((d.emails&&d.emails.length?d.emails[0]:d.email)||'');
     const em_extra=d.emails&&d.emails.length>1?` <span style="font-size:10px;color:#1565C0">+${d.emails.length-1}</span>`:'';
     const canEdit=(role!=='manager'||perms.edit);
-    return`<tr class="${rCls}"${canEdit?` onclick="openDeal(${d.id})" style="cursor:pointer"`:''}>
+    return`<tr class="${rCls}"${canEdit?` onclick="openDeal('${d.id}')" style="cursor:pointer"`:''}>
       <td style="text-align:center;color:#bbb;font-size:11px">${i+1}</td>
       <td style="white-space:nowrap">${fmtDate(d.date)}</td>
       <td class="col-company"><strong>${esc(d.company)}</strong></td>
@@ -1223,8 +1223,8 @@ function renderPipeline(){
       <td style="text-align:center;font-weight:600">${daysInact!==null?daysInact:''}</td>
       <td class="${ctrlCls}">${ctrl}</td>
       <td class="col-actions" style="white-space:nowrap" onclick="event.stopPropagation()">
-        ${canEdit?`<button class="btn btn-sm btn-primary" onclick="openDeal(${d.id})">\u270F</button>`:''}
-        <button class="btn btn-sm btn-danger admin-only" onclick="delDeal(${d.id})">\uD83D\uDDD1</button>
+        ${canEdit?`<button class="btn btn-sm btn-primary" onclick="event.stopPropagation();openDeal('${d.id}')">\u270F</button>`:''}
+        <button class="btn btn-sm btn-danger admin-only" onclick="event.stopPropagation();delDeal('${d.id}')">\uD83D\uDDD1</button>
       </td></tr>`;
   }).join('');
 }
@@ -1255,7 +1255,7 @@ function openDeal(id){
       document.getElementById('draft-bar').classList.add('visible');
     }
   } else {
-    const d=deals.find(x=>x.id===id);if(!d)return;
+    const d=deals.find(x=>String(x.id)===String(id));if(!d)return;
     document.getElementById('deal-modal-title').textContent='\u270F \u0420\u0434\u0433\u0432\u0442 \u043A\u0456\u043D\u0430';
     ['company','contact','position','address','city','website','nextstep','reject','comment'].forEach(f=>document.getElementById('d-'+f).value=d[f]||'');
     updateWebsiteLink(d.website||'');
@@ -1304,7 +1304,7 @@ function saveDeal(){
     }
   }
   const isNew=!editDealId;
-  const existingDeal=editDealId?deals.find(x=>x.id===editDealId):null;
+  const existingDeal=editDealId?deals.find(x=>String(x.id)===String(editDealId)):null;
   const deal={
     id:editDealId||Date.now(),
     date:document.getElementById('d-date').value,
@@ -1336,7 +1336,7 @@ function saveDeal(){
     comment:document.getElementById('d-comment').value.trim(),
     contactLog: _buildContactLog(existingDeal),
   };
-  if(editDealId){const i=deals.findIndex(x=>x.id===editDealId);deals[i]=deal;}
+  if(editDealId){const i=deals.findIndex(x=>String(x.id)===String(editDealId));deals[i]=deal;}
   else deals.push(deal);
   saveDeals();
   clearDraft();
@@ -1374,7 +1374,7 @@ function logContact(){
   if(!text){alert('\u041D\u0430\u043F\u0438\u0448\u0456\u0442\u044C \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442 \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0443!');return;}
   // Save to deal immediately if editing
   if(editDealId){
-    const i=deals.findIndex(x=>x.id===editDealId);
+    const i=deals.findIndex(x=>String(x.id)===String(editDealId));
     if(i>=0){
       const log=(deals[i].contactLog||[]).slice();
       const last=log[0];
@@ -1424,11 +1424,11 @@ function renderContactLog(log){
 }
 
 function _getCurrentLog(){
-  if(editDealId){const i=deals.findIndex(x=>x.id===editDealId);if(i>=0)return(deals[i].contactLog||[]).slice();}
+  if(editDealId){const i=deals.findIndex(x=>String(x.id)===String(editDealId));if(i>=0)return(deals[i].contactLog||[]).slice();}
   return(window._tmpContactLog||[]).slice();
 }
 function _saveCurrentLog(log){
-  if(editDealId){const i=deals.findIndex(x=>x.id===editDealId);if(i>=0){deals[i].contactLog=log;saveDeals();scheduleAutoSync();}}
+  if(editDealId){const i=deals.findIndex(x=>String(x.id)===String(editDealId));if(i>=0){deals[i].contactLog=log;saveDeals();scheduleAutoSync();}}
   else window._tmpContactLog=log;
 }
 
@@ -1734,13 +1734,14 @@ function dealsKey(id){ return id?`hsm_deals_${id}`:'hsm_deals'; }
 function actsKey(id){  return id?`hsm_acts_${id}`:'hsm_acts'; }
 
 function migrateDeal(d){
+  if(typeof d.id==='string'&&d.id.startsWith('csv_')) d.id=parseInt(d.id.replace('csv_',''))||Date.now();
   if(!Array.isArray(d.phones)) d.phones=d.phone?[d.phone]:[];
   if(!Array.isArray(d.emails)) d.emails=d.email?[d.email]:[];
   if(d.city===undefined) d.city='';
   if(d.website===undefined) d.website='';
   if(!Array.isArray(d.categories)) d.categories=[];
   if(!Array.isArray(d.potentialCategories)) d.potentialCategories=[];
-  if(!d.addedBy) d.addedBy={id:'__admin__',name:'\u0410\u043D'};
+  if(!d.addedBy) d.addedBy={id:'__admin__',name:'\u0410\u0434\u043C\u0456\u043D'};
   return d;
 }
 
