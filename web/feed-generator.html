@@ -13,51 +13,42 @@
       --green:#22c55e;--yellow:#f59e0b;--red:#ef4444;
     }
     body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 16px 80px}
-
-    /* Header */
     header{text-align:center;margin-bottom:36px}
     header h1{font-size:26px;font-weight:800;background:linear-gradient(135deg,#60a5fa,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
     header p{margin-top:8px;color:var(--muted);font-size:13px}
-
-    /* Card */
     .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;width:100%;max-width:820px;margin-bottom:20px}
     .card-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;display:flex;align-items:center;gap:8px}
     .card-title .step{width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center}
-
-    /* Upload zones */
-    .uploads{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-    @media(max-width:580px){.uploads{grid-template-columns:1fr}}
-    .upload-zone{border:2px dashed var(--border);border-radius:12px;padding:28px 16px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative}
+    .uploads{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    @media(max-width:680px){.uploads{grid-template-columns:1fr}}
+    .upload-zone{border:2px dashed var(--border);border-radius:12px;padding:24px 16px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative}
     .upload-zone:hover,.upload-zone.over{border-color:var(--accent);background:rgba(59,130,246,.04)}
     .upload-zone.loaded{border-color:var(--green);border-style:solid}
     .upload-zone.optional-zone{border-color:var(--border2)}
-    .uz-icon{font-size:28px;margin-bottom:10px}
-    .uz-label{font-size:13px;font-weight:700;color:#cbd5e1;margin-bottom:4px}
+    .uz-icon{font-size:26px;margin-bottom:8px}
+    .uz-label{font-size:12px;font-weight:700;color:#cbd5e1;margin-bottom:4px}
     .uz-sub{font-size:11px;color:var(--muted)}
     .uz-sub span{color:var(--accent);text-decoration:underline}
-    .uz-badge{display:none;align-items:center;gap:8px;background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.2);border-radius:8px;padding:8px 12px;margin-top:12px;text-align:left}
+    .uz-badge{display:none;align-items:center;gap:8px;background:rgba(34,197,94,.08);border:1px solid rgba(34,197,94,.2);border-radius:8px;padding:8px 12px;margin-top:10px;text-align:left}
     .uz-badge.show{display:flex}
-    .uz-badge-name{font-size:12px;font-weight:600;color:#86efac;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-    .uz-badge-rows{font-size:11px;color:var(--muted)}
+    .uz-badge-name{font-size:11px;font-weight:600;color:#86efac;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .uz-badge-rows{font-size:10px;color:var(--muted)}
     .uz-clear{background:none;border:none;color:var(--muted);cursor:pointer;padding:2px 6px;border-radius:4px;font-size:14px;transition:color .15s}
     .uz-clear:hover{color:var(--red)}
-    .optional-tag{position:absolute;top:10px;right:10px;background:rgba(100,116,139,.15);border:1px solid var(--border);border-radius:4px;padding:2px 7px;font-size:10px;color:var(--muted)}
-
-    /* Cache info */
-    .cache-info{margin-top:14px;background:rgba(15,20,30,.6);border:1px solid var(--border2);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:10px}
+    .optional-tag{position:absolute;top:8px;right:8px;background:rgba(100,116,139,.15);border:1px solid var(--border);border-radius:4px;padding:2px 6px;font-size:9px;color:var(--muted)}
+    .cache-info{margin-top:10px;background:rgba(15,20,30,.6);border:1px solid var(--border2);border-radius:10px;padding:10px 14px;display:flex;align-items:center;gap:10px}
+    .cache-info+.cache-info{margin-top:6px}
     .cache-dot{width:8px;height:8px;border-radius:50%;background:var(--muted);flex-shrink:0}
     .cache-dot.active{background:var(--green)}
     .cache-text{font-size:12px;color:var(--muted);flex:1}
     .cache-text strong{color:#94a3b8}
     .cache-clear{background:none;border:1px solid var(--border);border-radius:6px;padding:3px 10px;font-size:11px;color:var(--muted);cursor:pointer;transition:border-color .15s,color .15s;white-space:nowrap}
     .cache-clear:hover{border-color:var(--red);color:#fca5a5}
-
-    /* Settings row */
     .settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px}
     @media(max-width:480px){.settings-grid{grid-template-columns:1fr}}
     .field label{display:block;font-size:11px;color:var(--muted);margin-bottom:5px}
-    .field select,.field input{width:100%;background:#0d0f18;border:1px solid var(--border);border-radius:8px;padding:8px 11px;color:var(--text);font-size:13px;outline:none;transition:border-color .15s}
-    .field select:focus,.field input:focus{border-color:var(--accent)}
+    .field select{width:100%;background:#0d0f18;border:1px solid var(--border);border-radius:8px;padding:8px 11px;color:var(--text);font-size:13px;outline:none;transition:border-color .15s}
+    .field select:focus{border-color:var(--accent)}
     .field select option{background:#161926}
     .toggle-row{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border2)}
     .toggle-row:last-child{border-bottom:none}
@@ -68,9 +59,7 @@
     .slider::before{content:'';position:absolute;width:15px;height:15px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform .2s}
     .toggle input:checked+.slider{background:var(--accent)}
     .toggle input:checked+.slider::before{transform:translateX(17px)}
-
-    /* Stats */
-    #statsGrid{display:none;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:0}
+    #statsGrid{display:none;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:0}
     #statsGrid.show{display:grid}
     @media(max-width:560px){#statsGrid{grid-template-columns:repeat(2,1fr)}}
     .stat{background:#0d0f18;border:1px solid var(--border2);border-radius:10px;padding:14px}
@@ -78,33 +67,27 @@
     .stat-k{font-size:11px;color:var(--muted);margin-top:2px}
     .stat-v.green{color:var(--green)}
     .stat-v.yellow{color:var(--yellow)}
-
-    /* Generate button */
     #btnGenerate{width:100%;padding:15px;border-radius:12px;border:none;background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:#fff;font-size:16px;font-weight:700;cursor:pointer;transition:opacity .15s,transform .1s;letter-spacing:.02em}
     #btnGenerate:disabled{opacity:.35;cursor:not-allowed}
     #btnGenerate:not(:disabled):hover{opacity:.9;transform:translateY(-1px)}
     #btnGenerate:not(:disabled):active{transform:translateY(0)}
-
-    /* Progress */
     #progressWrap{display:none;margin-top:16px}
     #progressWrap.show{display:block}
     #progressBar{height:4px;background:var(--border);border-radius:4px;overflow:hidden}
     #progressFill{height:100%;width:0%;background:linear-gradient(90deg,#3b82f6,#8b5cf6);border-radius:4px;transition:width .3s}
     #progressText{font-size:12px;color:var(--muted);margin-top:8px;text-align:center}
-
-    /* Result */
     #resultCard{display:none;width:100%;max-width:820px}
     #resultCard.show{display:block}
     .result-inner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px}
     .result-row{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-    .result-icon{font-size:40px}
+    .result-row+.result-row{margin-top:16px;padding-top:16px;border-top:1px solid var(--border2)}
+    .result-icon{font-size:36px}
     .result-info{flex:1;min-width:180px}
-    .result-info h3{font-size:15px;font-weight:700}
+    .result-info h3{font-size:14px;font-weight:700}
     .result-info p{font-size:12px;color:var(--muted);margin-top:3px}
-    #btnDownload{padding:12px 26px;border-radius:10px;border:none;background:var(--green);color:#fff;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s,transform .1s}
-    #btnDownload:hover{opacity:.9;transform:translateY(-1px)}
-
-    /* XML Preview */
+    .btn-dl{padding:10px 20px;border-radius:10px;border:none;background:var(--green);color:#fff;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s,transform .1s}
+    .btn-dl:hover{opacity:.9;transform:translateY(-1px)}
+    .btn-dl.opt{background:var(--purple)}
     #previewWrap{margin-top:20px;background:#0d0f18;border:1px solid var(--border2);border-radius:10px;overflow:hidden}
     .preview-hdr{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;border-bottom:1px solid var(--border2)}
     .preview-hdr span{font-size:11px;color:var(--muted);font-family:monospace}
@@ -112,21 +95,14 @@
     #btnCopy:hover{background:var(--border)}
     #xmlPreview{font-family:'Menlo','Courier New',monospace;font-size:11px;line-height:1.5;color:#94a3b8;padding:14px;max-height:300px;overflow-y:auto;white-space:pre}
     .xt{color:#60a5fa}.xa{color:#a78bfa}.xv{color:#f59e0b}.xc{color:#6ee7b7}.xp{color:var(--muted)}
-
-    /* Error */
-    .err-box{display:none;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.25);border-radius:10px;padding:12px 16px;margin-top:14px;font-size:12px;color:#fca5a5}
+    .err-box{display:none;background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.25);border-radius:10px;padding:10px 14px;margin-top:10px;font-size:12px;color:#fca5a5}
     .err-box.show{display:block}
-
-    /* Not-found list */
     #notFoundWrap{display:none;margin-top:12px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.2);border-radius:10px;padding:12px 16px}
     #notFoundWrap.show{display:block}
     #notFoundWrap summary{font-size:12px;color:var(--yellow);cursor:pointer;user-select:none}
     #notFoundWrap ul{margin-top:8px;padding-left:16px;font-size:11px;color:#94a3b8;column-count:3;column-gap:12px}
     @media(max-width:480px){#notFoundWrap ul{column-count:2}}
-
     footer{margin-top:40px;font-size:11px;color:#334155;text-align:center}
-
-    /* GitHub publish */
     #ghCard{display:block;width:100%;max-width:820px;margin-bottom:20px}
     .gh-inner{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px}
     .gh-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
@@ -135,6 +111,7 @@
     .gh-info h3{font-size:14px;font-weight:700}
     .gh-info p{font-size:11px;color:var(--muted);margin-top:3px}
     .gh-url{font-size:11px;color:#60a5fa;font-family:monospace;margin-top:4px;word-break:break-all}
+    .gh-url em{color:var(--muted);font-style:normal;margin-right:4px}
     #btnPublish{padding:11px 22px;border-radius:10px;border:none;background:linear-gradient(135deg,#24292e,#3b82f6);color:#fff;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s;display:flex;align-items:center;gap:8px}
     #btnPublish:disabled{opacity:.4;cursor:not-allowed}
     #btnPublish:not(:disabled):hover{opacity:.9}
@@ -149,7 +126,7 @@
     .gh-token-hint a{color:#60a5fa}
     .gh-token-set{display:none;align-items:center;gap:8px;padding:8px 0;font-size:12px;color:var(--green)}
     .gh-token-set.show{display:flex}
-    .gh-token-set .change-link{color:var(--border);font-size:10px;cursor:pointer;margin-left:auto;text-decoration:none}
+    .gh-token-set .change-link{color:var(--border);font-size:10px;cursor:pointer;margin-left:auto}
     .gh-token-set .change-link:hover{color:var(--muted)}
     .gh-status{margin-top:12px;font-size:12px;padding:8px 12px;border-radius:8px;display:none}
     .gh-status.show{display:block}
@@ -162,7 +139,7 @@
 
 <header>
   <h1>EXTEL Feed Manager</h1>
-  <p>Завантажте файли — отримайте готовий <code>feed.xml</code> для імпорту на маркетплейс</p>
+  <p>Завантажте файли — отримайте готові XML-фіди для імпорту на маркетплейс</p>
 </header>
 
 <!-- Step 1: Files -->
@@ -187,30 +164,52 @@
     </div>
     <input type="file" id="inputA" accept=".xlsx,.xls" hidden/>
 
-    <!-- Emos Прайс -->
-    <div class="upload-zone optional-zone" id="zoneP" data-target="P">
+    <!-- Прайс Дроп -->
+    <div class="upload-zone optional-zone" id="zonePD" data-target="PD">
       <span class="optional-tag">необов'язково</span>
       <div class="uz-icon">💰</div>
-      <div class="uz-label">Emos Прайс.xlsx</div>
-      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputP').click()">оберіть файл</span></div>
-      <div class="uz-badge" id="badgeP">
+      <div class="uz-label">Прайс Дроп.xlsx</div>
+      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputPD').click()">оберіть файл</span></div>
+      <div class="uz-badge" id="badgePD">
         <span>📊</span>
         <div style="flex:1;overflow:hidden">
-          <div class="uz-badge-name" id="badgePName"></div>
-          <div class="uz-badge-rows" id="badgePRows"></div>
+          <div class="uz-badge-name" id="badgePDName"></div>
+          <div class="uz-badge-rows" id="badgePDRows"></div>
         </div>
-        <button class="uz-clear" onclick="clearFile('P',event)">✕</button>
+        <button class="uz-clear" onclick="clearFile('PD',event)">✕</button>
       </div>
-      <div class="err-box" id="errP"></div>
+      <div class="err-box" id="errPD"></div>
     </div>
-    <input type="file" id="inputP" accept=".xlsx,.xls" hidden/>
+    <input type="file" id="inputPD" accept=".xlsx,.xls" hidden/>
+
+    <!-- Прайс Опт -->
+    <div class="upload-zone optional-zone" id="zonePO" data-target="PO">
+      <span class="optional-tag">необов'язково</span>
+      <div class="uz-icon">📦</div>
+      <div class="uz-label">Прайс Опт.xlsx</div>
+      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputPO').click()">оберіть файл</span></div>
+      <div class="uz-badge" id="badgePO">
+        <span>📊</span>
+        <div style="flex:1;overflow:hidden">
+          <div class="uz-badge-name" id="badgePOName"></div>
+          <div class="uz-badge-rows" id="badgePORows"></div>
+        </div>
+        <button class="uz-clear" onclick="clearFile('PO',event)">✕</button>
+      </div>
+      <div class="err-box" id="errPO"></div>
+    </div>
+    <input type="file" id="inputPO" accept=".xlsx,.xls" hidden/>
   </div>
 
-  <!-- Cache info -->
-  <div class="cache-info" id="cacheInfo">
-    <div class="cache-dot" id="cacheDot"></div>
-    <div class="cache-text" id="cacheText">Кеш цін: завантаження…</div>
-    <button class="cache-clear" id="cacheClearBtn" onclick="clearCache()">Очистити кеш</button>
+  <div class="cache-info">
+    <div class="cache-dot" id="cacheDotDrop"></div>
+    <div class="cache-text" id="cacheTextDrop">Кеш Дроп: завантаження…</div>
+    <button class="cache-clear" onclick="clearCacheDrop()">Очистити</button>
+  </div>
+  <div class="cache-info">
+    <div class="cache-dot" id="cacheDotOpt"></div>
+    <div class="cache-text" id="cacheTextOpt">Кеш Опт: завантаження…</div>
+    <button class="cache-clear" onclick="clearCacheOpt()">Очистити</button>
   </div>
 </div>
 
@@ -252,9 +251,8 @@
 <div class="card" style="padding:22px">
   <div id="statsGrid">
     <div class="stat"><div class="stat-v" id="stTotal">0</div><div class="stat-k">Товарів</div></div>
-    <div class="stat"><div class="stat-v green" id="stMatched">0</div><div class="stat-k">З ціною DDP</div></div>
-    <div class="stat"><div class="stat-v yellow" id="stMissed">0</div><div class="stat-k">Без ціни DDP</div></div>
-    <div class="stat"><div class="stat-v" id="stCats">0</div><div class="stat-k">Категорій</div></div>
+    <div class="stat"><div class="stat-v green" id="stMatchedDrop">0</div><div class="stat-k">Ціна Дроп</div></div>
+    <div class="stat"><div class="stat-v green" id="stMatchedOpt">0</div><div class="stat-k">Ціна Опт</div></div>
   </div>
   <div id="notFoundWrap">
     <details>
@@ -266,7 +264,7 @@
     <div id="progressBar"><div id="progressFill"></div></div>
     <div id="progressText">Обробка…</div>
   </div>
-  <button id="btnGenerate" disabled style="margin-top:16px">Згенерувати feed.xml</button>
+  <button id="btnGenerate" disabled style="margin-top:16px">Згенерувати XML</button>
 </div>
 
 <!-- Result -->
@@ -275,14 +273,22 @@
     <div class="result-row">
       <div class="result-icon">✅</div>
       <div class="result-info">
-        <h3 id="resultTitle">feed.xml готовий</h3>
-        <p id="resultDesc"></p>
+        <h3>feed.xml — Дроп</h3>
+        <p id="resultDescDrop"></p>
       </div>
-      <button id="btnDownload">⬇ Завантажити feed.xml</button>
+      <button class="btn-dl" id="btnDownloadDrop">⬇ feed.xml</button>
+    </div>
+    <div class="result-row">
+      <div class="result-icon">✅</div>
+      <div class="result-info">
+        <h3>feed-opt.xml — Опт</h3>
+        <p id="resultDescOpt"></p>
+      </div>
+      <button class="btn-dl opt" id="btnDownloadOpt">⬇ feed-opt.xml</button>
     </div>
     <div id="previewWrap">
       <div class="preview-hdr">
-        <span>Попередній перегляд — перші 2 товари</span>
+        <span>Попередній перегляд feed.xml (перші 2 товари)</span>
         <button id="btnCopy">Копіювати</button>
       </div>
       <div id="xmlPreview"></div>
@@ -296,13 +302,14 @@
     <div class="gh-row">
       <div class="gh-icon">🐙</div>
       <div class="gh-info">
-        <h3>Опублікувати feed.xml на GitHub</h3>
-        <p>Файл оновиться за постійним посиланням автоматично (~1 хв)</p>
-        <div class="gh-url" id="ghFeedUrl">https://extel-llc.github.io/hunter-sales/web/feed.xml</div>
+        <h3>Опублікувати на GitHub</h3>
+        <p>Обидва файли оновляться за постійними посиланнями (~1 хв)</p>
+        <div class="gh-url"><em>Дроп →</em>https://extel-llc.github.io/hunter-sales/web/feed.xml</div>
+        <div class="gh-url"><em>Опт →</em>https://extel-llc.github.io/hunter-sales/web/feed-opt.xml</div>
       </div>
       <button id="btnPublish" disabled>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-        Опублікувати
+        Опублікувати обидва
       </button>
     </div>
 
@@ -333,71 +340,81 @@
 'use strict';
 
 /* ══════════ Config ══════════ */
-const CACHE_KEY      = 'telemart_price_cache_v1';
-const CACHE_META_KEY = 'telemart_price_cache_meta';
-// Асортимент: залишаємо колонки (1-based → 0-based)
-const KEEP_IDX  = [0,5,7,8,9,10,11,13,15,19,37]; // cols 1,6,8,9,10,11,12,14,16,20,38
-const RENAME    = {5:'Назва', 8:'Категорія', 9:'РРЦ', 10:'Ціна дроп', 13:'Наявність', 37:'Опис'};
-const XML_MAP   = {
+const CACHE_KEY_DROP   = 'telemart_price_cache_v1';   // backward compat key
+const CACHE_KEY_OPT    = 'extel_opt_price_cache_v1';
+const CACHE_META_DROP  = 'telemart_price_cache_meta';
+const CACHE_META_OPT   = 'extel_opt_price_cache_meta';
+
+// Асортимент: залишаємо колонки (0-based) = 1,6,8,9,10,11,12,14,16,20,38
+const KEEP_IDX = [0,5,7,8,9,10,11,13,15,19,37];
+const RENAME   = {5:'Назва', 8:'Категорія', 9:'РРЦ', 10:'Ціна дроп', 13:'Наявність', 37:'Опис'};
+
+const XML_MAP_DROP = {
   'Артикул':'article','Назва':'name','Бренд':'brand',
   'Категорія':'__cat__','РРЦ':'price_rrc','Ціна дроп':'price',
   'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
   'Ссылка':'url','Опис':'description'
 };
+const XML_MAP_OPT = {
+  'Артикул':'article','Назва':'name','Бренд':'brand',
+  'Категорія':'__cat__','РРЦ':'price_rrc','Ціна опт':'price',
+  'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
+  'Ссылка':'url','Опис':'description'
+};
+
 const HTML_COLS = new Set(['Назва','Опис']);
 const AVAIL_COL = 'Наявність';
 const CAT_COL   = 'Категорія';
 const ART_COL   = 'Артикул';
-const PIC_COL   = 'Фото';
 
 /* ══════════ State ══════════ */
-let aRows=[], aHeaders=[], pPriceMap={};
-let xmlResult='', assortFileName='';
+let aRows=[], aHeaders=[];
+let xmlResultDrop='', xmlResultOpt='';
 
 /* ══════════ Cache ══════════ */
-function loadCache(){
+function loadCache(key){
+  try{ const r=localStorage.getItem(key); return r ? JSON.parse(r) : {}; }
+  catch(e){ return {}; }
+}
+function saveCache(key, metaKey, map){
   try{
-    const raw=localStorage.getItem(CACHE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  }catch(e){return {};}
+    localStorage.setItem(key, JSON.stringify(map));
+    localStorage.setItem(metaKey, JSON.stringify({count:Object.keys(map).length, ts:Date.now()}));
+  }catch(e){ console.warn('localStorage full?', e); }
 }
-function saveCache(map){
-  try{
-    localStorage.setItem(CACHE_KEY, JSON.stringify(map));
-    const meta={count:Object.keys(map).length, ts:Date.now()};
-    localStorage.setItem(CACHE_META_KEY, JSON.stringify(meta));
-    updateCacheInfo();
-  }catch(e){console.warn('localStorage full?',e);}
-}
-function clearCache(){
-  localStorage.removeItem(CACHE_KEY);
-  localStorage.removeItem(CACHE_META_KEY);
-  pPriceMap={};
-  updateCacheInfo();
-  // re-run stats if assortment loaded
-  if(aRows.length) computeStats();
-}
-function updateCacheInfo(){
-  const meta=localStorage.getItem(CACHE_META_KEY);
-  const dot=document.getElementById('cacheDot');
-  const txt=document.getElementById('cacheText');
+function updateCacheUI(metaKey, dotId, txtId, label){
+  const meta = localStorage.getItem(metaKey);
+  const dot  = document.getElementById(dotId);
+  const txt  = document.getElementById(txtId);
   if(meta){
-    const m=JSON.parse(meta);
-    const dt=new Date(m.ts);
-    const ds=dt.toLocaleDateString('uk-UA')+' '+dt.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'});
+    const m  = JSON.parse(meta);
+    const ds = new Date(m.ts).toLocaleDateString('uk-UA')+' '+
+               new Date(m.ts).toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'});
     dot.className='cache-dot active';
-    txt.innerHTML=`Кеш цін: <strong>${m.count} артикулів</strong> · збережено ${ds}`;
+    txt.innerHTML=`Кеш ${label}: <strong>${m.count} артикулів</strong> · ${ds}`;
   }else{
     dot.className='cache-dot';
-    txt.innerHTML='Кеш цін: <strong>порожній</strong> — завантажте файл «Emos Прайс» для заповнення';
+    txt.innerHTML=`Кеш ${label}: <strong>порожній</strong>`;
   }
+}
+function clearCacheDrop(){
+  localStorage.removeItem(CACHE_KEY_DROP);
+  localStorage.removeItem(CACHE_META_DROP);
+  updateCacheUI(CACHE_META_DROP,'cacheDotDrop','cacheTextDrop','Дроп');
+  if(aRows.length) computeStats();
+}
+function clearCacheOpt(){
+  localStorage.removeItem(CACHE_KEY_OPT);
+  localStorage.removeItem(CACHE_META_OPT);
+  updateCacheUI(CACHE_META_OPT,'cacheDotOpt','cacheTextOpt','Опт');
+  if(aRows.length) computeStats();
 }
 
 /* ══════════ Drag & Drop ══════════ */
-['A','P'].forEach(t=>{
-  const zone=document.getElementById('zone'+t);
-  zone.addEventListener('dragover', e=>{e.preventDefault();zone.classList.add('over');});
-  zone.addEventListener('dragleave',()=>zone.classList.remove('over'));
+['A','PD','PO'].forEach(t=>{
+  const zone = document.getElementById('zone'+t);
+  zone.addEventListener('dragover', e=>{ e.preventDefault(); zone.classList.add('over'); });
+  zone.addEventListener('dragleave', ()=>zone.classList.remove('over'));
   zone.addEventListener('drop', e=>{
     e.preventDefault(); zone.classList.remove('over');
     const f=e.dataTransfer.files[0];
@@ -413,11 +430,15 @@ function updateCacheInfo(){
 });
 
 function showErr(t, msg){ const el=document.getElementById('err'+t); el.textContent=msg; el.classList.add('show'); }
-function hideErr(t){      document.getElementById('err'+t).classList.remove('show'); }
+function hideErr(t){ document.getElementById('err'+t).classList.remove('show'); }
 
 function clearFile(t, e){
   e && e.stopPropagation();
-  if(t==='A'){aRows=[];aHeaders=[];assortFileName='';document.getElementById('statsGrid').classList.remove('show');document.getElementById('notFoundWrap').classList.remove('show');}
+  if(t==='A'){
+    aRows=[]; aHeaders=[];
+    document.getElementById('statsGrid').classList.remove('show');
+    document.getElementById('notFoundWrap').classList.remove('show');
+  }
   document.getElementById('badge'+t).classList.remove('show');
   document.getElementById('zone'+t).classList.remove('loaded');
   document.getElementById('input'+t).value='';
@@ -427,51 +448,59 @@ function clearFile(t, e){
 
 /* ══════════ Load XLSX ══════════ */
 function loadXlsx(file, target){
-  if(!/\.(xlsx|xls)$/i.test(file.name)){showErr(target,'Потрібен файл .xlsx або .xls'); return;}
+  if(!/\.(xlsx|xls)$/i.test(file.name)){ showErr(target,'Потрібен файл .xlsx або .xls'); return; }
   hideErr(target);
-  const reader=new FileReader();
-  reader.onload=ev=>{
+  const reader = new FileReader();
+  reader.onload = ev=>{
     try{
-      const wb=XLSX.read(ev.target.result,{type:'array',cellText:false,cellDates:true});
-      if(target==='A') parseAssortment(wb, file.name);
-      else             parsePrice(wb, file.name);
-    }catch(err){showErr(target,'Помилка читання: '+err.message);}
+      const wb = XLSX.read(ev.target.result,{type:'array',cellText:false,cellDates:true});
+      if(target==='A')       parseAssortment(wb, file.name);
+      else if(target==='PD') parsePrice(wb, file.name, 'D');
+      else                   parsePrice(wb, file.name, 'O');
+    }catch(err){ showErr(target,'Помилка читання: '+err.message); }
   };
   reader.readAsArrayBuffer(file);
 }
 
 /* ══════════ Parse Асортимент ══════════ */
 function parseAssortment(wb, fname){
-  const ws=wb.Sheets[wb.SheetNames[0]];
-  const data=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
-  if(data.length<2){showErr('A','Файл порожній або без даних'); return;}
-  const origH=data[0].map(h=>String(h||'').trim());
-  // Build final headers
-  aHeaders=KEEP_IDX.map(i=>{
-    const orig=origH[i]||`Col${i+1}`;
-    return RENAME[i]||orig;
-  });
-  // Parse rows
-  aRows=data.slice(1)
+  const ws   = wb.Sheets[wb.SheetNames[0]];
+  const data = XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
+  if(data.length<2){ showErr('A','Файл порожній або без даних'); return; }
+  const origH = data[0].map(h=>String(h||'').trim());
+
+  // Base headers from KEEP_IDX
+  const baseH = KEEP_IDX.map(i=>{ const o=origH[i]||`Col${i+1}`; return RENAME[i]||o; });
+
+  // Insert 'Ціна опт' after 'Ціна дроп'
+  aHeaders = [...baseH];
+  const dIdx = aHeaders.indexOf('Ціна дроп');
+  if(dIdx>=0) aHeaders.splice(dIdx+1, 0, 'Ціна опт');
+
+  aRows = data.slice(1)
     .filter(r=>r.some(v=>v!==''&&v!=null))
-    .map(r=>KEEP_IDX.reduce((obj,i,pos)=>{
-      obj[aHeaders[pos]]=r[i]!==undefined&&r[i]!==null ? String(r[i]).trim() : '';
+    .map(r=>{
+      const obj = {};
+      KEEP_IDX.forEach((colI,pos)=>{
+        obj[baseH[pos]] = r[colI]!=null ? String(r[colI]).trim() : '';
+      });
+      obj['Ціна опт'] = ''; // filled from cache at generate time
       return obj;
-    },{}));
-  assortFileName=fname.replace(/\.[^.]+$/,'');
+    });
+
   showBadge('A', fname, aRows.length+' товарів');
   computeStats();
   updateBtn();
 }
 
-/* ══════════ Parse Emos Прайс ══════════ */
-function parsePrice(wb, fname){
-  const ws=wb.Sheets[wb.SheetNames[0]];
-  const data=XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
-  // Find header row (contains "DDP")
+/* ══════════ Parse Price ══════════ */
+function parsePrice(wb, fname, type){
+  const badgeT = type==='D' ? 'PD' : 'PO';
+  const ws     = wb.Sheets[wb.SheetNames[0]];
+  const data   = XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
   let hRow=-1, skuCol=-1, ddpCol=-1;
-  for(let i=0;i<Math.min(data.length,15);i++){
-    const row=data[i];
+  for(let i=0; i<Math.min(data.length,15); i++){
+    const row = data[i];
     if(row.some(v=>String(v||'').includes('DDP'))){
       hRow=i;
       row.forEach((v,j)=>{
@@ -483,56 +512,59 @@ function parsePrice(wb, fname){
     }
   }
   if(hRow<0||skuCol<0||ddpCol<0){
-    showErr('P','Не знайдено колонки «Код SKU» або «DDP ціна» у файлі прайсу'); return;
+    showErr(badgeT,'Не знайдено колонки «Код SKU» або «DDP ціна»'); return;
   }
   const newPrices={};
-  for(let i=hRow+1;i<data.length;i++){
-    const sku=String(data[i][skuCol]||'').trim();
-    const ddp=data[i][ddpCol];
-    if(sku&&ddp!==''&&ddp!=null){
-      const v=parseFloat(String(ddp).replace(',','.'));
+  for(let i=hRow+1; i<data.length; i++){
+    const sku = String(data[i][skuCol]||'').trim();
+    const ddp = data[i][ddpCol];
+    if(sku && ddp!==''&& ddp!=null){
+      const v = parseFloat(String(ddp).replace(',','.'));
       if(!isNaN(v)) newPrices[sku]=v;
     }
   }
-  // Merge into cache
-  const existing=loadCache();
+  const cKey  = type==='D' ? CACHE_KEY_DROP  : CACHE_KEY_OPT;
+  const mKey  = type==='D' ? CACHE_META_DROP : CACHE_META_OPT;
+  const dotId = type==='D' ? 'cacheDotDrop'  : 'cacheDotOpt';
+  const txtId = type==='D' ? 'cacheTextDrop' : 'cacheTextOpt';
+  const lbl   = type==='D' ? 'Дроп' : 'Опт';
+  const existing = loadCache(cKey);
   Object.assign(existing, newPrices);
-  saveCache(existing);
-  pPriceMap=existing;
-  showBadge('P', fname, Object.keys(newPrices).length+' цін DDP');
+  saveCache(cKey, mKey, existing);
+  updateCacheUI(mKey, dotId, txtId, lbl);
+  showBadge(badgeT, fname, Object.keys(newPrices).length+' цін DDP');
   if(aRows.length) computeStats();
   updateBtn();
 }
 
 function showBadge(t, name, rows){
-  document.getElementById('badge'+t+'Name').textContent=name;
-  document.getElementById('badge'+t+'Rows').textContent=rows;
+  document.getElementById('badge'+t+'Name').textContent = name;
+  document.getElementById('badge'+t+'Rows').textContent = rows;
   document.getElementById('badge'+t).classList.add('show');
   document.getElementById('zone'+t).classList.add('loaded');
 }
 
 /* ══════════ Stats ══════════ */
 function computeStats(){
-  const cache=loadCache();
-  let matched=0, missed=0;
+  const dropCache = loadCache(CACHE_KEY_DROP);
+  const optCache  = loadCache(CACHE_KEY_OPT);
+  let matchedDrop=0, matchedOpt=0;
   const notFound=[];
   aRows.forEach(r=>{
-    const art=r[ART_COL]||'';
-    if(art in cache) matched++;
-    else{ missed++; if(notFound.length<50) notFound.push(art); }
+    const art = r[ART_COL]||'';
+    if(art in dropCache) matchedDrop++;
+    if(art in optCache)  matchedOpt++;
+    if(!(art in dropCache) && notFound.length<50) notFound.push(art);
   });
-  const cats=new Set(aRows.map(r=>r[CAT_COL]||'').filter(Boolean));
-  document.getElementById('stTotal').textContent=aRows.length;
-  document.getElementById('stMatched').textContent=matched;
-  document.getElementById('stMissed').textContent=missed;
-  document.getElementById('stCats').textContent=cats.size;
+  document.getElementById('stTotal').textContent       = aRows.length;
+  document.getElementById('stMatchedDrop').textContent = matchedDrop;
+  document.getElementById('stMatchedOpt').textContent  = matchedOpt;
   document.getElementById('statsGrid').classList.add('show');
-  // Not-found list
-  const nfw=document.getElementById('notFoundWrap');
+  const missed = aRows.length - matchedDrop;
+  const nfw = document.getElementById('notFoundWrap');
   if(missed>0){
-    document.getElementById('notFoundSum').textContent=`⚠ ${missed} артикулів без ціни DDP — розгорнути`;
-    const ul=document.getElementById('notFoundList');
-    ul.innerHTML=notFound.map(a=>`<li>${a}</li>`).join('');
+    document.getElementById('notFoundSum').textContent = `⚠ ${missed} артикулів без ціни Дроп — розгорнути`;
+    document.getElementById('notFoundList').innerHTML = notFound.map(a=>`<li>${a}</li>`).join('');
     nfw.classList.add('show');
   }else{
     nfw.classList.remove('show');
@@ -540,7 +572,7 @@ function computeStats(){
 }
 
 function updateBtn(){
-  document.getElementById('btnGenerate').disabled=aRows.length===0;
+  document.getElementById('btnGenerate').disabled = aRows.length===0;
 }
 
 /* ══════════ Build Categories ══════════ */
@@ -548,7 +580,6 @@ function buildCatMap(products){
   const seen=[...new Set(products.map(p=>(p[CAT_COL]||'').trim()).filter(Boolean))];
   let nid=1;
   const parentIds={}, idMap={}, lines=[];
-  // Parents first
   seen.forEach(n=>{
     if(n.includes('/')){
       const par=n.split('/')[0].trim();
@@ -559,7 +590,6 @@ function buildCatMap(products){
       }
     }
   });
-  // Leaves
   seen.forEach(full=>{
     if(full.includes('/')){
       const par=full.split('/')[0].trim();
@@ -598,26 +628,30 @@ function availStr(raw){
   return raw||'';
 }
 
-/* ══════════ Build XML ══════════ */
-function buildXml(){
-  const catBlock=document.getElementById('cfgCatBlock').checked;
-  const useParent=document.getElementById('cfgParent').checked;
-  const useCdata=document.getElementById('cfgCdata').checked;
-  const sep=document.getElementById('cfgSep').value;
-  const cache=loadCache();
-  const today=new Date().toISOString().slice(0,10);
-
-  // Apply DDP prices from cache
-  const products=aRows.map(r=>{
-    const obj=Object.assign({},r);
-    const art=obj[ART_COL]||'';
-    if(art in cache) obj['Ціна дроп']=String(cache[art]);
+/* ══════════ Build products (apply both caches) ══════════ */
+function buildProducts(){
+  const dropCache = loadCache(CACHE_KEY_DROP);
+  const optCache  = loadCache(CACHE_KEY_OPT);
+  return aRows.map(r=>{
+    const obj = Object.assign({}, r);
+    const art = obj[ART_COL]||'';
+    if(art in dropCache) obj['Ціна дроп'] = String(dropCache[art]);
+    if(art in optCache)  obj['Ціна опт']  = String(optCache[art]);
     return obj;
   });
+}
 
-  const{idMap, lines:catLines}=catBlock
+/* ══════════ Build XML ══════════ */
+function buildXml(products, xmlMap){
+  const catBlock  = document.getElementById('cfgCatBlock').checked;
+  const useParent = document.getElementById('cfgParent').checked;
+  const useCdata  = document.getElementById('cfgCdata').checked;
+  const sep       = document.getElementById('cfgSep').value;
+  const today     = new Date().toISOString().slice(0,10);
+
+  const {idMap, lines:catLines} = catBlock
     ? (useParent ? buildCatMap(products) : buildCatMapFlat(products))
-    : {idMap:{},lines:[]};
+    : {idMap:{}, lines:[]};
 
   const out=[];
   out.push('<?xml version="1.0" encoding="UTF-8"?>');
@@ -630,18 +664,18 @@ function buildXml(){
   }
 
   products.forEach(p=>{
-    const art=(p[ART_COL]||'').trim();
-    const catFull=(p[CAT_COL]||'').trim();
-    const catId=catBlock?(idMap[catFull]||''):'';
-    const avail=availStr(p[AVAIL_COL]);
-    const grp=catId?` group_id="${catId}"`:'';
-    const indent=catBlock?'    ':'  ';
-    const ind2  =catBlock?'      ':'    ';
+    const art     = (p[ART_COL]||'').trim();
+    const catFull = (p[CAT_COL]||'').trim();
+    const catId   = catBlock ? (idMap[catFull]||'') : '';
+    const avail   = availStr(p[AVAIL_COL]);
+    const grp     = catId ? ` group_id="${catId}"` : '';
+    const indent  = catBlock ? '    ' : '  ';
+    const ind2    = catBlock ? '      ' : '    ';
     out.push(`${indent}<offer id="${ea(art)}" available="${avail}"${grp}>`);
     aHeaders.forEach(col=>{
-      const tag=XML_MAP[col];
+      const tag = xmlMap[col];
       if(!tag) return;
-      const val=(p[col]||'').trim();
+      const val = (p[col]||'').trim();
       if(tag==='__cat__'){
         if(catBlock&&catId) out.push(`${ind2}<categoryId>${catId}</categoryId>`);
         else if(!catBlock&&val) out.push(`${ind2}<category>${ex(val)}</category>`);
@@ -652,7 +686,7 @@ function buildXml(){
           pics.forEach(u=>out.push(`${ind2}  <picture>${ex(u)}</picture>`));
           out.push(`${ind2}</pictures>`);
         }
-      }else if(useCdata&&HTML_COLS.has(col)){
+      }else if(useCdata && HTML_COLS.has(col)){
         if(val) out.push(`${ind2}<${tag}><![CDATA[${val.replace(/]]>/g,']]]]><![CDATA[>')}]]></${tag}>`);
       }else{
         if(val) out.push(`${ind2}<${tag}>${ex(val)}</${tag}>`);
@@ -679,8 +713,12 @@ document.getElementById('btnGenerate').addEventListener('click',()=>{
 
   setTimeout(()=>{
     try{
-      document.getElementById('progressFill').style.width='60%';
-      xmlResult=buildXml();
+      document.getElementById('progressFill').style.width='30%';
+      const products = buildProducts();
+      document.getElementById('progressFill').style.width='55%';
+      xmlResultDrop = buildXml(products, XML_MAP_DROP);
+      document.getElementById('progressFill').style.width='80%';
+      xmlResultOpt  = buildXml(products, XML_MAP_OPT);
       document.getElementById('progressFill').style.width='100%';
       document.getElementById('progressText').textContent='Готово!';
       showResult();
@@ -689,37 +727,39 @@ document.getElementById('btnGenerate').addEventListener('click',()=>{
       console.error(err);
     }
     btn.disabled=false;
-  },40);
+  }, 40);
 });
 
-function showResult(){
-  const bytes=new Blob([xmlResult],{type:'application/xml'}).size;
-  const kb=(bytes/1024).toFixed(0);
-  const mb=(bytes/1048576).toFixed(2);
-  document.getElementById('resultTitle').textContent='feed.xml успішно сформовано';
-  document.getElementById('resultDesc').textContent=`${aRows.length} товарів · ${kb} КБ (${mb} МБ)`;
-  document.getElementById('xmlPreview').innerHTML=highlight(preview2(2));
-  document.getElementById('resultCard').classList.add('show');
-  document.getElementById('resultCard').scrollIntoView({behavior:'smooth',block:'start'});
+function fmtSize(xml){
+  const b=new Blob([xml]).size;
+  return `${aRows.length} товарів · ${(b/1024).toFixed(0)} КБ`;
 }
 
-/* ══════════ Preview 2 offers ══════════ */
-function preview2(n){
-  const lines=xmlResult.split('\n');
-  const catBlock=document.getElementById('cfgCatBlock').checked;
-  const out=[lines[0],lines[1]];
+function showResult(){
+  document.getElementById('resultDescDrop').textContent = fmtSize(xmlResultDrop);
+  document.getElementById('resultDescOpt').textContent  = fmtSize(xmlResultOpt);
+  document.getElementById('xmlPreview').innerHTML = highlight(preview2(xmlResultDrop, 2));
+  document.getElementById('resultCard').classList.add('show');
+  document.getElementById('resultCard').scrollIntoView({behavior:'smooth',block:'start'});
+  ghUpdateUI();
+}
+
+/* ══════════ Preview ══════════ */
+function preview2(xmlStr, n){
+  const lines    = xmlStr.split('\n');
+  const catBlock = document.getElementById('cfgCatBlock').checked;
+  const out      = [lines[0], lines[1]];
   let i=2;
-  // categories block
-  if(catBlock&&lines[i]&&lines[i].trim()==='<categories>'){
-    while(i<lines.length){out.push(lines[i]);if(lines[i].trim()==='</categories>'){i++;break;}i++;}
-    if(lines[i]&&lines[i].trim()==='<offers>') out.push(lines[i++]);
+  if(catBlock && lines[i] && lines[i].trim()==='<categories>'){
+    while(i<lines.length){ out.push(lines[i]); if(lines[i].trim()==='</categories>'){i++;break;} i++; }
+    if(lines[i] && lines[i].trim()==='<offers>') out.push(lines[i++]);
   }
-  let count=0,inside=false;
-  for(;i<lines.length-1;i++){
-    if(lines[i].trimStart().startsWith('<offer')) {inside=true;count++;}
+  let count=0, inside=false;
+  for(; i<lines.length-1; i++){
+    if(lines[i].trimStart().startsWith('<offer')){ inside=true; count++; }
     if(inside){
       out.push(lines[i]);
-      if(lines[i].trimStart()==='</offer>'){inside=false;if(count>=n)break;}
+      if(lines[i].trimStart()==='</offer>'){ inside=false; if(count>=n) break; }
     }
   }
   if(count<aRows.length) out.push(`    <!-- … ще ${aRows.length-count} товарів … -->`);
@@ -743,18 +783,18 @@ function highlight(xml){
 }
 
 /* ══════════ Download ══════════ */
-document.getElementById('btnDownload').addEventListener('click',()=>{
-  const blob=new Blob(['﻿'+xmlResult],{type:'application/xml;charset=utf-8'});
+function download(xmlStr, filename){
+  const blob=new Blob(['﻿'+xmlStr],{type:'application/xml;charset=utf-8'});
   const url=URL.createObjectURL(blob);
   const a=document.createElement('a');
-  a.href=url;
-  a.download='feed.xml';
-  a.click();
+  a.href=url; a.download=filename; a.click();
   URL.revokeObjectURL(url);
-});
+}
+document.getElementById('btnDownloadDrop').addEventListener('click',()=>download(xmlResultDrop,'feed.xml'));
+document.getElementById('btnDownloadOpt') .addEventListener('click',()=>download(xmlResultOpt,'feed-opt.xml'));
 
 document.getElementById('btnCopy').addEventListener('click',()=>{
-  navigator.clipboard.writeText(xmlResult).then(()=>{
+  navigator.clipboard.writeText(xmlResultDrop).then(()=>{
     const b=document.getElementById('btnCopy');
     b.textContent='Скопійовано!';
     setTimeout(()=>b.textContent='Копіювати',2000);
@@ -762,58 +802,47 @@ document.getElementById('btnCopy').addEventListener('click',()=>{
 });
 
 /* ══════════ XML escape ══════════ */
-function ex(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function ea(s){return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function ex(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function ea(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 /* ══════════ Init ══════════ */
-updateCacheInfo();
-pPriceMap=loadCache();
+updateCacheUI(CACHE_META_DROP,'cacheDotDrop','cacheTextDrop','Дроп');
+updateCacheUI(CACHE_META_OPT, 'cacheDotOpt', 'cacheTextOpt', 'Опт');
 
 /* ══════════ GitHub Publish ══════════ */
-const GH_REPO  = 'EXTEL-LLC/hunter-sales';
-const GH_PATH  = 'web/feed.xml';
-const GH_BRANCH= 'main';
+const GH_REPO      = 'EXTEL-LLC/hunter-sales';
+const GH_BRANCH    = 'main';
 const GH_TOKEN_KEY = 'gh_feed_token';
 
 function ghTokenLoad(){ return localStorage.getItem(GH_TOKEN_KEY)||''; }
 function ghTokenSave(t){ t ? localStorage.setItem(GH_TOKEN_KEY,t) : localStorage.removeItem(GH_TOKEN_KEY); }
 
 function ghUpdateUI(){
-  const tok=ghTokenLoad();
-  const inp=document.getElementById('ghToken');
-  const row=document.getElementById('ghTokenRow');
-  const set=document.getElementById('ghTokenSet');
-  if(tok){
-    inp.value=tok;
-    row.style.display='none';
-    set.classList.add('show');
-  } else {
-    row.style.display='';
-    set.classList.remove('show');
-  }
-  document.getElementById('btnPublish').disabled=!tok||!xmlResult;
+  const tok = ghTokenLoad();
+  const inp = document.getElementById('ghToken');
+  const row = document.getElementById('ghTokenRow');
+  const set = document.getElementById('ghTokenSet');
+  if(tok){ inp.value=tok; row.style.display='none'; set.classList.add('show'); }
+  else   { row.style.display=''; set.classList.remove('show'); }
+  document.getElementById('btnPublish').disabled = !tok || (!xmlResultDrop && !xmlResultOpt);
 }
 
 document.getElementById('btnSaveToken').addEventListener('click',()=>{
   const v=document.getElementById('ghToken').value.trim();
-  if(!v){ghStatus('err','Введіть токен'); return;}
+  if(!v){ ghStatus('err','Введіть токен'); return; }
   ghTokenSave(v);
   ghStatus('ok','Токен збережено у браузері');
   ghUpdateUI();
 });
-
 document.getElementById('btnClearToken').addEventListener('click',()=>{
   ghTokenSave('');
   document.getElementById('ghToken').value='';
   ghStatus('','');
   ghUpdateUI();
 });
-
 document.getElementById('btnChangeToken').addEventListener('click',()=>{
-  const row=document.getElementById('ghTokenRow');
-  const set=document.getElementById('ghTokenSet');
-  row.style.display='';
-  set.classList.remove('show');
+  document.getElementById('ghTokenRow').style.display='';
+  document.getElementById('ghTokenSet').classList.remove('show');
   document.getElementById('ghToken').focus();
 });
 
@@ -823,35 +852,39 @@ function ghStatus(type, msg){
   el.textContent=msg;
 }
 
+async function ghPutFile(token, path, content, msg){
+  const apiUrl = `https://api.github.com/repos/${GH_REPO}/contents/${path}`;
+  const headers = {
+    Authorization:`token ${token}`,
+    Accept:'application/vnd.github+json',
+    'Content-Type':'application/json'
+  };
+  const headRes = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, {headers});
+  let sha = null;
+  if(headRes.ok){ const j=await headRes.json(); sha=j.sha; }
+  const body = {
+    message: msg,
+    content: btoa(unescape(encodeURIComponent('﻿'+content))),
+    branch:  GH_BRANCH
+  };
+  if(sha) body.sha=sha;
+  const putRes = await fetch(apiUrl, {method:'PUT', headers, body:JSON.stringify(body)});
+  if(!putRes.ok){ const e=await putRes.json(); throw new Error(e.message||putRes.status); }
+}
+
 document.getElementById('btnPublish').addEventListener('click', async()=>{
-  const token=ghTokenLoad();
-  if(!token||!xmlResult){return;}
-  const btn=document.getElementById('btnPublish');
-  btn.disabled=true;
+  const token = ghTokenLoad();
+  if(!token) return;
+  const btn  = document.getElementById('btnPublish');
+  btn.disabled = true;
+  const date = new Date().toISOString().slice(0,10);
   ghStatus('loading','⏳ Публікація…');
   try{
-    // 1. Get current SHA (needed for update)
-    const headRes=await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`,{
-      headers:{Authorization:`token ${token}`,Accept:'application/vnd.github+json'}
-    });
-    let sha=null;
-    if(headRes.ok){const j=await headRes.json(); sha=j.sha;}
-
-    // 2. PUT file
-    const content=btoa(unescape(encodeURIComponent('﻿'+xmlResult)));
-    const body={message:`feed: update ${new Date().toISOString().slice(0,10)}`,content,branch:GH_BRANCH};
-    if(sha) body.sha=sha;
-    const putRes=await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`,{
-      method:'PUT',
-      headers:{Authorization:`token ${token}`,Accept:'application/vnd.github+json','Content-Type':'application/json'},
-      body:JSON.stringify(body)
-    });
-    if(!putRes.ok){
-      const e=await putRes.json();
-      throw new Error(e.message||putRes.status);
-    }
-    const url=`https://extel-llc.github.io/${GH_REPO.split('/')[1]}/web/feed.xml`;
-    ghStatus('ok',`✅ Опубліковано! URL оновиться за ~1 хвилину: ${url}`);
+    const tasks=[];
+    if(xmlResultDrop) tasks.push(ghPutFile(token,'web/feed.xml',     xmlResultDrop, `feed: update drop ${date}`));
+    if(xmlResultOpt)  tasks.push(ghPutFile(token,'web/feed-opt.xml', xmlResultOpt,  `feed: update opt ${date}`));
+    await Promise.all(tasks);
+    ghStatus('ok','✅ Опубліковано! Посилання оновляться за ~1 хвилину');
   }catch(err){
     ghStatus('err','❌ Помилка: '+err.message);
   }
@@ -859,14 +892,6 @@ document.getElementById('btnPublish').addEventListener('click', async()=>{
   ghUpdateUI();
 });
 
-// Show GH card after result
-const _origShowResult=showResult;
-showResult=function(){
-  _origShowResult();
-  document.getElementById('ghCard').classList.add('show');
-  ghUpdateUI();
-};
-// Init token UI
 ghUpdateUI();
 </script>
 </body>
