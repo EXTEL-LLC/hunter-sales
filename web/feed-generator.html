@@ -346,20 +346,20 @@ const CACHE_META_DROP  = 'telemart_price_cache_meta';
 const CACHE_META_OPT   = 'extel_opt_price_cache_meta';
 
 // Асортимент: залишаємо колонки (0-based) = 1,6,8,9,10,11,12,14,16,20,38
-const KEEP_IDX = [0,5,6,7,8,9,10,11,13,15,19,37,38];
-const RENAME   = {5:'Назва', 6:'Назва RU', 8:'Категорія', 9:'РРЦ', 10:'Ціна дроп', 13:'Наявність', 37:'Опис', 38:'Опис RU'};
+const KEEP_IDX = [0,5,6,7,8,9,10,11,13,15,19,37,38,43];
+const RENAME   = {5:'Назва', 6:'Назва RU', 8:'Категорія', 9:'РРЦ', 10:'Ціна дроп', 13:'Наявність', 37:'Опис', 38:'Опис RU', 43:'Гарантійний термін, міс.'};
 
 const XML_MAP_DROP = {
   'Артикул':'article','Назва':'name','Бренд':'brand',
   'Категорія':'__cat__','РРЦ':'price_rrc','Ціна дроп':'price',
   'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
-  'Ссылка':'url','Опис':'description'
+  'Ссылка':'url','Опис':'description','Гарантійний термін, міс.':'warranty'
 };
 const XML_MAP_OPT = {
   'Артикул':'article','Назва':'name_ua','Назва RU':'name_ru','Бренд':'brand',
   'Категорія':'__cat__','РРЦ':'price_rrc','Ціна опт':'price',
   'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
-  'Ссылка':'url','Опис':'description_ua','Опис RU':'description_ru'
+  'Ссылка':'url','Опис':'description_ua','Опис RU':'description_ru','Гарантійний термін, міс.':'warranty'
 };
 
 const HTML_COLS = new Set(['Назва','Опис','Назва RU','Опис RU']);
@@ -637,6 +637,7 @@ function buildProducts(){
     const art = obj[ART_COL]||'';
     if(art in dropCache) obj['Ціна дроп'] = String(dropCache[art]);
     if(art in optCache)  obj['Ціна опт']  = String(optCache[art]);
+    obj['Гарантійний термін, міс.'] = '12';
     return obj;
   });
 }
@@ -687,7 +688,9 @@ function buildXml(products, xmlMap){
           out.push(`${ind2}</pictures>`);
         }
       }else if(useCdata && HTML_COLS.has(col)){
-        if(val) out.push(`${ind2}<${tag}><![CDATA[${val.replace(/]]>/g,']]]]><![CDATA[>')}]]></${tag}>`);
+        if(val){const fv=fixImgSrc(val);out.push(`${ind2}<${tag}><![CDATA[${fv.replace(/]]>/g,']]]]><![CDATA[>')}]]></${tag}>`);}
+      }else if(HTML_COLS.has(col)){
+        if(val) out.push(`${ind2}<${tag}>${ex(fixImgSrc(val))}</${tag}>`);
       }else{
         if(val) out.push(`${ind2}<${tag}>${ex(val)}</${tag}>`);
       }
@@ -804,6 +807,7 @@ document.getElementById('btnCopy').addEventListener('click',()=>{
 /* ══════════ XML escape ══════════ */
 function ex(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function ea(s){ return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function fixImgSrc(html){ return html.replace(/src="(\/content\/)/g,'src="https://www.extel.com.ua$1'); }
 
 /* ══════════ Init ══════════ */
 updateCacheUI(CACHE_META_DROP,'cacheDotDrop','cacheTextDrop','Дроп');
