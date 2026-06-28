@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-06-21">
+<price date="2026-06-28">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1369,7 +1369,7 @@
 <p>Одна розетка дозволяє підключати стандартні електроприлади. Простий і надійний дизайн робить використання комфортним і безпечним.</p> <p><strong>Подовжувач P01230R</strong> – практичне та надійне рішення для дому, майстерні або дачі, яке забезпечує безпечну роботу з електроприладами на відстані.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0123R" available="true" group_id="12">
+    <offer id="P0123R" available="false" group_id="12">
       <article>P0123R</article>
       <name><![CDATA[Мережевий подовжувач Emos P0123R 1 розетка 3 м 1,5 мм²]]></name>
       <brand>EMOS</brand>
@@ -1377,7 +1377,7 @@
       <price_rrc>399.00</price_rrc>
       <price>324.72</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/2/21804744323892_+c8383cbb72.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/2/77177468764536_+8707d5edb6.jpg</picture>
@@ -1393,10 +1393,19 @@
         <picture>https://www.extel.com.ua/content/images/2/65747908387509_+51592fc4c2.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/merezhevyi-podovzhuvach-emos-p0123r-1-rozetky-3-m./</url>
-      <description><![CDATA[<h2>Подовжувач P0123R 3 м – компактний і безпечний</h2> <p>Високоякісний <strong>подовжувач P0123R</strong> довжиною <strong>3 м</strong> ідеально підходить для безпечного підключення електроприладів у домашніх умовах або на робочій ділянці. Компактна довжина забезпечує зручну робочу зону і легке зберігання.</p> <h2>Безпечне підключення</h2>
-<p>Кабель із провідником <strong>H05VV-F3G 1,5 мм²</strong> витримує максимальне навантаження до <strong>3 680 Вт</strong>. <strong>Захист від дітей</strong> і <strong>ПВХ-ізоляція</strong> забезпечують безпечну експлуатацію.</p> <h2>Зручність у використанні</h2>
+      <description><![CDATA[<h2>Подовжувач P0123R 3 м &ndash; компактний і безпечний</h2>
+
+<p>Високоякісний <strong>подовжувач P0123R</strong> довжиною <strong>3 м</strong> ідеально підходить для безпечного підключення електроприладів у домашніх умовах або на робочій ділянці. Компактна довжина забезпечує зручну робочу зону і легке зберігання.</p>
+
+<h2>Безпечне підключення</h2>
+
+<p>Кабель із провідником <strong>H05VV-F3G 1,5 мм&sup2;</strong> витримує максимальне навантаження до <strong>3 680 Вт</strong>. <strong>Захист від дітей</strong> і <strong>ПВХ-ізоляція</strong> забезпечують безпечну експлуатацію.</p>
+
+<h2>Зручність у використанні</h2>
+
 <p>Одна <strong>розетка 2P + PE SCHUKO</strong> дозволяє підключати стандартні електроприлади, а компактний дизайн робить подовжувач зручним для зберігання. Всі елементи виконані з <strong>пластика</strong>, що підвищує надійність і довговічність.</p>
-<p><strong>Подовжувач P0123R 3 м</strong> – це надійне, безпечне і практичне рішення для дому, офісу або майстерні.</p>]]></description>
+
+<p><strong>Подовжувач P0123R 3 м</strong> &ndash; це надійне, безпечне і практичне рішення для дому, офісу або майстерні.</p>]]></description>
       <warranty>12</warranty>
     </offer>
     <offer id="P0125R" available="true" group_id="12">
@@ -4318,7 +4327,7 @@
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0055N" available="true" group_id="16">
+    <offer id="P0055N" available="false" group_id="16">
       <article>P0055N</article>
       <name><![CDATA[Універсальний адаптер для подорожей EMOS P0055N USA,GB,JP,CN,AU,DE,HU,SI CZ,SK,PL=SCHUKO]]></name>
       <brand>SKROSS</brand>
@@ -4326,7 +4335,7 @@
       <price_rrc>586.00</price_rrc>
       <price>480.54</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/35/98614939226642_+b6570a18be.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/35/80551250530190_+870d9c106f.jpg</picture>
@@ -4339,8 +4348,16 @@
         <picture>https://www.extel.com.ua/content/images/35/64958234060049_+6b770cf88d.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/universalnyi-adapter-dlia-podorozhei-emos-p0055n-usagbjpcnaudehusi-czskplschuko/</url>
-      <description><![CDATA[<h2>Універсальний дорожній адаптер P0055N – підключення техніки з будь-якої країни в Європі</h2> <p><strong>Універсальний дорожній адаптер P0055N</strong> — практичне рішення для мандрівників та гостей Європи, які використовують вилки іншого стандарту. Пристрій дозволяє легко підключати техніку зі штекерами <strong>США, Великої Британії, Японії, Китаю, Австралії</strong> та інших країн до європейських розеток стандартів <strong>SCHUKO</strong> і <strong>французького типу</strong>.</p> <h2>Сумісність та надійність</h2>
-<p>Адаптер розрахований на навантаження до <strong>250 В~/16 А</strong>, що дозволяє безпечно використовувати більшість побутових пристроїв під час подорожей або тимчасового перебування в Європі. Міцний корпус забезпечує стабільне підключення та тривалий термін служби.</p> <h2>Зручний формат для подорожей</h2>
+      <description><![CDATA[<h2>Універсальний дорожній адаптер P0055N &ndash; підключення техніки з будь-якої країни в Європі</h2>
+
+<p><strong>Універсальний дорожній адаптер P0055N</strong> &mdash; практичне рішення для мандрівників та гостей Європи, які використовують вилки іншого стандарту. Пристрій дозволяє легко підключати техніку зі штекерами <strong>США, Великої Британії, Японії, Китаю, Австралії</strong> та інших країн до європейських розеток стандартів <strong>SCHUKO</strong> і <strong>французького типу</strong>.</p>
+
+<h2>Сумісність та надійність</h2>
+
+<p>Адаптер розрахований на навантаження до <strong>250 В~/16 А</strong>, що дозволяє безпечно використовувати більшість побутових пристроїв під час подорожей або тимчасового перебування в Європі. Міцний корпус забезпечує стабільне підключення та тривалий термін служби.</p>
+
+<h2>Зручний формат для подорожей</h2>
+
 <p>Компактний адаптер у <strong>білому кольорі</strong> легко поміщається в дорожню сумку або валізу та стане незамінним аксесуаром для готелів, відряджень і туристичних поїздок, забезпечуючи швидке та зручне підключення електроприладів без необхідності заміни вилки.</p>]]></description>
       <warranty>12</warranty>
     </offer>
@@ -4379,6 +4396,94 @@
 <h2 style="color:#cc3300; text-align:center; font-weight:bold;">6 типів розеток</h2>
 
 <p>Незалежно від того, чи є вашим пунктом призначення <strong>США</strong>, <strong>Австралія</strong>, <strong>Китай</strong> або будь-яка інша з більш ніж <strong>100 країн світу</strong>, з універсальним адаптером <strong>P0056N</strong> ви будете повністю готові до використання з <strong>6 різними типами розеток</strong>: <strong>Type B (USA)</strong>, <strong>Type G (UK)</strong>, <strong>Type I (Australia/China)</strong>, <strong>Type J (Switzerland)</strong>, <strong>Type L (Italy)</strong>, <strong>Type N (Brazil)</strong>.</p>]]></description>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P0055U" available="false" group_id="16">
+      <article>P0055U</article>
+      <name><![CDATA[Універсальний адаптер для подорожей EMOS P0055U USB-C USB-A (USA,GB,J,CN,AU=ШУКО)]]></name>
+      <brand>EMOS</brand>
+      <categoryId>16</categoryId>
+      <price_rrc>0.00</price_rrc>
+      <price>975</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-35572876505440_+b2bca07b47.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-93377744133788_+60e36d99da.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-39224241832382_+a7258c624b.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-84158451000867_+650016f31a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-79294033861001_+11a18d2452.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-53557564235528_+74d14452f2.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-27060712911375_+3af8d93ebb.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-78367211508021_+e294a22b59.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-76925608407648_+416f0a0efc.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-28271611160457_+4598773d22.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-61037772833230_+5009de72fa.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-66944917859714_+d717f4e7e5.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-30413404802331_+a71db8a5a6.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-73617979013465_+2d1338fc61.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-69951088618397_+8e7f125afb.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/7/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko-65529295565265_+d3f3730d20.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/universalnyi-adapter-dlia-podorozhei-emos-p0055u-usb-c-usb-a-usagbjcnaushuko/</url>
+      <description><![CDATA[<h3 style="text-align:center;color:#d35400;font-size:22px;">Універсальний дорожній адаптер для подорожей Європою</h3>
+
+<p>Універсальний адаптер дозволяє безпечно підключати електроприлади з різними типами вилок до європейських розеток. Він стане незамінним аксесуаром для туристів, студентів, бізнес-мандрівників та всіх, хто подорожує країнами Європи.</p>
+
+<p>Адаптер призначений для користувачів, які використовують вилки <strong>США, Великої Британії, Японії, Китаю, Австралії</strong> та інших країн, і потребують підключення до розеток типу <strong>SCHUKO</strong> або <strong>французького стандарту</strong>, що використовуються в багатьох країнах Європи.</p>
+
+<h3 style="text-align:center;color:#d35400;font-size:22px;">Швидка зарядка через USB</h3>
+
+<p>Адаптер оснащений портами <strong>USB-A</strong> та <strong>USB-C</strong>, що дозволяє одночасно заряджати смартфони, планшети, навушники та інші мобільні пристрої без використання додаткових зарядних пристроїв.</p>
+
+<p>Порт <strong>USB-C</strong> підтримує потужність до <strong>20 Вт</strong>, а порт <strong>USB-A</strong> &mdash; до <strong>18 Вт</strong>. Загальна потужність USB-виходів становить <strong>15 Вт</strong> при одночасному використанні.</p>
+
+<h3 style="text-align:center;color:#d35400;font-size:22px;">Надійність та безпечне використання</h3>
+
+<p>Адаптер розрахований на роботу в мережах з напругою <strong>100&ndash;250 В</strong> та максимальним струмом навантаження <strong>16 А</strong>, що дозволяє використовувати його з більшістю побутових електроприладів під час подорожей.</p>
+
+<p>Компактний корпус білого кольору легко поміщається в дорожню сумку або валізу, забезпечуючи зручне підключення пристроїв у поїздках та відрядженнях.</p>]]></description>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P0055E" available="false" group_id="16">
+      <article>P0055E</article>
+      <name><![CDATA[Універсальний адаптер для подорожей EMOS P0055E (USA,GB,J,CN,AU=ШУКО)]]></name>
+      <brand>EMOS</brand>
+      <categoryId>16</categoryId>
+      <price_rrc>0.00</price_rrc>
+      <price>441.96</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-89625183202785_+64a9bedc6a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-73387439717915_+c89c39f1dc.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-30825588142189_+74cc7818d9.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-40723221230131_+1d4e5241ae.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-65116047703428_+c98e714142.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-68549492430490_+d8d5342c59.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-94402451297850_+9c3d1ff57b.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-40978390493458_+1bddde38f5.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-51298872899196_+6924482485.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-58808522059126_+5b288713c5.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-91393335012872_+421f0f083d.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-57985689153336_+6d6fe4b580.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-72024292011691_+7587646a8d.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/8/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko-31097530146247_+50c831e7b1.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/universalnyi-adapter-dlia-podorozhei-emos-p0055e-usagbjcnaushuko/</url>
+      <description><![CDATA[<h3 style="text-align:center;color:#d35400;font-size:22px;">Універсальний дорожній адаптер для подорожей Європою</h3>
+
+<p>Універсальний адаптер стане практичним помічником для мандрівників, туристів та бізнес-користувачів, які відвідують країни Європи. Він дозволяє безпечно підключати електроприлади з різними типами вилок до європейських розеток.</p>
+
+<p>Адаптер розроблений для користувачів, які використовують вилки <strong>США, Великої Британії, Японії, Китаю, Австралії</strong> та інших країн, і потребують підключення до розеток типу <strong>SCHUKO</strong> або <strong>французького стандарту</strong>, що широко використовуються в європейських країнах.</p>
+
+<h3 style="text-align:center;color:#d35400;font-size:22px;">Просте та безпечне підключення</h3>
+
+<p>Адаптер підтримує роботу в мережах з напругою до <strong>250 В</strong> та максимальним струмом навантаження <strong>16 А</strong>, що дозволяє використовувати його з більшістю побутових електроприладів під час подорожей.</p>
+
+<p>Завдяки компактному виконанню адаптер легко поміщається в сумку або валізу та не займає багато місця серед дорожніх речей.</p>
+
+<p>Міцний корпус білого кольору забезпечує довговічність та комфортне використання. Адаптер стане незамінним аксесуаром для всіх, хто часто подорожує та хоче без проблем користуватися своїми пристроями в різних країнах Європи.</p>]]></description>
       <warranty>12</warranty>
     </offer>
     <offer id="P0003C" available="true" group_id="17">
@@ -4808,7 +4913,7 @@
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0066" available="true" group_id="17">
+    <offer id="P0066" available="false" group_id="17">
       <article>P0066</article>
       <name><![CDATA[Вилка подовжувача EMOS P0066 кутова пласка з заземленням]]></name>
       <brand>EMOS</brand>
@@ -4816,7 +4921,7 @@
       <price_rrc>119.00</price_rrc>
       <price>92.82</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/38/86543389200791_+c93109ab41.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/38/68576964363154_+10174d25dc.jpg</picture>
@@ -4836,13 +4941,13 @@
         <picture>https://www.extel.com.ua/content/images/38/28674288200741_+9055351177.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/vylka-podovzhuvacha-emos-p0066-kutova-plaska-z-zazemlenniam/</url>
-      <description><![CDATA[<h2>Кутова вилка для мобільних подовжувачів EMOS</h2> <p>
-Практична <strong>кутова вилка</strong> білого кольору, призначена для гнучких шнурів і мобільних подовжувачів. Зручна конструкція дозволяє підключати прилади у важкодоступних місцях та економить простір.
-</p> <p>
-Підтримує напругу до <strong>250 В~</strong> і струм до <strong>16 А</strong>, забезпечуючи надійне та безпечне підключення електроприладів. Клас захисту <strong>IP20</strong> гарантує безпечну експлуатацію у стандартних умовах, а <strong>міцний пластиковий корпус</strong> забезпечує довговічність.
-</p> <p>
-Ця кутова вилка стане надійним і зручним рішенням для щоденного використання.
-</p>]]></description>
+      <description><![CDATA[<h2>Кутова вилка для мобільних подовжувачів EMOS</h2>
+
+<p>Практична <strong>кутова вилка</strong> білого кольору, призначена для гнучких шнурів і мобільних подовжувачів. Зручна конструкція дозволяє підключати прилади у важкодоступних місцях та економить простір.</p>
+
+<p>Підтримує напругу до <strong>250 В~</strong> і струм до <strong>16 А</strong>, забезпечуючи надійне та безпечне підключення електроприладів. Клас захисту <strong>IP20</strong> гарантує безпечну експлуатацію у стандартних умовах, а <strong>міцний пластиковий корпус</strong> забезпечує довговічність.</p>
+
+<p>Ця кутова вилка стане надійним і зручним рішенням для щоденного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
     <offer id="P0069" available="false" group_id="17">
@@ -13536,19 +13641,29 @@ IP20 – ідеально для приміщень
         <picture>https://www.extel.com.ua/content/images/20/11643782025071_+1b8e2c2fb7.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/nastilna-lampa-stella-synia-z7602bl/</url>
-      <description><![CDATA[<p style="color:#cc3300; text-align:center; font-weight:bold;">
-Блискуче поєднання стилю та потужності
-</p> <p>
-<strong>Настільна лампа EDDY</strong> привносить у ваш простір преміальне освітлення у двох сучасних кольорах – чорному або білому. Потужність <strong>6 Вт</strong> та <strong>24 потужні LED</strong> забезпечують світловий потік до <strong>480 lm</strong>.
-</p> <p>
-Лампа стане ідеальним доповненням до робочого столу або приліжкової тумби, надаючи повний контроль над освітленням у будь-якій ситуації. <strong>Елегантний дизайн</strong> та функціональність допоможуть створити ідеальну атмосферу у кожний момент.
-</p> <p style="color:#cc3300; text-align:center; font-weight:bold;">
-Індивідуальне налаштування світла
-</p> <p>
-<strong>Гнучка шийка</strong> лампи дозволяє спрямувати світло саме туди, де воно потрібне – для читання ввечері, точної роботи за столом або комфортного відпочинку.
-</p> <p>
-Дві <strong>сенсорні кнопки</strong> дозволяють легко перемикати <strong>колір світла від холодного білого до теплого білого</strong> та змінювати <strong>інтенсивність освітлення у трьох рівнях</strong>.
-</p>]]></description>
+      <description><![CDATA[<p><strong>Настільна світлодіодна лампа EMOS STELLA, синя, 6,5 Вт</strong></p>
+
+<p>Настільна лампа EMOS STELLA поєднує сучасний дизайн, комфортне освітлення та практичність для щоденного використання. Завдяки <strong>світловому потоку 400 лм</strong> і нейтральному білому світлу з <strong>колірною температурою 4000 К </strong>вона створює комфортні умови для навчання, роботи за комп&#39;ютером, читання та інших повсякденних занять.</p>
+
+<p>Модель оснащена <strong>12 енергоефективними світлодіодами SMD</strong> загальною <strong>потужністю 6,5 Вт,</strong> які забезпечують рівномірне освітлення робочої поверхні та мають ресурс роботи до 30 000 годин. Вбудована <strong>функція димерування </strong>дозволяє регулювати яскравість відповідно до ваших потреб та часу доби.</p>
+
+<p>Корпус виготовлений із поєднання<strong> металу, пластику та гуми</strong>, що забезпечує міцність конструкції та сучасний зовнішній вигляд. Лампа живиться <strong>від електромережі 100&ndash;240 В </strong>через адаптер 12 В / 400 мА, який входить до комплекту постачання. Кабель живлення довжиною 1,7 м забезпечує зручне розміщення на робочому столі.</p>
+
+<p>Завдяки стильному синьому кольору та компактним розмірам 160 &times; 550 &times; 345 мм настільна лампа EMOS STELLA стане чудовим доповненням домашнього кабінету, дитячої кімнати або офісного робочого місця.</p>
+
+<p><strong>Особливості:</strong></p>
+
+<ul>
+	<li>світловий потік 400 лм;</li>
+	<li>нейтральне біле світло 4000 К;</li>
+	<li>функція регулювання яскравості;</li>
+	<li>12 світлодіодів SMD;</li>
+	<li>ресурс роботи до 30 000 годин;</li>
+	<li>індекс кольоропередачі Ra &gt;80;</li>
+	<li>живлення від мережі 100&ndash;240 В;</li>
+	<li>довжина кабелю 1,7 м;</li>
+	<li>сучасний дизайн у синьому кольорі.</li>
+</ul>]]></description>
       <warranty>12</warranty>
     </offer>
     <offer id="Z7602P" available="true" group_id="43">
@@ -13577,19 +13692,29 @@ IP20 – ідеально для приміщень
         <picture>https://www.extel.com.ua/content/images/21/54034744609019_+f237857bcd.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/nastilna-lampa-stella-rozheva-z7602p/</url>
-      <description><![CDATA[<p style="color:#cc3300; text-align:center; font-weight:bold;">
-Блискуче поєднання стилю та потужності
-</p> <p>
-<strong>Настільна лампа EDDY</strong> привносить у ваш простір преміальне освітлення у двох сучасних кольорах – чорному або білому. Потужність <strong>6 Вт</strong> та <strong>24 потужні LED</strong> забезпечують світловий потік до <strong>480 lm</strong>.
-</p> <p>
-Лампа стане ідеальним доповненням до робочого столу або приліжкової тумби, надаючи повний контроль над освітленням у будь-якій ситуації. <strong>Елегантний дизайн</strong> та функціональність допоможуть створити ідеальну атмосферу у кожний момент.
-</p> <p style="color:#cc3300; text-align:center; font-weight:bold;">
-Індивідуальне налаштування світла
-</p> <p>
-<strong>Гнучка шийка</strong> лампи дозволяє спрямувати світло саме туди, де воно потрібне – для читання ввечері, точної роботи за столом або комфортного відпочинку.
-</p> <p>
-Дві <strong>сенсорні кнопки</strong> дозволяють легко перемикати <strong>колір світла від холодного білого до теплого білого</strong> та змінювати <strong>інтенсивність освітлення у трьох рівнях</strong>.
-</p>]]></description>
+      <description><![CDATA[<p><strong>Настільна світлодіодна лампа EMOS STELLA, рожева, 6,5 Вт</strong></p>
+
+<p>Настільна лампа EMOS STELLA поєднує сучасний дизайн, комфортне освітлення та практичність для щоденного використання. Завдяки <strong>світловому потоку 400 лм</strong> і нейтральному білому світлу з <strong>колірною температурою 4000 К </strong>вона створює комфортні умови для навчання, роботи за комп&#39;ютером, читання та інших повсякденних занять.</p>
+
+<p>Модель оснащена <strong>12 енергоефективними світлодіодами SMD</strong> загальною <strong>потужністю 6,5 Вт,</strong> які забезпечують рівномірне освітлення робочої поверхні та мають ресурс роботи до 30 000 годин. Вбудована <strong>функція димерування </strong>дозволяє регулювати яскравість відповідно до ваших потреб та часу доби.</p>
+
+<p>Корпус виготовлений із поєднання<strong> металу, пластику та гуми</strong>, що забезпечує міцність конструкції та сучасний зовнішній вигляд. Лампа живиться <strong>від електромережі 100&ndash;240 В </strong>через адаптер 12 В / 400 мА, який входить до комплекту постачання. Кабель живлення довжиною 1,7 м забезпечує зручне розміщення на робочому столі.</p>
+
+<p>Завдяки стильному рожевому кольору та компактним розмірам 160 &times; 550 &times; 345 мм настільна лампа EMOS STELLA стане чудовим доповненням домашнього кабінету, дитячої кімнати або офісного робочого місця.</p>
+
+<p><strong>Особливості:</strong></p>
+
+<ul>
+	<li>світловий потік 400 лм;</li>
+	<li>нейтральне біле світло 4000 К;</li>
+	<li>функція регулювання яскравості;</li>
+	<li>12 світлодіодів SMD;</li>
+	<li>ресурс роботи до 30 000 годин;</li>
+	<li>індекс кольоропередачі Ra &gt;80;</li>
+	<li>живлення від мережі 100&ndash;240 В;</li>
+	<li>довжина кабелю 1,7 м;</li>
+	<li>сучасний дизайн у рожевому кольорі.</li>
+</ul>]]></description>
       <warranty>12</warranty>
     </offer>
     <offer id="Z7617" available="true" group_id="43">
@@ -17602,7 +17727,7 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="658" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-05-01-103853.jpg" width="1237" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PW56202" available="true" group_id="63">
+    <offer id="PW56202" available="false" group_id="63">
       <article>PW56202</article>
       <name><![CDATA[Таймер поливу GoSmart, Bluetooth 5.0, 2 виходи PW56202]]></name>
       <brand>EMOS</brand>
@@ -17610,7 +17735,7 @@ P56402 можна встановити на стіну або розмістит
       <price_rrc>2306.00</price_rrc>
       <price>1890.9</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/14/96341823176077_+05dd5c2472.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/14/29100210472572_+3e3da53436.jpg</picture>
