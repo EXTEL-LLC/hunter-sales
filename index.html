@@ -930,7 +930,7 @@ async function showLoginForm(role){
 
 async function doLogin(){
   const pass=document.getElementById('loginPass').value;
-  if(!pass){document.getElementById('loginErr').textContent='\u0412\u0435\u0456\u044C \u043F\u0440\u043B';return;}
+  if(!pass){document.getElementById('loginErr').textContent='\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C';return;}
   const h=await sha256(pass);
   if(_loginRole==='manager'){
     const managers=getManagers();
@@ -1008,7 +1008,7 @@ function applyRole(role){
     currentMgrId=null;
     body.classList.remove('manager-mode');
     document.getElementById('mgr-banner').style.display='none';
-    document.getElementById('role-badge').textContent='\uD83D\uDC51 \u0410\u043C\u043D';
+    document.getElementById('role-badge').textContent='\uD83D\uDC51 \u0410\u0434\u043C\u0456\u043D';
     document.getElementById('role-badge').className='role-badge role-admin';
     updateDashMgrFilter();
     initPipeMgrFilter();
@@ -1034,7 +1034,7 @@ async function changePassword(){
   const el=document.getElementById('pass-status');
   if(!oldP||!newP||!newP2){showStatus(el,'\u0417\u043F\u0432\u0456\u044C \u0432\u0456 \u043F\u043B','err');return;}
   if(newP!==newP2){showStatus(el,'\u041D\u0432 \u043F\u0440\u043B \u043D \u0441\u0456\u043F\u0434\u044E\u044C','err');return;}
-  if(newP.length<3){showStatus(el,'\u041C\u043D\u043C\u043C 3 \u0441\u043C\u043E\u0438','err');return;}
+  if(newP.length<3){showStatus(el,'\u041C\u0456\u043D\u0456\u043C\u0443\u043C 3 \u0441\u0438\u043C\u0432\u043E\u043B\u0438','err');return;}
   const stored=localStorage.getItem('hsm_pass');
   const oldH=await sha256(oldP);
   if(oldH!==stored){showStatus(el,'\u041F\u0442\u0447\u0438 \u043F\u0440\u043B \u043D\u0432\u0440\u0438','err');return;}
@@ -1083,7 +1083,7 @@ function initPipeMgrFilter(){
   const cur=sel.value;
   const mgrs=getManagers();
   sel.innerHTML=`<option value="">\uD83D\uDC65 \u0412\u0441\u0456 (${mgrs.length+1})</option>
-    <option value="__admin__"${cur==='__admin__'?' selected':''}>\uD83D\uDC51 \u0410\u043C\u043D</option>`+
+    <option value="__admin__"${cur==='__admin__'?' selected':''}>\uD83D\uDC51 \u0410\u0434\u043C\u0456\u043D</option>`+
     mgrs.map(m=>`<option value="${m.id}"${cur===m.id?' selected':''}>${esc(m.name)}</option>`).join('');
 }
 
@@ -1243,12 +1243,12 @@ function openDeal(id){
     document.getElementById('d-contactdate').value='';
     document.getElementById('d-stepdate').value='';
     document.getElementById('d-channel').value='';
-    document.getElementById('d-status').value='\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440';
+    document.getElementById('d-status').value='\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440';
     document.getElementById('d-result').value='';
     addPhoneField();addEmailField();
     buildCatGrid('categories-grid',[]);
     buildCatGrid('potential-grid',[]);
-    initStatusFlow('\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440');
+    initStatusFlow('\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440');
     // Check for draft
     const draft=JSON.parse(localStorage.getItem('hsm_draft')||'null');
     if(draft&&draft._ts&&(Date.now()-draft._ts)<86400000){
@@ -1256,7 +1256,7 @@ function openDeal(id){
     }
   } else {
     const d=deals.find(x=>String(x.id)===String(id));if(!d)return;
-    document.getElementById('deal-modal-title').textContent='\u270F \u0420\u0434\u0433\u0432\u0442 \u043A\u0456\u043D\u0430';
+    document.getElementById('deal-modal-title').textContent='\u270F \u0420\u0435\u0434\u0430\u0433\u0443\u0432\u0430\u0442\u0438 \u043A\u043B\u0456\u0454\u043D\u0442\u0430';
     ['company','contact','position','address','city','website','nextstep','reject','comment'].forEach(f=>document.getElementById('d-'+f).value=d[f]||'');
     updateWebsiteLink(d.website||'');
     document.getElementById('d-date').value=d.date||'';
@@ -1274,7 +1274,7 @@ function openDeal(id){
     buildCatGrid('categories-grid', d.categories||[]);
     buildCatGrid('potential-grid', d.potentialCategories||[]);
     // Status flow
-    initStatusFlow(d.status||'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440');
+    initStatusFlow(d.status||'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440');
     // Contact log
     renderContactLog(d.contactLog||[]);
   }
@@ -1288,18 +1288,18 @@ function openDeal(id){
 
 function saveDeal(){
   const company=document.getElementById('d-company').value.trim();
-  if(!company){alert('\u0412\u0456 \u043D\u0443 \u043A\u0430!');return;}
+  if(!company){alert('\u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043D\u0430\u0437\u0432\u0443 \u043A\u043E\u043C\u043F\u0430\u043D\u0456\u0457!');return;}
   // Duplicate guard
   const dupVisible=document.getElementById('dup-panel').classList.contains('visible');
   if(dupVisible){
     const isAdmin=getRole()==='admin';
     const forced=document.getElementById('dup-force-cb')?.checked;
     if(isAdmin&&!forced){
-      alert('\u26A0 \u0417\u0434 \u0441\u0438 \u043A\u043D!\n\u041F\u0430 \u0433\u0447 "\u042F \u0432\u043D\u0439 \u2014 \u0446 \u043D\u0439 \u043A\u043D" \u0449 \u0437\u0435.');
+      alert('\u26A0 \u0417\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u0434\u0443\u0431\u043B\u0456\u043A\u0430\u0442!\n\u041F\u043E\u0441\u0442\u0430\u0432\u0442\u0435 \u0433\u0430\u043B\u043E\u0447\u043A\u0443 "\u042F \u0432\u043F\u0435\u0432\u043D\u0435\u043D\u0438\u0439 \u2014 \u0446\u0435 \u043D\u043E\u0432\u0438\u0439 \u043A\u043B\u0456\u0454\u043D\u0442" \u0449\u043E\u0431 \u0437\u0431\u0435\u0440\u0435\u0433\u0442\u0438.');
       return;
     }
     if(!isAdmin){
-      alert('\u26A0 \u0422\u0439 \u043A\u043D \u0432 \u0454 \u0432 \u0431!\n\u0417\u043D\u0441 \u0434 \u0430\u043D\u0440\u0440 \u0430 \u0432\u0440\u0435 \u0456\u044E \u043A\u043E.');
+      alert('\u26A0 \u0422\u0430\u043A\u0438\u0439 \u043A\u043B\u0456\u0454\u043D\u0442 \u0432\u0436\u0435 \u0454 \u0432 \u0431\u0430\u0437\u0456!\n\u0417\u043D\u0430\u0439\u0434\u0456\u0442\u044C \u0434\u0443\u0431\u043B\u0456\u043A\u0430\u0442 \u0442\u0430 \u0432\u043D\u0435\u0441\u0456\u0442\u044C \u0437\u043C\u0456\u043D\u0438 \u0432 \u0456\u0441\u043D\u0443\u044E\u0447\u0443 \u043A\u0430\u0440\u0442\u043A\u0443.');
       return;
     }
   }
@@ -1312,8 +1312,8 @@ function saveDeal(){
     addedBy: isNew
       ? (getRole()==='manager'
           ? {id:currentMgrId, name:localStorage.getItem('hsm_mgr_name')||'\u041C\u0435\u043D\u0435\u0434\u0436\u0435\u0440'}
-          : {id:'__admin__', name:'\u0410\u043D'})
-      : (existingDeal?.addedBy||{id:'__admin__',name:'\u0410\u043D'}),
+          : {id:'__admin__', name:'\u0410\u0434\u043C\u0456\u043D'})
+      : (existingDeal?.addedBy||{id:'__admin__',name:'\u0410\u0434\u043C\u0456\u043D'}),
     contact:document.getElementById('d-contact').value.trim(),
     position:document.getElementById('d-position').value.trim(),
     phones:getPhoneValues(),
@@ -1620,7 +1620,7 @@ function renderDashboard(){
       </div>
       <div style="margin-top:16px"><div class="section-title">\u041A\u0435\u044F \u043C \u0435\u0430</div>
         <table class="conv-table">
-          ${[['\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440','\u0404 \u0456\u0442\u0440\u0441'],['\u0404 \u0456\u0442\u0440\u0441','\u041F\u0440\u0433\u0432\u0440'],['\u041F\u0440\u0433\u0432\u0440','\u0422\u0441\u043E\u0435 \u0437\u043C\u0432\u0435\u043D'],['\u0422\u0441\u043E\u0435 \u0437\u043C\u0432\u0435\u043D','\u0410\u0442\u0432\u0438 \u0434\u043B\u0440']].map(([f,t])=>`
+          ${[['\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440','\u0404 \u0456\u043D\u0442\u0435\u0440\u0435\u0441'],['\u0404 \u0456\u043D\u0442\u0435\u0440\u0435\u0441','\u041F\u0435\u0440\u0435\u0433\u043E\u0432\u043E\u0440\u0438'],['\u041F\u0435\u0440\u0435\u0433\u043E\u0432\u043E\u0440\u0438','\u0422\u0435\u0441\u0442\u043E\u0432\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F'],['\u0422\u0435\u0441\u0442\u043E\u0432\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F','\u0410\u043A\u0442\u0438\u0432\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440']].map(([f,t])=>`
           <tr><td>${f} \u2192 ${t}</td>
           <td><div class="conv-bar" style="width:${Math.min(parseInt(cr(f,t))||0,100)*0.55}px"></div><strong>${cr(f,t)}</strong></td></tr>`).join('')}
         </table>
@@ -1667,7 +1667,7 @@ function renderDashboard(){
 function renderMgrStatsTable(){
   const allMgrs=getManagers();
   const sources=[
-    {label:'\uD83D\uDC51 \u0410\u043C\u043D', id:'__admin__',
+    {label:'\uD83D\uDC51 \u0410\u0434\u043C\u0456\u043D', id:'__admin__',
      deals:JSON.parse(localStorage.getItem('hsm_deals')||'[]').map(migrateDeal),
      acts:JSON.parse(localStorage.getItem('hsm_acts')||'[]')},
     ...allMgrs.map(m=>({
@@ -1781,13 +1781,13 @@ async function addManager(){
   const name=document.getElementById('s-mgrname').value.trim();
   const p1=document.getElementById('s-mgrpass').value;
   const p2=document.getElementById('s-mgrpass2').value;
-  if(!name){showStatus(el,'\u274C \u0412\u0435\u0456\u044C \u0456\'\u044F \u043C\u043D\u0434\u0435\u0430','err');return;}
-  if(!p1){showStatus(el,'\u274C \u0412\u0435\u0456\u044C \u043F\u0440\u043B','err');return;}
-  if(p1!==p2){showStatus(el,'\u274C \u041F\u0440\u043B \u043D \u0441\u0456\u043F\u0434\u044E\u044C','err');return;}
-  if(p1.length<3){showStatus(el,'\u274C \u041C\u043D\u043C\u043C 3 \u0441\u043C\u043E\u0438','err');return;}
+  if(!name){showStatus(el,'\u274C \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0456\u043C\'\u044F \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430','err');return;}
+  if(!p1){showStatus(el,'\u274C \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043F\u0430\u0440\u043E\u043B\u044C','err');return;}
+  if(p1!==p2){showStatus(el,'\u274C \u041F\u0430\u0440\u043E\u043B\u0456 \u043D\u0435 \u0441\u043F\u0456\u0432\u043F\u0430\u0434\u0430\u044E\u0442\u044C','err');return;}
+  if(p1.length<3){showStatus(el,'\u274C \u041C\u0456\u043D\u0456\u043C\u0443\u043C 3 \u0441\u0438\u043C\u0432\u043E\u043B\u0438','err');return;}
   const h=await sha256(p1);
   const adminHash=localStorage.getItem('hsm_pass');
-  if(h===adminHash){showStatus(el,'\u274C \u041F\u0440\u043B \u043D \u043C\u0436 \u0441\u0456\u043F\u0434\u0442 \u0437 \u043F\u0440\u043B\u043C \u0430\u043C\u043D','err');return;}
+  if(h===adminHash){showStatus(el,'\u274C \u041F\u0430\u0440\u043E\u043B\u044C \u043D\u0435 \u043C\u043E\u0436\u0435 \u0441\u043F\u0456\u0432\u043F\u0430\u0434\u0430\u0442\u0438 \u0437 \u043F\u0430\u0440\u043E\u043B\u0435\u043C \u0430\u0434\u043C\u0456\u043D\u0430','err');return;}
   const managers=getManagers();
   if(managers.find(m=>m.name.toLowerCase()===name.toLowerCase())){showStatus(el,'\u274C \u041C\u043D\u0434\u0435 \u0437 \u0442\u043A\u043C \u0456\'\u044F \u0432\u0435 \u0456\u043D\u0454','err');return;}
   // Check no duplicate passwords
@@ -1886,7 +1886,7 @@ function updateDashMgrFilter(){
   if(!sel)return;
   const managers=getManagers();
   sel.innerHTML=`<option value="">\uD83D\uDC65 \u0412\u0441\u0456 \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0438 (${managers.length+1})</option>
-    <option value="__admin__">\uD83D\uDC51 \u0410\u043C\u043D</option>`+
+    <option value="__admin__">\uD83D\uDC51 \u0410\u0434\u043C\u0456\u043D</option>`+
     managers.map(m=>`<option value="${m.id}">\uD83D\uDC77 ${esc(m.name)}</option>`).join('');
 }
 
@@ -2232,7 +2232,7 @@ function importMgrJsonFile(input){
 function importShareCode(){
   const el=document.getElementById('share-status');
   const code=document.getElementById('shareCodeIn').value.trim();
-  if(!code){showStatus(el,'\u274C \u0412\u0435\u0456\u044C \u043A\u0434!','err');return;}
+  if(!code){showStatus(el,'\u274C \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u043A\u043E\u0434!','err');return;}
   try{
     const data=JSON.parse(decodeURIComponent(escape(atob(code))));
     const total=_countAllDeals(data);
@@ -2316,7 +2316,7 @@ function parseCSV(text){
       phone:      colMap.phone>=0?cells[colMap.phone]?.trim()||'':'',
       email:      colMap.email>=0?cells[colMap.email]?.trim()||'':'',
       channel:    colMap.channel>=0?cells[colMap.channel]?.trim()||'':'',
-      status:     colMap.status>=0?cells[colMap.status]?.trim()||'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440':'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440',
+      status:     colMap.status>=0?cells[colMap.status]?.trim()||'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440':'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440',
       contactdate:parseCsvDate(colMap.contactdate>=0?cells[colMap.contactdate]:''),
       stepdate:   parseCsvDate(colMap.stepdate>=0?cells[colMap.stepdate]:''),
       nextstep:   colMap.nextstep>=0?cells[colMap.nextstep]?.trim()||'':'',
@@ -2592,7 +2592,7 @@ function restoreDraft(){
   (draft.emails&&draft.emails.length?draft.emails:[''] ).forEach(e=>addEmailField(e));
   buildCatGrid('categories-grid', draft.categories||[]);
   buildCatGrid('potential-grid', draft.potentialCategories||[]);
-  initStatusFlow(draft.status||'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440');
+  initStatusFlow(draft.status||'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440');
   window._tmpContactLog=draft._tmpLog||[];
   renderContactLog(window._tmpContactLog);
   document.getElementById('draft-bar').classList.remove('visible');
@@ -2697,7 +2697,7 @@ function setStatus(val){
 function initStatusFlow(val){
   const flow=document.getElementById('status-flow');
   if(!flow)return;
-  const def=val||'\u041F\u0442\u043D\u0456\u043D\u0439 \u0434\u043B\u0440';
+  const def=val||'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440';
   // Render all statuses as small buttons
   const allSt=[...STATUS_LIST.map(s=>s.k),'\u041D\u0430 \u043F\u0430\u0443\u0437\u0456','\u0412\u0456\u0434\u043C\u043E\u0432\u0430','\u0412\u0442\u0440\u0430\u0447\u0435\u043D\u0438\u0439 \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u0443'].filter((v,i,a)=>a.indexOf(v)===i);
   flow.innerHTML=STATUS_LIST.map(s=>
