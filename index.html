@@ -2739,8 +2739,8 @@ function normDomain(url){
 }
 function normCompany(s){
   return(s||'').toLowerCase()
-    .replace(/\u0442|\u0444|\u043F|\u043F|llc|ltd|gmbh|inc|\u043E|\u0438|\u043F/g,'')
-    .replace(/[\u00AB"'.,\-()]/g,'').replace(/\s+/g,' ').trim();
+    .replace(/\b\u0442\u043E\u0432\b|\b\u0444\u043E\u043F\b|\b\u043F\u043F\b|\b\u043F\u0430\u0442\b|\b\u043F\u0440\u0430\u0442\b|\b\u043E\u043E\u043E\b|\bip\b|\bllc\b|\bltd\b|\bgmbh\b|\binc\b/g,'')
+    .replace(/[\u00AB\u00BB"'.,\-()\/]/g,'').replace(/\s+/g,' ').trim();
 }
 
 let _dupCheckTimer=null;
@@ -2770,19 +2770,25 @@ function _runDupCheck(){
     // Company name
     const dc=normCompany(d.company);
     if(company&&dc){
-      const shorter=company.length<=dc.length?company:dc;
-      const longer=company.length>dc.length?company:dc;
-      const isSubstr=dc.includes(company)||company.includes(dc);
-      if(isSubstr&&shorter.length>=5&&shorter.length/longer.length>=0.5)
-        reasons.push('\u043D\u0430 \u043A\u0430');
+      if(company===dc){
+        reasons.push('\u043D\u0430\u0437\u0432\u0430 \u043A\u043E\u043C\u043F\u0430\u043D\u0456\u0457');
+      } else {
+        const shorter=company.length<=dc.length?company:dc;
+        const longer=company.length>dc.length?company:dc;
+        // Only flag as duplicate if shorter is a PREFIX of longer (not buried inside)
+        // and covers at least 75% of the longer name
+        const isPrefix=longer.startsWith(shorter);
+        if(isPrefix&&shorter.length>=5&&shorter.length/longer.length>=0.75)
+          reasons.push('\u043D\u0430\u0437\u0432\u0430 \u043A\u043E\u043C\u043F\u0430\u043D\u0456\u0457');
+      }
     }
     // Website domain
     const dw=normDomain(d.website||'');
     if(website&&dw&&dw===website)
-      reasons.push('\u0441');
+      reasons.push('\u0441\u0430\u0439\u0442');
     // Phones
     const dPhones=(d.phones&&d.phones.length?d.phones:[d.phone||'']).map(normPhone).filter(Boolean);
-    phones.forEach(p=>{if(p.length>=7&&dPhones.includes(p))reasons.push('\u0442\u043B\u0444\u043D');});
+    phones.forEach(p=>{if(p.length>=7&&dPhones.includes(p))reasons.push('\u0442\u0435\u043B\u0435\u0444\u043E\u043D');});
     // Emails
     const dEmails=(d.emails&&d.emails.length?d.emails:[d.email||'']).map(e=>(e||'').toLowerCase().trim()).filter(Boolean);
     emails.forEach(e=>{if(e&&dEmails.includes(e))reasons.push('email');});
@@ -2811,7 +2817,7 @@ function _runDupCheck(){
           <span class="badge ${S_CLASS[d.status]||'s-New'}" style="font-size:10px;padding:1px 6px">${d.status}</span>
         </div>
       </div>
-      <button class="dup-open-btn" onclick="event.stopPropagation();openDupClient(${d.id})">\u0412\u0440 \u2192</button>
+      <button class="dup-open-btn" onclick="event.stopPropagation();openDupClient(${d.id})">\u0412\u0456\u0434\u043A\u0440\u0438\u0442\u0438 \u2192</button>
     </div>`).join('');
 
   const forceRow=document.getElementById('dup-force-row');
