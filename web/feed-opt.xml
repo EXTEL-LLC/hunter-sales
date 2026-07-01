@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-06-28">
+<price date="2026-07-01">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1585,7 +1585,7 @@
 <p>Мобильный центр катушки позволяет быстро разматывать и сматывать кабель без запутывания. <strong>Одна розетка SCHUKO</strong> позволяет подключать электроинструмент и бытовые устройства, а <strong>защита от детей</strong> повышает безопасность эксплуатации.</p> <p><strong>Резиновый удлинитель SCHUKO 33 м, 2,5 мм²</strong> – это сочетание долговечности, высокой мощности и удобства, которое станет надежным помощником как для профессиональных работ, так и для домашних нужд.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0120R" available="true" group_id="12">
+    <offer id="P0120R" available="false" group_id="12">
       <article>P0120R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0120R 1 розеткa 10 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0120R 1 розеткa 10 м 1,5 мм²]]></name_ru>
@@ -1594,7 +1594,7 @@
       <price_rrc>989.00</price_rrc>
       <price>692.28</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/44/37768925883273_+f4cfcf371c.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/44/52837984137191_+ddadd46dde.jpg</picture>
@@ -1605,12 +1605,32 @@
         <picture>https://www.extel.com.ua/content/images/44/92085782340673_+dc3816cb1c.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/merezhevyi-podovzhuvach-emos-p0120r-1-rozetka-10-m./</url>
-      <description_ua><![CDATA[<h2>Подовжувач SCHUKO 10 м – компактний і безпечний для дому та роботи</h2> <p>Високоякісний <strong>подовжувач SCHUKO 10 м</strong> ідеально підходить для безпечного підключення електрообладнання у домашніх умовах або на робочій ділянці. Завдяки довжині <strong>10 м</strong> ви отримаєте зручну робочу зону для будь-якого приладу.</p> <h2>Безпечне підключення</h2>
-<p>Кабель із провідником <strong>H05VV-F3G 1,5 мм²</strong> витримує максимальне навантаження до <strong>3 680 Вт</strong>. <strong>Захист від дітей</strong> і <strong>ПВХ-ізоляція</strong> забезпечують безпечне використання в будь-якому середовищі.</p> <h2>Зручність у використанні</h2>
-<p>Одна <strong>розетка 2P + PE SCHUKO</strong> дозволяє підключати стандартні електроприлади, а компактний дизайн робить подовжувач зручним для зберігання. Всі елементи виконані з <strong>пластика</strong>, що підвищує надійність і довговічність.</p> <p><strong>Подовжувач SCHUKO 10 м</strong> – це поєднання компактності, безпеки та надійності для дому, офісу або майстерні.</p>]]></description_ua>
-      <description_ru><![CDATA[<h2>Удлинитель SCHUKO 10 м – компактный и безопасный для дома и работы</h2> <p>Высококачественный <strong>удлинитель SCHUKO 10 м</strong> идеально подходит для безопасного подключения электрооборудования в домашних условиях или на рабочем участке. Благодаря длине <strong>10 м</strong> вы получите удобную рабочую зону для любого прибора.</p> <h2>Безопасное подключение</h2>
-<p>Кабель с проводником <strong>H05VV-F3G 1,5 мм²</strong> выдерживает максимальную нагрузку до <strong>3 680 Вт</strong>. <strong>Защита от детей</strong> и <strong>ПВХ-изоляция</strong> обеспечивают безопасное использование в любой среде.</p> <h2>Удобство использования</h2>
-<p>Одна <strong>розетка 2P + PE SCHUKO</strong> позволяет подключать стандартные электроприборы, а компактный дизайн делает удлинитель удобным для хранения. Все элементы выполнены из <strong>пластика</strong>, что повышает надежность и долговечность.</p> <p><strong>Удлинитель SCHUKO 10 м</strong> – это сочетание компактности, безопасности и надежности для дома, офиса или мастерской.</p>]]></description_ru>
+      <description_ua><![CDATA[<h2>Подовжувач SCHUKO 10 м &ndash; компактний і безпечний для дому та роботи</h2>
+
+<p>Високоякісний <strong>подовжувач SCHUKO 10 м</strong> ідеально підходить для безпечного підключення електрообладнання у домашніх умовах або на робочій ділянці. Завдяки довжині <strong>10 м</strong> ви отримаєте зручну робочу зону для будь-якого приладу.</p>
+
+<h2>Безпечне підключення</h2>
+
+<p>Кабель із провідником <strong>H05VV-F3G 1,5 мм&sup2;</strong> витримує максимальне навантаження до <strong>3 680 Вт</strong>. <strong>Захист від дітей</strong> і <strong>ПВХ-ізоляція</strong> забезпечують безпечне використання в будь-якому середовищі.</p>
+
+<h2>Зручність у використанні</h2>
+
+<p>Одна <strong>розетка 2P + PE SCHUKO</strong> дозволяє підключати стандартні електроприлади, а компактний дизайн робить подовжувач зручним для зберігання. Всі елементи виконані з <strong>пластика</strong>, що підвищує надійність і довговічність.</p>
+
+<p><strong>Подовжувач SCHUKO 10 м</strong> &ndash; це поєднання компактності, безпеки та надійності для дому, офісу або майстерні.</p>]]></description_ua>
+      <description_ru><![CDATA[<h2>Удлинитель SCHUKO 10 м &ndash; компактный и безопасный для дома и работы</h2>
+
+<p>Высококачественный <strong>удлинитель SCHUKO 10 м</strong> идеально подходит для безопасного подключения электрооборудования в домашних условиях или на рабочем участке. Благодаря длине <strong>10 м</strong> вы получите удобную рабочую зону для любого прибора.</p>
+
+<h2>Безопасное подключение</h2>
+
+<p>Кабель с проводником <strong>H05VV-F3G 1,5 мм&sup2;</strong> выдерживает максимальную нагрузку до <strong>3 680 Вт</strong>. <strong>Защита от детей</strong> и <strong>ПВХ-изоляция</strong> обеспечивают безопасное использование в любой среде.</p>
+
+<h2>Удобство использования</h2>
+
+<p>Одна <strong>розетка 2P + PE SCHUKO</strong> позволяет подключать стандартные электроприборы, а компактный дизайн делает удлинитель удобным для хранения. Все элементы выполнены из <strong>пластика</strong>, что повышает надежность и долговечность.</p>
+
+<p><strong>Удлинитель SCHUKO 10 м</strong> &ndash; это сочетание компактности, безопасности и надежности для дома, офиса или мастерской.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
     <offer id="P0121" available="false" group_id="12">
@@ -4906,6 +4926,126 @@
 <p>Одна <strong>розетка 2P + PE SCHUKO</strong> позволяет подключать стандартные электроприборы, а компактный дизайн делает удлинитель удобным для хранения. Все элементы выполнены из <strong>пластика</strong>, что повышает надежность и долговечность.</p>
 
 <p><strong>Удлинитель 10 м</strong> &ndash; это сочетание компактности, безопасности и надежности для дома, офиса или мастерской.</p>]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PC0121R" available="false" group_id="12">
+      <article>PC0121R</article>
+      <name_ua><![CDATA[Мережевий подовжувач EMOS PC0121R 1 розеткa 1,5 м]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель EMOS PC0121R 1 розетка 1,5 м]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>276.00</price_rrc>
+      <price>193.2</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-96671520401637_+c1e7a243dc.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-59210152454822_+c98ae5fcfb.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-87795826879594_+64bea1d032.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-22115206939815_+1af4575498.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-55599382832703_+8d0f60d76a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-93149554365870_+ec1c54de8d.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-78692727293906_+001e52f761.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m/</url>
+      <description_ua><![CDATA[<p>Цей подовжувач <strong>з однією розеткою </strong>німецького зразка призначений для підключення побутової електроніки та приладів<strong> зі стандартним або вищим споживанням енергії</strong>, таких як пилосос, праска або мікрохвильова піч.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_10_37.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Цей ПВХ-кабель з<strong> поперечним перерізом 1,5 мм&sup2; </strong>підходить для використання всередині приміщень та забезпечує надійну роботу під час щоденного використання. <strong>Захисні ковпачки для дітей </strong>підвищують безпеку під час використання. Довжина кабелю становить<strong> 1,5 м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ua>
+      <description_ru><![CDATA[<p>Этот удлинитель <strong>с одной розеткой </strong>немецкого образца предназначен для подключения бытовой электроники и приборов <strong>со стандартным или более высоким потреблением энергии</strong>, таких как пылесос, утюг или микроволновка.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_10_37.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Этот кабель ПВХ с <strong>поперечным сечением 1,5 мм&sup2;</strong> подходит для использования внутри помещений и обеспечивает надежную работу во время ежедневного использования.<strong> Защитные колпачки для детей </strong>повышают безопасность при использовании. Длина кабеля составляет<strong> 1,5 м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PC0123R" available="false" group_id="12">
+      <article>PC0123R</article>
+      <name_ua><![CDATA[Мережевий подовжувач EMOS PC0123R 1 розетка 3 м]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель EMOS PC0123R 1 розетка 3 м]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>426.00</price_rrc>
+      <price>298.2</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-92829990609267_+d2c1b3ae3e.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-27557703930816_+f77e011c30.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-90534810574318_+9b242ecbbc.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-24079986296719_+e0a95b783a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-23546294420779_+e989e4e52c.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-48599689913562_+77a16f5a7f.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-40306829336226_+97f14c9ab3.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m/</url>
+      <description_ua><![CDATA[<p>Цей подовжувач <strong>з однією розеткою </strong>німецького зразка призначений для підключення побутової електроніки та приладів<strong> зі стандартним або вищим споживанням енергії</strong>, таких як пилосос, праска або мікрохвильова піч.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_12_59.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Цей ПВХ-кабель з<strong> поперечним перерізом 1,5 мм&sup2; </strong>підходить для використання всередині приміщень та забезпечує надійну роботу під час щоденного використання. <strong>Захисні ковпачки для дітей </strong>підвищують безпеку під час використання. Довжина кабелю становить<strong> 3&nbsp;м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ua>
+      <description_ru><![CDATA[<p>Этот удлинитель <strong>с одной розеткой </strong>немецкого образца предназначен для подключения бытовой электроники и приборов <strong>со стандартным или более высоким потреблением энергии</strong>, таких как пылесос, утюг или микроволновка.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_12_59.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Этот кабель ПВХ с <strong>поперечным сечением 1,5 мм&sup2;</strong> подходит для использования внутри помещений и обеспечивает надежную работу во время ежедневного использования.<strong> Защитные колпачки для детей </strong>повышают безопасность при использовании. Длина кабеля составляет<strong> 3 м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PC0125R" available="false" group_id="12">
+      <article>PC0125R</article>
+      <name_ua><![CDATA[Мережевий подовжувач EMOS PC0125R 1 розетка 5 м]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель EMOS PC0125R 1 розетка 5 м]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>636.00</price_rrc>
+      <price>445.2</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-27154686496418_+01c03a12e3.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-24048882235328_+1f861965ab.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-84006743041209_+1e85d44e70.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-33483472509286_+2bab49d440.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-72516720717625_+b4a7a3f89c.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-77186391090199_+ff10cea2f8.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/13/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m-23515150292732_+e173790748.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/merezhevyi-podovzhuvach-emos-pc0125r-1-rozetka-5-m/</url>
+      <description_ua><![CDATA[<p>Цей подовжувач <strong>з однією розеткою </strong>німецького зразка призначений для підключення побутової електроніки та приладів<strong> зі стандартним або вищим споживанням енергії</strong>, таких як пилосос, праска або мікрохвильова піч.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_14_56.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Цей ПВХ-кабель з<strong> поперечним перерізом 1,5 мм&sup2; </strong>підходить для використання всередині приміщень та забезпечує надійну роботу під час щоденного використання. <strong>Захисні ковпачки для дітей </strong>підвищують безпеку під час використання. Довжина кабелю становить<strong> 5 м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ua>
+      <description_ru><![CDATA[<p>Этот удлинитель <strong>с одной розеткой </strong>немецкого образца предназначен для подключения бытовой электроники и приборов <strong>со стандартным или более высоким потреблением энергии</strong>, таких как пылесос, утюг или микроволновка.</p>
+
+<p><img alt="" height="978" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_14_56.png" width="1609" /></p>
+
+<p><img alt="" height="724" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-1-lip.-2026-r.-13_18_40.png" width="2172" /></p>
+
+<p>Этот кабель ПВХ с <strong>поперечным сечением 1,5 мм&sup2;</strong> подходит для использования внутри помещений и обеспечивает надежную работу во время ежедневного использования.<strong> Защитные колпачки для детей </strong>повышают безопасность при использовании. Длина кабеля составляет<strong> 5 м.</strong></p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
     <offer id="P0068" available="false" group_id="14">
@@ -13194,39 +13334,6 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 <li>Удобное направление света с помощью <strong>поворотной ручки</strong>.</li>
 <li>Быстрое включение/выключение и защита батареи для безопасной эксплуатации.</li>
 </ul> <p>Заказывайте <strong>P4533 COB LED</strong> уже сегодня, чтобы обеспечить себя надежным и ярким освещением в любых условиях работы и путешествий!</p>]]></description_ru>
-      <warranty>12</warranty>
-    </offer>
-    <offer id="P4534" available="false" group_id="36">
-      <article>P4534</article>
-      <name_ua><![CDATA[Ліхтар прожектор акумуляторний Emos P4534 600 Lm 3000 mAh]]></name_ua>
-      <name_ru><![CDATA[Фонарь прожектор аккумуляторный Emos P4534 600 Lm 3000 mAh]]></name_ru>
-      <brand>EMOS</brand>
-      <categoryId>36</categoryId>
-      <price_rrc>1699.00</price_rrc>
-      <price>1189.32</price>
-      <currencyId>грн</currencyId>
-      <available>Очікується</available>
-      <pictures>
-        <picture>https://www.extel.com.ua/content/images/32/86112764169134_+8d7a4caed7.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/65985717009781_+e999b91218.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/68059004969950_+f1c74018a8.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/97885509357013_+d9265353fe.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/15635793237323_+526374b656.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/29226933898862_+3d537c04c0.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/41464252783840_+59b6d4b318.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/76771110438880_+eb9b154ee0.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/12837202767001_+09ec69ddab.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/25376864265254_+e1d45fa1af.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/95919263072470_+2856e4b3cb.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/95346258215111_+1ef6ba4f71.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/52596895974352_+2a65488b5f.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/98349953291634_+c9c9e50ec9.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/33115235082499_+f023ffabd9.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/32/72123075699394_+cea86ff243.jpg</picture>
-      </pictures>
-      <url>https://www.extel.com.ua/likhtar-led-emos-p4534-5w-600lm-li-ion-prozhektor.plast./</url>
-      <description_ua><![CDATA[<p>аксесуари: USB-кабель|батарейки в комплекті: так|батарея: літій-іонний акумулятор|тип батареї: 3 000 мАг/3,7 В|дальність променя: COB LED 100% &ndash; 35 м, COB LED 50% &ndash; 25 м|бренд: EMOS|колір: чорно-зелений|розміри: 172 &times; 45 &times; 126 мм|характеристики: поворотна ручка|фокус: ні|ударостійкість: так|світлодіодна індикація стану акумулятора: так|світлодіодна індикація процесу заряджання: так|режими освітлення: COB LED 100%, COB LED 50%|світловий потік: COB LED 100% &ndash; 600 лм, COB LED 50% &ndash; 300 лм|матеріал: нейлон + TPR|максимальна дальність променя: 35 м|максимальний світловий потік: 600 лм|кількість режимів освітлення: 2|упаковка: 1 шт., коробка|тип роз&#39;єму живлення: micro USB B|акумуляторна: так|час заряджання: 3,5 год|час роботи: 2,5&ndash;3,5 год|деталі часу роботи: COB LED 100 % &ndash; 2,5 год, COB LED 50 % &ndash; 3,5 год|джерело світла: COB LED|особливі характеристики: захист батареї, функція зовнішнього акумулятора|гарантійний термін: 2 роки|водонепроникність: так (IP44)|вага: 436 г</p>]]></description_ua>
-      <description_ru><![CDATA[<p>аксессуары: USB-кабель|батарейки в комплекте: да|батарея: литий-ионный аккумулятор|тип батареи: 3 000 мАч/3,7 В|дальность луча: COB LED 100% &ndash; 35 м, COB LED 50% &ndash; 25 м|бренд: EMOS|цвет:2 126 мм | характеристики: поворотная ручка | фокус: нет | 50% &ndash; 300 лм|материал: нейлон + TPR|максимальная дальность луча: 35 м|максимальный световой поток: 600 лм|количество режимов освещения: 2|упаковка: 1 шт., коробка|тип разъема питания: microUSB B|час:5 2,5&ndash;3,5 ч|детали времени работы: COB LED 100 % &ndash; 2,5 ч, COB LED 50 % &ndash; 3,5 ч|источник света: COB LED|особые характеристики: защита батареи, функция внешнего аккумулятора|гарантийный срок: 2 года|вес: 44|</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
     <offer id="P4536" available="true" group_id="36">
@@ -25918,42 +26025,6 @@ P56402 можно установить на стену или свободно �
 </p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW17FR" available="false" group_id="69">
-      <article>ZIW17FR</article>
-      <name_ua><![CDATA[Розумна світлодіодна гірлянда EMOS ZIW17FR 15× лампочок, 15 м, зовнішні та внутрішні, RGBIC, WiFi]]></name_ua>
-      <name_ru><![CDATA[Умная светодиодная гирлянда EMOS ZIW17FR 15× лампочек, 15 м, внешние и внутренние, RGBIC, WiFi]]></name_ru>
-      <brand>EMOS</brand>
-      <categoryId>69</categoryId>
-      <price_rrc>3799.00</price_rrc>
-      <price>2659.32</price>
-      <currencyId>грн</currencyId>
-      <available>Очікується</available>
-      <pictures>
-        <picture>https://www.extel.com.ua/content/images/7/21707517534373_+7897503fd9.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/22919089533139_+71f5cd86f7.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/98501280281588_+c795461b79.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/41013646020855_+bdb4661428.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/50081674759934_+6391f5241f.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/91521112979179_+81a2aaf591.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/93054700772810_+f6757b101c.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/93633681800067_+c650209de9.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/49105553227029_+38e7d51344.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/75812525788488_+61fbbcf0a0.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/28174061085791_+6d5727f50a.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/98429781214261_+2a3fed8c8d.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/54519426387947_+261ac6435b.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/36887502640897_+8240fe76bc.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/12450798495145_+af6bdfe54f.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/52143721446367_+020e824631.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/69902907019357_+349cefdf67.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/28690033120907_+b91f8e699e.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/7/13710187202551_+1234341d61.jpg</picture>
-      </pictures>
-      <url>https://www.extel.com.ua/rozumna-svitlodiodai-hirlianda-emos-ziw17fr-15-lampochok-15-m-zovnishni-ta-vnutrishni-rgbic-wifi/</url>
-      <description_ua><![CDATA[Мови застосування: EN, CZ, SK, PL, DE, HU, SI, FR, + 60 інших мов|Колір корпусу: чорний|Матеріал корпусу: пластик|Категорія: ЕКСКЛЮЗИВНА|Колірна температура: –|Регулювання колірної температури: ні|Налаштування кольору (RGB): так|Сумісність: EMOS GoSmart, Tuya, Lidl, Smartlife|Керування голосовими помічниками: так (Amazon, Alexa, Google Assistant)|Димування: так|Енергетичний клас джерела світла в комплекті: –|Висота: –|Вхідна напруга: 100–240 В~/50 Гц|Ступінь захисту IP: IP65|Тривалість: –|Термін служби: 20 000 годин|Колір світла: RGBIC|Джерело світла в комплекті: –|Лінійка: GoSmart|Світлова віддача: –|Світловий потік: –|Матеріал розсіювача: пластик (ПК)|Максимальна кількість сегментів: 15|Сповіщення в мобільний додаток: так|Кількість сегментів: 15|Кількість циклів перемикання: –|Упаковка: 1 шт., мала коробка|потужність: 12 Вт|протокол: WIFI + BLE|цифровий RGB: так|форма: –|довжина лінії живлення: 1,5 м|підтримувані ОС: iOS, Android|технологія: LED|частота передачі: 2,4 ГГц WiFi|гарантійний термін: 2 роки|ширина: –]]></description_ua>
-      <description_ru><![CDATA[Языки применения: EN, CZ, SK, PL, DE, HU, SI, FR, + 60 других языков | Цвет корпуса: черный | Материал корпуса: пластик | Категория: ЭКСКЛЮЗИВНАЯ | Цветовая температура: – | Smartlife|Управление голосовыми помощниками: да (Amazon, Alexa, Google Assistant)|Димирование: да|Энергетический класс источника света в комплекте: –|Высота: –|Входящее напряжение: 100–240 В~/50 Гц|Степень защиты IP: IP65|Продолжительность: 0:0 | RGBIC|Источник света в комплекте: –|Линейка: GoSmart|Световая отдача: –|Световой поток: –|Материал рассеивателя: пластик (ПК)|Максимальное количество сегментов: 15|Уведомление в мобильное приложение: да|Количество сегментов: 15|Количество:| коробка|мощность: 12 Вт|протокол: WIFI + BLE|цифровой RGB: да|форма: –|длина линии питания: 1,5 м|поддерживаемые ОС: iOS, Android|технология: LED|частота передачи: 2,4 ГГц WiFi|гарантийный срок: 2 года|ширина: –]]></description_ru>
-      <warranty>12</warranty>
-    </offer>
     <offer id="ZIW181R" available="false" group_id="69">
       <article>ZIW181R</article>
       <name_ua><![CDATA[Розумний вуличний прожектор EMOS ZIW181R, 1шт, 4 Вт, RGBIC,WIFI]]></name_ua>
@@ -27554,7 +27625,7 @@ Smart-управление через мобильное приложение
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1554000003_e61-zga040p.jpg" width="850" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGA0C0P" available="true" group_id="70">
+    <offer id="ZGA0C0P" available="false" group_id="70">
       <article>ZGA0C0P</article>
       <name_ua><![CDATA[Світильник світлодіодний садовий EMOS ZGA0C0P e27, ip44, 15w, стовп]]></name_ua>
       <name_ru><![CDATA[Светильник светодиодный садовый EMOS ZGA0C0P e27, ip44, 15w, столб]]></name_ru>
@@ -27562,7 +27633,7 @@ Smart-управление через мобильное приложение
       <categoryId>70</categoryId>
       <price_rrc>1475.00</price_rrc>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/27/40560169155817_+ab80648ef6.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/27/42169863574802_+1744e85cd8.jpg</picture>
@@ -27586,29 +27657,47 @@ Smart-управление через мобильное приложение
         <picture>https://www.extel.com.ua/content/images/27/99223776209636_+c58e24e5c8.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/svitylnyk-svitlodiodnyi-sadovyi-emos-zga0c0p-e27-ip44-15w-stovp/</url>
-      <description_ua><![CDATA[<p>Елегантне освітлення для сучасного екстер'єру</p>
-<p>Садові світильники серії ARTEO поєднують елегантний дизайн з високоякісним освітленням, що робить їх ідеальним доповненням до будь-якого відкритого простору. Завдяки точному виготовленню та міцним матеріалам вони забезпечують надійну роботу за будь-яких умов. Лінійка ARTEO пропонує різні моделі садових світильників, включаючи настінні та колонні варіанти, тож ви можете вибрати рішення, яке відповідає вашим потребам та стилю вашого саду.</p> <p>Чому варто обрати садові світильники ARTEO</p>
+      <description_ua><![CDATA[<p>Елегантне освітлення для сучасного екстер&#39;єру</p>
+
+<p>Садові світильники серії ARTEO поєднують елегантний дизайн з високоякісним освітленням, що робить їх ідеальним доповненням до будь-якого відкритого простору. Завдяки точному виготовленню та міцним матеріалам вони забезпечують надійну роботу за будь-яких умов. Лінійка ARTEO пропонує різні моделі садових світильників, включаючи настінні та колонні варіанти, тож ви можете вибрати рішення, яке відповідає вашим потребам та стилю вашого саду.</p>
+
+<p>Чому варто обрати садові світильники ARTEO</p>
+
 <ul>
-<li>✔ Вічний дизайн, який підкреслить характер вашого екстер'єру</li>
-<li>✔ Високоякісні матеріали та захист IP44 для довговічності за будь-яких погодних умов</li>
-<li>✔ Вибір теплої або холодної білої лампи</li>
-<li>✔ Кілька варіантів для створення однорідного вигляду у вашому відкритому просторі</li>
-<li>✔ Швидке встановлення та безпроблемне використання</li>
-</ul> <p>Легке та безпечне встановлення</p>
+	<li>✔ Вічний дизайн, який підкреслить характер вашого екстер&#39;єру</li>
+	<li>✔ Високоякісні матеріали та захист IP44 для довговічності за будь-яких погодних умов</li>
+	<li>✔ Вибір теплої або холодної білої лампи</li>
+	<li>✔ Кілька варіантів для створення однорідного вигляду у вашому відкритому просторі</li>
+	<li>✔ Швидке встановлення та безпроблемне використання</li>
+</ul>
+
+<p>Легке та безпечне встановлення</p>
+
 <p>Лінійка садових світильників EMOS розроблена для максимально ефективного встановлення. Ми рекомендуємо вам діяти обережно та відповідно до доданих інструкцій.</p>
+
 <p>Світильники повинні бути надійно закріплені на відповідній основі та підключені до мережі змінного струму 230 В, а всі електромонтажні роботи має виконувати кваліфікований спеціаліст.</p>
-<p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description_ua>
+
+<p>Під час встановлення переконайтеся, що з&rsquo;єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description_ua>
       <description_ru><![CDATA[<p>Элегантное освещение для современного экстерьера</p>
-<p>Садовые светильники серии ARTEO сочетают элегантный дизайн с высококачественным освещением, что делает их идеальным дополнением к любому открытому пространству. Благодаря точному изготовлению и прочным материалам они обеспечивают надежную работу при любых условиях. Линейка ARTEO предлагает различные модели садовых светильников, включая настенные и колонные варианты, поэтому вы можете выбрать решение, отвечающее вашим потребностям и стилю вашего сада.</p> <p>Почему выбрать садовые светильники ARTEO</p>
+
+<p>Садовые светильники серии ARTEO сочетают элегантный дизайн с высококачественным освещением, что делает их идеальным дополнением к любому открытому пространству. Благодаря точному изготовлению и прочным материалам они обеспечивают надежную работу при любых условиях. Линейка ARTEO предлагает различные модели садовых светильников, включая настенные и колонные варианты, поэтому вы можете выбрать решение, отвечающее вашим потребностям и стилю вашего сада.</p>
+
+<p>Почему выбрать садовые светильники ARTEO</p>
+
 <ul>
-<li>✔ Вечный дизайн, который подчеркнет характер вашего экстерьера</li>
-<li>✔ Высококачественные материалы и защита IP44 для долговечности при любых погодных условиях</li>
-<li>✔ Выбор теплой или холодной белой лампы</li>
-<li>✔ Несколько вариантов для создания однородного вида в вашем открытом пространстве</li>
-<li>✔ Быстрая установка и беспроблемное использование</li>
-</ul> <p>Легкая и безопасная установка</p>
+	<li>✔ Вечный дизайн, который подчеркнет характер вашего экстерьера</li>
+	<li>✔ Высококачественные материалы и защита IP44 для долговечности при любых погодных условиях</li>
+	<li>✔ Выбор теплой или холодной белой лампы</li>
+	<li>✔ Несколько вариантов для создания однородного вида в вашем открытом пространстве</li>
+	<li>✔ Быстрая установка и беспроблемное использование</li>
+</ul>
+
+<p>Легкая и безопасная установка</p>
+
 <p>Линейка садовых светильников EMOS разработана для максимально эффективной установки. Мы рекомендуем вам действовать осторожно и в соответствии с прилагаемыми инструкциями.</p>
+
 <p>Светильники должны быть надежно закреплены на соответствующей основе и подключены к сети переменного тока 230 В, а все электромонтажные работы должен выполнять квалифицированный специалист.</p>
+
 <p>При установке убедитесь, что соединения должным образом герметизированы, чтобы сохранить заявленный уровень устойчивости к влаге и пыли (IP44). После правильного подключения светильник готов к немедленному использованию.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
@@ -30055,7 +30144,7 @@ Smart-управление через мобильное приложение
 Автоматическое спаривание благодаря режиму «самонастройки» обеспечивает быструю установку. В течение 25 секунд после подключения звонка к розетке кнопка и звонок узнают друг о друге. Сразу после спаривания вы получаете действительно исключительную дальность до 180 метров, которая обеспечивается радиосвязью. И всё это без батареек, так как энергия для передачи сигнала формируется одним нажатием кнопки. Ещё одна замечательная функция беспроводного звонка P5729 — долговременная память, которая обеспечивает бесперебойную работу даже после отключения электроэнергии.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5729B" available="true" group_id="75">
+    <offer id="P5729B" available="false" group_id="75">
       <article>P5729B</article>
       <name_ua><![CDATA[Бездротовий дверний дзвінок EMOS P5729B]]></name_ua>
       <name_ru><![CDATA[Беспроводной дверной звонок EMOS P5729B]]></name_ru>
@@ -30064,7 +30153,7 @@ Smart-управление через мобильное приложение
       <price_rrc>1149.00</price_rrc>
       <price>804.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/32/53203199148536_+85b4ed8c13.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/32/75607016526448_+aeaaac4ccd.jpg</picture>
@@ -30084,8 +30173,52 @@ Smart-управление через мобильное приложение
         <picture>https://www.extel.com.ua/content/images/32/57366478440773_+caddbc3360.jpg</picture>
       </pictures>
       <url>https://www.extel.com.ua/bezdrotovyi-dvernyi-dzvinok-emos-p5729b/</url>
-      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center;">Бездротовий дверний дзвінок EMOS</h2> <p>Коли ви шукаєте дверний дзвінок, вам потрібна швидка установка, велика дальність, відсутність обслуговування та надійність. Все це ви знайдете в комплекті з кнопкою без батарейок та домашнім дверним дзвінком. До шести кнопок можна підключити до дзвінка та придбати їх окремо.</p> <h2 style="color:#cc3300; text-align:center;">Програє улюблену мелодію за запитом</h2> <p>Дзвінок не буде будити вас класичним crrr або ding dong. Ви можете вибрати з 36 мелодій із чотирма рівнями гучності. Якщо ви не хочете чути дзвінок, пристрій може відтворювати мелодію до 90 дБ. Крім того, під час активації кнопки дзвінок сигналізує про виклик синім світлодіодом.</p> <h2 style="color:#cc3300; text-align:center;">Розпакувати, підключити, зателефонувати</h2> <p>Автоматичне спарювання завдяки режиму самоналаштування забезпечує дуже швидке встановлення. Протягом 25 секунд після підключення дзвінка до розетки кнопка та дзвінок дізнаються один про одного. Як тільки вони спарені, ви можете насолоджуватися чудовою дальністю системи до 180 метрів, що забезпечується радіозв'язком. Енергія передачі сигналу формується натисканням кнопки, що виключає необхідність регулярної заміни батарейки. Ще одна чудова функція бездротового дзвінка P5729 – довготривала пам'ять, яка забезпечує безперебійну роботу навіть після вимкнення електроенергії. Ви також оціните відсутність потреби в обслуговуванні.</p> <h2 style="color:#cc3300; text-align:center;">Всі можуть почути</h2> <p>Більше ніяких проводів та свердління стін. Водонепроникна кнопка і домашній дзвінок зв'язуються один з одним на відстані до 180 метрів. Підключіть дверний дзвінок у вибрану розетку і після парування розмістіть кнопку там, де вам потрібно, за допомогою двосторонньої стрічки, що додається. Все працює за лічені хвилини.</p> <h2 style="color:#cc3300; text-align:center;">Одна тут, інша там…</h2> <p>Потрібні додаткові кнопки для одного дзвінка? Ми маємо просте рішення. Підключіть EMOS P5729B до шести кнопок, які можна придбати окремо. Одну можна розмістити на хвіртці, одну на вхідних дверях, іншу перед гаражем або патіо. Тут немає обмежень для вашої фантазії.</p> <h2 style="color:#cc3300; text-align:center;">Елегантний дизайн</h2> <p>Сучасний дверний дзвінок EMOS в елегантному чорному корпусі має закруглені форми та оснащений двома світлодіодами, що сигналізують про бездоганну роботу. Світлодіод на кнопці червоного кольору, а на дзвінку – синього. Дві частини комплекту зв'язуються по радіоканалу 433,92 МГц.</p>]]></description_ua>
-      <description_ru><![CDATA[<h2 style="color:#cc3300; text-align:center;">Беспроводной дверной звонок EMOS</h2> <p>Когда вы ищете дверной звонок, вам нужна быстрая установка, большая дальность, отсутствие обслуживания и надёжность. Всё это вы найдёте в комплекте с кнопкой без батареек и домашним дверным звонком. До шести кнопок можно подключить к звонку и приобрести их отдельно.</p> <h2 style="color:#cc3300; text-align:center;">Проигрывает любимую мелодию по запросу</h2> <p>Звонок не будет будить вас классическим «crrr» или «ding dong». Вы можете выбрать из 36 мелодий с четырьмя уровнями громкости. Если вы точно не хотите слышать звонок, устройство может воспроизводить мелодию до 90 дБ. Кроме того, при активации кнопки звонок сигнализирует о вызове синим светодиодом.</p> <h2 style="color:#cc3300; text-align:center;">Распаковать, подключить, позвонить</h2> <p>Автоматическое спаривание благодаря режиму самонастройки обеспечивает очень быструю установку. В течение 25 секунд после подключения звонка к розетке кнопка и звонок узнают друг о друге. Как только они спарены, вы можете наслаждаться превосходной дальностью системы до 180 метров, которая обеспечивается радиосвязью. Энергия для передачи сигнала формируется нажатием кнопки, что исключает необходимость регулярной замены батарейки. Ещё одна замечательная функция беспроводного звонка P5729 — долговременная память, которая обеспечивает бесперебойную работу даже после отключения электроэнергии. Вы также оцените отсутствие необходимости в обслуживании.</p> <h2 style="color:#cc3300; text-align:center;">Все могут услышать</h2> <p>Больше никаких проводов и сверления стен. Водонепроницаемая кнопка и домашний дверной звонок связываются друг с другом на расстоянии до 180 метров. Подключите дверной звонок в выбранную розетку и после спаривания разместите кнопку там, где вам нужно, с помощью прилагаемой двусторонней ленты. Всё работает за считанные минуты.</p> <h2 style="color:#cc3300; text-align:center;">Одна здесь, другая там…</h2> <p>Нужны дополнительные кнопки для одного звонка? У нас есть простое решение. Подключите EMOS P5729B до шести кнопок, которые можно приобрести отдельно. Одну можно разместить на калитке, одну на входной двери, другую перед гаражом или патио. Здесь нет ограничений для вашей фантазии.</p> <h2 style="color:#cc3300; text-align:center;">Элегантный дизайн</h2> <p>Современный дверной звонок EMOS в элегантном чёрном корпусе имеет закруглённые формы и оснащён двумя светодиодами, сигнализирующими о безупречной работе. Светодиод на кнопке красного цвета, а на звонке — синего. Две части комплекта связываются друг с другом по радиоканалу 433,92 МГц.</p>]]></description_ru>
+      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center;">Бездротовий дверний дзвінок EMOS</h2>
+
+<p>Коли ви шукаєте дверний дзвінок, вам потрібна швидка установка, велика дальність, відсутність обслуговування та надійність. Все це ви знайдете в комплекті з кнопкою без батарейок та домашнім дверним дзвінком. До шести кнопок можна підключити до дзвінка та придбати їх окремо.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Програє улюблену мелодію за запитом</h2>
+
+<p>Дзвінок не буде будити вас класичним crrr або ding dong. Ви можете вибрати з 36 мелодій із чотирма рівнями гучності. Якщо ви не хочете чути дзвінок, пристрій може відтворювати мелодію до 90 дБ. Крім того, під час активації кнопки дзвінок сигналізує про виклик синім світлодіодом.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Розпакувати, підключити, зателефонувати</h2>
+
+<p>Автоматичне спарювання завдяки режиму самоналаштування забезпечує дуже швидке встановлення. Протягом 25 секунд після підключення дзвінка до розетки кнопка та дзвінок дізнаються один про одного. Як тільки вони спарені, ви можете насолоджуватися чудовою дальністю системи до 180 метрів, що забезпечується радіозв&#39;язком. Енергія передачі сигналу формується натисканням кнопки, що виключає необхідність регулярної заміни батарейки. Ще одна чудова функція бездротового дзвінка P5729 &ndash; довготривала пам&#39;ять, яка забезпечує безперебійну роботу навіть після вимкнення електроенергії. Ви також оціните відсутність потреби в обслуговуванні.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Всі можуть почути</h2>
+
+<p>Більше ніяких проводів та свердління стін. Водонепроникна кнопка і домашній дзвінок зв&#39;язуються один з одним на відстані до 180 метрів. Підключіть дверний дзвінок у вибрану розетку і після парування розмістіть кнопку там, де вам потрібно, за допомогою двосторонньої стрічки, що додається. Все працює за лічені хвилини.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Одна тут, інша там&hellip;</h2>
+
+<p>Потрібні додаткові кнопки для одного дзвінка? Ми маємо просте рішення. Підключіть EMOS P5729B до шести кнопок, які можна придбати окремо. Одну можна розмістити на хвіртці, одну на вхідних дверях, іншу перед гаражем або патіо. Тут немає обмежень для вашої фантазії.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Елегантний дизайн</h2>
+
+<p>Сучасний дверний дзвінок EMOS в елегантному чорному корпусі має закруглені форми та оснащений двома світлодіодами, що сигналізують про бездоганну роботу. Світлодіод на кнопці червоного кольору, а на дзвінку &ndash; синього. Дві частини комплекту зв&#39;язуються по радіоканалу 433,92 МГц.</p>]]></description_ua>
+      <description_ru><![CDATA[<h2 style="color:#cc3300; text-align:center;">Беспроводной дверной звонок EMOS</h2>
+
+<p>Когда вы ищете дверной звонок, вам нужна быстрая установка, большая дальность, отсутствие обслуживания и надёжность. Всё это вы найдёте в комплекте с кнопкой без батареек и домашним дверным звонком. До шести кнопок можно подключить к звонку и приобрести их отдельно.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Проигрывает любимую мелодию по запросу</h2>
+
+<p>Звонок не будет будить вас классическим &laquo;crrr&raquo; или &laquo;ding dong&raquo;. Вы можете выбрать из 36 мелодий с четырьмя уровнями громкости. Если вы точно не хотите слышать звонок, устройство может воспроизводить мелодию до 90 дБ. Кроме того, при активации кнопки звонок сигнализирует о вызове синим светодиодом.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Распаковать, подключить, позвонить</h2>
+
+<p>Автоматическое спаривание благодаря режиму самонастройки обеспечивает очень быструю установку. В течение 25 секунд после подключения звонка к розетке кнопка и звонок узнают друг о друге. Как только они спарены, вы можете наслаждаться превосходной дальностью системы до 180 метров, которая обеспечивается радиосвязью. Энергия для передачи сигнала формируется нажатием кнопки, что исключает необходимость регулярной замены батарейки. Ещё одна замечательная функция беспроводного звонка P5729 &mdash; долговременная память, которая обеспечивает бесперебойную работу даже после отключения электроэнергии. Вы также оцените отсутствие необходимости в обслуживании.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Все могут услышать</h2>
+
+<p>Больше никаких проводов и сверления стен. Водонепроницаемая кнопка и домашний дверной звонок связываются друг с другом на расстоянии до 180 метров. Подключите дверной звонок в выбранную розетку и после спаривания разместите кнопку там, где вам нужно, с помощью прилагаемой двусторонней ленты. Всё работает за считанные минуты.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Одна здесь, другая там&hellip;</h2>
+
+<p>Нужны дополнительные кнопки для одного звонка? У нас есть простое решение. Подключите EMOS P5729B до шести кнопок, которые можно приобрести отдельно. Одну можно разместить на калитке, одну на входной двери, другую перед гаражом или патио. Здесь нет ограничений для вашей фантазии.</p>
+
+<h2 style="color:#cc3300; text-align:center;">Элегантный дизайн</h2>
+
+<p>Современный дверной звонок EMOS в элегантном чёрном корпусе имеет закруглённые формы и оснащён двумя светодиодами, сигнализирующими о безупречной работе. Светодиод на кнопке красного цвета, а на звонке &mdash; синего. Две части комплекта связываются друг с другом по радиоканалу 433,92 МГц.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
     <offer id="P5730" available="true" group_id="75">
@@ -31266,33 +31399,6 @@ Smart-управление через мобильное приложение
 <p>
 Кнопка общается со звонком через <strong>радиоволны частотой 433,92 МГц</strong> и может делать это <strong>без батареи</strong>, поэтому менять её не нужно. Как кнопка работает без батареи? <strong>Энергия для передачи сигнала создается нажатием самой кнопки</strong>. Наконец, <strong>просто и функционально</strong>.
 </p>]]></description_ru>
-      <warranty>12</warranty>
-    </offer>
-    <offer id="P5732T" available="false" group_id="76">
-      <article>P5732T</article>
-      <name_ua><![CDATA[Кнопка для дзвінка EMOS P5732T 100м IP44 1× CR2032, шт, P5732T , P5732T]]></name_ua>
-      <name_ru><![CDATA[Кнопка для звонка EMOS P5732T 100м IP44 1× CR2032, шт, P5732T, P5732T]]></name_ru>
-      <brand>EMOS</brand>
-      <categoryId>76</categoryId>
-      <price_rrc>366.00</price_rrc>
-      <price>251.28</price>
-      <currencyId>грн</currencyId>
-      <available>Очікується</available>
-      <pictures>
-        <picture>https://www.extel.com.ua/content/images/36/90006929189984_+0edfc667b5.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/94431394802736_+1b94e034c1.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/84212453407066_+9e22fcbaad.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/27254142896143_+54591e2908.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/64823610042338_+7ac9fdee13.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/98155013117464_+7497dc86a1.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/22218007709097_+25b49415d4.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/62130782636066_+6f15556987.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/93685244363492_+a408525308.jpg</picture>
-        <picture>https://www.extel.com.ua/content/images/36/76737337402686_+88cab72dc0.jpg</picture>
-      </pictures>
-      <url>https://www.extel.com.ua/knopka-dlia-dzvinka-emos-p5732t-100m-ip44-1-cr2032-sht-p5732t-p5732t/</url>
-      <description_ua><![CDATA[розміри кнопки: 17 × 40 × 60 мм|розроблено для типу дзвінка: P5732, P5733W, P5733S, P5733G|ступінь захисту IP: IP44|упаковка: 1 шт., блістер|спосіб сполучення: самонавчання (автоматичне сполучення)|джерело живлення: 1× 3 V CR2032 (в комплекті)|дальність дії на відкритому просторі: до 100 м|частота передачі: 433 МГц|спосіб передачі: бездротовий]]></description_ua>
-      <description_ru><![CDATA[размеры кнопки: 17×40×60 мм|разработано для типа звонка: P5732, P5733W, P5733S, P5733G|степень защиты IP: IP44|упаковка: 1 шт., блистер|способ сочетания: самообучение3 (в комплекте) | дальность действия на открытом пространстве: до 100 м | частота передачи: 433 МГц | способ передачи: беспроводной]]></description_ru>
       <warranty>12</warranty>
     </offer>
     <offer id="P5734T" available="false" group_id="76">
@@ -33676,6 +33782,92 @@ ZigBee – стандартизированная технология, что �
 <li>Патрон E27 для лампы</li>
 <li>Степень защиты IP44</li>
 </ul>]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P5727N" available="false" group_id="75">
+      <article>P5727N</article>
+      <name_ua><![CDATA[Бездротовий дверний дзвінок EMOS P5727N 220В]]></name_ua>
+      <name_ru><![CDATA[Беспроводной дверной звонок EMOS P5727N 220В]]></name_ru>
+      <categoryId>75</categoryId>
+      <price_rrc>899.00</price_rrc>
+      <price>629.28</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-23944616469279_+d287b5607a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-12451850122061_+973804209d.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-44711277039066_+991bf76f50.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-64225509325978_+9fef2bad33.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-91751462984329_+b6d375f4ea.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-50129116602191_+923db87682.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-29405649923855_+8be865caa5.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-72571478732951_+32e9291008.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-66569669613831_+cbf9fe6a4f.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-73782508826873_+8c6ec8397b.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-30160513949639_+9f194ba8b0.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-93941661928150_+fafec85330.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-66965134863292_+8f8f1db81f.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-30732468512116_+1b6045dc30.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-28210274883684_+7f35ecdac9.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-83778497436480_+fcb528484c.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-83388076729925_+cfc57235c8.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-30678829463641_+d6c0cdd92d.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-66540042918082_+3f954fbc4c.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-28986115826066_+fce2e2316a.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-27396308650115_+232adc7d4f.jpg</picture>
+        <picture>https://www.extel.com.ua/content/images/9/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v-73057439060719_+371ab760a9.jpg</picture>
+      </pictures>
+      <url>https://www.extel.com.ua/bezdrotovyi-dvernyi-dzvinok-emos-p5727n-220v/</url>
+      <description_ua><![CDATA[<p style="text-align: center;"><span style="color:#c0392b;"><strong>Діапазон, надійність та простота в одному дверному дзвінку</strong></span></p>
+
+<p>Елегантний чорний дверний дзвінок забезпечує надійну роботу з радіусом дії кнопок до 150 м на відкритому просторі. Завдяки функції самонавчання сполучення відбувається швидко та автоматично, і ви можете підключити до 8 кнопок типу P5734T до одного дверного дзвінка. Не потрібно проводити дроти чи свердлити стіну. Просто підключіть дверний дзвінок до розетки вдома та за допомогою двосторонньої клейкої стрічки розмістіть водонепроникну кнопку для зовнішнього використання саме там, де вам потрібно. Всього за кілька хвилин ви матимете повністю функціональний комплект, і ви не пропустите жодного дзвінка. &nbsp;</p>
+
+<p><img alt="" height="797" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_42_39%281%29.png" width="1974" /></p>
+
+<p style="text-align: center;"><img alt="" height="841" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_46_31%281%29.png" width="1870" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Налаштування гучності та вибір мелодії дзвінка&nbsp;</strong></span></p>
+
+<p>Ви можете вибрати одну з 10 мелодій дзвінка, які можна легко налаштувати на свій смак, та 5 рівнів гучності, включаючи максимальну інтенсивність до 100 дБ, що гарантує, що ви не пропустите дзвінок навіть у галасливому середовищі. Крім того, дверний дзвінок сповіщає вас світловими сигналами про активацію.</p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/3402132000_E41-P5727N_HOR.JPG" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Потрібно більше кнопок? Немає проблем!</strong></span></p>
+
+<p>Вам потрібно більше кнопок для одного дверного дзвінка? Бездротовий дверний дзвінок P5727N можна легко поєднати з додатковими кнопками P5734T, які продаються окремо. Це дозволяє розмістити кнопку саме там, де вам потрібно &mdash; біля воріт, на вхідних дверях або навіть на задньому в&#39;їзді в сад чи гараж. Ми рекомендуємо не встановлювати кнопки на металевих воротах або стовпах, щоб уникнути перешкод сигналу.</p>
+
+<p><img alt="" height="887" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_47_44%281%29.png" width="1774" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Елегантний дизайн&nbsp;</strong></span></p>
+
+<p>Бездротовий дверний дзвінок має сучасний та елегантний дизайн чорного кольору, який бездоганно вписується в будь-який інтер&#39;єр чи екстер&#39;єр. Надійна передача сигналу на частоті 433,92 МГц через радіохвилі забезпечує стабільну роботу та безперебійний зв&#39;язок між кнопкою та приймачем.</p>
+
+<p><img alt="" height="1254" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_50_28%281%29.png" width="1254" /></p>]]></description_ua>
+      <description_ru><![CDATA[<p style="text-align: center;"><span style="color:#c0392b;"><strong>Диапазон, надежность и простота в одном дверном звонке</strong></span></p>
+
+<p>Элегантный черный звонок обеспечивает надежную работу с радиусом действия кнопок до 150 м на открытом пространстве. Благодаря функции самообучения соединение происходит быстро и автоматически, и вы можете подключить до 8 кнопок типа P5734T к одному дверному звонку. Не нужно производить провода или сверлить стену. Просто подключите дверной звонок к розетке дома и с помощью двухсторонней клейкой ленты разместите водонепроницаемую кнопку для внешнего использования именно там, где вам нужно. Всего за несколько минут у вас будет полностью функциональный комплект, и вы не пропустите ни одного звонка.</p>
+
+<p><img alt="" height="797" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_42_39%281%29.png" width="1974" /></p>
+
+<p><img alt="" height="841" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_46_31%281%29.png" width="1870" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Настройка громкости и выбор мелодии вызова</strong></span></p>
+
+<p>Вы можете выбрать одну из 10 мелодий звонка, которые можно легко настроить по своему вкусу, и 5 уровней громкости, включая максимальную интенсивность до 100 дБ, что гарантирует, что вы не пропустите звонок даже в шумной среде. Кроме того, дверной звонок оповещает вас световыми сигналами об активации.</p>
+
+<p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/3402132000_E41-P5727N_HOR.JPG" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Нужно больше кнопок? Нет проблем!</strong></span></p>
+
+<p>Вам нужно больше кнопок для одного дверного звонка? Беспроводной дверной звонок P5727N можно легко соединить с дополнительными кнопками P5734T, которые продаются отдельно. Это позволяет разместить кнопку именно там, где вам нужно &ndash; у ворот, на входной двери или даже на заднем въезде в сад или гараж. Мы рекомендуем не устанавливать кнопки на металлических воротах или столбах во избежание помех сигнала.</p>
+
+<p><img alt="" height="887" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_47_44%281%29.png" width="1774" /></p>
+
+<p style="text-align: center;"><span style="color:#c0392b;"><strong>Элегантный дизайн</strong></span></p>
+
+<p>Беспроводной дверной звонок имеет современный и элегантный дизайн черного цвета, безупречно вписывающийся в любой интерьер или экстерьер. Надежная передача сигнала на частоте 433,92 МГц по радиоволнам обеспечивает стабильную работу и бесперебойную связь между кнопкой и приемником.</p>
+
+<p><img alt="" height="1254" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_50_28%281%29.png" width="1254" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
   </offers>
