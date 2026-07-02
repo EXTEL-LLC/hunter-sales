@@ -9,25 +9,25 @@
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f0f4f8;color:#1a1a2e;min-height:100vh}
 
 /* ===== LOGIN ===== */
-.login-screen{position:fixed;inset:0;background:linear-gradient(135deg,#1565C0 0%,#0d47a1 60%,#01579B 100%);display:flex;align-items:center;justify-content:center;z-index:9999}
+.login-screen{position:fixed;inset:0;background:linear-gradient(135deg,#5b7fa6 0%,#46688e 60%,#46688e 100%);display:flex;align-items:center;justify-content:center;z-index:9999}
 .login-box{background:#fff;border-radius:24px;padding:44px 40px;width:400px;max-width:94vw;text-align:center;box-shadow:0 28px 72px rgba(0,0,0,.35)}
 .login-logo{font-size:52px;margin-bottom:10px}
-.login-title{font-size:22px;font-weight:800;color:#1565C0;margin-bottom:4px}
+.login-title{font-size:22px;font-weight:800;color:#5b7fa6;margin-bottom:4px}
 .login-sub{font-size:13px;color:#aaa;margin-bottom:30px}
 .login-input{width:100%;padding:14px 16px;border:2px solid #e0e6ed;border-radius:12px;font-size:20px;text-align:center;letter-spacing:6px;transition:border-color .2s}
-.login-input:focus{outline:none;border-color:#1565C0;box-shadow:0 0 0 4px rgba(21,101,192,.12)}
-.login-btn{width:100%;margin-top:14px;padding:13px;border-radius:12px;border:none;background:#1565C0;color:#fff;font-size:15px;font-weight:700;cursor:pointer;transition:background .2s}
-.login-btn:hover{background:#0d47a1}
-.login-err{color:#b71c1c;font-size:13px;margin-top:10px;min-height:20px}
+.login-input:focus{outline:none;border-color:#5b7fa6;box-shadow:0 0 0 4px rgba(21,101,192,.12)}
+.login-btn{width:100%;margin-top:14px;padding:13px;border-radius:12px;border:none;background:#5b7fa6;color:#fff;font-size:15px;font-weight:700;cursor:pointer;transition:background .2s}
+.login-btn:hover{background:#46688e}
+.login-err{color:#a05a4e;font-size:13px;margin-top:10px;min-height:20px}
 .login-hint{color:#aaa;font-size:11px;margin-top:14px}
 
 /* ===== NAV ===== */
-.nav{background:linear-gradient(135deg,#1565C0,#0d47a1);color:#fff;padding:0 20px;display:flex;align-items:center;height:56px;box-shadow:0 2px 12px rgba(0,0,0,.25);position:sticky;top:0;z-index:100;gap:4px}
+.nav{background:linear-gradient(135deg,#5b7fa6,#46688e);color:#fff;padding:0 20px;display:flex;align-items:center;height:56px;box-shadow:0 2px 12px rgba(0,0,0,.25);position:sticky;top:0;z-index:100;gap:4px}
 .nav-brand{font-size:17px;font-weight:700;margin-right:20px;white-space:nowrap}
 .nav-tabs{display:flex;gap:3px;flex:1;overflow-x:auto}
 .nav-tab{padding:7px 16px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;transition:all .2s;color:rgba(255,255,255,.8);white-space:nowrap}
 .nav-tab:hover{background:rgba(255,255,255,.15);color:#fff}
-.nav-tab.active{background:#fff;color:#1565C0;font-weight:700}
+.nav-tab.active{background:#fff;color:#5b7fa6;font-weight:700}
 .nav-right{margin-left:auto;display:flex;align-items:center;gap:8px}
 .logout-btn{background:rgba(255,255,255,.15);border:none;color:rgba(255,255,255,.9);padding:6px 12px;border-radius:8px;cursor:pointer;font-size:12px;font-weight:600;white-space:nowrap}
 .logout-btn:hover{background:rgba(255,255,255,.25)}
@@ -41,62 +41,62 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 
 /* ===== CARD ===== */
 .card{background:#fff;border-radius:12px;box-shadow:0 1px 6px rgba(0,0,0,.08);padding:20px;margin-bottom:20px}
-.card-title{font-size:15px;font-weight:700;color:#1565C0;margin-bottom:16px;display:flex;align-items:center;gap:8px}
-.section-title{font-size:12px;font-weight:700;color:#1565C0;text-transform:uppercase;letter-spacing:.8px;padding:4px 0 10px;border-bottom:2px solid #e3f2fd;margin-bottom:14px}
+.card-title{font-size:15px;font-weight:700;color:#5b7fa6;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.section-title{font-size:12px;font-weight:700;color:#5b7fa6;text-transform:uppercase;letter-spacing:.8px;padding:4px 0 10px;border-bottom:2px solid #e9edf3;margin-bottom:14px}
 
 /* ===== TABLE ===== */
 .table-wrap{overflow:auto;border-radius:8px;position:relative;max-height:calc(100vh - 210px)}
 table{width:100%;border-collapse:collapse;font-size:13px;min-width:800px}
-thead th{background:#1565C0;color:#fff;padding:10px 8px;text-align:left;white-space:nowrap;font-weight:500;font-size:12px;position:sticky;top:0;z-index:4}
+thead th{background:#7291b3;color:#fff;padding:10px 8px;text-align:left;white-space:nowrap;font-weight:500;font-size:12px;position:sticky;top:0;z-index:4}
 tbody td{padding:9px 8px;border-bottom:1px solid #f0f4f8;vertical-align:middle;font-size:12px}
 tbody tr:hover td{background:#f8f9ff}
 tbody tr:last-child td{border-bottom:none}
 /* Sticky columns */
 .col-company{position:sticky;left:0;z-index:3;background:#fff;box-shadow:2px 0 6px rgba(0,0,0,.08)}
-thead .col-company{background:#1565C0;box-shadow:2px 0 6px rgba(0,0,0,.2);z-index:6}
+thead .col-company{background:#7291b3;box-shadow:2px 0 6px rgba(0,0,0,.2);z-index:6}
 tbody tr:hover .col-company{background:#f8f9ff}
-tbody tr.row-crit .col-company{background:rgba(255,235,238,.6)}
-tbody tr.row-risk .col-company{background:rgba(255,248,225,.6)}
+tbody tr.row-crit .col-company{background:rgba(246,238,236,.6)}
+tbody tr.row-risk .col-company{background:rgba(245,241,226,.6)}
 .col-actions{position:sticky;right:0;z-index:3;background:#fff;box-shadow:-2px 0 6px rgba(0,0,0,.08)}
-thead .col-actions{background:#1565C0;box-shadow:-2px 0 6px rgba(0,0,0,.2);z-index:6}
+thead .col-actions{background:#7291b3;box-shadow:-2px 0 6px rgba(0,0,0,.2);z-index:6}
 tbody tr:hover .col-actions{background:#f8f9ff}
-tbody tr.row-crit .col-actions{background:rgba(255,235,238,.6)}
-tbody tr.row-risk .col-actions{background:rgba(255,248,225,.6)}
+tbody tr.row-crit .col-actions{background:rgba(246,238,236,.6)}
+tbody tr.row-risk .col-actions{background:rgba(245,241,226,.6)}
 
 /* ===== BADGES ===== */
 .badge{display:inline-block;padding:3px 9px;border-radius:20px;font-size:11px;font-weight:600;white-space:nowrap}
-.s-p01{background:#e3f2fd;color:#1565C0}.s-p02{background:#e0f7fa;color:#006064}
-.s-p03{background:#eceff1;color:#546e7a}.s-p04{background:#e8eaf6;color:#283593}
-.s-p05{background:#f3e5f5;color:#6a1b9a}.s-p06{background:#fff8e1;color:#f57f17}
-.s-p07{background:#fff3e0;color:#e65100}.s-p08{background:#ede7f6;color:#4527a0}
-.s-p09{background:#e8eaf6;color:#1a237e}.s-p10{background:#ede7f6;color:#5c35cc}
-.s-p11{background:#f9fbe7;color:#558b2f}.s-p12{background:#e8f5e9;color:#2e7d32}
-.s-p13{background:#e0f7fa;color:#00695c}.s-p14{background:#f1f8e9;color:#33691e}
-.s-p15{background:#c8e6c9;color:#1b5e20}.s-p16{background:#a5d6a7;color:#1b5e20}
-.s-p17{background:#b9f6ca;color:#1b5e20}.s-p18{background:#f5f5f5;color:#616161}
-.s-p19{background:#ffcdd2;color:#b71c1c}.s-p20{background:#ef9a9a;color:#7f0000}
+.s-p01{background:#e9edf3;color:#5b7fa6}.s-p02{background:#e6eff0;color:#4f7a80}
+.s-p03{background:#eceff1;color:#6a7681}.s-p04{background:#e9ebf3;color:#5a6390}
+.s-p05{background:#efeaf3;color:#77628f}.s-p06{background:#f5f1e2;color:#a8863f}
+.s-p07{background:#f4ede2;color:#a3703f}.s-p08{background:#eeecf5;color:#6f61a0}
+.s-p09{background:#e9ebf3;color:#545c8a}.s-p10{background:#eeecf5;color:#7a6bb0}
+.s-p11{background:#f1f2e5;color:#6f7c49}.s-p12{background:#e9f0ea;color:#557a5c}
+.s-p13{background:#e6eff0;color:#4f7876}.s-p14{background:#eef1e6;color:#5a7048}
+.s-p15{background:#e2ece3;color:#4a6b50}.s-p16{background:#dde9df;color:#4a6b50}
+.s-p17{background:#dff0e4;color:#4a6b50}.s-p18{background:#f5f5f5;color:#616161}
+.s-p19{background:#f0e4e2;color:#a05a4e}.s-p20{background:#d9a89f;color:#8a4a40}
 .s-p21{background:#f7f3ef;color:#8d6e63}
-.ch-badge{background:#e8eaf6;color:#283593;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:700}
-.ctrl-ok{color:#2e7d32;font-weight:700}.ctrl-risk{color:#e65100;font-weight:700}.ctrl-crit{color:#b71c1c;font-weight:700}
-.row-today td{background:#fff8e1!important}.row-today td:first-child{border-left:3px solid #f9a825}
-tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230,81,0,.03)}
+.ch-badge{background:#e9ebf3;color:#5a6390;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:700}
+.ctrl-ok{color:#557a5c;font-weight:700}.ctrl-risk{color:#a3703f;font-weight:700}.ctrl-crit{color:#a05a4e;font-weight:700}
+.row-today td{background:#f5f1e2!important}.row-today td:first-child{border-left:3px solid #b89a55}
+tr.row-crit td{background:rgba(160,90,78,.04)}tr.row-risk td{background:rgba(163,112,63,.04)}
 
 /* ===== BUTTONS ===== */
 .btn{padding:8px 16px;border-radius:8px;border:none;cursor:pointer;font-size:13px;font-weight:600;transition:all .15s;display:inline-flex;align-items:center;gap:6px;text-decoration:none}
-.btn-primary{background:#1565C0;color:#fff}.btn-primary:hover{background:#0d47a1}
-.btn-success{background:#2e7d32;color:#fff}.btn-success:hover{background:#1b5e20}
-.btn-danger{background:#c62828;color:#fff}.btn-danger:hover{background:#b71c1c}
+.btn-primary{background:#5b7fa6;color:#fff}.btn-primary:hover{background:#46688e}
+.btn-success{background:#557a5c;color:#fff}.btn-success:hover{background:#4a6b50}
+.btn-danger{background:#a06054;color:#fff}.btn-danger:hover{background:#a05a4e}
 .btn-ghost{background:#f0f4f8;color:#555}.btn-ghost:hover{background:#e0e6ed}
-.btn-orange{background:#e65100;color:#fff}.btn-orange:hover{background:#bf360c}
+.btn-orange{background:#a3703f;color:#fff}.btn-orange:hover{background:#a3603f}
 .btn-sm{padding:4px 9px;font-size:11px;border-radius:6px}
 
 /* ===== TOOLBAR ===== */
 .toolbar{display:flex;gap:10px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
-.fstep-btn{background:none;border:1px solid #ffcc80;border-radius:6px;padding:2px 8px;font-size:11px;cursor:pointer;color:#e65100;transition:all .15s}
-.fstep-btn:hover{background:#ffe0b2}
-.fstep-btn.fstep-active{background:#e65100;color:#fff;border-color:#e65100;font-weight:700}
+.fstep-btn{background:none;border:1px solid #e8d4b4;border-radius:6px;padding:2px 8px;font-size:11px;cursor:pointer;color:#a3703f;transition:all .15s}
+.fstep-btn:hover{background:#ead8bd}
+.fstep-btn.fstep-active{background:#a3703f;color:#fff;border-color:#a3703f;font-weight:700}
 .filter-select,.search-input{padding:8px 12px;border:1.5px solid #e0e6ed;border-radius:8px;font-size:13px;background:#fff;transition:border-color .2s;color:#333}
-.filter-select:focus,.search-input:focus{outline:none;border-color:#1565C0}
+.filter-select:focus,.search-input:focus{outline:none;border-color:#5b7fa6}
 .search-input{width:200px;padding-left:32px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%23999' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.099zm-5.44 1.398a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:10px center}
 
 /* ===== STATS ===== */
@@ -108,30 +108,30 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
 .modal-overlay.open{display:flex}
 .modal{background:#fff;border-radius:18px;padding:0;width:820px;max-width:97vw;max-height:94vh;display:flex;flex-direction:column;box-shadow:0 28px 72px rgba(0,0,0,.32)}
 .modal-header{padding:22px 28px 16px;border-bottom:2px solid #f0f4f8;flex-shrink:0}
-.modal-title{font-size:18px;font-weight:800;color:#1565C0;display:flex;align-items:center;gap:10px}
+.modal-title{font-size:18px;font-weight:800;color:#5b7fa6;display:flex;align-items:center;gap:10px}
 .modal-body{padding:20px 28px;overflow-y:auto;flex:1}
 .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .form-group{display:flex;flex-direction:column;gap:5px}
 .form-group.full{grid-column:1/-1}
 .form-label{font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.5px}
 .form-control{padding:9px 12px;border:1.5px solid #e0e6ed;border-radius:8px;font-size:13px;transition:border-color .2s;font-family:inherit;color:#333}
-.form-control:focus{outline:none;border-color:#1565C0;box-shadow:0 0 0 3px rgba(21,101,192,.1)}
-.form-control.required-field{border-color:#90caf9;background:#fafcff}
-.form-control.required-field:focus{border-color:#1565C0}
+.form-control:focus{outline:none;border-color:#5b7fa6;box-shadow:0 0 0 3px rgba(21,101,192,.1)}
+.form-control.required-field{border-color:#a8bfd6;background:#fafcff}
+.form-control.required-field:focus{border-color:#5b7fa6}
 .modal-footer{display:flex;gap:10px;justify-content:flex-end;padding:14px 28px 18px;border-top:2px solid #f0f4f8;flex-shrink:0;background:#fff;border-radius:0 0 18px 18px}
 /* Section step numbers */
-.step-num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#1565C0;color:#fff;font-size:11px;font-weight:800;flex-shrink:0}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#5b7fa6;color:#fff;font-size:11px;font-weight:800;flex-shrink:0}
 /* URL field */
 .url-field-wrap{display:flex;align-items:center;gap:6px}
 .url-field-wrap .form-control{flex:1;min-width:0}
-.url-open-btn{padding:8px 10px;border-radius:8px;border:1.5px solid #e0e6ed;background:#f8f9ff;color:#1565C0;cursor:pointer;font-size:14px;text-decoration:none;display:flex;align-items:center;flex-shrink:0;transition:all .2s}
-.url-open-btn:hover{background:#e3f2fd;border-color:#1565C0}
+.url-open-btn{padding:8px 10px;border-radius:8px;border:1.5px solid #e0e6ed;background:#f8f9ff;color:#5b7fa6;cursor:pointer;font-size:14px;text-decoration:none;display:flex;align-items:center;flex-shrink:0;transition:all .2s}
+.url-open-btn:hover{background:#e9edf3;border-color:#5b7fa6}
 
 /* ===== KPI ===== */
 .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:14px;margin-bottom:20px}
-.kpi-card{background:#fff;border-radius:12px;padding:20px 16px;box-shadow:0 1px 6px rgba(0,0,0,.08);text-align:center;border-top:4px solid #1565C0;transition:transform .15s}
+.kpi-card{background:#fff;border-radius:12px;padding:20px 16px;box-shadow:0 1px 6px rgba(0,0,0,.08);text-align:center;border-top:4px solid #5b7fa6;transition:transform .15s}
 .kpi-card:hover{transform:translateY(-2px)}
-.kpi-value{font-size:30px;font-weight:800;color:#1565C0;line-height:1}
+.kpi-value{font-size:30px;font-weight:800;color:#5b7fa6;line-height:1}
 .kpi-label{font-size:12px;color:#888;margin-top:6px;line-height:1.3}
 
 /* ===== FUNNEL ===== */
@@ -145,113 +145,113 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
 /* ===== ALERTS ===== */
 .alert-box{display:flex;flex-direction:column;gap:8px}
 .alert-item{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-radius:8px;font-size:13px;font-weight:500}
-.al-red{background:#ffebee;color:#b71c1c}.al-orange{background:#fff8e1;color:#e65100}
-.al-green{background:#e8f5e9;color:#2e7d32}.al-blue{background:#e3f2fd;color:#1565C0}
+.al-red{background:#f6eeec;color:#a05a4e}.al-orange{background:#f5f1e2;color:#a3703f}
+.al-green{background:#e9f0ea;color:#557a5c}.al-blue{background:#e9edf3;color:#5b7fa6}
 
 /* ===== CHANNELS ===== */
 .ch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:12px}
-.ch-card{background:#f8f9ff;border-radius:10px;padding:14px 12px;text-align:center;border-left:4px solid #1565C0;transition:transform .15s}
+.ch-card{background:#f8f9ff;border-radius:10px;padding:14px 12px;text-align:center;border-left:4px solid #5b7fa6;transition:transform .15s}
 .ch-card:hover{transform:translateY(-2px)}
-.ch-name{font-size:13px;font-weight:800;color:#1565C0}
+.ch-name{font-size:13px;font-weight:800;color:#5b7fa6}
 .ch-count{font-size:26px;font-weight:800;color:#333;line-height:1.2}
 .ch-type{font-size:10px;color:#999;margin-top:2px}
 .conv-table{width:100%;border-collapse:collapse;font-size:13px}
 .conv-table td{padding:8px 12px;border-bottom:1px solid #f0f4f8}
 .conv-table tr:last-child td{border:none}
-.conv-bar{height:8px;border-radius:4px;background:#1565C0;display:inline-block;vertical-align:middle;margin-right:8px}
+.conv-bar{height:8px;border-radius:4px;background:#5b7fa6;display:inline-block;vertical-align:middle;margin-right:8px}
 
 /* ===== EMPTY ===== */
 .empty{text-align:center;padding:50px 20px;color:#bbb}
 .empty-icon{font-size:44px;margin-bottom:10px}
-.kpi-ok{color:#2e7d32;font-weight:700;white-space:nowrap}
-.kpi-warn{color:#e65100;font-weight:700;white-space:nowrap}
-.kpi-bad{color:#b71c1c;font-weight:700;white-space:nowrap}
+.kpi-ok{color:#557a5c;font-weight:700;white-space:nowrap}
+.kpi-warn{color:#a3703f;font-weight:700;white-space:nowrap}
+.kpi-bad{color:#a05a4e;font-weight:700;white-space:nowrap}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px}
 
 /* ===== SETTINGS ===== */
 .settings-section{background:#fff;border-radius:12px;box-shadow:0 1px 6px rgba(0,0,0,.08);padding:24px;margin-bottom:20px}
-.settings-section h3{font-size:16px;font-weight:700;color:#1565C0;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.settings-section h3{font-size:16px;font-weight:700;color:#5b7fa6;margin-bottom:4px;display:flex;align-items:center;gap:8px}
 .settings-section p{font-size:13px;color:#888;margin-bottom:18px}
 .settings-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .input-group{display:flex;gap:8px}
 .input-group .form-control{flex:1}
 .sync-status{font-size:12px;margin-top:8px;padding:8px 12px;border-radius:8px;display:none}
-.sync-ok{background:#e8f5e9;color:#2e7d32;display:block}
-.sync-err{background:#ffebee;color:#b71c1c;display:block}
-.sync-loading{background:#e3f2fd;color:#1565C0;display:block}
+.sync-ok{background:#e9f0ea;color:#557a5c;display:block}
+.sync-err{background:#f6eeec;color:#a05a4e;display:block}
+.sync-loading{background:#e9edf3;color:#5b7fa6;display:block}
 .share-code{width:100%;padding:10px 12px;border:1.5px solid #e0e6ed;border-radius:8px;font-size:11px;font-family:monospace;resize:vertical;min-height:80px;color:#555}
-.danger-zone{border:2px dashed #ffcdd2;border-radius:12px;padding:20px}
-.danger-zone h3{color:#b71c1c}
-.step-badge{display:inline-block;background:#1565C0;color:#fff;border-radius:50%;width:22px;height:22px;font-size:12px;font-weight:700;text-align:center;line-height:22px;margin-right:6px}
+.danger-zone{border:2px dashed #f0e4e2;border-radius:12px;padding:20px}
+.danger-zone h3{color:#a05a4e}
+.step-badge{display:inline-block;background:#5b7fa6;color:#fff;border-radius:50%;width:22px;height:22px;font-size:12px;font-weight:700;text-align:center;line-height:22px;margin-right:6px}
 .api-help{background:#f8f9ff;border-radius:8px;padding:12px;font-size:12px;color:#555;margin-top:10px;line-height:1.7}
-.api-help a{color:#1565C0;font-weight:600}
+.api-help a{color:#5b7fa6;font-weight:600}
 
 /* ===== CSV IMPORT ===== */
 .drop-zone{border:2px dashed #b0bec5;border-radius:12px;padding:30px;text-align:center;color:#90a4ae;cursor:pointer;transition:all .2s}
-.drop-zone:hover,.drop-zone.drag{border-color:#1565C0;color:#1565C0;background:#f0f4ff}
+.drop-zone:hover,.drop-zone.drag{border-color:#5b7fa6;color:#5b7fa6;background:#f0f4ff}
 .drop-zone-icon{font-size:36px;margin-bottom:8px}
 .import-preview{max-height:200px;overflow-y:auto;border:1px solid #e0e6ed;border-radius:8px;font-size:11px}
 .import-preview table{min-width:100%;font-size:11px}
-.import-preview thead th{background:#e8eaf6;color:#333;font-size:11px;padding:6px 8px;position:static}
+.import-preview thead th{background:#e9ebf3;color:#333;font-size:11px;padding:6px 8px;position:static}
 
 @media(max-width:900px){.grid2{grid-template-columns:1fr}.settings-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.form-grid{grid-template-columns:1fr}.content{padding:12px}.nav-brand{display:none}}
 
 /* ===== FORM SECTIONS ===== */
 .form-section{margin-bottom:18px}
-.form-section-title{font-size:11px;font-weight:800;color:#1565C0;text-transform:uppercase;letter-spacing:.8px;padding:7px 12px 7px 14px;background:linear-gradient(90deg,#e3f2fd,#f8fbff);border-radius:8px;margin-bottom:12px;border-left:4px solid #1565C0;display:flex;align-items:center;gap:6px}
+.form-section-title{font-size:11px;font-weight:800;color:#5b7fa6;text-transform:uppercase;letter-spacing:.8px;padding:7px 12px 7px 14px;background:linear-gradient(90deg,#e9edf3,#f8fbff);border-radius:8px;margin-bottom:12px;border-left:4px solid #5b7fa6;display:flex;align-items:center;gap:6px}
 
 /* ===== MULTI-FIELD ===== */
 .multi-fields{display:flex;flex-direction:column;gap:5px}
 .multi-field-row{display:flex;gap:5px;align-items:center}
 .multi-field-row .form-control{flex:1;min-width:0}
-.btn-remove{width:28px;height:28px;border-radius:6px;border:none;background:#ffebee;color:#c62828;cursor:pointer;font-size:18px;font-weight:300;line-height:1;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .2s;padding:0}
-.btn-remove:hover{background:#ffcdd2}
+.btn-remove{width:28px;height:28px;border-radius:6px;border:none;background:#f6eeec;color:#a06054;cursor:pointer;font-size:18px;font-weight:300;line-height:1;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .2s;padding:0}
+.btn-remove:hover{background:#f0e4e2}
 .btn-add-field{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border-radius:6px;border:1.5px dashed #b0bec5;background:none;color:#90a4ae;cursor:pointer;font-size:12px;margin-top:3px;transition:all .2s}
-.btn-add-field:hover{border-color:#1565C0;color:#1565C0;background:#f0f4ff}
+.btn-add-field:hover{border-color:#5b7fa6;color:#5b7fa6;background:#f0f4ff}
 
 /* ===== DRAFT ===== */
-.draft-bar{background:#fff8e1;border:1px solid #ffca28;border-radius:8px;padding:8px 14px;font-size:12px;color:#795548;display:none;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.draft-bar{background:#f5f1e2;border:1px solid #cbb075;border-radius:8px;padding:8px 14px;font-size:12px;color:#795548;display:none;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap}
 .draft-bar.visible{display:flex}
-.draft-bar strong{color:#e65100}
+.draft-bar strong{color:#a3703f}
 
 /* ===== CATEGORIES ===== */
 .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:4px;padding:4px 0}
 .cat-item{display:flex;align-items:center;gap:7px;padding:5px 8px;border-radius:6px;cursor:pointer;transition:background .15s;font-size:12px;color:#444;user-select:none}
 .cat-item:hover{background:#f0f4f8}
-.cat-item input[type=checkbox]{width:14px;height:14px;accent-color:#1565C0;cursor:pointer;flex-shrink:0}
-.cat-item.is-checked{background:#e3f2fd;color:#1565C0;font-weight:600}
-.cat-badge{display:inline-block;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:700;background:#e3f2fd;color:#1565C0;white-space:nowrap}
-.cat-badge-pot{background:#e8f5e9;color:#2e7d32}
+.cat-item input[type=checkbox]{width:14px;height:14px;accent-color:#5b7fa6;cursor:pointer;flex-shrink:0}
+.cat-item.is-checked{background:#e9edf3;color:#5b7fa6;font-weight:600}
+.cat-badge{display:inline-block;padding:2px 6px;border-radius:10px;font-size:10px;font-weight:700;background:#e9edf3;color:#5b7fa6;white-space:nowrap}
+.cat-badge-pot{background:#e9f0ea;color:#557a5c}
 
 /* ===== MANAGER ATTRIBUTION ===== */
-.owner-badge{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700;background:#e8eaf6;color:#283593;white-space:nowrap}
-.owner-admin{background:#e3f2fd;color:#1565C0}
+.owner-badge{display:inline-flex;align-items:center;gap:3px;padding:2px 7px;border-radius:10px;font-size:10px;font-weight:700;background:#e9ebf3;color:#5a6390;white-space:nowrap}
+.owner-admin{background:#e9edf3;color:#5b7fa6}
 .mgr-stats-table{width:100%;border-collapse:collapse;font-size:13px}
-.mgr-stats-table th{background:#1565C0;color:#fff;padding:8px 10px;text-align:left;font-weight:600;font-size:12px}
+.mgr-stats-table th{background:#5b7fa6;color:#fff;padding:8px 10px;text-align:left;font-weight:600;font-size:12px}
 .mgr-stats-table td{padding:8px 10px;border-bottom:1px solid #f0f4f8;vertical-align:middle}
 .mgr-stats-table tr:hover td{background:#f8f9ff}
 .mgr-stats-table tr:last-child td{border-bottom:none}
 
 /* ===== DUPLICATE WARNING ===== */
-.dup-panel{display:none;background:#fff8e1;border:1.5px solid #ffb300;border-radius:10px;padding:12px 14px;margin-bottom:14px}
+.dup-panel{display:none;background:#f5f1e2;border:1.5px solid #c0a05e;border-radius:10px;padding:12px 14px;margin-bottom:14px}
 .dup-panel.visible{display:block}
-.dup-panel-title{font-size:13px;font-weight:700;color:#e65100;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.dup-panel-title{font-size:13px;font-weight:700;color:#a3703f;margin-bottom:10px;display:flex;align-items:center;gap:6px}
 .dup-list{display:flex;flex-direction:column;gap:6px}
-.dup-item{background:#fff;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:background .15s}
-.dup-item:hover{background:#fff3cd}
+.dup-item{background:#fff;border:1px solid #ecdcb2;border-radius:8px;padding:9px 12px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:background .15s}
+.dup-item:hover{background:#f3eeda}
 .dup-item-info{flex:1;min-width:0}
 .dup-item-company{font-size:13px;font-weight:700;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .dup-item-meta{font-size:11px;color:#888;margin-top:2px}
-.dup-match-tag{display:inline-block;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:700;background:#ffe082;color:#7a4f00;margin-left:4px}
-.dup-open-btn{flex-shrink:0;padding:5px 10px;border-radius:6px;border:1.5px solid #ffb300;background:#fff;color:#e65100;font-size:12px;font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
-.dup-open-btn:hover{background:#ffb300;color:#fff}
-.dup-force-row{margin-top:10px;padding-top:10px;border-top:1px solid #ffe082;font-size:12px;color:#888;display:flex;align-items:center;gap:8px}
+.dup-match-tag{display:inline-block;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:700;background:#ecdcb2;color:#7d6a45;margin-left:4px}
+.dup-open-btn{flex-shrink:0;padding:5px 10px;border-radius:6px;border:1.5px solid #c0a05e;background:#fff;color:#a3703f;font-size:12px;font-weight:700;cursor:pointer;transition:all .2s;white-space:nowrap}
+.dup-open-btn:hover{background:#c0a05e;color:#fff}
+.dup-force-row{margin-top:10px;padding-top:10px;border-top:1px solid #ecdcb2;font-size:12px;color:#888;display:flex;align-items:center;gap:8px}
 
 /* ===== STATUS FLOW ===== */
 .status-flow{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px}
 .sf-step{padding:4px 10px;border-radius:20px;font-size:11px;font-weight:600;cursor:pointer;border:1.5px solid #e0e6ed;color:#888;background:#fff;transition:all .2s;white-space:nowrap}
-.sf-step:hover{border-color:#1565C0;color:#1565C0}
+.sf-step:hover{border-color:#5b7fa6;color:#5b7fa6}
 .sf-step.sf-active{border-color:transparent;color:#fff}
 
 /* ===== ROLES ===== */
@@ -260,15 +260,15 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
 .role-badge{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;white-space:nowrap}
 .role-admin{background:rgba(255,255,255,.2);color:#fff}
 .role-manager{background:rgba(255,193,7,.25);color:#fff}
-.mgr-perm{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-radius:8px;background:#f8f9ff;border:1px solid #e8eaf6;font-size:13px}
+.mgr-perm{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border-radius:8px;background:#f8f9ff;border:1px solid #e9ebf3;font-size:13px}
 .mgr-perm label{display:flex;align-items:center;gap:8px;cursor:pointer;font-weight:500}
 .toggle{position:relative;width:38px;height:20px;flex-shrink:0}
 .toggle input{opacity:0;width:0;height:0}
 .toggle-slider{position:absolute;inset:0;background:#ccc;border-radius:20px;transition:.3s;cursor:pointer}
 .toggle-slider:before{content:'';position:absolute;width:16px;height:16px;left:2px;bottom:2px;background:#fff;border-radius:50%;transition:.3s}
-.toggle input:checked+.toggle-slider{background:#1565C0}
+.toggle input:checked+.toggle-slider{background:#5b7fa6}
 .toggle input:checked+.toggle-slider:before{transform:translateX(18px)}
-.mgr-banner{background:linear-gradient(90deg,#FF8F00,#F57F17);color:#fff;padding:8px 22px;font-size:12px;font-weight:700;text-align:center;letter-spacing:.5px}
+.mgr-banner{background:linear-gradient(90deg,#b08a4a,#a8863f);color:#fff;padding:8px 22px;font-size:12px;font-weight:700;text-align:center;letter-spacing:.5px}
 </style>
 <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
 </head>
@@ -281,7 +281,7 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
     <div class="login-title">Hunter Sales Manager</div>
     <div id="loginRoleSelect" style="display:flex;gap:10px;margin-bottom:16px;width:100%">
       <button class="btn btn-primary" style="flex:1;padding:10px" onclick="showLoginForm('manager')">&#128119; &#1052;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088;</button>
-      <button class="btn" style="flex:1;padding:10px;background:#e8eaf6;color:#3949ab" onclick="showLoginForm('admin')">&#128081; &#1040;&#1076;&#1084;&#1110;&#1085;</button>
+      <button class="btn" style="flex:1;padding:10px;background:#e9ebf3;color:#5f6b9a" onclick="showLoginForm('admin')">&#128081; &#1040;&#1076;&#1084;&#1110;&#1085;</button>
     </div>
     <div id="loginFormWrap" style="display:none;width:100%">
       <div class="login-sub" id="loginSubtitle"></div>
@@ -302,15 +302,15 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
     <button class="btn btn-sm" style="background:rgba(255,255,255,.2);color:#fff;border:none;padding:4px 10px;border-radius:6px;cursor:pointer;font-size:12px" onclick="toggleMgrCloud()">&#9729;&#65039; &#1057;&#1080;&#1085;&#1093;&#1088;&#1086;&#1085;&#1110;&#1079;&#1072;&#1094;&#1110;&#1103;</button>
   </span>
 </div>
-<div id="mgr-cloud-panel" style="display:none;background:#e3f2fd;border-bottom:2px solid #90caf9;padding:10px 20px;font-size:13px;align-items:center;gap:10px;flex-wrap:wrap">
+<div id="mgr-cloud-panel" style="display:none;background:#e9edf3;border-bottom:2px solid #a8bfd6;padding:10px 20px;font-size:13px;align-items:center;gap:10px;flex-wrap:wrap">
   <div id="mgr-token-wrap" style="display:none;align-items:center;gap:6px;width:100%">
-    <span style="font-size:12px;color:#1565C0;font-weight:600">&#128273; Sync Token:</span>
-    <input type="password" id="mgr-token-input" placeholder="&#1042;&#1074;&#1077;&#1076;&#1110;&#1090;&#1100; &#1090;&#1086;&#1082;&#1077;&#1085; (&#1086;&#1090;&#1088;&#1080;&#1084;&#1072;&#1081;&#1090;&#1077; &#1091; &#1072;&#1076;&#1084;&#1110;&#1085;&#1072;)" style="padding:4px 8px;border:1px solid #90caf9;border-radius:6px;font-size:12px;width:280px">
+    <span style="font-size:12px;color:#5b7fa6;font-weight:600">&#128273; Sync Token:</span>
+    <input type="password" id="mgr-token-input" placeholder="&#1042;&#1074;&#1077;&#1076;&#1110;&#1090;&#1100; &#1090;&#1086;&#1082;&#1077;&#1085; (&#1086;&#1090;&#1088;&#1080;&#1084;&#1072;&#1081;&#1090;&#1077; &#1091; &#1072;&#1076;&#1084;&#1110;&#1085;&#1072;)" style="padding:4px 8px;border:1px solid #a8bfd6;border-radius:6px;font-size:12px;width:280px">
     <button class="btn btn-primary btn-sm" onclick="saveMgrToken()">&#1047;&#1073;&#1077;&#1088;&#1077;&#1075;&#1090;&#1080;</button>
   </div>
   <button class="btn btn-primary" style="padding:5px 14px;font-size:12px" onclick="mgrCloudPull()">&#11015; &#1042;&#1110;&#1076;&#1085;&#1086;&#1074;&#1080;&#1090;&#1080; &#1079; &#1093;&#1084;&#1072;&#1088;&#1080;</button>
   <button class="btn btn-success" style="padding:5px 14px;font-size:12px" onclick="mgrCloudPush()">&#11014; &#1047;&#1073;&#1077;&#1088;&#1077;&#1075;&#1090;&#1080; &#1074; &#1093;&#1084;&#1072;&#1088;&#1091;</button>
-  <span id="mgr-cloud-status" style="font-size:12px;color:#1565C0"></span>
+  <span id="mgr-cloud-status" style="font-size:12px;color:#5b7fa6"></span>
 </div>
 <nav class="nav">
   <div class="nav-brand">&#127919; Hunter Sales</div>
@@ -364,13 +364,13 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
       <option value="">&#128230; &#1042;&#1089;&#1110; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1110;&#1111;</option>
     </select>
     <!-- Step-date filter -->
-    <div style="display:flex;align-items:center;gap:4px;background:#fff3e0;border:1px solid #ffcc80;border-radius:8px;padding:4px 8px">
-      <span style="font-size:12px;color:#e65100;white-space:nowrap;font-weight:600">&#127919; &#1050;&#1088;&#1086;&#1082;:</span>
+    <div style="display:flex;align-items:center;gap:4px;background:#f4ede2;border:1px solid #e8d4b4;border-radius:8px;padding:4px 8px">
+      <span style="font-size:12px;color:#a3703f;white-space:nowrap;font-weight:600">&#127919; &#1050;&#1088;&#1086;&#1082;:</span>
       <button class="fstep-btn" id="fstep-over"  onclick="setStepFilter('overdue')"  title="&#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1086;&#1095;&#1077;&#1085;&#1110;">&#128308; &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1086;&#1095;&#1077;&#1085;&#1110;</button>
       <button class="fstep-btn" id="fstep-today" onclick="setStepFilter('today')"    title="&#1057;&#1100;&#1086;&#1075;&#1086;&#1076;&#1085;&#1110;">&#1057;&#1100;&#1086;&#1075;&#1086;&#1076;&#1085;&#1110;</button>
       <button class="fstep-btn" id="fstep-tom"   onclick="setStepFilter('tomorrow')" title="&#1047;&#1072;&#1074;&#1090;&#1088;&#1072;">&#1047;&#1072;&#1074;&#1090;&#1088;&#1072;</button>
-      <input type="date" id="fStepDate" onchange="setStepFilter('date')" style="border:1px solid #ffcc80;border-radius:6px;background:#fff;font-size:12px;color:#555;padding:2px 6px;cursor:pointer;outline:none;height:26px">
-      <button onclick="clearStepFilter()" id="fstep-clear" title="&#1057;&#1082;&#1080;&#1085;&#1091;&#1090;&#1080; &#1092;&#1110;&#1083;&#1100;&#1090;&#1088;" style="display:none;background:#ffcc80;border:none;cursor:pointer;font-size:12px;color:#e65100;padding:2px 8px;border-radius:6px;font-weight:700">&#10005; &#1057;&#1082;&#1080;&#1085;&#1091;&#1090;&#1080;</button>
+      <input type="date" id="fStepDate" onchange="setStepFilter('date')" style="border:1px solid #e8d4b4;border-radius:6px;background:#fff;font-size:12px;color:#555;padding:2px 6px;cursor:pointer;outline:none;height:26px">
+      <button onclick="clearStepFilter()" id="fstep-clear" title="&#1057;&#1082;&#1080;&#1085;&#1091;&#1090;&#1080; &#1092;&#1110;&#1083;&#1100;&#1090;&#1088;" style="display:none;background:#e8d4b4;border:none;cursor:pointer;font-size:12px;color:#a3703f;padding:2px 8px;border-radius:6px;font-weight:700">&#10005; &#1057;&#1082;&#1080;&#1085;&#1091;&#1090;&#1080;</button>
     </div>
     <div style="position:relative;display:inline-block" id="export-wrap">
       <button class="btn btn-ghost" onclick="toggleExportMenu()" title="&#1045;&#1082;&#1089;&#1087;&#1086;&#1088;&#1090; &#1076;&#1072;&#1085;&#1080;&#1093;">&#11015; &#1045;&#1082;&#1089;&#1087;&#1086;&#1088;&#1090; &#9662;</button>
@@ -468,7 +468,7 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
     <div id="mgr-list" style="margin-bottom:18px"></div>
 
     <!-- Add new manager form -->
-    <div style="background:#f8f9ff;border-radius:10px;padding:16px;border:1.5px dashed #c5cae9">
+    <div style="background:#f8f9ff;border-radius:10px;padding:16px;border:1.5px dashed #d3d7e6">
       <div class="section-title" style="margin-bottom:12px">&#10133; &#1044;&#1086;&#1076;&#1072;&#1090;&#1080; &#1084;&#1077;&#1085;&#1077;&#1076;&#1078;&#1077;&#1088;&#1072;</div>
       <div class="settings-grid">
         <div class="form-group">
@@ -669,7 +669,7 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
       <div class="form-section-title"><span class="step-num">2</span> &#1050;&#1086;&#1084;&#1087;&#1072;&#1085;&#1110;&#1103;</div>
       <div class="form-grid">
         <div class="form-group">
-          <label class="form-label">&#1050;&#1086;&#1084;&#1087;&#1072;&#1085;&#1110;&#1103; <span style="color:#e53935">*</span></label>
+          <label class="form-label">&#1050;&#1086;&#1084;&#1087;&#1072;&#1085;&#1110;&#1103; <span style="color:#b06a5e">*</span></label>
           <input type="text" class="form-control required-field" id="d-company" placeholder="&#1053;&#1072;&#1079;&#1074;&#1072; &#1082;&#1086;&#1084;&#1087;&#1072;&#1085;&#1110;&#1111;" oninput="saveDraft();checkDuplicates()">
         </div>
         <div class="form-group">
@@ -723,12 +723,12 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
         <div class="form-group">
           <label class="form-label">&#1056;&#1077;&#1079;&#1091;&#1083;&#1100;&#1090;&#1072;&#1090; &#1082;&#1086;&#1085;&#1090;&#1072;&#1082;&#1090;&#1091; <span style="font-size:10px;color:#888;font-weight:400">(&#1086;&#1087;&#1080;&#1096;&#1110;&#1090;&#1100; &#1076;&#1086;&#1074;&#1110;&#1083;&#1100;&#1085;&#1086;)</span></label>
           <textarea class="form-control" id="d-result" rows="2" placeholder="&#1053;&#1072;&#1087;&#1088;&#1080;&#1082;&#1083;&#1072;&#1076;: &#1055;&#1088;&#1086;&#1074;&#1077;&#1083;&#1080; &#1076;&#1079;&#1074;&#1110;&#1085;&#1086;&#1082;, &#1108; &#1110;&#1085;&#1090;&#1077;&#1088;&#1077;&#1089; &#1076;&#1086; &#1082;&#1072;&#1090;&#1072;&#1083;&#1086;&#1075;&#1091;. &#1055;&#1088;&#1086;&#1089;&#1103;&#1090;&#1100; &#1087;&#1088;&#1072;&#1081;&#1089; &#1085;&#1072; &#1074;&#1077;&#1089;&#1085;&#1103;&#1085;&#1091; &#1082;&#1086;&#1083;&#1077;&#1082;&#1094;&#1110;&#1102;." oninput="saveDraft()" style="resize:vertical;min-height:54px"></textarea>
-          <button type="button" class="btn btn-sm" onclick="logContact()" style="margin-top:6px;background:#e3f2fd;color:#1565C0;border:1px solid #90caf9;font-size:11px;padding:4px 12px">&#128221; &#1047;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1080; &#1074; &#1093;&#1088;&#1086;&#1085;&#1086;&#1083;&#1086;&#1075;&#1110;&#1102;</button>
+          <button type="button" class="btn btn-sm" onclick="logContact()" style="margin-top:6px;background:#e9edf3;color:#5b7fa6;border:1px solid #a8bfd6;font-size:11px;padding:4px 12px">&#128221; &#1047;&#1072;&#1087;&#1080;&#1089;&#1072;&#1090;&#1080; &#1074; &#1093;&#1088;&#1086;&#1085;&#1086;&#1083;&#1086;&#1075;&#1110;&#1102;</button>
         </div>
-        <div class="form-group full" style="background:#f0f7ff;border-radius:10px;padding:12px 14px;border:1px solid #bbdefb">
+        <div class="form-group full" style="background:#f0f7ff;border-radius:10px;padding:12px 14px;border:1px solid #ccd9e6">
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
             <span style="font-size:16px">&#127919;</span>
-            <span class="form-label" style="color:#1565C0;font-size:12px">&#1053;&#1040;&#1057;&#1058;&#1059;&#1055;&#1053;&#1048;&#1049; &#1050;&#1056;&#1054;&#1050;</span>
+            <span class="form-label" style="color:#5b7fa6;font-size:12px">&#1053;&#1040;&#1057;&#1058;&#1059;&#1055;&#1053;&#1048;&#1049; &#1050;&#1056;&#1054;&#1050;</span>
           </div>
           <input type="text" class="form-control" id="d-nextstep" placeholder="&#1065;&#1086; &#1087;&#1083;&#1072;&#1085;&#1091;&#1108;&#1090;&#1077; &#1079;&#1088;&#1086;&#1073;&#1080;&#1090;&#1080;? (&#1079;&#1072;&#1090;&#1077;&#1083;&#1077;&#1092;&#1086;&#1085;&#1091;&#1074;&#1072;&#1090;&#1080;, &#1085;&#1072;&#1076;&#1110;&#1089;&#1083;&#1072;&#1090;&#1080; &#1050;&#1055;, &#1079;&#1091;&#1089;&#1090;&#1088;&#1110;&#1095;...)" oninput="saveDraft()" style="margin-bottom:8px">
           <label class="form-label">&#1044;&#1072;&#1090;&#1072; &#1074;&#1080;&#1082;&#1086;&#1085;&#1072;&#1085;&#1085;&#1103;</label>
@@ -747,7 +747,7 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
           <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
             <span style="font-size:15px">&#128336;</span>
             <span class="form-label" style="color:#37474f;font-size:12px;margin:0">&#1061;&#1056;&#1054;&#1053;&#1054;&#1051;&#1054;&#1043;&#1030;&#1071; &#1050;&#1054;&#1053;&#1058;&#1040;&#1050;&#1058;&#1030;&#1042;</span>
-            <span id="contact-log-count" style="font-size:10px;background:#eceff1;color:#546e7a;border-radius:10px;padding:1px 8px"></span>
+            <span id="contact-log-count" style="font-size:10px;background:#eceff1;color:#6a7681;border-radius:10px;padding:1px 8px"></span>
           </div>
           <div id="contact-log-list" style="max-height:220px;overflow-y:auto;border:1px solid #e0e0e0;border-radius:8px;background:#fafafa;padding:8px 10px;display:flex;flex-direction:column;gap:6px"></div>
         </div>
@@ -763,7 +763,7 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
           <div class="cat-grid" id="categories-grid"></div>
         </div>
         <div class="form-group full" style="margin-top:6px">
-          <label class="form-label" style="margin-bottom:6px;color:#2e7d32">&#1055;&#1086;&#1090;&#1077;&#1085;&#1094;&#1110;&#1081;&#1085;&#1110; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1110;&#1111; <span style="color:#aaa;font-weight:400">(&#1084;&#1086;&#1078;&#1085;&#1072; &#1079;&#1072;&#1087;&#1088;&#1086;&#1087;&#1086;&#1085;&#1091;&#1074;&#1072;&#1090;&#1080;)</span></label>
+          <label class="form-label" style="margin-bottom:6px;color:#557a5c">&#1055;&#1086;&#1090;&#1077;&#1085;&#1094;&#1110;&#1081;&#1085;&#1110; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1110;&#1111; <span style="color:#aaa;font-weight:400">(&#1084;&#1086;&#1078;&#1085;&#1072; &#1079;&#1072;&#1087;&#1088;&#1086;&#1087;&#1086;&#1085;&#1091;&#1074;&#1072;&#1090;&#1080;)</span></label>
           <div class="cat-grid" id="potential-grid"></div>
         </div>
       </div>
@@ -783,12 +783,12 @@ tr.row-crit td{background:rgba(183,28,28,.03)}tr.row-risk td{background:rgba(230
     <div class="modal-title">&#128202; &#1047;&#1072;&#1087;&#1080;&#1089; &#1072;&#1082;&#1090;&#1080;&#1074;&#1085;&#1086;&#1089;&#1090;&#1110;</div>
     <div class="form-grid">
       <div class="form-group"><label class="form-label">&#1044;&#1072;&#1090;&#1072; *</label><input type="date" class="form-control" id="a-date"></div>
-      <div class="form-group"><label class="form-label">&#1053;&#1086;&#1074;&#1080;&#1093; &#1082;&#1083;&#1110;&#1108;&#1085;&#1090;&#1110;&#1074; <span style="color:#1565C0">(&#1094;&#1110;&#1083;&#1100; 10+)</span></label><input type="number" class="form-control" id="a-new" min="0" value="0"></div>
+      <div class="form-group"><label class="form-label">&#1053;&#1086;&#1074;&#1080;&#1093; &#1082;&#1083;&#1110;&#1108;&#1085;&#1090;&#1110;&#1074; <span style="color:#5b7fa6">(&#1094;&#1110;&#1083;&#1100; 10+)</span></label><input type="number" class="form-control" id="a-new" min="0" value="0"></div>
       <div class="form-group"><label class="form-label">&#1044;&#1079;&#1074;&#1110;&#1085;&#1082;&#1080;</label><input type="number" class="form-control" id="a-calls" min="0" value="0"></div>
       <div class="form-group"><label class="form-label">WhatsApp / Viber</label><input type="number" class="form-control" id="a-msg" min="0" value="0"></div>
-      <div class="form-group"><label class="form-label">&#1044;&#1110;&#1072;&#1083;&#1086;&#1075;&#1110;&#1074; <span style="color:#1565C0">(&#1094;&#1110;&#1083;&#1100; 5+)</span></label><input type="number" class="form-control" id="a-dialogs" min="0" value="0" placeholder="&#1072;&#1074;&#1090;&#1086; = &#1076;&#1079;&#1074;&#1110;&#1085;&#1082;&#1080;+WA"></div>
+      <div class="form-group"><label class="form-label">&#1044;&#1110;&#1072;&#1083;&#1086;&#1075;&#1110;&#1074; <span style="color:#5b7fa6">(&#1094;&#1110;&#1083;&#1100; 5+)</span></label><input type="number" class="form-control" id="a-dialogs" min="0" value="0" placeholder="&#1072;&#1074;&#1090;&#1086; = &#1076;&#1079;&#1074;&#1110;&#1085;&#1082;&#1080;+WA"></div>
       <div class="form-group"><label class="form-label">&#1044;&#1077;&#1084;&#1086; / &#1058;&#1077;&#1089;&#1090;</label><input type="number" class="form-control" id="a-demo" min="0" value="0"></div>
-      <div class="form-group"><label class="form-label">&#1047;&#1091;&#1089;&#1090;&#1088;&#1110;&#1095;&#1110; <span style="color:#1565C0">(&#1094;&#1110;&#1083;&#1100; 2+)</span></label><input type="number" class="form-control" id="a-meet" min="0" value="0"></div>
+      <div class="form-group"><label class="form-label">&#1047;&#1091;&#1089;&#1090;&#1088;&#1110;&#1095;&#1110; <span style="color:#5b7fa6">(&#1094;&#1110;&#1083;&#1100; 2+)</span></label><input type="number" class="form-control" id="a-meet" min="0" value="0"></div>
       <div class="form-group"><label class="form-label">&#1050;&#1055; &#1074;&#1110;&#1076;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1086;</label><input type="number" class="form-control" id="a-prop" min="0" value="0"></div>
       <div class="form-group"><label class="form-label">&#1054;&#1087;&#1083;&#1072;&#1090;&#1080;</label><input type="number" class="form-control" id="a-pay" min="0" value="0"></div>
       <div class="form-group full"><label class="form-label">&#1050;&#1086;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;</label><textarea class="form-control" id="a-comment" rows="2"></textarea></div>
@@ -816,20 +816,20 @@ function saveActs(){  localStorage.setItem(actsKey(currentMgrId), JSON.stringify
 // ============================================================
 const CH_TYPES={'D1':'\u041D\u0430\u0446. \u043C\u0435\u0440\u0435\u0436\u0430','D2':'\u0420\u0435\u0433\u0456\u043E\u043D./B2B','D3':'\u0420\u043E\u0437\u0440\u043E\u0431\u043A\u0430','D4.1':'\u0406\u043D\u0442\u0435\u0440\u043D.(\u0441\u043A\u043B\u0430\u0434)','D4.2':'Dropshipping','D5':'\u041F\u043E\u043A\u0443\u043F\u0446\u0456','D5 Partner':'\u0406\u043D\u0442\u0435\u0433\u0440\u0430\u0442\u043E\u0440\u0438','D6':'\u0420\u0435\u0433\u0456\u043E\u043D. \u0434\u0441.'};
 const STATUS_LIST=[
-  {k:'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440',c:'s-p01',fc:'#1565C0'},{k:'\u0417\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u043A\u043E\u043D\u0442\u0430\u043A\u0442',c:'s-p02',fc:'#006064'},
-  {k:'\u041D\u0435 \u043E\u0431\u0440\u043E\u0431\u043B\u0435\u043D\u0438\u0439',c:'s-p03',fc:'#546e7a'},{k:'\u041F\u0435\u0440\u0448\u0438\u0439 \u043A\u043E\u043D\u0442\u0430\u043A\u0442',c:'s-p04',fc:'#283593'},
-  {k:'\u041D\u0435\u043C\u0430\u0454 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0456',c:'s-p05',fc:'#6a1b9a'},{k:'\u041D\u0435 \u0432\u0438\u0439\u0448\u043E\u0432 \u043D\u0430 \u041B\u041F\u0420',c:'s-p21',fc:'#8d6e63'},
-  {k:'\u0404 \u0456\u043D\u0442\u0435\u0440\u0435\u0441',c:'s-p06',fc:'#f57f17'},
-  {k:'\u0412\u0438\u044F\u0432\u043B\u0435\u043D\u043D\u044F \u043F\u043E\u0442\u0435\u043D\u0446\u0456\u0430\u043B\u0443',c:'s-p07',fc:'#e65100'},{k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u043F\u0440\u0430\u0439\u0441',c:'s-p08',fc:'#4527a0'},
-  {k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u043A\u0430\u0442\u0430\u043B\u043E\u0433',c:'s-p09',fc:'#1a237e'},{k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u041A\u041F',c:'s-p10',fc:'#5c35cc'},
-  {k:'\u041F\u0435\u0440\u0435\u0433\u043E\u0432\u043E\u0440\u0438',c:'s-p11',fc:'#558b2f'},{k:'\u0423\u0437\u0433\u043E\u0434\u0436\u0435\u043D\u043D\u044F \u0443\u043C\u043E\u0432',c:'s-p12',fc:'#2e7d32'},
-  {k:'\u0422\u0435\u0441\u0442\u043E\u0432\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p13',fc:'#00695c'},{k:'\u041E\u0447\u0456\u043A\u0443\u0454\u043C\u043E \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p14',fc:'#33691e'},
-  {k:'\u041F\u0435\u0440\u0448\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p15',fc:'#1b5e20'},{k:'\u0410\u043A\u0442\u0438\u0432\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440',c:'s-p16',fc:'#1b5e20'},
-  {k:'\u0420\u043E\u0437\u0432\u0438\u0442\u043E\u043A \u0434\u0438\u043B\u0435\u0440\u0430',c:'s-p17',fc:'#1b5e20'},{k:'\u041D\u0430 \u043F\u0430\u0443\u0437\u0456',c:'s-p18',fc:'#757575'},
-  {k:'\u0412\u0456\u0434\u043C\u043E\u0432\u0430',c:'s-p19',fc:'#c62828'},{k:'\u0412\u0442\u0440\u0430\u0447\u0435\u043D\u0438\u0439 \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u0443',c:'s-p20',fc:'#7f0000'},
+  {k:'\u041F\u043E\u0442\u0435\u043D\u0446\u0456\u0439\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440',c:'s-p01',fc:'#5b7fa6'},{k:'\u0417\u043D\u0430\u0439\u0434\u0435\u043D\u043E \u043A\u043E\u043D\u0442\u0430\u043A\u0442',c:'s-p02',fc:'#4f7a80'},
+  {k:'\u041D\u0435 \u043E\u0431\u0440\u043E\u0431\u043B\u0435\u043D\u0438\u0439',c:'s-p03',fc:'#6a7681'},{k:'\u041F\u0435\u0440\u0448\u0438\u0439 \u043A\u043E\u043D\u0442\u0430\u043A\u0442',c:'s-p04',fc:'#5a6390'},
+  {k:'\u041D\u0435\u043C\u0430\u0454 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0456',c:'s-p05',fc:'#77628f'},{k:'\u041D\u0435 \u0432\u0438\u0439\u0448\u043E\u0432 \u043D\u0430 \u041B\u041F\u0420',c:'s-p21',fc:'#8d6e63'},
+  {k:'\u0404 \u0456\u043D\u0442\u0435\u0440\u0435\u0441',c:'s-p06',fc:'#a8863f'},
+  {k:'\u0412\u0438\u044F\u0432\u043B\u0435\u043D\u043D\u044F \u043F\u043E\u0442\u0435\u043D\u0446\u0456\u0430\u043B\u0443',c:'s-p07',fc:'#a3703f'},{k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u043F\u0440\u0430\u0439\u0441',c:'s-p08',fc:'#6f61a0'},
+  {k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u043A\u0430\u0442\u0430\u043B\u043E\u0433',c:'s-p09',fc:'#545c8a'},{k:'\u041D\u0430\u0434\u0456\u0441\u043B\u0430\u043D\u043E \u041A\u041F',c:'s-p10',fc:'#7a6bb0'},
+  {k:'\u041F\u0435\u0440\u0435\u0433\u043E\u0432\u043E\u0440\u0438',c:'s-p11',fc:'#6f7c49'},{k:'\u0423\u0437\u0433\u043E\u0434\u0436\u0435\u043D\u043D\u044F \u0443\u043C\u043E\u0432',c:'s-p12',fc:'#557a5c'},
+  {k:'\u0422\u0435\u0441\u0442\u043E\u0432\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p13',fc:'#4f7876'},{k:'\u041E\u0447\u0456\u043A\u0443\u0454\u043C\u043E \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p14',fc:'#5a7048'},
+  {k:'\u041F\u0435\u0440\u0448\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F',c:'s-p15',fc:'#4a6b50'},{k:'\u0410\u043A\u0442\u0438\u0432\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440',c:'s-p16',fc:'#4a6b50'},
+  {k:'\u0420\u043E\u0437\u0432\u0438\u0442\u043E\u043A \u0434\u0438\u043B\u0435\u0440\u0430',c:'s-p17',fc:'#4a6b50'},{k:'\u041D\u0430 \u043F\u0430\u0443\u0437\u0456',c:'s-p18',fc:'#757575'},
+  {k:'\u0412\u0456\u0434\u043C\u043E\u0432\u0430',c:'s-p19',fc:'#a06054'},{k:'\u0412\u0442\u0440\u0430\u0447\u0435\u043D\u0438\u0439 \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u0443',c:'s-p20',fc:'#8a4a40'},
 ];
 const S_CLASS={'New':'s-p01','Contacted':'s-p04','Warm':'s-p06','Meeting scheduled':'s-p04','Offer sent':'s-p10','Won':'s-p16','Lost':'s-p19','Recycle':'s-p18'};
-const FCOLORS={'New':'#1565C0','Contacted':'#283593','Warm':'#f57f17','Meeting scheduled':'#283593','Offer sent':'#5c35cc','Won':'#1b5e20','Lost':'#c62828','Recycle':'#757575'};
+const FCOLORS={'New':'#5b7fa6','Contacted':'#5a6390','Warm':'#a8863f','Meeting scheduled':'#5a6390','Offer sent':'#7a6bb0','Won':'#4a6b50','Lost':'#a06054','Recycle':'#757575'};
 STATUS_LIST.forEach(s=>{S_CLASS[s.k]=s.c;FCOLORS[s.k]=s.fc;});
 const _WON_ST=['\u041F\u0435\u0440\u0448\u0435 \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u043D\u044F','\u0410\u043A\u0442\u0438\u0432\u043D\u0438\u0439 \u0434\u0438\u043B\u0435\u0440','\u0420\u043E\u0437\u0432\u0438\u0442\u043E\u043A \u0434\u0438\u043B\u0435\u0440\u0430','Won'];
 const _LOST_ST=['\u0412\u0456\u0434\u043C\u043E\u0432\u0430','\u0412\u0442\u0440\u0430\u0447\u0435\u043D\u0438\u0439 \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u0443','Lost'];
@@ -1183,9 +1183,9 @@ function renderPipeline(){
   const risks=allPipe.filter(d=>calcDeal(d).ctrlCls==='ctrl-risk').length;
   document.getElementById('pipe-stats').innerHTML=`
     <div class="stat-chip">\u0412\u0441\u044C\u043E\u0433\u043E: <strong>${allPipe.length}</strong></div>
-    <div class="stat-chip">\u2705 Won: <strong style="color:#2e7d32">${won}</strong></div>
-    <div class="stat-chip">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445: <strong style="color:#b71c1c">${crits}</strong></div>
-    <div class="stat-chip">\uD83D\uDFE1 \u0420\u0438\u0437\u0438\u043A: <strong style="color:#e65100">${risks}</strong></div>
+    <div class="stat-chip">\u2705 Won: <strong style="color:#557a5c">${won}</strong></div>
+    <div class="stat-chip">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445: <strong style="color:#a05a4e">${crits}</strong></div>
+    <div class="stat-chip">\uD83D\uDFE1 \u0420\u0438\u0437\u0438\u043A: <strong style="color:#a3703f">${risks}</strong></div>
     <div class="stat-chip">\u041F\u043E\u043A\u0430\u0437\u0430\u043D\u043E: <strong>${rows.length}</strong></div>`;
   const tbody=document.getElementById('pipe-body');
   if(!rows.length){tbody.innerHTML=`<tr><td colspan="25"><div class="empty"><div class="empty-icon">\uD83D\uDCCB</div>\u041D\u0435\u043C\u0430\u0454 \u0437\u0430\u043F\u0438\u0441\u0456\u0432. \u0414\u043E\u0434\u0430\u0439\u0442\u0435 \u043F\u0435\u0440\u0448\u043E\u0433\u043E \u043A\u043B\u0456\u0454\u043D\u0442\u0430!</div></td></tr>`;return;}
@@ -1195,9 +1195,9 @@ function renderPipeline(){
     const rCls=ctrlCls==='ctrl-crit'?'row-crit':ctrlCls==='ctrl-risk'?'row-risk':isToday?'row-today':'';
     const sCls=S_CLASS[d.status]||'s-New';
     const ph0=esc((d.phones&&d.phones.length?d.phones[0]:d.phone)||'');
-    const ph_extra=d.phones&&d.phones.length>1?` <span style="font-size:10px;color:#1565C0">+${d.phones.length-1}</span>`:'';
+    const ph_extra=d.phones&&d.phones.length>1?` <span style="font-size:10px;color:#5b7fa6">+${d.phones.length-1}</span>`:'';
     const em0=esc((d.emails&&d.emails.length?d.emails[0]:d.email)||'');
-    const em_extra=d.emails&&d.emails.length>1?` <span style="font-size:10px;color:#1565C0">+${d.emails.length-1}</span>`:'';
+    const em_extra=d.emails&&d.emails.length>1?` <span style="font-size:10px;color:#5b7fa6">+${d.emails.length-1}</span>`:'';
     const canEdit=(role!=='manager'||perms.edit);
     return`<tr class="${rCls}"${canEdit?` onclick="openDeal('${d.id}')" style="cursor:pointer"`:''}>
       <td style="text-align:center;color:#bbb;font-size:11px">${i+1}</td>
@@ -1205,23 +1205,23 @@ function renderPipeline(){
       <td class="col-company"><strong>${esc(d.company)}</strong></td>
       <td class="admin-only"><span class="owner-badge ${d._ownerId==='__admin__'?'owner-admin':''}">${esc(d._owner||d.addedBy?.name||'\u2014')}</span></td>
       <td style="color:#555;font-size:11px;white-space:nowrap">${esc(d.city||'')}</td>
-      <td style="text-align:center">${d.website?`<a href="${esc(d.website)}" target="_blank" title="${esc(d.website)}" style="color:#1565C0;font-size:16px;text-decoration:none">\uD83C\uDF10</a>`:'<span style="color:#ddd;font-size:12px">\u2014</span>'}</td>
+      <td style="text-align:center">${d.website?`<a href="${esc(d.website)}" target="_blank" title="${esc(d.website)}" style="color:#5b7fa6;font-size:16px;text-decoration:none">\uD83C\uDF10</a>`:'<span style="color:#ddd;font-size:12px">\u2014</span>'}</td>
       <td>${esc(d.contact)}</td><td style="color:#999">${esc(d.position)}</td>
       <td style="white-space:nowrap">${ph0}${ph_extra}</td>
-      <td style="color:#1565C0;font-size:11px">${em0}${em_extra}</td>
+      <td style="color:#5b7fa6;font-size:11px">${em0}${em_extra}</td>
       <td style="font-size:11px;color:#666;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.address)}">${esc(d.address)}</td>
       <td><span class="badge ch-badge">${esc(d.channel)}</span></td>
       <td style="color:#666;font-size:11px">${CH_TYPES[d.channel]||''}</td>
       <td><span class="badge ${sCls}">${d.status||''}</span></td>
       <td style="white-space:nowrap">${fmtDate(d.contactdate)}</td>
       <td style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.nextstep)}">${esc(d.nextstep)}</td>
-      <td style="white-space:nowrap;${overdue?'color:#b71c1c;font-weight:700':''}">${fmtDate(d.stepdate)}</td>
+      <td style="white-space:nowrap;${overdue?'color:#a05a4e;font-weight:700':''}">${fmtDate(d.stepdate)}</td>
       <td style="font-size:11px">${esc(d.result)}</td>
-      <td style="color:#b71c1c;font-size:11px">${esc(d.reject)}</td>
+      <td style="color:#a05a4e;font-size:11px">${esc(d.reject)}</td>
       <td style="color:#888;font-size:11px;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.comment)}">${esc(d.comment)}</td>
       <td style="max-width:130px;font-size:10px;line-height:1.6">${renderCatBadges(d)}</td>
-      <td style="color:#b71c1c;font-weight:700;font-size:11px">${overdue?'\u041F\u0422\u0415':''}</td>
-      <td style="color:#b71c1c;font-weight:700;font-size:11px">${noStep?'\u0411\u0435\u0437 \u043A\u0440\u043E\u043A\u0443':''}</td>
+      <td style="color:#a05a4e;font-weight:700;font-size:11px">${overdue?'\u041F\u0422\u0415':''}</td>
+      <td style="color:#a05a4e;font-weight:700;font-size:11px">${noStep?'\u0411\u0435\u0437 \u043A\u0440\u043E\u043A\u0443':''}</td>
       <td style="text-align:center;font-weight:600">${daysInact!==null?daysInact:''}</td>
       <td class="${ctrlCls}">${ctrl}</td>
       <td class="col-actions" style="white-space:nowrap" onclick="event.stopPropagation()">
@@ -1415,8 +1415,8 @@ function renderContactLog(log){
   wrap.style.display='';
   cnt.textContent=log.length+' \u0437\u0430\u043F\u0438\u0441'+(log.length===1?'':'\u0456\u0432');
   list.innerHTML=log.map((e,idx)=>`
-    <div id="clog-row-${idx}" style="display:flex;gap:8px;padding:6px 8px;background:${idx===0?'#e8f5e9':'#fff'};border-radius:6px;border:1px solid ${idx===0?'#c8e6c9':'#eeeeee'};align-items:flex-start">
-      <div style="flex-shrink:0;font-size:11px;font-weight:700;color:#1565C0;white-space:nowrap;padding-top:2px">${fmtDate(e.date)}</div>
+    <div id="clog-row-${idx}" style="display:flex;gap:8px;padding:6px 8px;background:${idx===0?'#e9f0ea':'#fff'};border-radius:6px;border:1px solid ${idx===0?'#e2ece3':'#eeeeee'};align-items:flex-start">
+      <div style="flex-shrink:0;font-size:11px;font-weight:700;color:#5b7fa6;white-space:nowrap;padding-top:2px">${fmtDate(e.date)}</div>
       <div id="clog-text-${idx}" style="flex:1;font-size:12px;color:#37474f;line-height:1.5;white-space:pre-wrap">${esc(e.text)}</div>
       <div style="display:flex;gap:4px;flex-shrink:0">
         <button type="button" onclick="editLogEntry(${idx})" style="background:none;border:none;cursor:pointer;font-size:13px;padding:0 2px;opacity:.5" title="\u0420\u0435\u0434\u0430\u0433\u0443\u0432\u0430\u0442\u0438">\u270F\uFE0F</button>
@@ -1444,10 +1444,10 @@ function editLogEntry(idx){
   const ta=document.createElement('textarea');
   ta.id='clog-edit-ta-'+idx;
   ta.value=e.text;
-  ta.style.cssText='flex:1;font-size:12px;color:#37474f;line-height:1.5;width:100%;border:1px solid #90caf9;border-radius:4px;padding:4px 6px;resize:vertical;min-height:48px;font-family:inherit';
+  ta.style.cssText='flex:1;font-size:12px;color:#37474f;line-height:1.5;width:100%;border:1px solid #a8bfd6;border-radius:4px;padding:4px 6px;resize:vertical;min-height:48px;font-family:inherit';
   const btnWrap=document.createElement('div');
   btnWrap.style.cssText='display:flex;gap:4px;margin-top:4px';
-  btnWrap.innerHTML=`<button type="button" onclick="saveLogEntry(${idx})" style="font-size:11px;background:#1565C0;color:#fff;border:none;border-radius:4px;padding:3px 10px;cursor:pointer">\u0417\u0431\u0435\u0440\u0435\u0433\u0442\u0438</button>`+
+  btnWrap.innerHTML=`<button type="button" onclick="saveLogEntry(${idx})" style="font-size:11px;background:#5b7fa6;color:#fff;border:none;border-radius:4px;padding:3px 10px;cursor:pointer">\u0417\u0431\u0435\u0440\u0435\u0433\u0442\u0438</button>`+
     `<button type="button" onclick="cancelLogEdit(${idx})" style="font-size:11px;background:#eee;border:none;border-radius:4px;padding:3px 10px;cursor:pointer">\u0421\u043A\u0430\u0441\u0443\u0432\u0430\u0442\u0438</button>`;
   const wrapper=document.createElement('div');
   wrapper.id='clog-edit-wrap-'+idx;
@@ -1605,11 +1605,11 @@ function renderDashboard(){
   document.getElementById('dash-content').innerHTML=`
   <div class="kpi-grid">
     <div class="kpi-card"><div class="kpi-value">${total}</div><div class="kpi-label">\u0412\u044C\u0433 \u0432 \u0431\u0437</div></div>
-    <div class="kpi-card" style="border-top-color:#2e7d32"><div class="kpi-value" style="color:#2e7d32">${won}</div><div class="kpi-label">\u2705 \u0410\u0442\u0432\u0438 \u0434\u043B\u0440\u0432</div></div>
-    <div class="kpi-card" style="border-top-color:#00838F"><div class="kpi-value" style="color:#00838F">${conv}%</div><div class="kpi-label">\u041A\u0435\u044F</div></div>
-    <div class="kpi-card" style="border-top-color:#7B1FA2"><div class="kpi-value" style="color:#7B1FA2">${active}</div><div class="kpi-label">\u0410\u0432 \u0443</div></div>
-    <div class="kpi-card" style="border-top-color:#b71c1c"><div class="kpi-value" style="color:#b71c1c">${crits}</div><div class="kpi-label">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445</div></div>
-    <div class="kpi-card" style="border-top-color:#e65100"><div class="kpi-value" style="color:#e65100">${risks}</div><div class="kpi-label">\uD83D\uDFE1 \u0420\u043A</div></div>
+    <div class="kpi-card" style="border-top-color:#557a5c"><div class="kpi-value" style="color:#557a5c">${won}</div><div class="kpi-label">\u2705 \u0410\u0442\u0432\u0438 \u0434\u043B\u0440\u0432</div></div>
+    <div class="kpi-card" style="border-top-color:#56818a"><div class="kpi-value" style="color:#56818a">${conv}%</div><div class="kpi-label">\u041A\u0435\u044F</div></div>
+    <div class="kpi-card" style="border-top-color:#7f628c"><div class="kpi-value" style="color:#7f628c">${active}</div><div class="kpi-label">\u0410\u0432 \u0443</div></div>
+    <div class="kpi-card" style="border-top-color:#a05a4e"><div class="kpi-value" style="color:#a05a4e">${crits}</div><div class="kpi-label">\uD83D\uDD34 \u041A\u0440\u0438\u0442\u0438\u0447\u043D\u0438\u0445</div></div>
+    <div class="kpi-card" style="border-top-color:#a3703f"><div class="kpi-value" style="color:#a3703f">${risks}</div><div class="kpi-label">\uD83D\uDFE1 \u0420\u043A</div></div>
   </div>
   <div class="grid2">
     <div class="card">
@@ -1658,8 +1658,8 @@ function renderDashboard(){
         return`<div class="ch-card">
           <div class="ch-name">${ch}</div><div class="ch-count">${n}</div>
           <div class="ch-type">${CH_TYPES[ch]||''}</div>
-          <div style="font-size:11px;color:#2e7d32;font-weight:600;margin-top:4px">\u2705 Won: ${w}</div>
-          ${c>0?`<div style="font-size:11px;color:#b71c1c;font-weight:600">\uD83D\uDD34 \u041A: ${c}</div>`:''}
+          <div style="font-size:11px;color:#557a5c;font-weight:600;margin-top:4px">\u2705 Won: ${w}</div>
+          ${c>0?`<div style="font-size:11px;color:#a05a4e;font-weight:600">\uD83D\uDD34 \u041A: ${c}</div>`:''}
         </div>`;}).join('')}
     </div>
   </div>
@@ -1708,10 +1708,10 @@ function renderMgrStatsTable(){
         <td><strong>${esc(r.label)}</strong></td>
         <td style="text-align:center;font-weight:700">${r.total}</td>
         <td style="text-align:center">${r.active}</td>
-        <td style="text-align:center;color:#FB8C00;font-weight:600">${r.warm}</td>
-        <td style="text-align:center;color:#2e7d32;font-weight:700">${r.won}</td>
-        <td style="text-align:center;color:#b71c1c">${r.lost}</td>
-        <td style="text-align:center;color:${r.crits>0?'#b71c1c':'#2e7d32'};font-weight:${r.crits>0?'700':'400'}">${r.crits}</td>
+        <td style="text-align:center;color:#b08a4a;font-weight:600">${r.warm}</td>
+        <td style="text-align:center;color:#557a5c;font-weight:700">${r.won}</td>
+        <td style="text-align:center;color:#a05a4e">${r.lost}</td>
+        <td style="text-align:center;color:${r.crits>0?'#a05a4e':'#557a5c'};font-weight:${r.crits>0?'700':'400'}">${r.crits}</td>
         <td style="text-align:center">${r.calls7}</td>
         <td style="text-align:center">${r.meet7}</td>
         <td style="font-size:11px;color:#888">${r.lastAct?fmtDate(r.lastAct):'\u2014'}</td>
@@ -1849,7 +1849,7 @@ function renderMgrList(){
         <button class="btn btn-sm btn-danger" onclick="deleteMgr('${m.id}')">\uD83D\uDDD1 \u0412\u043B</button>
       </div>
     </div>
-    <div id="mgr-edit-${m.id}" style="display:none;margin-top:8px;padding:10px;background:#f5f7fa;border-radius:8px;font-size:13px">
+    <div id="mgr-edit-${m.id}" style="display:none;margin-top:8px;padding:10px;background:#f7f9fb;border-radius:8px;font-size:13px">
       <label style="margin-right:12px"><input type="checkbox" id="ep-add-${m.id}" ${m.perms.add?'checked':''}> \u2795 \u0414\u043E\u0434\u0430\u0442\u0438</label>
       <label style="margin-right:12px"><input type="checkbox" id="ep-edit-${m.id}" ${m.perms.edit?'checked':''}> \u270F \u0420\u0435\u0434\u0430\u0433\u0443\u0432\u0430\u0442\u0438</label>
       <label style="margin-right:12px"><input type="checkbox" id="ep-activity-${m.id}" ${m.perms.activity?'checked':''}> \uD83D\uDCCA Activity</label>
@@ -1915,7 +1915,7 @@ function saveMgrToken(){
   document.getElementById('mgr-token-input').value='';
   document.getElementById('mgr-token-wrap').style.display='none';
   document.getElementById('mgr-cloud-status').textContent='\u2705 \u0422\u043E\u043A\u0435\u043D \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E';
-  document.getElementById('mgr-cloud-status').style.color='#2e7d32';
+  document.getElementById('mgr-cloud-status').style.color='#557a5c';
 }
 function saveCloudSettings(){}
 function getCloudCfg(){return{apiKey:'',binId:''};}
@@ -2042,14 +2042,14 @@ async function _gistPatch(files){
 
 async function _autoMgrPush(){
   if(!currentMgrId)return;
-  if(!_gistToken()){_showSyncBadge('\u2601 \u043D\u0435\u043C\u0430 \u0442\u043E\u043A\u0435\u043D\u0430 \u2014 \u0434\u0430\u043D\u0456 \u0442\u0456\u043B\u044C\u043A\u0438 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E','#e65100');return;}
+  if(!_gistToken()){_showSyncBadge('\u2601 \u043D\u0435\u043C\u0430 \u0442\u043E\u043A\u0435\u043D\u0430 \u2014 \u0434\u0430\u043D\u0456 \u0442\u0456\u043B\u044C\u043A\u0438 \u043B\u043E\u043A\u0430\u043B\u044C\u043D\u043E','#a3703f');return;}
   _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...','rgba(255,255,255,.7)');
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E \u0432 \u0445\u043C\u0430\u0440\u0456 \u2713','#81c784');
+    _showSyncBadge('\u2601 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E \u0432 \u0445\u043C\u0430\u0440\u0456 \u2713','#9dbfa2');
   }catch(e){
-    _showSyncBadge('\u2601 \u043F\u043E\u043C\u0438\u043B\u043A\u0430 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F!','#ef9a9a');
+    _showSyncBadge('\u2601 \u043F\u043E\u043C\u0438\u043B\u043A\u0430 \u0437\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F!','#d9a89f');
     // Retry once after 3 seconds
     setTimeout(()=>_autoMgrPush(),3000);
   }
@@ -2161,28 +2161,28 @@ async function mgrCloudPull(){
     a.click();
     URL.revokeObjectURL(a.href);
   }
-  el.textContent='\u23F3 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
+  el.textContent='\u23F3 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043D\u044F...';el.style.color='#5b7fa6';
   try{
     const files=await _gistRead();
     const fname='hsm_mgr_'+currentMgrId+'.json';
-    if(!files[fname]){el.textContent='\u26A0 \u0421\u043F\u043E\u0447\u0430\u0442\u043A\u0443 \u0437\u0431\u0435\u0440\u0435\u0436\u0456\u0442\u044C \u0432 \u0445\u043C\u0430\u0440\u0456';el.style.color='#e65100';return;}
+    if(!files[fname]){el.textContent='\u26A0 \u0421\u043F\u043E\u0447\u0430\u0442\u043A\u0443 \u0437\u0431\u0435\u0440\u0435\u0436\u0456\u0442\u044C \u0432 \u0445\u043C\u0430\u0440\u0456';el.style.color='#a3703f';return;}
     const rec=JSON.parse(files[fname].content||'{}');
     localStorage.setItem(dealsKey(currentMgrId),JSON.stringify(rec.deals||[]));
     localStorage.setItem(actsKey(currentMgrId),JSON.stringify(rec.acts||[]));
     loadDataForUser(currentMgrId);renderPipeline();
-    el.textContent=`\u2705 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043E! ${(rec.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
-  }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
+    el.textContent=`\u2705 \u0417\u0430\u0432\u0430\u043D\u0442\u0430\u0436\u0435\u043D\u043E! ${(rec.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#557a5c';
+  }catch(e){el.textContent='\u274C '+e.message;el.style.color='#a05a4e';}
 }
 
 async function mgrCloudPush(){
   const el=document.getElementById('mgr-cloud-status');
-  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D \u0432\u0438\u0449\u0435';el.style.color='#e65100';return;}
-  el.textContent='\u23F3 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...';el.style.color='#1565C0';
+  if(!_gistToken()){document.getElementById('mgr-token-wrap').style.display='flex';el.textContent='\u26A0 \u0412\u0432\u0435\u0434\u0456\u0442\u044C \u0442\u043E\u043A\u0435\u043D \u0432\u0438\u0449\u0435';el.style.color='#a3703f';return;}
+  el.textContent='\u23F3 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043D\u044F...';el.style.color='#5b7fa6';
   try{
     const payload={mgrId:currentMgrId,deals:JSON.parse(localStorage.getItem(dealsKey(currentMgrId))||'[]'),acts:JSON.parse(localStorage.getItem(actsKey(currentMgrId))||'[]'),savedAt:new Date().toISOString()};
     await _gistPatch({['hsm_mgr_'+currentMgrId+'.json']:{content:JSON.stringify(payload)}});
-    el.textContent=`\u2705 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E! ${(payload.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#2e7d32';
-  }catch(e){el.textContent='\u274C '+e.message;el.style.color='#b71c1c';}
+    el.textContent=`\u2705 \u0417\u0431\u0435\u0440\u0435\u0436\u0435\u043D\u043E! ${(payload.deals||[]).length} \u043A\u043B\u0456\u0454\u043D\u0442\u0456\u0432`;el.style.color='#557a5c';
+  }catch(e){el.textContent='\u274C '+e.message;el.style.color='#a05a4e';}
 }
 
 // ============================================================
@@ -2691,7 +2691,7 @@ function setStatus(val){
     const s=el.getAttribute('data-s');
     const active=s===val;
     el.classList.toggle('sf-active',active);
-    el.style.background=active?(FCOLORS[s]||'#1565C0'):'';
+    el.style.background=active?(FCOLORS[s]||'#5b7fa6'):'';
   });
   saveDraft();
 }
