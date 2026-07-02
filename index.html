@@ -1216,8 +1216,8 @@ function renderPipeline(){
       <td style="white-space:nowrap">${fmtDate(d.contactdate)}</td>
       <td style="max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.nextstep)}">${esc(d.nextstep)}</td>
       <td style="white-space:nowrap;${overdue?'color:#a05a4e;font-weight:700':''}">${fmtDate(d.stepdate)}</td>
-      <td style="font-size:11px">${esc(d.result)}</td>
-      <td style="color:#a05a4e;font-size:11px">${esc(d.reject)}</td>
+      <td style="font-size:11px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.result)}">${esc(d.result)}</td>
+      <td style="color:#a05a4e;font-size:11px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.reject)}">${esc(d.reject)}</td>
       <td style="color:#888;font-size:11px;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${esc(d.comment)}">${esc(d.comment)}</td>
       <td style="max-width:130px;font-size:10px;line-height:1.6">${renderCatBadges(d)}</td>
       <td style="color:#a05a4e;font-weight:700;font-size:11px">${overdue?'\u041F\u0422\u0415':''}</td>
