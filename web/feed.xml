@@ -59,27 +59,27 @@
     <category id="56" parentId="8">Автоматичні поїлки, фонтани для тварин</category>
     <category id="57" parentId="8">Комплекти фільтрів для поїлок</category>
     <category id="58" parentId="8">Запасні помпи для поїлок</category>
-    <category id="59" parentId="9">Терморегулятори</category>
-    <category id="60" parentId="9">Терморозетки</category>
-    <category id="61" parentId="9">Датчики протікання води</category>
-    <category id="62" parentId="9">CO та димові датчики (сигналізації)</category>
-    <category id="63" parentId="9">Автоматичні закривачі клапанів</category>
-    <category id="64" parentId="9">Таймери для поливу</category>
-    <category id="65" parentId="9">Вентилятори для радіаторів</category>
-    <category id="66" parentId="5">Вбудовані світильники</category>
-    <category id="67" parentId="5">Світильники настінні для сходів та фасаду</category>
-    <category id="68" parentId="5">Світильники на сонячній батареї</category>
-    <category id="69" parentId="5">Прожектори</category>
-    <category id="70" parentId="5">Декоративне та атмосферне освітлення AMBIENT</category>
-    <category id="71" parentId="5">Садово-паркове освітлення</category>
-    <category id="72" parentId="10">Камери відеоспостереження</category>
-    <category id="73" parentId="10">Відеодзвінки</category>
-    <category id="74" parentId="10">Домофони</category>
-    <category id="75" parentId="10">Дверні дзвінки, дротові та бездротові</category>
-    <category id="76" parentId="10">Дверні дзвінки, дротові та бездротові/Бездротові дверні дзвінки</category>
-    <category id="77" parentId="10">Дверні дзвінки, дротові та бездротові/Кнопка дзвінка</category>
-    <category id="78" parentId="10">Дверні дзвінки, дротові та бездротові/Дротові дверні дзвінки</category>
-    <category id="79" parentId="10">Аксесуари GoSmart</category>
+    <category id="59" parentId="9">Терморозетки</category>
+    <category id="60" parentId="9">Датчики протікання води</category>
+    <category id="61" parentId="9">CO та димові датчики (сигналізації)</category>
+    <category id="62" parentId="9">Автоматичні закривачі клапанів</category>
+    <category id="63" parentId="9">Таймери для поливу</category>
+    <category id="64" parentId="9">Вентилятори для радіаторів</category>
+    <category id="65" parentId="5">Вбудовані світильники</category>
+    <category id="66" parentId="5">Світильники настінні для сходів та фасаду</category>
+    <category id="67" parentId="5">Світильники на сонячній батареї</category>
+    <category id="68" parentId="5">Прожектори</category>
+    <category id="69" parentId="5">Декоративне та атмосферне освітлення AMBIENT</category>
+    <category id="70" parentId="5">Садово-паркове освітлення</category>
+    <category id="71" parentId="10">Камери відеоспостереження</category>
+    <category id="72" parentId="10">Відеодзвінки</category>
+    <category id="73" parentId="10">Домофони</category>
+    <category id="74" parentId="10">Дверні дзвінки, дротові та бездротові</category>
+    <category id="75" parentId="10">Дверні дзвінки, дротові та бездротові/Бездротові дверні дзвінки</category>
+    <category id="76" parentId="10">Дверні дзвінки, дротові та бездротові/Кнопка дзвінка</category>
+    <category id="77" parentId="10">Дверні дзвінки, дротові та бездротові/Дротові дверні дзвінки</category>
+    <category id="78" parentId="10">Аксесуари GoSmart</category>
+    <category id="79" parentId="9">Терморегулятори</category>
   </categories>
   <offers>
     <offer id="P08215" available="true" group_id="11">
@@ -16870,11 +16870,11 @@ IP20 – ідеально для приміщень
 <p>Насос працює <strong>дуже тихо</strong> та забезпечує <strong>регулярну циркуляцію води</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56601SH" available="true" group_id="60">
+    <offer id="P56601SH" available="true" group_id="59">
       <article>P56601SH</article>
       <name><![CDATA[Термостат EMOS P56601SH 2-в-1 з цифровим таймером, штепсельною вилкою, WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>60</categoryId>
+      <categoryId>59</categoryId>
       <price_rrc>2449.00</price_rrc>
       <price>2008.2</price>
       <currencyId>грн</currencyId>
@@ -16937,11 +16937,11 @@ IP20 – ідеально для приміщень
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5660SH" available="false" group_id="60">
+    <offer id="P5660SH" available="false" group_id="59">
       <article>P5660SH</article>
       <name><![CDATA[Термостат 2-в-1 з розеткою та функцією цифрового таймера, Schuko P5660SH]]></name>
       <brand>EMOS</brand>
-      <categoryId>60</categoryId>
+      <categoryId>59</categoryId>
       <price_rrc>1329.00</price_rrc>
       <price>1089.78</price>
       <currencyId>грн</currencyId>
@@ -16998,11 +16998,11 @@ IP20 – ідеально для приміщень
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56000S" available="true" group_id="61">
+    <offer id="P56000S" available="true" group_id="60">
       <article>P56000S</article>
       <name><![CDATA[Розумний датчик витоку води EMOS P56000S ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>61</categoryId>
+      <categoryId>60</categoryId>
       <price_rrc>1549.00</price_rrc>
       <price>1270.2</price>
       <currencyId>грн</currencyId>
@@ -17063,11 +17063,11 @@ IP20 – ідеально для приміщень
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56300" available="true" group_id="62">
+    <offer id="P56300" available="true" group_id="61">
       <article>P56300</article>
       <name><![CDATA[Датчик сповіщувач вогню EMOS P56300]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>459.00</price_rrc>
       <price>376.38</price>
       <currencyId>грн</currencyId>
@@ -17118,11 +17118,11 @@ IP20 – ідеально для приміщень
 <p>Ви отримуєте першокласний захист протягом усього 10-річного терміну експлуатації датчика та повну впевненість у тому, що він завжди готовий надійно служити вам.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56400S" available="true" group_id="62">
+    <offer id="P56400S" available="true" group_id="61">
       <article>P56400S</article>
       <name><![CDATA[Сигналізатор CO GoSmart TCS0101W з WiFi P56400S]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>1836.00</price_rrc>
       <price>1505.52</price>
       <currencyId>грн</currencyId>
@@ -17169,11 +17169,11 @@ IP20 – ідеально для приміщень
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56402" available="true" group_id="62">
+    <offer id="P56402" available="true" group_id="61">
       <article>P56402</article>
       <name><![CDATA[Сигналізація чадного газу EMOS P56402]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>1506.00</price_rrc>
       <price>1229.16</price>
       <currencyId>грн</currencyId>
@@ -17226,11 +17226,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56450" available="true" group_id="62">
+    <offer id="P56450" available="true" group_id="61">
       <article>P56450</article>
       <name><![CDATA[Датчик газу Emos P56450]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>2489.00</price_rrc>
       <price>2040.96</price>
       <currencyId>грн</currencyId>
@@ -17259,11 +17259,11 @@ P56402 можна встановити на стіну або розмістит
 </ul> <p>Датчик газу <strong>EMOS P56450</strong> — це просте та ефективне рішення для захисту дому від небезпечних витоків газу та спокою вашої родини.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56500" available="true" group_id="62">
+    <offer id="P56500" available="true" group_id="61">
       <article>P56500</article>
       <name><![CDATA[Датчик диму Emos P56500]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>1259.00</price_rrc>
       <price>1032.36</price>
       <currencyId>грн</currencyId>
@@ -17290,11 +17290,11 @@ P56402 можна встановити на стіну або розмістит
 <p>Завдяки <strong>10-річному терміну служби</strong> датчика, вам не доведеться часто замінювати або обслуговувати пристрій, що робить його максимально зручним і економним для щоденного використання.</p> <p><strong>Emos P56500</strong> – просте та ефективне рішення для вашого спокою: захист, на який можна покластися в будь-якій ситуації.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56500S" available="true" group_id="62">
+    <offer id="P56500S" available="true" group_id="61">
       <article>P56500S</article>
       <name><![CDATA[Датчик диму GoSmart TS380C-HW з WiFi P56500S]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>1579.00</price_rrc>
       <price>1294.8</price>
       <currencyId>грн</currencyId>
@@ -17354,11 +17354,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56501" available="false" group_id="62">
+    <offer id="P56501" available="false" group_id="61">
       <article>P56501</article>
       <name><![CDATA[Датчик диму Emos P56501]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>429.00</price_rrc>
       <price>351.78</price>
       <currencyId>грн</currencyId>
@@ -17388,11 +17388,11 @@ P56402 можна встановити на стіну або розмістит
 <p>Комбінований сенсор подає і світловий, і звуковий сигнал, забезпечуючи максимальну безпеку та своєчасне попередження про небезпеку.</p> <p><strong>Emos P56501</strong> – простий, ефективний і надійний датчик диму для дому, який дарує спокій вам і вашій родині.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56502" available="true" group_id="62">
+    <offer id="P56502" available="true" group_id="61">
       <article>P56502</article>
       <name><![CDATA[Датчик диму Emos P56502]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>1226.00</price_rrc>
       <price>1005.3</price>
       <currencyId>грн</currencyId>
@@ -17453,11 +17453,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/2101505006_e43-p56502.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56503X" available="true" group_id="62">
+    <offer id="P56503X" available="true" group_id="61">
       <article>P56503X</article>
       <name><![CDATA[Датчик диму Emos P56503X]]></name>
       <brand>EMOS</brand>
-      <categoryId>62</categoryId>
+      <categoryId>61</categoryId>
       <price_rrc>349.00</price_rrc>
       <price>286.2</price>
       <currencyId>грн</currencyId>
@@ -17507,11 +17507,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="1250" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260319_165319191.jpg" width="1250" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5640S" available="true" group_id="63">
+    <offer id="P5640S" available="true" group_id="62">
       <article>P5640S</article>
       <name><![CDATA[Розумний моторизований контолер водяного, газового крану EMOS P5640S ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>63</categoryId>
+      <categoryId>62</categoryId>
       <price_rrc>1909.00</price_rrc>
       <price>1565.4</price>
       <currencyId>грн</currencyId>
@@ -17557,11 +17557,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56S01F" available="false" group_id="59">
+    <offer id="P56S01F" available="false" group_id="79">
       <article>P56S01F</article>
       <name><![CDATA[Підлоговий програмований дротовий WiFi термостат GoSmart P56S01F]]></name>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>79</categoryId>
       <price_rrc>3706.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -17619,11 +17619,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56A01" available="false" group_id="59">
+    <offer id="P56A01" available="false" group_id="79">
       <article>P56A01</article>
       <name><![CDATA[Кімнатний програмований дротовий термостат OpenTherm P56A01]]></name>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>79</categoryId>
       <price_rrc>3427.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -17665,11 +17665,11 @@ P56402 можна встановити на стіну або розмістит
 <p>Відкрийте для себе нову лінійку термостатів &ndash; від класичних до розумних, з підлоговим сенсором або вбудованими функціями, розроблених у ексклюзивному дизайні виключно для EMOS.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PW56001" available="false" group_id="64">
+    <offer id="PW56001" available="false" group_id="63">
       <article>PW56001</article>
       <name><![CDATA[Механічний таймер поливу, 1 вихід PW56001]]></name>
       <brand>EMOS</brand>
-      <categoryId>64</categoryId>
+      <categoryId>63</categoryId>
       <price_rrc>1409.00</price_rrc>
       <price>1152.9</price>
       <currencyId>грн</currencyId>
@@ -17716,11 +17716,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="445" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-04-30-180821.jpg" width="992" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PW56201" available="true" group_id="64">
+    <offer id="PW56201" available="true" group_id="63">
       <article>PW56201</article>
       <name><![CDATA[Таймер поливу GoSmart Bluetooth 5.0, 1 вихід PW56201]]></name>
       <brand>EMOS</brand>
-      <categoryId>64</categoryId>
+      <categoryId>63</categoryId>
       <price_rrc>1899.00</price_rrc>
       <price>1557.18</price>
       <currencyId>грн</currencyId>
@@ -17784,11 +17784,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="658" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-05-01-103853.jpg" width="1237" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PW56202" available="false" group_id="64">
+    <offer id="PW56202" available="false" group_id="63">
       <article>PW56202</article>
       <name><![CDATA[Таймер поливу GoSmart, Bluetooth 5.0, 2 виходи PW56202]]></name>
       <brand>EMOS</brand>
-      <categoryId>64</categoryId>
+      <categoryId>63</categoryId>
       <price_rrc>2306.00</price_rrc>
       <price>1890.9</price>
       <currencyId>грн</currencyId>
@@ -17856,11 +17856,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="652" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-05-01-230552.jpg" width="1228" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56A11" available="false" group_id="59">
+    <offer id="P56A11" available="false" group_id="79">
       <article>P56A11</article>
       <name><![CDATA[Термостат кімнатний програмований бездротовий EMOS P56A11 OpenTherm]]></name>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>79</categoryId>
       <price_rrc>4549.00</price_rrc>
       <price>0.00</price>
       <currencyId>UAH</currencyId>
@@ -17899,11 +17899,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<p>Термостат кімнатний програмований бездротовий OpenTherm P56A11</p><ul><li>Регульована варіація температури: 0,1 °C, 0,2 °C, 0,5 °C, 1,0 °C</li><li>Захист від замерзання: Так</li><li>Довжина капілярного датчика: –</li><li>Цвет: білий</li><li>Сумісність: –</li><li>Керування за допомогою голосових помічників: Ні</li><li>Режим керування: система опалення та охолодження</li><li>Розміри: –</li><li>Датчик підлоги: –</li><li>Розмір основного блоку: –</li><li>Режим відпустки: Ні</li><li>Сповіщення до мобільного додатку: Ні</li><li>Кількість програм: 6 + 3 налаштовувані користувачем</li><li>Функція УВІМК./ВИМК.: Так</li><li>Робоча частота: 868 MHz</li><li>Комплектація: –</li><li>Можливість підключення до інших датчиків: Ні</li><li>Живлення станції: –</li><li>Потужність приймача: 230 V AC</li><li>Живлення передавача: 2× 1.5 V AA (у комплекті) or 5 V USB adapter (not у комплекті)</li><li>Джерело живлення: –</li><li>Протокол: –</li><li>Дальність у відкритому просторі: 100 m</li><li>Розмір приймача: 115 × 37 × 91 мм</li><li>Функція зниження температури: Ні</li><li>Підтримувана ОС: –</li><li>Перемикання: 230 В AC або «сухий контакт»</li><li>Перемикання навантаження: 16 A активне, 5 A індуктивне</li><li>Регулювання температури: від 7 °C до 30 °C, крок 0,2 °C</li><li>Тип регулювання температури: комфортна та економна температура</li><li>Калібрування температури: Так</li><li>Вимірювання температури: 0 °C до 40 °C, роздільність 0,1 °C</li><li>Тип термостата: бездротовий зі зв&#x27;язком OpenTherm</li><li>Частота передачі: –</li><li>Розмір передавача: 98 × 55 × 98 мм</li><li>Тип контролю: програмований електронний кімнатний термостат</li></ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56A02" available="false" group_id="59">
+    <offer id="P56A02" available="false" group_id="79">
       <article>P56A02</article>
       <name><![CDATA[Термостат кімнатний програмований дротовий OpenTherm EMOS P56A02]]></name>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>79</categoryId>
       <price_rrc>2746.00</price_rrc>
       <price>0.00</price>
       <currencyId>UAH</currencyId>
@@ -17935,11 +17935,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<p>Термостат кімнатний програмований дротовий OpenTherm P56A02</p><ul><li>Регульована варіація температури: 0,1 °C, 0,2 °C, 0,5 °C, 1,0 °C</li><li>Захист від замерзання: Так</li><li>Довжина капілярного датчика: –</li><li>Цвет: білий</li><li>Сумісність: –</li><li>Керування за допомогою голосових помічників: Ні</li><li>Режим керування: система опалення та охолодження</li><li>Розміри: –</li><li>Датчик підлоги: –</li><li>Розмір основного блоку: –</li><li>Режим відпустки: Ні</li><li>Сповіщення до мобільного додатку: Ні</li><li>Кількість програм: 6 + 3 налаштовувані користувачем</li><li>Функція УВІМК./ВИМК.: Так</li><li>Робоча частота: –</li><li>Комплектація: не вказано</li><li>Можливість підключення до інших датчиків: Ні</li><li>Живлення станції: –</li><li>Потужність приймача: –</li><li>Живлення передавача: –</li><li>Джерело живлення: 2× 1.5 V AA (у комплекті)</li><li>Протокол: –</li><li>Дальність у відкритому просторі: –</li><li>Розмір приймача: –</li><li>Функція зниження температури: Ні</li><li>Підтримувана ОС: –</li><li>Перемикання: 230 В AC або «сухий контакт»</li><li>Перемикання навантаження: 8 A активне, 2 A індуктивне</li><li>Регулювання температури: від 7 °C до 30 °C, крок 0,2 °C</li><li>Тип регулювання температури: комфортна та економна температура</li><li>Калібрування температури: Так</li><li>Вимірювання температури: 0 °C до 40 °C, роздільність 0,1 °C</li><li>Тип термостата: дротовий зі зв&#x27;язком OpenTherm</li><li>Частота передачі: –</li><li>Розмір передавача: 98 × 31 × 98 мм</li><li>Тип контролю: програмований електронний кімнатний термостат</li></ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56EXT1" available="false" group_id="65">
+    <offer id="P56EXT1" available="false" group_id="64">
       <article>P56EXT1</article>
       <name><![CDATA[Комплект розширення радіатора - розширення базового комплекту вентиляторів P56EXT1]]></name>
       <brand>EMOS</brand>
-      <categoryId>65</categoryId>
+      <categoryId>64</categoryId>
       <price_rrc>2206.00</price_rrc>
       <price>1803.18</price>
       <currencyId>грн</currencyId>
@@ -17992,11 +17992,11 @@ P56402 можна встановити на стіну або розмістит
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56PR1" available="false" group_id="65">
+    <offer id="P56PR1" available="false" group_id="64">
       <article>P56PR1</article>
       <name><![CDATA[Вентилятор під радіатор MOНі, білий P56PR1]]></name>
       <brand>EMOS</brand>
-      <categoryId>65</categoryId>
+      <categoryId>64</categoryId>
       <price_rrc>3219.00</price_rrc>
       <price>2639.58</price>
       <currencyId>грн</currencyId>
@@ -18050,11 +18050,11 @@ P56402 можна встановити на стіну або розмістит
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56PR2" available="false" group_id="65">
+    <offer id="P56PR2" available="false" group_id="64">
       <article>P56PR2</article>
       <name><![CDATA[Вентилятор під радіатор DUO, білий P56PR2]]></name>
       <brand>EMOS</brand>
-      <categoryId>65</categoryId>
+      <categoryId>64</categoryId>
       <price_rrc>5149.00</price_rrc>
       <price>4219.74</price>
       <currencyId>грн</currencyId>
@@ -18102,11 +18102,11 @@ P56402 можна встановити на стіну або розмістит
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56PR3" available="false" group_id="65">
+    <offer id="P56PR3" available="false" group_id="64">
       <article>P56PR3</article>
       <name><![CDATA[Вентилятор під радіатор TRIO, білий P56PR3]]></name>
       <brand>EMOS</brand>
-      <categoryId>65</categoryId>
+      <categoryId>64</categoryId>
       <price_rrc>7086.00</price_rrc>
       <price>5810.52</price>
       <currencyId>грн</currencyId>
@@ -18154,11 +18154,11 @@ P56402 можна встановити на стіну або розмістит
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZD3121" available="true" group_id="66">
+    <offer id="ZD3121" available="true" group_id="65">
       <article>ZD3121</article>
       <name><![CDATA[Світильник точковий Emos ZD3121]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>295.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18181,11 +18181,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світильник точковий EMOS ZD3121 SIMMI — стильне тепле освітлення для сучасного інтер’єру</h2> <p> <strong>EMOS ZD3121</strong> із серії <strong>SIMMI</strong> — компактний вбудований світлодіодний світильник, який створює комфортну атмосферу в оселі. Ідеально підходить для кухні, вітальні, спальні, дитячої кімнати, коридору чи сходів. </p> <p> Потужність <strong>5 Вт</strong> забезпечує світловий потік <strong>450 лм</strong>, що відповідає лампі розжарювання 50 Вт, але з набагато меншою витратою електроенергії. Тепле біле світло з температурою <strong>3000 К</strong> робить простір затишним і приємним для очей. </p> <p> Широкий кут розсіювання <strong>110°</strong> гарантує рівномірне освітлення без темних зон, а індекс передачі кольору <strong>Ra > 80</strong> забезпечує природне відображення відтінків. Світильник працює без мерехтіння, що важливо для комфорту зору. </p> <p> Модель призначена для врізного монтажу (отвір 68 мм), має компактні розміри 90 × 25 мм та акуратний білий корпус із міцного пластику. Ресурс роботи — до <strong>25 000 годин</strong>. </p> <p><strong>EMOS ZD3121 — енергоефективне та естетичне рішення для якісного освітлення вашого дому.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZD3122" available="true" group_id="66">
+    <offer id="ZD3122" available="true" group_id="65">
       <article>ZD3122</article>
       <name><![CDATA[Світильник точковий Emos ZD3122]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>295.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18208,11 +18208,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світильник точковий EMOS ZD3122 SIMMI — нейтральне світло для сучасного простору</h2> <p> <strong>EMOS ZD3122</strong> із серії <strong>SIMMI</strong> — вбудований світлодіодний світильник, який забезпечує рівномірне та комфортне освітлення для житлових приміщень. Ідеальний вибір для кухні, вітальні, спальні, дитячої кімнати, коридору або сходів. </p> <p> Потужність <strong>5 Вт</strong> створює світловий потік <strong>450 лм</strong>, що відповідає традиційній лампі 50 Вт, але з набагато меншою витратою електроенергії. Нейтральне біле світло з температурою <strong>4000 К</strong> забезпечує природне освітлення, комфортне для роботи та повсякденних справ. </p> <p> Широкий кут розсіювання <strong>110°</strong> рівномірно наповнює простір світлом, а високий індекс передачі кольору <strong>Ra > 80</strong> гарантує природні відтінки без спотворення. Світильник працює без мерехтіння, що зменшує навантаження на очі. </p> <p> Компактні розміри 90 × 25 мм та монтажний отвір 68 мм дозволяють легко інтегрувати світильник у стелю. Білий корпус із міцного пластику гармонійно вписується в сучасний інтер’єр, а ресурс роботи до <strong>25 000 годин</strong> забезпечує довготривалу експлуатацію. </p> <p><strong>EMOS ZD3122 — енергоефективне освітлення з природним світлом для вашого дому.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZD3221" available="true" group_id="66">
+    <offer id="ZD3221" available="true" group_id="65">
       <article>ZD3221</article>
       <name><![CDATA[Світильник точковий Emos ZD3221]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>364.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18235,11 +18235,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світильник точковий EMOS ZD3221 SIMMI — тепле світло в елегантному виконанні</h2> <p> <strong>EMOS ZD3221</strong> із серії <strong>SIMMI</strong> — стильний вбудований світлодіодний світильник у кольорі матовий нікель, який гармонійно доповнить сучасний інтер’єр. Ідеально підходить для кухні, вітальні, спальні, дитячої кімнати, коридору або сходів. </p> <p> Потужність <strong>5 Вт</strong> забезпечує світловий потік <strong>450 лм</strong>, що відповідає лампі розжарювання 50 Вт, але з набагато нижчим споживанням електроенергії. Тепле біле світло <strong>3000 К</strong> створює затишну атмосферу та комфорт для відпочинку. </p> <p> Кут розсіювання <strong>110°</strong> гарантує рівномірне освітлення без різких тіней, а індекс передачі кольору <strong>Ra > 80</strong> забезпечує природність відтінків. Світильник працює без мерехтіння, що сприяє комфорту для очей. </p> <p> Міцний алюмінієвий корпус додає надійності та довговічності, а ресурс роботи до <strong>25 000 годин</strong> дозволяє надовго забути про заміну освітлення. Компактні розміри 80 × 25 мм та монтажний отвір 68 мм забезпечують легке встановлення. </p> <p><strong>EMOS ZD3221 — поєднання стилю, енергоефективності та затишного світла.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZD3222" available="true" group_id="66">
+    <offer id="ZD3222" available="true" group_id="65">
       <article>ZD3222</article>
       <name><![CDATA[Світильник точковий Emos ZD3222]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>364.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18262,11 +18262,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світильник точковий EMOS ZD3222 SIMMI — нейтральне світло в стильному корпусі</h2> <p> <strong>EMOS ZD3222</strong> із серії <strong>SIMMI</strong> — сучасний вбудований світлодіодний світильник у кольорі матовий нікель, який поєднує естетику та функціональність. Ідеальний для кухні, вітальні, спальні, дитячої кімнати, коридору та сходів. </p> <p> Потужність <strong>5 Вт</strong> забезпечує світловий потік <strong>450 лм</strong>, що еквівалентно лампі розжарювання 50 Вт, але з меншим енергоспоживанням. Нейтральне біле світло <strong>4000 К</strong> створює природне освітлення, комфортне як для відпочинку, так і для повсякденних справ. </p> <p> Кут розсіювання <strong>110°</strong> рівномірно освітлює простір, а індекс передачі кольору <strong>Ra > 80</strong> гарантує природність відтінків. Світильник працює без мерехтіння, що сприяє зниженню навантаження на очі. </p> <p> Міцний алюмінієвий корпус додає надійності, а ресурс роботи до <strong>25 000 годин</strong> забезпечує довготривалу експлуатацію. Компактні розміри 80 × 25 мм та монтажний отвір 68 мм дозволяють легко інтегрувати світильник у стелю. </p> <p><strong>EMOS ZD3222 — сучасне, енергоефективне освітлення з природним світлом для вашого інтер’єру.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV1112" available="true" group_id="66">
+    <offer id="ZV1112" available="true" group_id="65">
       <article>ZV1112</article>
       <name><![CDATA[Стельовий світильник EMOS 6W 500Лм 4000K ZV1112]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>497.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18299,11 +18299,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV1112 &mdash; надійне, вологостійке та енергоефективне освітлення для сучасного простору.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV1122" available="true" group_id="66">
+    <offer id="ZV1122" available="true" group_id="65">
       <article>ZV1122</article>
       <name><![CDATA[Стельовий світильник EMOS 7,5W 650Лм 4000K ZV1122]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>558.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18336,11 +18336,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV1122 &mdash; яскраве, енергоефективне та вологостійке рішення для сучасного освітлення.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV1132" available="true" group_id="66">
+    <offer id="ZV1132" available="true" group_id="65">
       <article>ZV1132</article>
       <name><![CDATA[Стельовий світильник EMOS 10W 900Лм 4000К ZV1132]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>662.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18373,11 +18373,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV1132 &mdash; яскраве, енергоефективне та вологостійке освітлення для сучасного інтер&rsquo;єру.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV1152" available="true" group_id="66">
+    <offer id="ZV1152" available="true" group_id="65">
       <article>ZV1152</article>
       <name><![CDATA[Світлодіодна панель EMOS ZV1152 19Вт 1700лм 4000К кругла біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>1046.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18410,11 +18410,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV1152 &mdash; потужне, довговічне та енергоефективне освітлення для сучасного простору.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV2112" available="true" group_id="66">
+    <offer id="ZV2112" available="true" group_id="65">
       <article>ZV2112</article>
       <name><![CDATA[Світлодіодна панель EMOS ZV2112 6Вт 500лм 4000K квадратна біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>0.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18447,11 +18447,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV2112 &mdash; компактне, надійне та енергоефективне освітлення для будь-якого простору.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV2122" available="true" group_id="66">
+    <offer id="ZV2122" available="true" group_id="65">
       <article>ZV2122</article>
       <name><![CDATA[Стельовий світильник EMOS 7,5W 650Лм 4000K ZV2122]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>0.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18484,11 +18484,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV2122 &mdash; надійне та енергоефективне освітлення у сучасному квадратному форматі.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV2142" available="true" group_id="66">
+    <offer id="ZV2142" available="true" group_id="65">
       <article>ZV2142</article>
       <name><![CDATA[Стельовий світильник EMOS 13,5W 1250Лм 4000K ZV2142]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>854.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18521,11 +18521,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV2142 &mdash; потужне, енергоефективне та надійне рішення для сучасного інтер&rsquo;єру.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZV2152" available="true" group_id="66">
+    <offer id="ZV2152" available="true" group_id="65">
       <article>ZV2152</article>
       <name><![CDATA[Світлодіодна панель EMOS ZV2152 19Вт 1700лм 4000K квадратна біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>66</categoryId>
+      <categoryId>65</categoryId>
       <price_rrc>1115.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18558,11 +18558,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>EMOS ZV2152 &mdash; яскраве, довговічне та енергоефективне освітлення для сучасного інтер&rsquo;єру.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZC0108" available="true" group_id="67">
+    <offer id="ZC0108" available="true" group_id="66">
       <article>ZC0108</article>
       <name><![CDATA[Світильник EMOS ZC0108 вбудований, 123×53, 1,5 Вт теплий білий колір IP65]]></name>
       <brand>EMOS</brand>
-      <categoryId>67</categoryId>
+      <categoryId>66</categoryId>
       <price_rrc>514.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18596,11 +18596,11 @@ P56402 можна встановити на стіну або розмістит
 <p><strong>AMAL &mdash; стильне та надійне підсвічування для безпечного пересування в будь-який час доби.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZC0109" available="true" group_id="67">
+    <offer id="ZC0109" available="true" group_id="66">
       <article>ZC0109</article>
       <name><![CDATA[Світильник для стін та сходів Emos ZC0109 2 Вт IP65 WW ZC0109]]></name>
       <brand>EMOS</brand>
-      <categoryId>67</categoryId>
+      <categoryId>66</categoryId>
       <price_rrc>465.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18623,11 +18623,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світлодіодний орієнтаційний світильник AMAL ZC0109 — стильна безпека для сходів і коридорів</h2> <p> <strong>AMAL ZC0109</strong> — компактний вбудований LED-світильник для орієнтаційного підсвічування внутрішніх і зовнішніх просторів. Підходить для встановлення в електромонтажні коробки та забезпечує акуратний сучасний вигляд. </p> <p> Потужність <strong>2 Вт</strong> та світловий потік <strong>65 лм</strong> створюють м’яке тепле світло <strong>3000 К</strong>, яке комфортно підсвічує сходи, коридори та проходи, не засліплюючи в темряві. Завдяки низькому споживанню енергії світильник можна залишати увімкненим протягом усієї ночі. </p> <p> Корпус із <strong>алюмінію</strong> у кольорі нержавіючої сталі та скляний дифузор забезпечують довговічність і стильний вигляд. Ступінь захисту <strong>IP65</strong> дозволяє використовувати світильник як у приміщенні, так і на вулиці. Робочий діапазон температур від <strong>-20 до +60 °C</strong> гарантує стабільну роботу в різних умовах. </p> <p> Термін служби до <strong>30 000 годин</strong> мінімізує потребу в обслуговуванні та забезпечує тривалу експлуатацію. </p> <p><strong>AMAL — надійне підсвічування для комфортного та безпечного пересування.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZC0110" available="true" group_id="67">
+    <offer id="ZC0110" available="true" group_id="66">
       <article>ZC0110</article>
       <name><![CDATA[Світильник для стін та сходів Emos ZC0110]]></name>
       <brand>EMOS</brand>
-      <categoryId>67</categoryId>
+      <categoryId>66</categoryId>
       <price_rrc>389.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -18651,11 +18651,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<h2>Світильник для стін та сходів Emos ZC0110 — надійна орієнтація вдень і вночі</h2> <p> <strong>Emos ZC0110</strong> — світлодіодний орієнтаційний світильник для встановлення на розподільчу коробку. Ідеальне рішення для підсвічування коридорів, сходових кліток, переходів та зовнішніх зон. </p> <p> Потужність <strong>2 Вт</strong> і світловий потік <strong>65 лм</strong> забезпечують м’яке, але достатнє освітлення для безпечного пересування. Нейтральне біле світло <strong>4000 К</strong> виглядає природно, не спотворює кольори та підходить для сучасних інтер’єрів і фасадів. </p> <p> Корпус з <strong>алюмінію</strong> у кольорі нержавіючої сталі та скляний дифузор забезпечують довговічність і стильний зовнішній вигляд. Завдяки ступеню захисту <strong>IP65</strong> світильник стійкий до пилу, вологи та погодних умов, а робочий діапазон температур від <strong>-20 до +60 °C</strong> гарантує стабільну роботу цілий рік. </p> <p> Низьке енергоспоживання дозволяє залишати світильник увімкненим протягом усієї ночі без значних витрат електроенергії. Термін служби до <strong>30 000 годин</strong> мінімізує потребу в обслуговуванні. </p> <p><strong>Emos ZC0110 — стильне та економне рішення для безпечного освітлення сходів і проходів.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG112S" available="true" group_id="68">
+    <offer id="ZG112S" available="true" group_id="67">
       <article>ZG112S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG112S 1300 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1299.00</price_rrc>
       <price>1065.18</price>
       <currencyId>грн</currencyId>
@@ -18713,11 +18713,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1552112000_e23-zg112s%281%29.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG121S" available="true" group_id="68">
+    <offer id="ZG121S" available="true" group_id="67">
       <article>ZG121S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG121S 1000 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>896.00</price_rrc>
       <price>734.7</price>
       <currencyId>грн</currencyId>
@@ -18771,11 +18771,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="564" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1552121000_e42-zg121s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG122S" available="true" group_id="68">
+    <offer id="ZG122S" available="true" group_id="67">
       <article>ZG122S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG122S 1600 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1249.00</price_rrc>
       <price>1024.2</price>
       <currencyId>грн</currencyId>
@@ -18829,11 +18829,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="550" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1552122000_e42-zg122s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG131S" available="true" group_id="68">
+    <offer id="ZG131S" available="true" group_id="67">
       <article>ZG131S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG131S 1500 лм IP54 3000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1126.00</price_rrc>
       <price>923.34</price>
       <currencyId>грн</currencyId>
@@ -18887,11 +18887,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="557" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1552131000_e43-zg131s_hor4.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG132S" available="true" group_id="68">
+    <offer id="ZG132S" available="true" group_id="67">
       <article>ZG132S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG132S 1500 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1169.00</price_rrc>
       <price>958.56</price>
       <currencyId>грн</currencyId>
@@ -18945,11 +18945,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img loading="lazy" src="https://extel.com.ua/content/uploads/images/1552131000_e43-zg131s_hor4.jpg" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG151S" available="true" group_id="68">
+    <offer id="ZG151S" available="true" group_id="67">
       <article>ZG151S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG151S 220 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>679.00</price_rrc>
       <price>556.8</price>
       <currencyId>грн</currencyId>
@@ -19008,11 +19008,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553151000_e42-zg151s.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG161S" available="true" group_id="68">
+    <offer id="ZG161S" available="true" group_id="67">
       <article>ZG161S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG161S 350 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>799.00</price_rrc>
       <price>655.2</price>
       <currencyId>грн</currencyId>
@@ -19078,11 +19078,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="567" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553161000_e40-zg161s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG162S" available="true" group_id="68">
+    <offer id="ZG162S" available="true" group_id="67">
       <article>ZG162S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG162S 350 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>799.00</price_rrc>
       <price>655.2</price>
       <currencyId>грн</currencyId>
@@ -19148,11 +19148,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="564" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553162000_e40-zg162s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG165S" available="true" group_id="68">
+    <offer id="ZG165S" available="true" group_id="67">
       <article>ZG165S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG165S 900 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1399.00</price_rrc>
       <price>1147.2</price>
       <currencyId>грн</currencyId>
@@ -19209,11 +19209,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="570" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553165000_e43-zg165s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG166S" available="true" group_id="68">
+    <offer id="ZG166S" available="true" group_id="67">
       <article>ZG166S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG166S 900 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>1399.00</price_rrc>
       <price>1147.2</price>
       <currencyId>грн</currencyId>
@@ -19270,11 +19270,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="568" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553166000_e43-zg166s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG172S" available="true" group_id="68">
+    <offer id="ZG172S" available="true" group_id="67">
       <article>ZG172S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG172S 240 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
-      <categoryId>68</categoryId>
+      <categoryId>67</categoryId>
       <price_rrc>479.00</price_rrc>
       <price>392.76</price>
       <currencyId>грн</currencyId>
@@ -19329,11 +19329,11 @@ P56402 можна встановити на стіну або розмістит
 <p><img alt="" height="547" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1553172000_e42-zg172s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2812" available="true" group_id="69">
+    <offer id="ZS2812" available="true" group_id="68">
       <article>ZS2812</article>
       <name><![CDATA[Прожектор з акумулятором EMOS ZS2812 10W 1000Lm 6500K Li-Ion 4400mAг IP54]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>2399.00</price_rrc>
       <price>1967.16</price>
       <currencyId>грн</currencyId>
@@ -19366,11 +19366,11 @@ P56402 можна встановити на стіну або розмістит
 Світлодіодний прожектор, корпус якого виготовлений з алюмінію, витримує навіть несприятливі погодні умови. Фактично, клас захисту IP54 гарантує водонепроникність, світильник захищений від бризок води в усіх напрямках, а також частково від пилу. Ви оціните його складну конструкцію, завдяки якій він не займає забагато місця в складеному вигляді. Ще однією незаперечною перевагою є наявність виходу USB-C, через який можна, наприклад, заряджати мобільний телефон.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2910" available="true" group_id="69">
+    <offer id="ZS2910" available="true" group_id="68">
       <article>ZS2910</article>
       <name><![CDATA[Світлодіодний прожектор LED EMOS ZS2910 ILIO 10W 800Lm 4000K PIR IP44]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>863.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -19402,11 +19402,11 @@ P56402 можна встановити на стіну або розмістит
 </p> <p><strong>EMOS ILIO — надійне світло, яке працює саме тоді, коли потрібно.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS3360S" available="true" group_id="69">
+    <offer id="ZS3360S" available="true" group_id="68">
       <article>ZS3360S</article>
       <name><![CDATA[Ліхтар-прожектор LED EMOS ZS3360S 7000 Lm 70 W 220V IP54 пластик]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>7499.00</price_rrc>
       <price>6149.16</price>
       <currencyId>грн</currencyId>
@@ -19459,11 +19459,11 @@ P56402 можна встановити на стіну або розмістит
 <p>Для зручного транспортування та зберігання його можна швидко скласти. Вбудована ручка додатково полегшує перенесення.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2813" available="true" group_id="69">
+    <offer id="ZS2813" available="true" group_id="68">
       <article>ZS2813</article>
       <name><![CDATA[Прожектор з акумулятором EMOS ZS2813 20W 1650Lm 6500K Li-Ion 5000mAh IP54]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>2119.00</price_rrc>
       <price>1737.6</price>
       <currencyId>грн</currencyId>
@@ -19499,11 +19499,11 @@ P56402 можна встановити на стіну або розмістит
 Завдяки гарантії ви можете бути впевнені, що налобні ліхтарі витримають навіть щоденне використання. Ви можете розраховувати на їхню продуктивність, міцність і тривалий термін служби без зайвих хвилювань. Це дозволяє повністю зосередитися на роботі та завжди мати світло під рукою саме тоді, коли воно потрібне.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2823" available="true" group_id="69">
+    <offer id="ZS2823" available="true" group_id="68">
       <article>ZS2823</article>
       <name><![CDATA[Прожектор з акумулятором EMOS ZS2823 35W 3300Lm 6500K Li-Ion 10000mAh IP54]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>3399.00</price_rrc>
       <price>2787.18</price>
       <currencyId>грн</currencyId>
@@ -19539,11 +19539,11 @@ P56402 можна встановити на стіну або розмістит
 Завдяки гарантії ви можете бути впевнені, що налобні ліхтарі витримають навіть щоденне використання. Ви можете розраховувати на їхню продуктивність, міцність і тривалий термін служби без зайвих хвилювань. Це дозволяє повністю зосередитися на роботі та завжди мати світло під рукою саме тоді, коли воно потрібне.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2833" available="true" group_id="69">
+    <offer id="ZS2833" available="true" group_id="68">
       <article>ZS2833</article>
       <name><![CDATA[Прожектор з акумулятором EMOS ZS2833 50W 4950Lm 6500K Li-Ion 15000mAh IP54]]></name>
       <brand>EMOS</brand>
-      <categoryId>69</categoryId>
+      <categoryId>68</categoryId>
       <price_rrc>4299.00</price_rrc>
       <price>3525.18</price>
       <currencyId>грн</currencyId>
@@ -19579,11 +19579,11 @@ P56402 можна встановити на стіну або розмістит
 Завдяки гарантії ви можете бути впевнені, що налобні ліхтарі витримають навіть щоденне використання. Ви можете розраховувати на їхню продуктивність, міцність і тривалий термін служби без зайвих хвилювань. Це дозволяє повністю зосередитися на роботі та завжди мати світло під рукою саме тоді, коли воно потрібне.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="DCPW01" available="true" group_id="70">
+    <offer id="DCPW01" available="true" group_id="69">
       <article>DCPW01</article>
       <name><![CDATA[Світлодіодна гірлянда EMOS DCPW01 10шт матовi кульки, 5 м, зовнішні та внутрішні, теплий білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
       <price>1229.16</price>
       <currencyId>грн</currencyId>
@@ -19621,11 +19621,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="DCPW02" available="true" group_id="70">
+    <offer id="DCPW02" available="true" group_id="69">
       <article>DCPW02</article>
       <name><![CDATA[Світлодіодна гірлянда EMOS DCPW02 10шт прозорі кульки, 5 м, зовнішні та внутрішні, теплий білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
       <price>1229.16</price>
       <currencyId>грн</currencyId>
@@ -19663,11 +19663,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZCW11BR" available="false" group_id="70">
+    <offer id="ZCW11BR" available="false" group_id="69">
       <article>ZCW11BR</article>
       <name><![CDATA[GoSmart LED Ambient лампа, чорний, теплий білий–холодний білий/ RGB, WiFi ZCW11BR]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1849.00</price_rrc>
       <price>1516.2</price>
       <currencyId>грн</currencyId>
@@ -19725,11 +19725,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZCW11WR" available="false" group_id="70">
+    <offer id="ZCW11WR" available="false" group_id="69">
       <article>ZCW11WR</article>
       <name><![CDATA[GoSmart LED Ambient лампа, білий, теплий білий–холодний білий/ RGB, WiFi ZCW11WR]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1849.00</price_rrc>
       <price>1516.2</price>
       <currencyId>грн</currencyId>
@@ -19787,11 +19787,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW154R" available="true" group_id="70">
+    <offer id="ZIW154R" available="true" group_id="69">
       <article>ZIW154R</article>
       <name><![CDATA[Комплект розширення розумного LED-освітлення EMOS ZIW154R, Wi-Fi для стартового набору ZIW15CR]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
@@ -19825,11 +19825,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW15CR" available="true" group_id="70">
+    <offer id="ZIW15CR" available="true" group_id="69">
       <article>ZIW15CR</article>
       <name><![CDATA[Комплект розумного світлодіодного освітлення EMOS ZIW15CR 12 частини, 255см, 7 Вт, RGBIC+CCT, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>2999.00</price_rrc>
       <price>2459.16</price>
       <currencyId>грн</currencyId>
@@ -19894,11 +19894,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW17FR" available="false" group_id="70">
+    <offer id="ZIW17FR" available="false" group_id="69">
       <article>ZIW17FR</article>
       <name><![CDATA[GoSmart LED-гірлянда – 15 святкових ламп, 15 м, для вулиці та приміщень, RGBIC, WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
       <price>3115.2</price>
       <currencyId>UAH</currencyId>
@@ -19928,11 +19928,11 @@ P56402 можна встановити на стіну або розмістит
       <description><![CDATA[<p>GoSmart LED-гірлянда – 15 святкових ламп, 15 м, для вулиці та приміщень, RGBIC, WiFi</p><ul><li>Колір корпусу: чорний</li><li>Матеріал корпусу: пластик</li><li>Колірна температура: –</li><li>Регулювання колірної температури: Ні</li><li>Налаштування кольору (RGB): Так</li><li>Сумісність: EMOS GoSmart, Tuya, Lidl, Smartlife</li><li>Керування за допомогою голосових помічників: так (Amazon, Alexa, Google Assistant)</li><li>Димування: Так</li><li>Клас енергоефективності: –</li><li>Вхідна напруга: 100–240 V~/50 Hz</li><li>Клас захисту IP: IP65</li><li>Довжина: –</li><li>Термін служби: 20 000 годин</li><li>Колір світла: RGBIC</li><li>Лампочка в комплекті: –</li><li>Світлова ефективність: –</li><li>Світловий потік, Lm: –</li><li>Матеріал дифузора: пластик (PC)</li><li>Максимальна кількість сегментів: 15</li><li>Сповіщення до мобільного додатку: Так</li><li>Кількість сегментів: 15</li><li>Кількість циклів перемикання: –</li><li>Потужність: 12 W</li><li>Протокол: WIFI + BLE</li><li>Цифровий RGB: Так</li><li>Форма: –</li><li>Довжина кабелю живлення: 1.5 m</li><li>Підтримувана ОС: iOS, Android</li><li>Технологія: LED</li><li>Частота передачі: 2.4 GHz WiFi</li><li>Гарантия: 2 років</li><li>Ширина: –</li></ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW181R" available="false" group_id="70">
+    <offer id="ZIW181R" available="false" group_id="69">
       <article>ZIW181R</article>
       <name><![CDATA[Розумний вуличний прожектор EMOS ZIW181R, 1шт, 4 Вт, RGBIC,WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
@@ -19969,11 +19969,11 @@ P56402 можна встановити на стіну або розмістит
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW184R" available="true" group_id="70">
+    <offer id="ZIW184R" available="true" group_id="69">
       <article>ZIW184R</article>
       <name><![CDATA[Розумний вуличний прожектор EMOS ZIW184R, комплект 3шт, 14 Вт, RGBIC,WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
       <price>3115.2</price>
       <currencyId>грн</currencyId>
@@ -20042,11 +20042,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW191R" available="true" group_id="70">
+    <offer id="ZIW191R" available="true" group_id="69">
       <article>ZIW191R</article>
       <name><![CDATA[Розумний вуличний прожектор EMOS ZIW191R, 1шт, 1,5 Вт, RGBIC,WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>699.00</price_rrc>
       <price>573.18</price>
       <currencyId>грн</currencyId>
@@ -20083,11 +20083,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW194R" available="true" group_id="70">
+    <offer id="ZIW194R" available="true" group_id="69">
       <article>ZIW194R</article>
       <name><![CDATA[Розумний вуличний прожектор EMOS ZIW194R, комплект 4шт, 7 Вт, RGBIC,WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>2999.00</price_rrc>
       <price>2459.16</price>
       <currencyId>грн</currencyId>
@@ -20153,11 +20153,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW223R" available="true" group_id="70">
+    <offer id="ZIW223R" available="true" group_id="69">
       <article>ZIW223R</article>
       <name><![CDATA[Комплект розумного світлодіодного освітлення EMOS ZIW223R HEXAGON 3 частини, 1,8 Вт, RGBIC, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1799.00</price_rrc>
       <price>1475.16</price>
       <currencyId>грн</currencyId>
@@ -20192,11 +20192,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW22AR" available="false" group_id="70">
+    <offer id="ZIW22AR" available="false" group_id="69">
       <article>ZIW22AR</article>
       <name><![CDATA[Комплект розумного світлодіодного освітлення EMOS ZIW22AR HEXAGON 10 частин, 19 Вт, RGBIC, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>6799.00</price_rrc>
       <price>5575.2</price>
       <currencyId>грн</currencyId>
@@ -20265,11 +20265,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW249R" available="false" group_id="70">
+    <offer id="ZIW249R" available="false" group_id="69">
       <article>ZIW249R</article>
       <name><![CDATA[Комплект розумного світлодіодного освітлення EMOS ZIW249R LINES 9 частин, білий, 34 Вт, RGBIC, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>5799.00</price_rrc>
       <price>4755.18</price>
       <currencyId>грн</currencyId>
@@ -20332,11 +20332,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW269R" available="true" group_id="70">
+    <offer id="ZIW269R" available="true" group_id="69">
       <article>ZIW269R</article>
       <name><![CDATA[Комплект розумного світлодіодного освітлення EMOS ZIW269R LINES 9 частин, чорни, 34 Вт, RGBIC, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>5799.00</price_rrc>
       <price>4755.18</price>
       <currencyId>грн</currencyId>
@@ -20399,11 +20399,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZIW426R" available="true" group_id="70">
+    <offer id="ZIW426R" available="true" group_id="69">
       <article>ZIW426R</article>
       <name><![CDATA[Розумна декоративн світлодіодна настільна лампа EMOS ZIW426R HEXAGON 6 частин, RGBIC, WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>2799.00</price_rrc>
       <price>2295.18</price>
       <currencyId>грн</currencyId>
@@ -20464,11 +20464,11 @@ Smart-прожектори для будь-якої події
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZPW218R" available="false" group_id="70">
+    <offer id="ZPW218R" available="false" group_id="69">
       <article>ZPW218R</article>
       <name><![CDATA[Світлодіодна стрічка GoSmart WiFi 2 м, 11 Вт, 750 лм, RGB/CCT ZPW218R]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
       <price>1229.16</price>
       <currencyId>грн</currencyId>
@@ -20528,11 +20528,11 @@ LED-стрічка має довжину 2 м, але завдяки сегме�
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZPW313I" available="true" group_id="70">
+    <offer id="ZPW313I" available="true" group_id="69">
       <article>ZPW313I</article>
       <name><![CDATA[Розумна гнучка світлодіодна стрічка EMOS ZPW313I NEON біла, 3 м, 24 Вт, RGBIC WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>2699.00</price_rrc>
       <price>2213.16</price>
       <currencyId>грн</currencyId>
@@ -20596,11 +20596,11 @@ LED-стрічка має довжину 2 м, але завдяки сегме�
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZPW513I" available="false" group_id="70">
+    <offer id="ZPW513I" available="false" group_id="69">
       <article>ZPW513I</article>
       <name><![CDATA[Розумна гнучка світлодіодна стрічка EMOS ZPW513I NEON біла, 5 м, 33 Вт, RGBIC, WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
       <price>3115.2</price>
       <currencyId>грн</currencyId>
@@ -20663,11 +20663,11 @@ LED-стрічка має довжину 2 м, але завдяки сегме�
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZPW518R" available="false" group_id="70">
+    <offer id="ZPW518R" available="false" group_id="69">
       <article>ZPW518R</article>
       <name><![CDATA[Світлодіодна стрічка GoSmart WiFi 5 м, 22 Вт, 1400 лм, RGB/CCT ZPW518R]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>2399.00</price_rrc>
       <price>1967.16</price>
       <currencyId>грн</currencyId>
@@ -20727,11 +20727,11 @@ LED-стрічка довжиною 5 м складається з сегмен�
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZTV55" available="false" group_id="70">
+    <offer id="ZTV55" available="false" group_id="69">
       <article>ZTV55</article>
       <name><![CDATA[GoSmart Ambient LED RGB освітлення для телевізора 55“ (139 см) ZTV55]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>5536.00</price_rrc>
       <price>4539.54</price>
       <currencyId>грн</currencyId>
@@ -20796,11 +20796,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZTV65" available="false" group_id="70">
+    <offer id="ZTV65" available="false" group_id="69">
       <article>ZTV65</article>
       <name><![CDATA[GoSmart Ambient LED RGB освітлення для телевізора 65“ (164 см) ZTV65]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>6299.00</price_rrc>
       <price>5165.16</price>
       <currencyId>грн</currencyId>
@@ -20866,11 +20866,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZTV75" available="false" group_id="70">
+    <offer id="ZTV75" available="false" group_id="69">
       <article>ZTV75</article>
       <name><![CDATA[GoSmart Ambient LED RGB освітлення для телевізора 75“ (189 см) ZTV75]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>7289.00</price_rrc>
       <price>5976.96</price>
       <currencyId>грн</currencyId>
@@ -20935,11 +20935,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGA040P" available="true" group_id="71">
+    <offer id="ZGA040P" available="true" group_id="70">
       <article>ZGA040P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ARTEO, 16,4 × 12 × 29,5 см, 1 × E27, 15 Вт ZGA040P]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1929.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21008,11 +21008,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1554000003_e61-zga040p.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGA0C0P" available="false" group_id="71">
+    <offer id="ZGA0C0P" available="false" group_id="70">
       <article>ZGA0C0P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGA0C0P e27, ip44, 15w, стовп]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1475.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21063,11 +21063,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з&rsquo;єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGB010P" available="true" group_id="71">
+    <offer id="ZGB010P" available="true" group_id="70">
       <article>ZGB010P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGB010P e27, ip44, 15w, настінний]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1559.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21110,11 +21110,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGB020P" available="true" group_id="71">
+    <offer id="ZGB020P" available="true" group_id="70">
       <article>ZGB020P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGB020P e27, ip44, 15w, настінний]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1379.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21152,11 +21152,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGB040P" available="true" group_id="71">
+    <offer id="ZGB040P" available="true" group_id="70">
       <article>ZGB040P</article>
       <name><![CDATA[Світлодіодний садовий настінний світло з датчиком сутінків ADENIA, 19,8 × 15 × 29,8 см, 1 × E27, 15 Вт ZGB040P]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>2129.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21222,11 +21222,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1554000006_e61-zgb040p.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGC010P" available="true" group_id="71">
+    <offer id="ZGC010P" available="true" group_id="70">
       <article>ZGC010P</article>
       <name><![CDATA[Світлодіодна садова стінка світло ZALA, 14,5 × 8,9 × 26,2 см, 1 × E27, 15 Вт ZGC010P]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1329.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21263,11 +21263,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGC040P" available="false" group_id="71">
+    <offer id="ZGC040P" available="false" group_id="70">
       <article>ZGC040P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGC040P e27, ip44, PIR ,15w, настінний]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1759.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21320,11 +21320,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з&rsquo;єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGC0A0P" available="true" group_id="71">
+    <offer id="ZGC0A0P" available="true" group_id="70">
       <article>ZGC0A0P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGC0A0P e27, ip44, 15w, стовп]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1329.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21361,11 +21361,11 @@ Smart-керування через мобільний застосунок
 <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP44). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGH010P" available="true" group_id="71">
+    <offer id="ZGH010P" available="true" group_id="70">
       <article>ZGH010P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS MALVA, 13 × 12 × 25 cm, 1 × E27, 15 W ZGH010P]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1479.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21431,11 +21431,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1554000010_e61-zgh010p.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGH040P" available="true" group_id="71">
+    <offer id="ZGH040P" available="true" group_id="70">
       <article>ZGH040P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS з датчиком сутінків MALVA, 13 × 12 × 28 см, 1 × E27, 15 Вт ZGH040P]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>1899.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21503,11 +21503,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1554000011_e61-zgh040p.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGL010P" available="true" group_id="71">
+    <offer id="ZGL010P" available="true" group_id="70">
       <article>ZGL010P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGL010P e27, ip54, 25w, настінний]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>879.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21542,11 +21542,11 @@ Smart-керування через мобільний застосунок
 Лінійка садових світильників EMOS розроблена для максимально ефективного встановлення. Ми рекомендуємо вам діяти обережно та відповідно до доданих інструкцій.</p> <p>Світильники повинні бути надійно закріплені на відповідній основі та підключені до мережі змінного струму 230 В, а всю проводку повинен виконувати кваліфікований спеціаліст.</p> <p>Під час встановлення переконайтеся, що з’єднання належним чином герметизовані, щоб зберегти заявлений рівень стійкості до вологи та пилу (IP54). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZGL0C0P" available="true" group_id="71">
+    <offer id="ZGL0C0P" available="true" group_id="70">
       <article>ZGL0C0P</article>
       <name><![CDATA[Світильник світлодіодний садовий EMOS ZGL0C0P e27, ip54, 25w, стовп]]></name>
       <brand>EMOS</brand>
-      <categoryId>71</categoryId>
+      <categoryId>70</categoryId>
       <price_rrc>2379.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
@@ -21582,11 +21582,11 @@ Smart-керування через мобільний застосунок
 Лінійка садових світильників EMOS розроблена для максимально ефективного встановлення. Ми рекомендуємо вам діяти обережно та відповідно до доданих інструкцій.</p> <p>Світильники повинні бути надійно закріплені на відповідній основі та підключені до мережі змінного струму 230 В, а всі електропроводки повинні виконуватися кваліфікованим спеціалістом.</p> <p>Під час встановлення переконайтеся, що з'єднання належним чином герметизовані, щоб забезпечити заявлений рівень стійкості до вологи та пилу (IP54). Після правильного підключення світильник готовий до негайного використання.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="Z7617" available="true" group_id="70">
+    <offer id="Z7617" available="true" group_id="69">
       <article>Z7617</article>
       <name><![CDATA[Світлодіодний монітор АВА Z7617]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1936.00</price_rrc>
       <price>1587.54</price>
       <currencyId>грн</currencyId>
@@ -21636,11 +21636,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1538179000_e40-z7617.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="Z7625" available="true" group_id="70">
+    <offer id="Z7625" available="true" group_id="69">
       <article>Z7625</article>
       <name><![CDATA[Світлодіодний монітор MIA Z7625]]></name>
       <brand>EMOS</brand>
-      <categoryId>70</categoryId>
+      <categoryId>69</categoryId>
       <price_rrc>1559.00</price_rrc>
       <price>1278.36</price>
       <currencyId>грн</currencyId>
@@ -21697,11 +21697,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1538189000_e26-z7625.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4052" available="true" group_id="72">
+    <offer id="H4052" available="true" group_id="71">
       <article>H4052</article>
       <name><![CDATA[Розумна поворотна радіоняня EMOS H4052 з екраном та Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>9576.00</price_rrc>
       <price>8426.88</price>
       <currencyId>грн</currencyId>
@@ -21748,11 +21748,11 @@ Smart-керування через мобільний застосунок
 <p>Підключайте монітор та інші сумісні пристрої через EMOS GoSmart та TUYA, створюйте сценарії автоматизації та керуйте ними дистанційно через мобільний додаток. Ваш розумний дім піклуватиметься про безпеку дітей, а ви зможете приділяти більше часу близьким та інтересам.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4056" available="true" group_id="72">
+    <offer id="H4056" available="true" group_id="71">
       <article>H4056</article>
       <name><![CDATA[Розумна IP-камера Emos H4056 GoSmart зовнішня з Wi-Fi, сонячною панеллю та акумулятором, біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>7966.00</price_rrc>
       <price>7010.1</price>
       <currencyId>грн</currencyId>
@@ -21792,11 +21792,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть розумний дім за допомогою EMOS GoSmart та TUYA. Підключайте пристрої, налаштовуйте автоматизацію та керуйте ними дистанційно через інтуїтивний мобільний додаток. Дозвольте дому піклуватися про себе самостійно, а ви приділяйте більше часу близьким та своїм інтересам.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4057" available="false" group_id="72">
+    <offer id="H4057" available="false" group_id="71">
       <article>H4057</article>
       <name><![CDATA[Розумна IP-камера Emos H4057 GoSmart зовнішня з Wi-Fi, живлення 5V/1A, біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>4456.00</price_rrc>
       <price>3653.94</price>
       <currencyId>грн</currencyId>
@@ -21865,11 +21865,11 @@ Smart-керування через мобільний застосунок
 <p>Записують зображення з IP-камер на жорсткий диск, що дозволяє переглядати та записувати відео в режимі реального часу.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4058" available="true" group_id="72">
+    <offer id="H4058" available="true" group_id="71">
       <article>H4058</article>
       <name><![CDATA[Розумна IP-камера Emos H4058 GoSmart зовнішня з Wi-Fi, живлення Li-ion 10400 mAh сонячна панель]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>7876.00</price_rrc>
       <price>6458.34</price>
       <currencyId>грн</currencyId>
@@ -21919,11 +21919,11 @@ Smart-керування через мобільний застосунок
 <p>Записують зображення з IP-камер на жорсткий диск, що дозволяє переглядати та записувати відео в режимі реального часу.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4060" available="true" group_id="72">
+    <offer id="H4060" available="true" group_id="71">
       <article>H4060</article>
       <name><![CDATA[Розумна IP-камера Emos H4060 GoSmart, з Wi-Fi, 2.4 GHz/5 GHz]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>2976.00</price_rrc>
       <price>2440.32</price>
       <currencyId>грн</currencyId>
@@ -21957,11 +21957,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Розумне життя стало ще доступнішим </h2> <p> Створіть власний <strong>розумний дім</strong> за допомогою <strong>EMOS GoSmart</strong> та інших розумних пристроїв, сумісних з <strong>TUYA</strong>. Підключіть окремі продукти, налаштуйте автоматизацію їхньої діяльності та керуйте ними дистанційно за допомогою повністю локалізованого та інтуїтивно зрозумілого мобільного застосунку. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Розумна камера з двома діапазонами - Wi-Fi 2,4 та 5 ГГц </h2> <p> <strong>Поворотна камера IP-220W</strong> забезпечить безпеку вашого дому чи офісу. Вона оснащена <strong>роздільною здатністю 4 Мп</strong> та має інтелектуальні функції, такі як <strong>PTZ</strong>, <strong>виявлення руху</strong>, <strong>виявлення звуку</strong>, має <strong>вбудований динамік та мікрофон</strong>. Завдяки сповіщенням на ваш мобільний пристрій ви зможете відстежувати, що відбувається вдома, будь-коли та будь-де, а відеозапис зберігається на <strong>SD-карті або в хмарі</strong>. Функція <strong>DUALBAND - Wi-Fi 2,4 та 5 ГГц</strong> гарантує стабільне підключення. <strong>Елегантний дизайн</strong>, <strong>сумісний розмір</strong> та <strong>гнучке розміщення</strong> дозволяють камері вписатися в будь-який інтер'єр. </p> <ul> <li><strong>ДВОДІАПАЗОННИЙ</strong> – сумісний з Wi-Fi 2,4 та 5 ГГц</li> <li><strong>Роздільна здатність 4 Мп</strong> для чудової чіткості зображення</li> <li><strong>Функція PTZ</strong> – панорамування та масштабування за потреби</li> <li><strong>Нічний режим</strong> та обмеження області перегляду</li> <li>Камеру можна підвісити або встановити</li> <li>Живлення від <strong>2-метрового кабелю USB-C</strong></li> <li>Легке встановлення з повним комплектом аксесуарів</li> <li>Можливість автоматизації з іншими розумними пристроями</li> <li>Сумісний з <strong>EMOS GoSmart</strong>, <strong>TUYA</strong>, <strong>LIDL</strong>, <strong>SmartLife</strong>, відкритою системою</li> <li><strong>Мобільний додаток EMOS GoSmart</strong> безкоштовний та доступний більш ніж 60 мовами</li> <li>Керується <strong>Google Assistant</strong> та <strong>Amazon Alexa</strong></li> </ul> <p> Скористайтеся перевагами <strong>всебічного відстеження</strong> для повного покриття, гнучкого відстеження та керування безпекою в <strong>режимі реального часу</strong>, щоб не пропустити жодної миші. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Відчуваючи лише найнеобхідніше </h2> <p> <strong>Розумна камера IP-220W</strong> з <strong>детекцією руху та звуку</strong> надсилає <strong>миттєві сповіщення</strong> на мобільний пристрій при незвичайній активності. Ви можете налаштувати <strong>зону виявлення руху</strong> та контролювати лише визначену область. Завдяки функції <strong>відстеження руху</strong> камера обертається за об'єктом, що відстежується, та повертається у вихідне положення, коли він зникає. </p> <p> Камера фіксує кожну деталь у <strong>роздільній здатності 4 Мп</strong>. <strong>Динамічне регулювання яскравості</strong> та <strong>інфрачервоне підсвічування до 10 метрів</strong> забезпечують ідеальне зображення за будь-яких умов освітлення. </p> <p> Завдяки <strong>Wi-Fi з двома діапазонами 2,4 та 5 ГГц</strong> потрібно лише підключити камеру до мережі та з’єднати з <strong>EMOS GoSmart</strong> для Android та iOS. Це дозволяє контролювати приміщення будь-коли та будь-де. </p> <p> <strong>Мережеві відеореєстратори (NVR)</strong> записують зображення з IP-камер на жорсткий диск, що дозволяє переглядати та записувати відео в <strong>режимі реального часу</strong>. </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4061" available="true" group_id="72">
+    <offer id="H4061" available="true" group_id="71">
       <article>H4061</article>
       <name><![CDATA[Розумна IP-камера Emos H4061 GoSmart, з Wi-Fi, чорна]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>4129.00</price_rrc>
       <price>3385.8</price>
       <currencyId>грн</currencyId>
@@ -21997,11 +21997,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Камера безпеки IP-110 CUBE </h2> <p> Наша <strong>розумна камера IP-110 CUBE</strong> пропонує <strong>ширококутний об'єктив</strong>, <strong>роздільну здатність 3 Мп</strong> та <strong>нічне бачення</strong>, щоб забезпечити безпеку вашого будинку, квартири чи офісу, навіть коли вас немає. <strong>Сповіщення на мобільний телефон</strong> повідомляють вас про записаний рух, а запис зберігається на <strong>SD-карті або в хмарі</strong>. <strong>Вбудований мікрофон і динамік</strong> дозволяють здійснювати <strong>дистанційне спілкування</strong>, будь то для заспокоєння домашньої тварини чи відлякування непроханих гостей. <strong>Елегантний дизайн</strong>, <strong>компактний розмір</strong> та <strong>гнучке розміщення</strong> роблять її підходящою для будь-якого інтер'єру. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Розширені функції безпеки </h2> <p> <strong>Розумна камера IP-110 CUBE</strong> з функцією <strong>виявлення руху та звуку</strong> надсилає <strong>миттєві сповіщення</strong> на ваш мобільний пристрій про незвичайну активність. </p> <p> Завдяки <strong>інтелектуальному відстеженню руху</strong> ви завжди отримуєте найкращий можливий знімок рухомого об'єкта. Об'єктив камери автоматично обертається за двома осями та оптимально спрямований на рухомий об'єкт. </p> <p> Ви також можете налаштувати <strong>певну зону виявлення руху</strong> та контролювати лише певну частину території. Завдяки <strong>технології WebRTC</strong> усі функції камери, включаючи голосовий та відеозв'язок, доступні через веббраузер. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Ідеальне зображення вдень і вночі </h2> <p> <strong>Розумна камера IP-110 CUBE</strong> фіксує кожну деталь того, що відбувається у вашому домі, з <strong>роздільною здатністю 3 Мп</strong>. Безкомпромісна якість зображення за будь-яких умов освітлення забезпечується <strong>динамічним регулюванням яскравості</strong> та <strong>інфрачервоним підсвічуванням до 10 метрів</strong>. Контрове освітлення чи повна темрява не залишають шансів, і зображення завжди буде ідеальним! </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Приватний режим + панорамування та нахил </h2> <p> <strong>Безшумний обертовий двигун</strong> та основа забезпечують рух об'єктива камери у двох напрямках – на <strong>350° по горизонталі</strong> та на <strong>115° по вертикалі</strong>. Коли камера вимкнена, об'єктив повертається в корпус камери, що запобігає небажаним зображенням. </p> <p> Ви також можете використовувати <strong>розумний приватний режим</strong>, у якому камера автоматично вмикається або вимикається на основі <strong>даних GPS</strong> з вашого мобільного пристрою. Це позбавляє необхідності турбуватися про її активацію, коли ви далеко від дому. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Встановлення </h2> <p> Розумну камеру <strong>IP-110 CUBE</strong> можна розмістити на столі, полиці, шафі або закріпити на стіні чи стелі. Орієнтацію зображення можна легко налаштувати відповідно до місця розташування в застосунку <strong>EMOS GoSmart</strong>. </p> <p> Камера живиться від мережі через <strong>USB-кабель</strong> або від портативного зарядного пристрою. Після підключення до домашньої мережі <strong>Wi-Fi</strong> та сполучення з додатком <strong>EMOS GoSmart</strong> для Android та iOS камера готова до використання. </p> <p> Також підтримується голосове керування за допомогою <strong>Amazon Alexa</strong> та <strong>Google Assistant</strong>. </p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;"> Інтеграція з EMOS GoSmart і TUYA </h2> <p> Створіть свій власний <strong>розумний дім</strong> за допомогою <strong>EMOS GoSmart</strong> та інших розумних пристроїв, сумісних з <strong>TUYA</strong>. Підключіть окремі пристрої, налаштуйте автоматизацію їхньої діяльності та керуйте ними дистанційно за допомогою повністю локалізованого та інтуїтивно зрозумілого мобільного додатку. </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4063" available="true" group_id="72">
+    <offer id="H4063" available="true" group_id="71">
       <article>H4063</article>
       <name><![CDATA[Розумна IP-камера Emos H4063 GoSmart.Li-ion 9600 mAh. зовнішня. з Wi-Fi. біла]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>5339.00</price_rrc>
       <price>4698.3</price>
       <currencyId>грн</currencyId>
@@ -22074,11 +22074,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4065" available="true" group_id="72">
+    <offer id="H4065" available="true" group_id="71">
       <article>H4065</article>
       <name><![CDATA[Розумна IP-камера Emos H4065 GoSmart, зовнішня, поворотна, з Wi-Fi і підсвічуванням, чорна]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>5339.00</price_rrc>
       <price>4698.3</price>
       <currencyId>грн</currencyId>
@@ -22118,11 +22118,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть власний <b>розумний дім</b> з <b>EMOS GoSmart</b> та іншими пристроями <b>TUYA</b>. Підключайте пристрої, налаштовуйте <b>автоматизації</b> та керуйте ними <b>дистанційно</b> через інтуїтивний мобільний застосунок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4030" available="true" group_id="73">
+    <offer id="H4030" available="true" group_id="72">
       <article>H4030</article>
       <name><![CDATA[Розумний бездротовий відеодзвінок EMOS H4030 GoSmar на акумуляторі з Wi-Fi і сонячною панеллю]]></name>
       <brand>EMOS</brand>
-      <categoryId>73</categoryId>
+      <categoryId>72</categoryId>
       <price_rrc>7326.00</price_rrc>
       <price>6446.88</price>
       <currencyId>грн</currencyId>
@@ -22164,11 +22164,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть власний <b>розумний дім</b> з <b>EMOS GoSmart</b> та пристроями <b>TUYA</b>. Підключайте пристрої, налаштовуйте <b>автоматизації</b> та керуйте ними <b>дистанційно</b> через інтуїтивний мобільний застосунок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4031" available="true" group_id="73">
+    <offer id="H4031" available="true" group_id="72">
       <article>H4031</article>
       <name><![CDATA[Розумний бездротовий відеодзвінок Emos H4031 GoSmart з Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>73</categoryId>
+      <categoryId>72</categoryId>
       <price_rrc>7106.00</price_rrc>
       <price>6253.26</price>
       <currencyId>грн</currencyId>
@@ -22208,11 +22208,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть власний <b>розумний дім</b> разом із <b>EMOS GoSmart</b> та пристроями <b>TUYA</b>. Підключайте пристрої, налаштовуйте <b>автоматизації</b> та керуйте ними <b>дистанційно</b> через інтуїтивний мобільний застосунок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4032" available="true" group_id="73">
+    <offer id="H4032" available="true" group_id="72">
       <article>H4032</article>
       <name><![CDATA[Розумний бездротовий відеодзвінок EMOS H4032 GoSmart на акумуляторі з Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>73</categoryId>
+      <categoryId>72</categoryId>
       <price_rrc>5769.00</price_rrc>
       <price>5076.72</price>
       <currencyId>грн</currencyId>
@@ -22249,11 +22249,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть власний <b>розумний дім</b> разом із <b>EMOS GoSmart</b> та іншими пристроями, сумісними з <b>TUYA</b>. Підключайте пристрої, налаштовуйте <b>автоматизації</b> та керуйте ними <b>дистанційно</b> через інтуїтивно зрозумілий мобільний застосунок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4033" available="true" group_id="73">
+    <offer id="H4033" available="true" group_id="72">
       <article>H4033</article>
       <name><![CDATA[Розумний бездротовий відеодзвінок Emos H4033 IP-20PoE, з Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>73</categoryId>
+      <categoryId>72</categoryId>
       <price_rrc>6659.00</price_rrc>
       <price>5859.9</price>
       <currencyId>грн</currencyId>
@@ -22300,11 +22300,11 @@ Smart-керування через мобільний застосунок
 <p><b>Передача даних і живлення</b> здійснюється безпосередньо через кабель Ethernet. Передача даних через <b>Wi-Fi</b> також можлива, але через металевий корпус дальність сигналу обмежена приблизно <b>15–20 м</b> у відкритому просторі.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4034" available="true" group_id="73">
+    <offer id="H4034" available="true" group_id="72">
       <article>H4034</article>
       <name><![CDATA[Розумний бездротовий відеодзвінок Emos H4034 IP-21PoE з Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>73</categoryId>
+      <categoryId>72</categoryId>
       <price_rrc>6966.00</price_rrc>
       <price>6130.08</price>
       <currencyId>грн</currencyId>
@@ -22360,11 +22360,11 @@ Smart-керування через мобільний застосунок
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="C0024" available="false" group_id="74">
+    <offer id="C0024" available="false" group_id="73">
       <article>C0024</article>
       <name><![CDATA[Электронный дверной замок BEFO 1211 (C0024)]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>5736.00</price_rrc>
       <price>5047.68</price>
       <currencyId>грн</currencyId>
@@ -22410,11 +22410,11 @@ Smart-керування через мобільний застосунок
 <p>На першому етапі установки необхідно забезпечити місце для розміщення <b>корпусу електронного замка</b>. Встановіть його у підготовленому отворі дверної коробки та надійно закріпіть замок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="C0025" available="false" group_id="74">
+    <offer id="C0025" available="false" group_id="73">
       <article>C0025</article>
       <name><![CDATA[Электронный дверной замок BEFO 1221 (C0025)]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>5779.00</price_rrc>
       <price>5085.54</price>
       <currencyId>грн</currencyId>
@@ -22456,11 +22456,11 @@ Smart-керування через мобільний застосунок
 <p>На першому етапі установки необхідно забезпечити місце для розміщення <b>корпусу електронного замка</b>. Встановіть його у підготовленому отворі дверної коробки та надійно закріпіть замок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="C0030" available="true" group_id="74">
+    <offer id="C0030" available="true" group_id="73">
       <article>C0030</article>
       <name><![CDATA[Електронний дверний замок C0030 з фіксатором моменту та положенням «відкрити/закрити»]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>1919.00</price_rrc>
       <price>1688.7</price>
       <currencyId>грн</currencyId>
@@ -22484,11 +22484,11 @@ Smart-керування через мобільний застосунок
 <p>Щоб залишити двері постійно відкритими, просто переведіть механічний важіль у положення <b>Unlocked/Locked</b>. Це <b>деактивує замок</b> — постійно відкриваючи його та залишаючи відкритим на будь-який час. Ця опція дуже популярна, наприклад, серед власників магазинів, які хочуть залишити двері відкритими протягом робочого часу та закривати їх під час перерви. Замок у положенні <b>Locked</b> працює знову як стандартний.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H1085" available="false" group_id="74">
+    <offer id="H1085" available="false" group_id="73">
       <article>H1085</article>
       <name><![CDATA[Домашній аудіодомофон H1085, 1 учасник]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>1509.00</price_rrc>
       <price>1327.92</price>
       <currencyId>грн</currencyId>
@@ -22512,11 +22512,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="color:#cc3300;text-align:center;">Простий аудіодомофон для вашого дому</h2> <p><strong>Комплект H1085</strong> — ідеальне рішення для тих, хто цінує <strong>зручність та безпеку</strong>. Простий в установці, він підходить для <strong>одного абонента</strong> та не вимагає складного підключення. Завдяки своїй <strong>інтуїтивній конструкції</strong>, монтаж може виконати практично будь-хто.</p> <h2 style="color:#cc3300;text-align:center;">Контроль доступу та безпека</h2> <p><strong>Аудіодомофон H1085</strong> дозволяє здійснювати <strong>управління дверним замком</strong> та контролювати доступ до вашого дому. Пристрій оснащено <strong>металевою панеллю</strong> та працює від <strong>12 V DC</strong>, що входить до комплекту. Ви отримуєте надійний контроль над відвідувачами та можливість швидко реагувати на їх появу.</p> <h2 style="color:#cc3300;text-align:center;">Зручність у щоденному користуванні</h2> <p>Комплект включає <strong>панель дверей</strong>, <strong>блок живлення</strong> та <strong>телефонну трубку</strong>. Простий виклик і можливість <strong>керування дверним замком</strong> забезпечують максимальний комфорт у щоденному використанні. Пристрій монтується <strong>на стіну</strong> і не вимагає складних налаштувань.</p> <h2 style="color:#cc3300;text-align:center;">Інтелектуальні функції та сумісність</h2> <p>Домофон підтримує підключення <strong>додаткових дзвінків</strong> ZV2 Melody Elektrobock та сумісний із <strong>електронними замками BEFO 1221</strong>. Він також забезпечує <strong>захист від бризок води IP44</strong> та стабільну роботу навіть у складних умовах.</p> <h2 style="color:#cc3300;text-align:center;">Легке підключення та монтаж</h2> <p>Для підключення рекомендується використовувати <strong>кабелі UTP/SYKFY/2×0.5 мм</strong>. Пристрій оснащено <strong>однією мелодією</strong> дзвінка.</p> <h2 style="color:#cc3300;text-align:center;">Ваш дім під контролем</h2> <p>Комплект <strong>H1085</strong> гарантує зручність, безпеку та надійність для вашого дому. Легкий монтаж, інтуїтивне керування та <strong>управління дверним замком</strong> роблять його ідеальним рішенням для сучасного житла.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H1086" available="false" group_id="74">
+    <offer id="H1086" available="false" group_id="73">
       <article>H1086</article>
       <name><![CDATA[Домашній аудіодомофон H1086, 2 учасники]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>2576.00</price_rrc>
       <price>2266.86</price>
       <currencyId>грн</currencyId>
@@ -22545,11 +22545,11 @@ Smart-керування через мобільний застосунок
 <p>Комплект <strong>H1086</strong> гарантує зручне встановлення, надійну роботу та інтуїтивне управління. Це оптимальне рішення для тих, хто цінує безпеку та комфорт разом з простотою в експлуатації.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H3010" available="false" group_id="74">
+    <offer id="H3010" available="false" group_id="73">
       <article>H3010</article>
       <name><![CDATA[Відеодомофон + блок камери EM-10AHD H3010]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>10269.00</price_rrc>
       <price>9036.72</price>
       <currencyId>грн</currencyId>
@@ -22584,11 +22584,11 @@ Smart-керування через мобільний застосунок
 <p>Комплект <strong>EM‑10AHD + H3010</strong> забезпечує зручну систему контролю доступу, яка поєднує в собі <strong>відеоспостереження</strong>, дистанційне керування та простоту експлуатації. Це оптимальне рішення для тих, хто цінує свою безпеку та комфорт.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H3015" available="false" group_id="74">
+    <offer id="H3015" available="false" group_id="73">
       <article>H3015</article>
       <name><![CDATA[Екран відеодомофона EM-10AHD H3015]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>6986.00</price_rrc>
       <price>6147.66</price>
       <currencyId>грн</currencyId>
@@ -22631,11 +22631,11 @@ Smart-керування через мобільний застосунок
 <p>H3015 підтримує підключення до 6 моніторів до однієї зовнішньої камери з функцією внутрішнього інтеркому. Можна додати додаткову дверну камеру або камеру для декількох користувачів, створюючи конфігурацію, що найкраще підходить для вашого дому чи офісу.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H3016" available="false" group_id="74">
+    <offer id="H3016" available="false" group_id="73">
       <article>H3016</article>
       <name><![CDATA[Виклична панель домофону з камерою EM-10AHD RF-1 H3016]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>4109.00</price_rrc>
       <price>3615.9</price>
       <currencyId>грн</currencyId>
@@ -22666,11 +22666,11 @@ Smart-керування через мобільний застосунок
 <p>Якщо простір для встановлення камери не оптимальний, не хвилюйтеся. У комплекті йде монтажний клин, який дозволяє легко змонтувати камеру під кутом та встановити її в зручному положенні.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H3017" available="false" group_id="74">
+    <offer id="H3017" available="false" group_id="73">
       <article>H3017</article>
       <name><![CDATA[Виклична панель домофону з камерою EM-10AHD RF-2 H3017]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>4246.00</price_rrc>
       <price>3736.5</price>
       <currencyId>грн</currencyId>
@@ -22699,11 +22699,11 @@ Smart-керування через мобільний застосунок
 <p>Якщо простір для встановлення камери не оптимальний, у комплекті йде монтажний клин, який дозволяє легко змонтувати камеру під кутом та встановити її в зручному положенні.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H3018" available="false" group_id="74">
+    <offer id="H3018" available="false" group_id="73">
       <article>H3018</article>
       <name><![CDATA[Виклична панель домофону з камерою EM-10AHD RF-4 H3018]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>4959.00</price_rrc>
       <price>4363.92</price>
       <currencyId>грн</currencyId>
@@ -22733,11 +22733,11 @@ Smart-керування через мобільний застосунок
 <p>Якщо простір для встановлення камери не оптимальний, у комплекті йде монтажний клин, який дозволяє легко змонтувати камеру під кутом та встановити її в зручному положенні.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4020" available="false" group_id="74">
+    <offer id="H4020" available="false" group_id="73">
       <article>H4020</article>
       <name><![CDATA[Комплект відеодомофона GoSmart EMOS IP-750A з WiFi H4020]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>14789.00</price_rrc>
       <price>13014.3</price>
       <currencyId>грн</currencyId>
@@ -22781,11 +22781,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть <strong>свій розумний дім</strong> з EMOS GoSmart та іншими сумісними пристроями TUYA. Підключайте окремі пристрої, налаштовуйте автоматизацію їх роботи та керуйте ними віддалено через <strong>інтуїтивний додаток</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4021" available="false" group_id="74">
+    <offer id="H4021" available="false" group_id="73">
       <article>H4021</article>
       <name><![CDATA[Додатковий монітор GoSmart IP-750B для відеодомофона IP-750A H4021]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>10649.00</price_rrc>
       <price>9371.1</price>
       <currencyId>грн</currencyId>
@@ -22822,11 +22822,11 @@ Smart-керування через мобільний застосунок
 <p>Створіть <strong>свій розумний дім</strong> з EMOS GoSmart та іншими сумісними пристроями TUYA. Підключайте окремі пристрої, налаштовуйте автоматизацію їх роботи та керуйте ними віддалено через <strong>інтуїтивний додаток</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5023" available="false" group_id="74">
+    <offer id="H5023" available="false" group_id="73">
       <article>H5023</article>
       <name><![CDATA[Кодова клавіатура GoSmart - IP-006AX, WiFi H5023]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>4929.00</price_rrc>
       <price>4337.52</price>
       <currencyId>грн</currencyId>
@@ -22867,11 +22867,11 @@ Smart-керування через мобільний застосунок
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H7007" available="false" group_id="74">
+    <offer id="H7007" available="false" group_id="73">
       <article>H7007</article>
       <name><![CDATA[Блок живлення для відеодомофона EM-10AHD H7007]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>616.00</price_rrc>
       <price>505.14</price>
       <currencyId>грн</currencyId>
@@ -22884,11 +22884,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<p><strong>Блок живлення H7007</strong> забезпечує стабільну та безперебійну роботу відеодомофона <strong>h2010</strong> та сумісних моделей серії EMOS GoSmart. Він живить LCD‑монітор, зовнішню камеру та електронний замок без використання батарей. Компактний та надійний, блок живлення легко підключається до мережі 220 V і гарантує довговічну експлуатацію навіть при інтенсивному використанні.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H7009" available="false" group_id="74">
+    <offer id="H7009" available="false" group_id="73">
       <article>H7009</article>
       <name><![CDATA[Блок живлення 12 В/5 А постійного струму DIN H7009]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>1289.00</price_rrc>
       <price>1056.96</price>
       <currencyId>грн</currencyId>
@@ -22904,11 +22904,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<p><strong>Блок живлення 12 V 5 A DC DIN</strong> забезпечує стабільне та надійне живлення для відеодомофонів, камер, моніторів та інших пристроїв розумного дому, що потребують напруги 12 V. Він легко монтується на DIN‑рейку, має захист від перенавантажень і забезпечує якісну роботу обладнання без стрибків напруги. Компактний та міцний, цей блок живлення ідеально підходить для стаціонарних систем безпеки та відеоспостереження.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H8013" available="false" group_id="74">
+    <offer id="H8013" available="false" group_id="73">
       <article>H8013</article>
       <name><![CDATA[Брелок RFID H8013]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>66.00</price_rrc>
       <price>54.12</price>
       <currencyId>грн</currencyId>
@@ -22921,11 +22921,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<p><strong>RFID брелок</strong> — зручний аксесуар для систем контролю доступу, що працюють з RFID‑технологією. Він дозволяє швидко та безконтактно відкривати двері, ворота або інші пристрої з підтримкою RFID, просто піднісши брелок до зчитувача. Компактний, легкий та надійний, цей брелок ідеально підходить для використання з розумними клавіатурами, відеодомофонами та іншими сумісними пристроями EMOS GoSmart.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H1087" available="true" group_id="74">
+    <offer id="H1087" available="true" group_id="73">
       <article>H1087</article>
       <name><![CDATA[Бездротовий комплект аудіодомофона Emos H1087 з керуванням замком дверей]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>2739.00</price_rrc>
       <price>2410.32</price>
       <currencyId>грн</currencyId>
@@ -22960,11 +22960,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Аудіофон з легким встановленням та надійною роботою</font></font></font></font></h2> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Насолоджуйтесь&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">зручним зв&#39;язком</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;та&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">можливістю дистанційно відкривати двері чи ворота</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;&ndash; просто підключіть модуль до електронного замка (замок не входить до комплекту). Модуль також містить&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">практичну кнопку виходу</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">.&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Водонепроникний зовнішній блок</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;має&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">радіус дії до 150 м</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">, тому ви завжди можете на нього покластися. Крім того, систему можна&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">розширити,</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;додавши 1 зовнішній та 2 внутрішні блоки.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Як внутрішній, так і зовнішній блоки&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">живляться від акумуляторної батареї</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;ємністю 2000 мАг (2 блоки в комплекті). Є індикатор низького заряду батареї та зручний зарядний кабель USB-C, який також входить до комплекту. Встановлення максимально просте &ndash; просто підключіть його та почніть користуватися.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/3010000293_E42-H1087_HOR.JPG" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="569" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_140607956.jpg" width="1250" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="252" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_141048273%281%29.jpg" width="1250" /></p> <h2 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Зручне сполучення по всьому будинку</font></font></font></font></h2> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Аудіотелефонні блоки зв&#39;язуються один з одним&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">на надійній частоті&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">433 МГц</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;і працюють на відстані до&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">150 м</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">, що робить їх придатними для великих будинків або садів. Ви можете&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">гнучко розширити</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;весь комплект, додавши до 2 внутрішніх блоків та 1 зовнішнього блоку, щоб налаштувати систему для кожного будинку.</font></font></font></font></strong></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="506" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_141539578.jpg" width="1250" /></p> <h2 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Дистанційний модуль</font></font></font></font></h2> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Модуль</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">, що входить до складу нашого комплекту аудіодомофону,&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">підключається</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;до електронного замка, наприклад, моделі C0030, який ви можете знайти на нашому сайті, щоб ви могли&nbsp;</font></font><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">зручно&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">відчиняти двері&nbsp;</font></font></font></font></strong><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">дистанційно</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">. Модуль також містить&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">кнопку виходу</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">, яка дозволяє легко&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">відімкнути ворота</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;або двері,&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">коли ви виходите.</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;&nbsp;Завдяки цьому комплекту аудіодомофону контроль входу до вашого будинку буде&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">швидким, безпечним та зручним</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="569" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_150342068.jpg" width="1250" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="759" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_153029119.jpg" width="1250" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; color: rgb(0, 0, 0); font-family: "Roboto Condensed", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Щойно&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder; color:#000000; font-family:"Roboto Condensed", sans-serif; font-size:14px; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-align:justify; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">акумулятор потрібно буде зарядити</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; color: rgb(0, 0, 0); font-family: "Roboto Condensed", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">,&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder; color:#000000; font-family:"Roboto Condensed", sans-serif; font-size:14px; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-align:justify; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">світловий індикатор</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; color: rgb(0, 0, 0); font-family: "Roboto Condensed", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;на внутрішньому та зовнішньому блоці почне повільно блимати. Таким чином, ви завжди точно знатимете, коли потрібно зарядити його &mdash; жодних неприємних сюрпризів, лише надійна та готова до використання система.</font></font></font></font></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="569" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_205350242.jpg" width="1250" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img alt="" height="1250" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260123_213813600.jpg" width="1250" /></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px">&nbsp;</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5760N" available="false" group_id="75">
+    <offer id="P5760N" available="false" group_id="74">
       <article>P5760N</article>
       <name><![CDATA[Бездротовий дверний дзвінок P5760N, живлення від мережі, необмежений радіус дії]]></name>
       <brand>EMOS</brand>
-      <categoryId>75</categoryId>
+      <categoryId>74</categoryId>
       <price_rrc>1559.00</price_rrc>
       <price>1278.36</price>
       <currencyId>грн</currencyId>
@@ -22999,11 +22999,11 @@ Smart-керування через мобільний застосунок
 <p>Кнопка дзвінка працює від батарей та має <strong>захист IP44</strong>, тому витримує несприятливі погодні умови. <strong>Бездротовий зв’язок</strong> на частоті 433 МГц забезпечує стабільне з’єднання на відстані до 180 метрів без прокладання кабелів.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57103" available="true" group_id="76">
+    <offer id="P57103" available="true" group_id="75">
       <article>P57103</article>
       <name><![CDATA[Дротовий/бездротовий дверний дзвінок EMOS P57103 вбудований]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1026.00</price_rrc>
       <price>841.32</price>
       <currencyId>грн</currencyId>
@@ -23038,11 +23038,11 @@ Smart-керування через мобільний застосунок
 <p>Цей дзвінок підходить для використання в приватних будинках, квартирах, комерційних приміщеннях, офісах та інших об’єктах, де необхідно забезпечити зручний та надійний спосіб сповіщення про відвідувачів.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5727" available="true" group_id="76">
+    <offer id="P5727" available="true" group_id="75">
       <article>P5727</article>
       <name><![CDATA[Дзвінок дверний бездротовий EMOS чорний P5727]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>929.00</price_rrc>
       <price>761.76</price>
       <currencyId>грн</currencyId>
@@ -23067,11 +23067,11 @@ Smart-керування через мобільний застосунок
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5728" available="true" group_id="76">
+    <offer id="P5728" available="true" group_id="75">
       <article>P5728</article>
       <name><![CDATA[Дзвінок дверний безпровідний P5728 EMOS]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>839.00</price_rrc>
       <price>687.96</price>
       <currencyId>грн</currencyId>
@@ -23101,11 +23101,11 @@ Smart-керування через мобільний застосунок
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5729" available="true" group_id="76">
+    <offer id="P5729" available="true" group_id="75">
       <article>P5729</article>
       <name><![CDATA[Дзвінок дверний бездротовий EMOS P5729, біл.]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1219.00</price_rrc>
       <price>999.6</price>
       <currencyId>грн</currencyId>
@@ -23135,11 +23135,11 @@ Smart-керування через мобільний застосунок
 Автоматичне парування завдяки режиму «самоналаштування» забезпечує швидке встановлення. Протягом 25 секунд після підключення дзвінка до розетки кнопка та дзвінок дізнаються один про одного. Відразу після парування ви отримуєте справді виняткову дальність до 180 метрів, яка забезпечується радіозв'язком. І це без батарейок, оскільки енергія передачі сигналу формується одним натисканням кнопки. Ще одна чудова функція бездротового дзвінка P5729 — довготривала пам'ять, яка забезпечує безперебійну роботу навіть після вимкнення електроенергії.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5729B" available="false" group_id="76">
+    <offer id="P5729B" available="false" group_id="75">
       <article>P5729B</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5729B]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1149.00</price_rrc>
       <price>942.18</price>
       <currencyId>грн</currencyId>
@@ -23188,11 +23188,11 @@ Smart-керування через мобільний застосунок
 <p>Сучасний дверний дзвінок EMOS в елегантному чорному корпусі має закруглені форми та оснащений двома світлодіодами, що сигналізують про бездоганну роботу. Світлодіод на кнопці червоного кольору, а на дзвінку &ndash; синього. Дві частини комплекту зв&#39;язуються по радіоканалу 433,92 МГц.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5730" available="true" group_id="76">
+    <offer id="P5730" available="true" group_id="75">
       <article>P5730</article>
       <name><![CDATA[Бездротовий дзвінок EMOS P5730 180м AAA]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1179.00</price_rrc>
       <price>966.78</price>
       <currencyId>грн</currencyId>
@@ -23235,11 +23235,11 @@ Smart-керування через мобільний застосунок
 <p>Дзвінок має сучасний дизайн чорного кольору з округлими формами. Світлодіод на кнопці червоний, а на приймачі &ndash; синій. Комплект забезпечує зручне, надійне та естетичне рішення для будь-якого інтер&rsquo;єру.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5731" available="true" group_id="76">
+    <offer id="P5731" available="true" group_id="75">
       <article>P5731</article>
       <name><![CDATA[Бездротовий дзвінок EMOS P5731 180м 220V]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1699.00</price_rrc>
       <price>1393.2</price>
       <currencyId>грн</currencyId>
@@ -23286,11 +23286,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5733G" available="true" group_id="76">
+    <offer id="P5733G" available="true" group_id="75">
       <article>P5733G</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5733G]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>889.00</price_rrc>
       <price>729</price>
       <currencyId>грн</currencyId>
@@ -23331,11 +23331,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5733S" available="true" group_id="76">
+    <offer id="P5733S" available="true" group_id="75">
       <article>P5733S</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5733S]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>889.00</price_rrc>
       <price>729</price>
       <currencyId>грн</currencyId>
@@ -23376,11 +23376,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5733W" available="true" group_id="76">
+    <offer id="P5733W" available="true" group_id="75">
       <article>P5733W</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5733W]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>949.00</price_rrc>
       <price>778.2</price>
       <currencyId>грн</currencyId>
@@ -23427,11 +23427,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5734" available="true" group_id="76">
+    <offer id="P5734" available="true" group_id="75">
       <article>P5734</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5734]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>949.00</price_rrc>
       <price>778.2</price>
       <currencyId>грн</currencyId>
@@ -23475,11 +23475,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5734B" available="false" group_id="76">
+    <offer id="P5734B" available="false" group_id="75">
       <article>P5734B</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5734B]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>999.00</price_rrc>
       <price>819.18</price>
       <currencyId>грн</currencyId>
@@ -23523,11 +23523,11 @@ Smart-керування через мобільний застосунок
 <p>Якщо вас дратують довгі мелодії, вам сподобається, що <strong>EMOS P5734</strong> пропонує <strong>10 коротких мелодій</strong>. Дзвінок може відтворювати мелодію з <strong>інтенсивністю до 85 дБ</strong>, а <strong>гучність легко регулювати</strong> за бажанням.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5735SS" available="true" group_id="76">
+    <offer id="P5735SS" available="true" group_id="75">
       <article>P5735SS</article>
       <name><![CDATA[Розумний бездротовий дверний дзвінок EMOS P5735SS WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1226.00</price_rrc>
       <price>1005.3</price>
       <currencyId>грн</currencyId>
@@ -23573,11 +23573,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5735WS" available="true" group_id="76">
+    <offer id="P5735WS" available="true" group_id="75">
       <article>P5735WS</article>
       <name><![CDATA[Розумний бездротовий дверний дзвінок EMOS P5735WS WIFI]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1209.00</price_rrc>
       <price>991.38</price>
       <currencyId>грн</currencyId>
@@ -23628,11 +23628,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5750" available="false" group_id="76">
+    <offer id="P5750" available="false" group_id="75">
       <article>P5750</article>
       <name><![CDATA[Бездротовий дверний дзвінок P5750]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1159.00</price_rrc>
       <price>950.4</price>
       <currencyId>грн</currencyId>
@@ -23689,11 +23689,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5750.2R" available="false" group_id="76">
+    <offer id="P5750.2R" available="false" group_id="75">
       <article>P5750.2R</article>
       <name><![CDATA[Бездротовий дверний дзвінок P5750.2R]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1926.00</price_rrc>
       <price>1579.32</price>
       <currencyId>грн</currencyId>
@@ -23751,11 +23751,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5750.2T" available="false" group_id="76">
+    <offer id="P5750.2T" available="false" group_id="75">
       <article>P5750.2T</article>
       <name><![CDATA[Бездротовий дверний дзвінок P5750.2T]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1696.00</price_rrc>
       <price>1384.98</price>
       <currencyId>грн</currencyId>
@@ -23807,11 +23807,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5763N" available="false" group_id="76">
+    <offer id="P5763N" available="false" group_id="75">
       <article>P5763N</article>
       <name><![CDATA[Бездротовий дверний дзвінок P5763N, живлення від 3× AA, необмежений радіус дії]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>1076.00</price_rrc>
       <price>882.3</price>
       <currencyId>грн</currencyId>
@@ -23854,11 +23854,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5763R" available="true" group_id="76">
+    <offer id="P5763R" available="true" group_id="75">
       <article>P5763R</article>
       <name><![CDATA[Бездротовий повторювач для дзвінка EMOS P5763R 120 м]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>759.00</price_rrc>
       <price>622.38</price>
       <currencyId>грн</currencyId>
@@ -23896,11 +23896,11 @@ Smart-керування через мобільний застосунок
 <p>EMOS P5763R &mdash; це практичне рішення для розширення покриття бездротового дзвінка, яке забезпечує надійний сигнал, зручне налаштування та гнучкість у створенні багатоточкової системи виклику.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5763RN" available="false" group_id="76">
+    <offer id="P5763RN" available="false" group_id="75">
       <article>P5763RN</article>
       <name><![CDATA[Бездротовий повторювач EMOS P5763RN 180 м для дзвінків P5760N/P5763N]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>779.00</price_rrc>
       <price>636.3</price>
       <currencyId>грн</currencyId>
@@ -23940,11 +23940,11 @@ Smart-керування через мобільний застосунок
 <p>Забудьте про класичні дзвінки з обмеженим радіусом дії. Завдяки <strong>інтелектуальній технології ретранслятора</strong> кожен додатковий приймач <strong>P5763RN</strong> стає <strong>підсилювачем сигналу</strong>. Ви можете довільно розширювати покриття, додавати дзвінки до різних частин будинку або саду та створювати <strong>єдиний звуковий простір без обмежень</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5727T" available="true" group_id="77">
+    <offer id="P5727T" available="true" group_id="76">
       <article>P5727T</article>
       <name><![CDATA[Кнопка для дзвінка EMOS P5727T 150м IP44 1×CR2032]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>436.00</price_rrc>
       <price>357.54</price>
       <currencyId>грн</currencyId>
@@ -23967,11 +23967,11 @@ Smart-керування через мобільний застосунок
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5728T" available="true" group_id="77">
+    <offer id="P5728T" available="true" group_id="76">
       <article>P5728T</article>
       <name><![CDATA[Кнопка для дзвінка EMOS P5728T 180м IP56 1×A23]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>366.00</price_rrc>
       <price>294.36</price>
       <currencyId>грн</currencyId>
@@ -23994,11 +23994,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="color:#d40000; text-align:center;">Запасна кнопка для бездротового дзвінка EMOS P5728</h2> <p> Запасна кнопка <strong>EMOS P5728</strong> — практичне рішення для розширення системи бездротового дзвінка або заміни наявної кнопки. Вона легко підключається до сумісних дзвінків завдяки автоматичному сполученню (режим самонавчання), що дозволяє швидко підготувати систему до роботи без складного налаштування. </p> <p> Бездротова передача сигналу на частоті <strong>433 МГц</strong> забезпечує стабільну роботу та надійний зв’язок на відстані до <strong>180 метрів</strong> у відкритому просторі. Завдяки ступеню захисту <strong>IP56</strong> кнопка добре захищена від пилу та бризок води, що робить її придатною для встановлення на вулиці. </p> <p> Кнопка живиться від батарейки <strong>12 В типу A23</strong> (входить у комплект), що гарантує тривалу автономну роботу без частого обслуговування. Компактний корпус дозволяє встановити її біля хвіртки, дверей, воріт або в будь-якому іншому зручному місці. </p> <p> Додайте ще одну кнопку до вашого дзвінка EMOS і забезпечте комфортний виклик із різних входів — швидко, просто та без прокладання кабелів. </p> <p> <strong>Основні особливості:</strong> автоматичне сполучення, бездротова передача 433 МГц, дальність до 180 м, живлення 1× A23 (у комплекті), захист IP56, сумісність із дзвінками серій P5728 та P5730. </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5729T" available="true" group_id="77">
+    <offer id="P5729T" available="true" group_id="76">
       <article>P5729T</article>
       <name><![CDATA[Кнопка для дзвінка EMOS P5729T 180м IP44 220V]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>519.00</price_rrc>
       <price>425.58</price>
       <currencyId>грн</currencyId>
@@ -24032,11 +24032,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5734T" available="false" group_id="77">
+    <offer id="P5734T" available="false" group_id="76">
       <article>P5734T</article>
       <name><![CDATA[Запасна кнопка для бездротового дверного дзвінка P5734, P5734B P5734T]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>466.00</price_rrc>
       <price>382.14</price>
       <currencyId>грн</currencyId>
@@ -24059,11 +24059,11 @@ Smart-керування через мобільний застосунок
       <description><![CDATA[<h2 style="color:#cc3300; text-align:center;">Запасна кнопка для бездротових дзвінків EMOS P5734T</h2> <p><strong>Запасна кнопка EMOS P5734T</strong> — практичне та надійне рішення для заміни вашої кнопки або розширення системи бездротового дзвінка. Вона сумісна з моделями <strong>P5734, P5734B, P5735SS</strong> та <strong>P5735WS</strong>, що дозволяє легко інтегрувати її в існуючу систему.</p> <p>Кнопка працює на частоті <strong>433 МГц</strong> із функцією автоматичного сполучення <strong>самонавчання</strong>. Живлення забезпечується однією батарейкою <strong>12 В типу A23</strong> (у комплекті), тому немає потреби прокладати дроти або використовувати додаткові адаптери.</p> <p>Міцний корпус та компактні розміри дозволяють розмістити кнопку біля хвіртки, на веранді або передньому вході. Вона легко інтегрується в стиль вашого дому чи офісу і забезпечує стабільну роботу бездротового дзвінка.</p> <p>EMOS P5734T підходить як для заміни старої кнопки, так і для додавання нових точок виклику в межах однієї системи. Це дозволяє забезпечити виклик з декількох входів або зон на вашій ділянці, не обмежуючись однією кнопкою.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5750T" available="false" group_id="77">
+    <offer id="P5750T" available="false" group_id="76">
       <article>P5750T</article>
       <name><![CDATA[Замінна кнопка для бездротового дверного дзвінка P5750 P5750T]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>509.00</price_rrc>
       <price>417.36</price>
       <currencyId>грн</currencyId>
@@ -24113,11 +24113,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5760T" available="false" group_id="77">
+    <offer id="P5760T" available="false" group_id="76">
       <article>P5760T</article>
       <name><![CDATA[Кнопка для дзвінка EMOS P5760T 120м IP44 1×CR2032]]></name>
       <brand>EMOS</brand>
-      <categoryId>77</categoryId>
+      <categoryId>76</categoryId>
       <price_rrc>459.00</price_rrc>
       <price>373.92</price>
       <currencyId>грн</currencyId>
@@ -24147,11 +24147,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57000T" available="true" group_id="78">
+    <offer id="P57000T" available="true" group_id="77">
       <article>P57000T</article>
       <name><![CDATA[Кнопка для дротових дверних дзвінків EMOS P57000T, 8/12/24 V]]></name>
       <brand>EMOS</brand>
-      <categoryId>78</categoryId>
+      <categoryId>77</categoryId>
       <price_rrc>139.00</price_rrc>
       <price>114</price>
       <currencyId>грн</currencyId>
@@ -24185,11 +24185,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="760" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-05-04-001755.jpg" width="778" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57001" available="false" group_id="78">
+    <offer id="P57001" available="false" group_id="77">
       <article>P57001</article>
       <name><![CDATA[Дротовий дверний дзвінок EMOS P57001]]></name>
       <brand>EMOS</brand>
-      <categoryId>78</categoryId>
+      <categoryId>77</categoryId>
       <price_rrc>509.00</price_rrc>
       <price>417.36</price>
       <currencyId>грн</currencyId>
@@ -24222,11 +24222,11 @@ Smart-керування через мобільний застосунок
 <p>Класичний дротовий дзвінок &ndash; просте рішення для всіх звичайних користувачів. Одна яскрава мелодія з гучністю <strong>85 дБ</strong> зробить весь будинок чудово чути. Без будь-яких тривалих налаштувань дзвінок підключається безпосередньо до мережі <strong>230 В</strong>, і на відміну від батарейних дзвінків, вам не потрібно більше ні про що турбуватися.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57002" available="true" group_id="78">
+    <offer id="P57002" available="true" group_id="77">
       <article>P57002</article>
       <name><![CDATA[Дротовий дверний дзвінок EMOS P57002]]></name>
       <brand>EMOS</brand>
-      <categoryId>78</categoryId>
+      <categoryId>77</categoryId>
       <price_rrc>639.00</price_rrc>
       <price>523.98</price>
       <currencyId>грн</currencyId>
@@ -24256,11 +24256,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57101" available="true" group_id="78">
+    <offer id="P57101" available="true" group_id="77">
       <article>P57101</article>
       <name><![CDATA[Дротовий дверний дзвінок P57101]]></name>
       <brand>EMOS</brand>
-      <categoryId>78</categoryId>
+      <categoryId>77</categoryId>
       <price_rrc>516.00</price_rrc>
       <price>423.12</price>
       <currencyId>грн</currencyId>
@@ -24313,11 +24313,11 @@ Smart-керування через мобільний застосунок
 <p>Ми подбали про природу при виготовленні упаковки! Продукт постачається у повністю екологічній упаковці без пластику, що зберігає навколишнє середовище. EMOS підтверджує свою прихильність до сталого розвитку та відповідального підходу до планети.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57102" available="true" group_id="78">
+    <offer id="P57102" available="true" group_id="77">
       <article>P57102</article>
       <name><![CDATA[Дротовий дверний дзвінок P57102]]></name>
       <brand>EMOS</brand>
-      <categoryId>78</categoryId>
+      <categoryId>77</categoryId>
       <price_rrc>589.00</price_rrc>
       <price>480.54</price>
       <currencyId>грн</currencyId>
@@ -24368,11 +24368,11 @@ Smart-керування через мобільний застосунок
 <p>Ми подбали про природу при виготовленні упаковки! Продукт постачається у повністю екологічній упаковці без пластику, що зберігає навколишнє середовище. EMOS підтверджує свою прихильність до сталого розвитку та відповідального підходу до планети.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5011" available="true" group_id="79">
+    <offer id="H5011" available="true" group_id="78">
       <article>H5011</article>
       <name><![CDATA[Розумний вимикач EMOS H5011 1 кнопка, ZigBee 3.0, білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1416.00</price_rrc>
       <price>1161.12</price>
       <currencyId>грн</currencyId>
@@ -24429,11 +24429,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5012" available="true" group_id="79">
+    <offer id="H5012" available="true" group_id="78">
       <article>H5012</article>
       <name><![CDATA[Розумний вимикач EMOS H5012 GoSmart 2 кнопки, білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1469.00</price_rrc>
       <price>1204.56</price>
       <currencyId>грн</currencyId>
@@ -24498,11 +24498,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/3069050120_p06-h5012.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5014" available="true" group_id="79">
+    <offer id="H5014" available="true" group_id="78">
       <article>H5014</article>
       <name><![CDATA[Розумний вимикач EMOS H5014 GoSmart 1 кнопка, чорний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1416.00</price_rrc>
       <price>1161.12</price>
       <currencyId>грн</currencyId>
@@ -24567,11 +24567,11 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/3069050140_p06-h5014.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5015" available="true" group_id="79">
+    <offer id="H5015" available="true" group_id="78">
       <article>H5015</article>
       <name><![CDATA[Розумний вимикач EMOS H5015 2 кнопки, ZigBee 3.0, чорний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1469.00</price_rrc>
       <price>1204.56</price>
       <currencyId>грн</currencyId>
@@ -24625,11 +24625,11 @@ Smart-керування через мобільний застосунок
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5016" available="true" group_id="79">
+    <offer id="H5016" available="true" group_id="78">
       <article>H5016</article>
       <name><![CDATA[Розумний вимикач EMOS H5016 4 кнопки, ZigBee 3.0, чорний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1556.00</price_rrc>
       <price>1275.9</price>
       <currencyId>грн</currencyId>
@@ -24659,11 +24659,11 @@ Enter a safer and more energy efficient future with our compact and versatile sm
 Our motion sensor is the ideal choice for any home or office. Powered by a CR123A battery with a long battery life, you don't have to worry about frequent replacement. The sensor is compact and its energy-efficient operation ensures efficient use of energy. Mounting is quick and easy thanks to the included 3M adhesive tape and internal magnet, allowing flexible placement to suit your needs. Connect the Sensor to a ZigBee gateway and pair it with the EMOS GoSmart mobile app, available for both Android and iOS. Then, use the app to set up and control the sensor exactly as you need it. Set automation, control voice assistants, track motion recordings and pair with other smart devices. GoSmart motion sensor can be used according to your needs. Place it next to a staircase and when motion is detected, it automatically turns on the LED lighting in its area. Or connect it to a siren and let unwelcome visitors know immediately that they have violated your privacy.]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5020" available="true" group_id="79">
+    <offer id="H5020" available="true" group_id="78">
       <article>H5020</article>
       <name><![CDATA[Розумний датчик руху EMOS H5020 PIR IP20, ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1749.00</price_rrc>
       <price>1434.18</price>
       <currencyId>грн</currencyId>
@@ -24710,11 +24710,11 @@ Our motion sensor is the ideal choice for any home or office. Powered by a CR123
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5022" available="true" group_id="79">
+    <offer id="H5022" available="true" group_id="78">
       <article>H5022</article>
       <name><![CDATA[Повторювач підсилення сигналу ZigBee Emos H5022]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1169.00</price_rrc>
       <price>958.56</price>
       <currencyId>грн</currencyId>
@@ -24756,11 +24756,11 @@ ZigBee – це стандартизована технологія, що озн
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5103" available="true" group_id="79">
+    <offer id="H5103" available="true" group_id="78">
       <article>H5103</article>
       <name><![CDATA[Розумний модуль перемикача EMOS H5103, ZigBee 3.0, 1-канальний не потребує N-проводу]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>979.00</price_rrc>
       <price>802.8</price>
       <currencyId>грн</currencyId>
@@ -24811,11 +24811,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5104" available="true" group_id="79">
+    <offer id="H5104" available="true" group_id="78">
       <article>H5104</article>
       <name><![CDATA[Розумний модуль перемикача EMOS H5104, ZigBee 3.0, 2-канальний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1206.00</price_rrc>
       <price>988.92</price>
       <currencyId>грн</currencyId>
@@ -24866,11 +24866,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5107" available="true" group_id="79">
+    <offer id="H5107" available="true" group_id="78">
       <article>H5107</article>
       <name><![CDATA[Розумний модуль регулювання яскравості EMOS H5107, ZigBee 3.0, 1-канальний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1269.00</price_rrc>
       <price>1040.58</price>
       <currencyId>грн</currencyId>
@@ -24927,11 +24927,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5108" available="true" group_id="79">
+    <offer id="H5108" available="true" group_id="78">
       <article>H5108</article>
       <name><![CDATA[Розумний модуль регулювання яскравості EMOS H5108, ZigBee 3.0, 2-канальний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1699.00</price_rrc>
       <price>1393.2</price>
       <currencyId>грн</currencyId>
@@ -24987,11 +24987,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5109" available="true" group_id="79">
+    <offer id="H5109" available="true" group_id="78">
       <article>H5109</article>
       <name><![CDATA[Розумний модуль двигуна EMOS H5109, ZigBee 3.0, 1-канальний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1269.00</price_rrc>
       <price>1040.58</price>
       <currencyId>грн</currencyId>
@@ -25045,11 +25045,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5110" available="true" group_id="79">
+    <offer id="H5110" available="true" group_id="78">
       <article>H5110</article>
       <name><![CDATA[Розумний модуль двигуна EMOS H5110, ZigBee 3.0, 2-канальний]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1789.00</price_rrc>
       <price>1464.54</price>
       <currencyId>грн</currencyId>
@@ -25102,11 +25102,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5111" available="true" group_id="79">
+    <offer id="H5111" available="true" group_id="78">
       <article>H5111</article>
       <name><![CDATA[Розумний модуль для управління гаражними воротами EMOS H5111 WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1529.00</price_rrc>
       <price>1253.76</price>
       <currencyId>грн</currencyId>
@@ -25162,11 +25162,11 @@ ZigBee – це стандартизована технологія, що озн
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H1088" available="true" group_id="74">
+    <offer id="H1088" available="true" group_id="73">
       <article>H1088</article>
       <name><![CDATA[Бездротовий аудіодомофон Emos H1088 з керуванням замком дверей]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>3289.00</price_rrc>
       <price>2894.34</price>
       <currencyId>грн</currencyId>
@@ -25231,11 +25231,11 @@ ZigBee – це стандартизована технологія, що озн
 <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px">&nbsp;</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4062" available="true" group_id="72">
+    <offer id="H4062" available="true" group_id="71">
       <article>H4062</article>
       <name><![CDATA[Розумна IP-камера Emos H4062 GoSmart внутрішня поворотна Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>2576.00</price_rrc>
       <price>2112.3</price>
       <currencyId>грн</currencyId>
@@ -25273,11 +25273,11 @@ ZigBee – це стандартизована технологія, що озн
       <description><![CDATA[[NO IMPORT] - содержит больше 32767 символов. Во избежание потери данных, не меняйте значение этого поля]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5736" available="true" group_id="76">
+    <offer id="P5736" available="true" group_id="75">
       <article>P5736</article>
       <name><![CDATA[Бездротовий дверний дзвінок Emos P5736 3xAA]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>559.00</price_rrc>
       <price>458.4</price>
       <currencyId>грн</currencyId>
@@ -25353,11 +25353,11 @@ ZigBee – це стандартизована технологія, що озн
 <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span condensed="" roboto="" style="font-family:"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><img alt="" height="569" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260319_163411250.jpg" width="1250" /></font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5737" available="true" group_id="76">
+    <offer id="P5737" available="true" group_id="75">
       <article>P5737</article>
       <name><![CDATA[Бездротовий дверний дзвінок Emos P5737 230 V]]></name>
       <brand>EMOS</brand>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>679.00</price_rrc>
       <price>556.8</price>
       <currencyId>грн</currencyId>
@@ -25428,11 +25428,11 @@ ZigBee – це стандартизована технологія, що озн
 <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing:border-box; -webkit-font-smoothing:antialiased; vertical-align:inherit"><font dir="auto"><font style="box-sizing:border-box; -webkit-font-smoothing:antialiased; vertical-align:inherit"><img alt="" height="569" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260319_163411250.jpg" width="1250" /></font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5002" available="true" group_id="79">
+    <offer id="H5002" available="true" group_id="78">
       <article>H5002</article>
       <name><![CDATA[Багатофункціональний шлюз ZigBee EMOS H5002 GoSmart з Bluetooth та WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1719.00</price_rrc>
       <price>1409.58</price>
       <currencyId>грн</currencyId>
@@ -25489,11 +25489,11 @@ ZigBee – це стандартизована технологія, що озн
 <p><img height="757" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-04-28-103451.jpg" width="801" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5024" available="true" group_id="79">
+    <offer id="H5024" available="true" group_id="78">
       <article>H5024</article>
       <name><![CDATA[Розумний бездротовий датчик руху EMOS H5024 GoSmart PIR IP20 ZigBee 3.0]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1036.00</price_rrc>
       <price>849.54</price>
       <currencyId>грн</currencyId>
@@ -25518,11 +25518,11 @@ ZigBee – це стандартизована технологія, що озн
       <description><![CDATA[[NO IMPORT] - содержит больше 32767 символов. Во избежание потери данных, не меняйте значение этого поля]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5025" available="true" group_id="79">
+    <offer id="H5025" available="true" group_id="78">
       <article>H5025</article>
       <name><![CDATA[Розумний бездротовий датчик дверей EMOS H5025 GoSmart ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>639.00</price_rrc>
       <price>523.98</price>
       <currencyId>грн</currencyId>
@@ -25550,11 +25550,11 @@ ZigBee – це стандартизована технологія, що озн
       <description><![CDATA[[NO IMPORT] - содержит больше 32767 символов. Во избежание потери данных, не меняйте значение этого поля]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4073" available="true" group_id="72">
+    <offer id="H4073" available="true" group_id="71">
       <article>H4073</article>
       <name><![CDATA[Розумна IP-камера Emos H4073 GoSmart, зовнішня, з Wi-Fi, сонячною панеллю та акумулятором]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>4136.00</price_rrc>
       <price>3391.5</price>
       <currencyId>грн</currencyId>
@@ -25599,11 +25599,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4067" available="true" group_id="72">
+    <offer id="H4067" available="true" group_id="71">
       <article>H4067</article>
       <name><![CDATA[Розумна IP-камера Emos H4067 GoSmart, зовнішня, з Wi-Fi, сонячною панеллю та акумулятором]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>5026.00</price_rrc>
       <price>4422.9</price>
       <currencyId>грн</currencyId>
@@ -25651,11 +25651,11 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H4074" available="true" group_id="72">
+    <offer id="H4074" available="true" group_id="71">
       <article>H4074</article>
       <name><![CDATA[Розумна IP-камера Emos H4074 GoSmart, зовнішня, поворотна, з Wi-Fi і підсвічуванням, чорна]]></name>
       <brand>EMOS</brand>
-      <categoryId>72</categoryId>
+      <categoryId>71</categoryId>
       <price_rrc>7799.00</price_rrc>
       <price>6395.16</price>
       <currencyId>грн</currencyId>
@@ -25703,10 +25703,10 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5727N" available="false" group_id="76">
+    <offer id="P5727N" available="false" group_id="75">
       <article>P5727N</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5727N 220В]]></name>
-      <categoryId>76</categoryId>
+      <categoryId>75</categoryId>
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
@@ -25763,11 +25763,11 @@ ZigBee – це стандартизована технологія, що озн
 <p><img alt="" height="1254" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/chatgpt-image-26-cherv.-2026-r.-15_50_28%281%29.png" width="1254" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H2060" available="false" group_id="74">
+    <offer id="H2060" available="false" group_id="73">
       <article>H2060</article>
       <name><![CDATA[Відеодомофон EMOS H2060 комплект]]></name>
       <brand>EMOS</brand>
-      <categoryId>74</categoryId>
+      <categoryId>73</categoryId>
       <price_rrc>6409.00</price_rrc>
       <price>5639.94</price>
       <currencyId>UAH</currencyId>
@@ -25803,11 +25803,11 @@ ZigBee – це стандартизована технологія, що озн
       <description><![CDATA[<p>Відеодомофон EM-04Z 2WIRE, комплект</p><ul><li>Захист від крадіжки: Так</li><li>Оптичний елемент камери: 720p HD</li><li>Роздільна здатність камери: 720p HD</li><li>Живлення камери: через монітор</li><li>Кут огляду камери: 120°</li><li>Хмарне сховище: Ні</li><li>Кольоровий дисплей: так, IPS</li><li>Цвет: графітово-сірий, чорний</li><li>Сумісність: –</li><li>З&#x27;єднання: –</li><li>Керування за допомогою голосових помічників: Ні</li><li>Розміри блоку камери: 150 × 60 × 40 мм</li><li>Дверний замок у комплекті: Ні</li><li>Керування воротами: Так</li><li>Підсвічування камери: так, 5 м</li><li>Використання: на стіну</li><li>Монтажний матеріал: шурупи, дюбелі, шестигранний ключ</li><li>Домофон: Ні</li><li>Клас захисту IP: IP44</li><li>Керування замком: дверний замок, привід воріт</li><li>Роздільна здатність монітора: 720p HD</li><li>Розмір монітора: 125 × 185 × 25 мм</li><li>Виявлення руху: –</li><li>Сповіщення до мобільного додатку: Ні</li><li>Кількість кнопок на камері: 1</li><li>Кількість камер: 1</li><li>Кількість мелодій: 12</li><li>Кількість моніторів: 1</li><li>Кількість проводів (монітор/замок/ворота): 2</li><li>Додаткове підключення камери відеоспостереження: Ні</li><li>Інші функції: Ні</li><li>Можливість запису: Ні</li><li>Живлення для екрана: 32 V / 0,8 A DC (у комплекті)</li><li>Протокол: –</li><li>Рекомендована проводка: RVV/CYSY 2× 1.0 мм</li><li>Розмір екрана: 7"</li><li>Зберігання на SD-карті: Ні</li><li>Сирена: Ні</li><li>Джерело входить до комплекту упаковки: Так</li><li>Підтримувана ОС: –</li><li>Сенсорний екран: Ні</li><li>Антивандальний корпус камери: Так</li><li>Голосовий зв&#x27;язок: Ні</li><li>Регулювання гучності: так, 5 рівнів</li><li>Гарантия: 2 років</li><li>Функція WebRTC: Ні</li></ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H8106" available="true" group_id="79">
+    <offer id="H8106" available="true" group_id="78">
       <article>H8106</article>
       <name><![CDATA[Сигналізація з датчиком руху EMOS H8106]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>1436.00</price_rrc>
       <price>1177.5</price>
       <currencyId>грн</currencyId>
@@ -25872,11 +25872,11 @@ ZigBee – це стандартизована технологія, що озн
 <p>Завдяки універсальності сигналізація чудово підходить для охорони сараїв, гаражів, кемперів, будинків, дверей, вікон та інших місць, де потрібен надійний захист.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5030" available="true" group_id="79">
+    <offer id="H5030" available="true" group_id="78">
       <article>H5030</article>
       <name><![CDATA[Розумна сигналізація GoSmart EMOS H5030 з датчиком руху, 6 датчиками дверей/вікон, WiFi]]></name>
       <brand>EMOS</brand>
-      <categoryId>79</categoryId>
+      <categoryId>78</categoryId>
       <price_rrc>3906.00</price_rrc>
       <price>3202.92</price>
       <currencyId>грн</currencyId>
