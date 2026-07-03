@@ -19,7 +19,7 @@
     .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px;width:100%;max-width:820px;margin-bottom:20px}
     .card-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:18px;display:flex;align-items:center;gap:8px}
     .card-title .step{width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:10px;font-weight:800;display:flex;align-items:center;justify-content:center}
-    .uploads{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .uploads{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
     @media(max-width:680px){.uploads{grid-template-columns:1fr}}
     .upload-zone{border:2px dashed var(--border);border-radius:12px;padding:24px 16px;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;position:relative}
     .upload-zone:hover,.upload-zone.over{border-color:var(--accent);background:rgba(59,130,246,.04)}
@@ -59,7 +59,7 @@
     .slider::before{content:'';position:absolute;width:15px;height:15px;left:3px;top:3px;background:#fff;border-radius:50%;transition:transform .2s}
     .toggle input:checked+.slider{background:var(--accent)}
     .toggle input:checked+.slider::before{transform:translateX(17px)}
-    #statsGrid{display:none;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:0}
+    #statsGrid{display:none;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:0}
     #statsGrid.show{display:grid}
     @media(max-width:560px){#statsGrid{grid-template-columns:repeat(2,1fr)}}
     .stat{background:#0d0f18;border:1px solid var(--border2);border-radius:10px;padding:14px}
@@ -88,6 +88,7 @@
     .btn-dl{padding:10px 20px;border-radius:10px;border:none;background:var(--green);color:#fff;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;transition:opacity .15s,transform .1s}
     .btn-dl:hover{opacity:.9;transform:translateY(-1px)}
     .btn-dl.opt{background:var(--purple)}
+    .btn-dl.d4{background:var(--yellow)}
     #previewWrap{margin-top:20px;background:#0d0f18;border:1px solid var(--border2);border-radius:10px;overflow:hidden}
     .preview-hdr{display:flex;align-items:center;justify-content:space-between;padding:9px 14px;border-bottom:1px solid var(--border2)}
     .preview-hdr span{font-size:11px;color:var(--muted);font-family:monospace}
@@ -199,6 +200,24 @@
       <div class="err-box" id="errPO"></div>
     </div>
     <input type="file" id="inputPO" accept=".xlsx,.xls" hidden/>
+
+    <!-- Прайс D4 Buy -->
+    <div class="upload-zone optional-zone" id="zonePB" data-target="PB">
+      <span class="optional-tag">необов'язково</span>
+      <div class="uz-icon">🛒</div>
+      <div class="uz-label">Прайс D4 Buy.xlsx</div>
+      <div class="uz-sub">Перетягніть або <span onclick="document.getElementById('inputPB').click()">оберіть файл</span></div>
+      <div class="uz-badge" id="badgePB">
+        <span>📊</span>
+        <div style="flex:1;overflow:hidden">
+          <div class="uz-badge-name" id="badgePBName"></div>
+          <div class="uz-badge-rows" id="badgePBRows"></div>
+        </div>
+        <button class="uz-clear" onclick="clearFile('PB',event)">✕</button>
+      </div>
+      <div class="err-box" id="errPB"></div>
+    </div>
+    <input type="file" id="inputPB" accept=".xlsx,.xls" hidden/>
   </div>
 
   <div class="cache-info">
@@ -210,6 +229,11 @@
     <div class="cache-dot" id="cacheDotOpt"></div>
     <div class="cache-text" id="cacheTextOpt">Кеш Опт: завантаження…</div>
     <button class="cache-clear" onclick="clearCacheOpt()">Очистити</button>
+  </div>
+  <div class="cache-info">
+    <div class="cache-dot" id="cacheDotD4"></div>
+    <div class="cache-text" id="cacheTextD4">Кеш D4 Buy: завантаження…</div>
+    <button class="cache-clear" onclick="clearCacheD4()">Очистити</button>
   </div>
 </div>
 
@@ -253,6 +277,7 @@
     <div class="stat"><div class="stat-v" id="stTotal">0</div><div class="stat-k">Товарів</div></div>
     <div class="stat"><div class="stat-v green" id="stMatchedDrop">0</div><div class="stat-k">Ціна Дроп</div></div>
     <div class="stat"><div class="stat-v green" id="stMatchedOpt">0</div><div class="stat-k">Ціна Опт</div></div>
+    <div class="stat"><div class="stat-v green" id="stMatchedD4">0</div><div class="stat-k">Ціна D4 Buy</div></div>
   </div>
   <div id="notFoundWrap">
     <details>
@@ -286,6 +311,14 @@
       </div>
       <button class="btn-dl opt" id="btnDownloadOpt">⬇ feed-opt.xml</button>
     </div>
+    <div class="result-row">
+      <div class="result-icon">✅</div>
+      <div class="result-info">
+        <h3>feed-d4buy.xml — D4 Buy</h3>
+        <p id="resultDescD4"></p>
+      </div>
+      <button class="btn-dl d4" id="btnDownloadD4">⬇ feed-d4buy.xml</button>
+    </div>
     <div id="previewWrap">
       <div class="preview-hdr">
         <span>Попередній перегляд feed.xml (перші 2 товари)</span>
@@ -303,13 +336,14 @@
       <div class="gh-icon">🐙</div>
       <div class="gh-info">
         <h3>Опублікувати на GitHub</h3>
-        <p>Обидва файли оновляться за постійними посиланнями (~1 хв)</p>
+        <p>Всі файли оновляться за постійними посиланнями (~1 хв)</p>
         <div class="gh-url"><em>Дроп →</em>https://extel-llc.github.io/hunter-sales/web/feed.xml</div>
         <div class="gh-url"><em>Опт →</em>https://extel-llc.github.io/hunter-sales/web/feed-opt.xml</div>
+        <div class="gh-url"><em>D4 Buy →</em>https://extel-llc.github.io/hunter-sales/web/feed-d4buy.xml</div>
       </div>
       <button id="btnPublish" disabled>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-        Опублікувати обидва
+        Опублікувати всі
       </button>
     </div>
 
@@ -342,8 +376,11 @@
 /* ══════════ Config ══════════ */
 const CACHE_KEY_DROP   = 'telemart_price_cache_v1';   // backward compat key
 const CACHE_KEY_OPT    = 'extel_opt_price_cache_v1';
+const CACHE_KEY_D4     = 'extel_d4buy_price_cache_v1';
 const CACHE_META_DROP  = 'telemart_price_cache_meta';
 const CACHE_META_OPT   = 'extel_opt_price_cache_meta';
+const CACHE_META_D4    = 'extel_d4buy_price_cache_meta';
+const CAT_REG_KEY      = 'extel_cat_registry_v1';     // стабільні ID категорій
 
 // Асортимент: залишаємо колонки (0-based) = 1,6,8,9,10,11,12,14,16,20,38
 const KEEP_IDX = [0,5,6,7,8,9,10,11,13,15,19,37,38,43];
@@ -361,6 +398,12 @@ const XML_MAP_OPT = {
   'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
   'Ссылка':'url','Опис':'description_ua','Опис RU':'description_ru','Гарантійний термін, міс.':'warranty'
 };
+const XML_MAP_D4 = {
+  'Артикул':'article','Назва':'name_ua','Назва RU':'name_ru','Бренд':'brand',
+  'Категорія':'__cat__','РРЦ':'price_rrc','Ціна D4 Buy':'price',
+  'Валюта':'currencyId','Наявність':'available','Фото':'__pics__',
+  'Ссылка':'url','Опис':'description_ua','Опис RU':'description_ru','Гарантійний термін, міс.':'warranty'
+};
 
 const HTML_COLS = new Set(['Назва','Опис','Назва RU','Опис RU']);
 const AVAIL_COL = 'Наявність';
@@ -369,7 +412,7 @@ const ART_COL   = 'Артикул';
 
 /* ══════════ State ══════════ */
 let aRows=[], aHeaders=[];
-let xmlResultDrop='', xmlResultOpt='';
+let xmlResultDrop='', xmlResultOpt='', xmlResultD4='';
 
 /* ══════════ Cache ══════════ */
 function loadCache(key){
@@ -409,9 +452,15 @@ function clearCacheOpt(){
   updateCacheUI(CACHE_META_OPT,'cacheDotOpt','cacheTextOpt','Опт');
   if(aRows.length) computeStats();
 }
+function clearCacheD4(){
+  localStorage.removeItem(CACHE_KEY_D4);
+  localStorage.removeItem(CACHE_META_D4);
+  updateCacheUI(CACHE_META_D4,'cacheDotD4','cacheTextD4','D4 Buy');
+  if(aRows.length) computeStats();
+}
 
 /* ══════════ Drag & Drop ══════════ */
-['A','PD','PO'].forEach(t=>{
+['A','PD','PO','PB'].forEach(t=>{
   const zone = document.getElementById('zone'+t);
   zone.addEventListener('dragover', e=>{ e.preventDefault(); zone.classList.add('over'); });
   zone.addEventListener('dragleave', ()=>zone.classList.remove('over'));
@@ -456,7 +505,8 @@ function loadXlsx(file, target){
       const wb = XLSX.read(ev.target.result,{type:'array',cellText:false,cellDates:true});
       if(target==='A')       parseAssortment(wb, file.name);
       else if(target==='PD') parsePrice(wb, file.name, 'D');
-      else                   parsePrice(wb, file.name, 'O');
+      else if(target==='PO') parsePrice(wb, file.name, 'O');
+      else                   parsePrice(wb, file.name, 'B');
     }catch(err){ showErr(target,'Помилка читання: '+err.message); }
   };
   reader.readAsArrayBuffer(file);
@@ -472,10 +522,10 @@ function parseAssortment(wb, fname){
   // Base headers from KEEP_IDX
   const baseH = KEEP_IDX.map(i=>{ const o=origH[i]||`Col${i+1}`; return RENAME[i]||o; });
 
-  // Insert 'Ціна опт' after 'Ціна дроп'
+  // Insert 'Ціна опт' + 'Ціна D4 Buy' after 'Ціна дроп'
   aHeaders = [...baseH];
   const dIdx = aHeaders.indexOf('Ціна дроп');
-  if(dIdx>=0) aHeaders.splice(dIdx+1, 0, 'Ціна опт');
+  if(dIdx>=0) aHeaders.splice(dIdx+1, 0, 'Ціна опт', 'Ціна D4 Buy');
 
   aRows = data.slice(1)
     .filter(r=>r.some(v=>v!==''&&v!=null))
@@ -484,7 +534,8 @@ function parseAssortment(wb, fname){
       KEEP_IDX.forEach((colI,pos)=>{
         obj[baseH[pos]] = r[colI]!=null ? String(r[colI]).trim() : '';
       });
-      obj['Ціна опт'] = ''; // filled from cache at generate time
+      obj['Ціна опт'] = '';    // filled from cache at generate time
+      obj['Ціна D4 Buy'] = '';
       return obj;
     });
 
@@ -495,7 +546,7 @@ function parseAssortment(wb, fname){
 
 /* ══════════ Parse Price ══════════ */
 function parsePrice(wb, fname, type){
-  const badgeT = type==='D' ? 'PD' : 'PO';
+  const badgeT = type==='D' ? 'PD' : type==='O' ? 'PO' : 'PB';
   const ws     = wb.Sheets[wb.SheetNames[0]];
   const data   = XLSX.utils.sheet_to_json(ws,{header:1,defval:''});
   let hRow=-1, skuCol=-1, ddpCol=-1;
@@ -523,11 +574,11 @@ function parsePrice(wb, fname, type){
       if(!isNaN(v)) newPrices[sku]=v;
     }
   }
-  const cKey  = type==='D' ? CACHE_KEY_DROP  : CACHE_KEY_OPT;
-  const mKey  = type==='D' ? CACHE_META_DROP : CACHE_META_OPT;
-  const dotId = type==='D' ? 'cacheDotDrop'  : 'cacheDotOpt';
-  const txtId = type==='D' ? 'cacheTextDrop' : 'cacheTextOpt';
-  const lbl   = type==='D' ? 'Дроп' : 'Опт';
+  const cKey  = type==='D' ? CACHE_KEY_DROP  : type==='O' ? CACHE_KEY_OPT  : CACHE_KEY_D4;
+  const mKey  = type==='D' ? CACHE_META_DROP : type==='O' ? CACHE_META_OPT : CACHE_META_D4;
+  const dotId = type==='D' ? 'cacheDotDrop'  : type==='O' ? 'cacheDotOpt'  : 'cacheDotD4';
+  const txtId = type==='D' ? 'cacheTextDrop' : type==='O' ? 'cacheTextOpt' : 'cacheTextD4';
+  const lbl   = type==='D' ? 'Дроп' : type==='O' ? 'Опт' : 'D4 Buy';
   const existing = loadCache(cKey);
   Object.assign(existing, newPrices);
   saveCache(cKey, mKey, existing);
@@ -548,17 +599,20 @@ function showBadge(t, name, rows){
 function computeStats(){
   const dropCache = loadCache(CACHE_KEY_DROP);
   const optCache  = loadCache(CACHE_KEY_OPT);
-  let matchedDrop=0, matchedOpt=0;
+  const d4Cache   = loadCache(CACHE_KEY_D4);
+  let matchedDrop=0, matchedOpt=0, matchedD4=0;
   const notFound=[];
   aRows.forEach(r=>{
     const art = r[ART_COL]||'';
     if(art in dropCache) matchedDrop++;
     if(art in optCache)  matchedOpt++;
+    if(art in d4Cache)   matchedD4++;
     if(!(art in dropCache) && notFound.length<50) notFound.push(art);
   });
   document.getElementById('stTotal').textContent       = aRows.length;
   document.getElementById('stMatchedDrop').textContent = matchedDrop;
   document.getElementById('stMatchedOpt').textContent  = matchedOpt;
+  document.getElementById('stMatchedD4').textContent   = matchedD4;
   document.getElementById('statsGrid').classList.add('show');
   const missed = aRows.length - matchedDrop;
   const nfw = document.getElementById('notFoundWrap');
@@ -575,46 +629,69 @@ function updateBtn(){
   document.getElementById('btnGenerate').disabled = aRows.length===0;
 }
 
+/* ══════════ Category Registry (стабільні ID: нові завжди max+1, у кінець) ══════════ */
+function loadCatReg(){
+  try{ const r=localStorage.getItem(CAT_REG_KEY); return r ? JSON.parse(r) : {}; }
+  catch(e){ return {}; }
+}
+function saveCatReg(reg){
+  try{ localStorage.setItem(CAT_REG_KEY, JSON.stringify(reg)); }catch(e){ console.warn('localStorage full?', e); }
+}
+
 /* ══════════ Build Categories ══════════ */
 function buildCatMap(products){
   const seen=[...new Set(products.map(p=>(p[CAT_COL]||'').trim()).filter(Boolean))];
-  let nid=1;
-  const parentIds={}, idMap={}, lines=[];
+  const reg = loadCatReg();
+  let maxId = 0;
+  Object.values(reg).forEach(v=>{ if(v>maxId) maxId=v; });
+  const idFor = name=>{ if(!(name in reg)) reg[name]=++maxId; return reg[name]; };
+
+  // Батьківські спершу — порядок першого запуску відповідає старому алгоритму
+  const parents=[];
   seen.forEach(n=>{
     if(n.includes('/')){
       const par=n.split('/')[0].trim();
-      if(!(par in parentIds)){
-        parentIds[par]=nid;
-        lines.push(`    <category id="${nid}">${ex(par)}</category>`);
-        nid++;
-      }
+      if(!parents.includes(par)) parents.push(par);
     }
   });
+  parents.forEach(idFor);
+
+  const idMap={}, entries=[];
+  const parentSet=new Set(parents);
+  parents.forEach(p=>entries.push({id:reg[p], pid:'', label:p}));
   seen.forEach(full=>{
     if(full.includes('/')){
       const par=full.split('/')[0].trim();
       const chi=full.slice(full.indexOf('/')+1).trim();
-      const pid=parentIds[par]||'';
-      idMap[full]=nid;
-      lines.push(`    <category id="${nid}"${pid?` parentId="${pid}"`:''}>${ex(chi)}</category>`);
+      idMap[full]=idFor(full);
+      entries.push({id:reg[full], pid:reg[par]||'', label:chi});
+    }else if(parentSet.has(full)){
+      idMap[full]=reg[full]; // вже випущена як батьківська
     }else{
-      if(full in parentIds){ idMap[full]=parentIds[full]; }
-      else{ idMap[full]=nid; lines.push(`    <category id="${nid}">${ex(full)}</category>`); }
+      idMap[full]=idFor(full);
+      entries.push({id:reg[full], pid:'', label:full});
     }
-    nid++;
   });
+  saveCatReg(reg);
+  entries.sort((a,b)=>a.id-b.id);
+  const lines=entries.map(e=>`    <category id="${e.id}"${e.pid?` parentId="${e.pid}"`:''}>${ex(e.label)}</category>`);
   return {idMap, lines};
 }
 
 function buildCatMapFlat(products){
   const seen=[...new Set(products.map(p=>(p[CAT_COL]||'').trim()).filter(Boolean))];
-  let nid=1;
-  const idMap={}, lines=[];
+  const reg = loadCatReg();
+  let maxId = 0;
+  Object.values(reg).forEach(v=>{ if(v>maxId) maxId=v; });
+  const idMap={}, entries=[];
   seen.forEach(full=>{
-    idMap[full]=nid;
-    lines.push(`    <category id="${nid}">${ex(full)}</category>`);
-    nid++;
+    if(!(full in reg)) reg[full]=++maxId;
+    idMap[full]=reg[full];
+    entries.push({id:reg[full], label:full});
   });
+  saveCatReg(reg);
+  entries.sort((a,b)=>a.id-b.id);
+  const lines=entries.map(e=>`    <category id="${e.id}">${ex(e.label)}</category>`);
   return {idMap, lines};
 }
 
@@ -632,11 +709,13 @@ function availStr(raw){
 function buildProducts(){
   const dropCache = loadCache(CACHE_KEY_DROP);
   const optCache  = loadCache(CACHE_KEY_OPT);
+  const d4Cache   = loadCache(CACHE_KEY_D4);
   return aRows.map(r=>{
     const obj = Object.assign({}, r);
     const art = obj[ART_COL]||'';
-    if(art in dropCache) obj['Ціна дроп'] = String(dropCache[art]);
-    if(art in optCache)  obj['Ціна опт']  = String(optCache[art]);
+    if(art in dropCache) obj['Ціна дроп']   = String(dropCache[art]);
+    if(art in optCache)  obj['Ціна опт']    = String(optCache[art]);
+    if(art in d4Cache)   obj['Ціна D4 Buy'] = String(d4Cache[art]);
     obj['Гарантійний термін, міс.'] = '12';
     return obj;
   });
@@ -716,12 +795,14 @@ document.getElementById('btnGenerate').addEventListener('click',()=>{
 
   setTimeout(()=>{
     try{
-      document.getElementById('progressFill').style.width='30%';
+      document.getElementById('progressFill').style.width='25%';
       const products = buildProducts();
-      document.getElementById('progressFill').style.width='55%';
+      document.getElementById('progressFill').style.width='45%';
       xmlResultDrop = buildXml(products, XML_MAP_DROP);
-      document.getElementById('progressFill').style.width='80%';
+      document.getElementById('progressFill').style.width='65%';
       xmlResultOpt  = buildXml(products, XML_MAP_OPT);
+      document.getElementById('progressFill').style.width='85%';
+      xmlResultD4   = buildXml(products, XML_MAP_D4);
       document.getElementById('progressFill').style.width='100%';
       document.getElementById('progressText').textContent='Готово!';
       showResult();
@@ -741,6 +822,7 @@ function fmtSize(xml){
 function showResult(){
   document.getElementById('resultDescDrop').textContent = fmtSize(xmlResultDrop);
   document.getElementById('resultDescOpt').textContent  = fmtSize(xmlResultOpt);
+  document.getElementById('resultDescD4').textContent   = fmtSize(xmlResultD4);
   document.getElementById('xmlPreview').innerHTML = highlight(preview2(xmlResultDrop, 2));
   document.getElementById('resultCard').classList.add('show');
   document.getElementById('resultCard').scrollIntoView({behavior:'smooth',block:'start'});
@@ -795,6 +877,7 @@ function download(xmlStr, filename){
 }
 document.getElementById('btnDownloadDrop').addEventListener('click',()=>download(xmlResultDrop,'feed.xml'));
 document.getElementById('btnDownloadOpt') .addEventListener('click',()=>download(xmlResultOpt,'feed-opt.xml'));
+document.getElementById('btnDownloadD4')  .addEventListener('click',()=>download(xmlResultD4,'feed-d4buy.xml'));
 
 document.getElementById('btnCopy').addEventListener('click',()=>{
   navigator.clipboard.writeText(xmlResultDrop).then(()=>{
@@ -812,6 +895,7 @@ function fixImgSrc(html){ return html.replace(/src="(\/content\/)/g,'src="https:
 /* ══════════ Init ══════════ */
 updateCacheUI(CACHE_META_DROP,'cacheDotDrop','cacheTextDrop','Дроп');
 updateCacheUI(CACHE_META_OPT, 'cacheDotOpt', 'cacheTextOpt', 'Опт');
+updateCacheUI(CACHE_META_D4,  'cacheDotD4',  'cacheTextD4',  'D4 Buy');
 
 /* ══════════ GitHub Publish ══════════ */
 const GH_REPO      = 'EXTEL-LLC/hunter-sales';
@@ -828,7 +912,7 @@ function ghUpdateUI(){
   const set = document.getElementById('ghTokenSet');
   if(tok){ inp.value=tok; row.style.display='none'; set.classList.add('show'); }
   else   { row.style.display=''; set.classList.remove('show'); }
-  document.getElementById('btnPublish').disabled = !tok || (!xmlResultDrop && !xmlResultOpt);
+  document.getElementById('btnPublish').disabled = !tok || (!xmlResultDrop && !xmlResultOpt && !xmlResultD4);
 }
 
 document.getElementById('btnSaveToken').addEventListener('click',()=>{
@@ -885,8 +969,9 @@ document.getElementById('btnPublish').addEventListener('click', async()=>{
   ghStatus('loading','⏳ Публікація…');
   try{
     const tasks=[];
-    if(xmlResultDrop) tasks.push(ghPutFile(token,'web/feed.xml',     xmlResultDrop, `feed: update drop ${date}`));
-    if(xmlResultOpt)  tasks.push(ghPutFile(token,'web/feed-opt.xml', xmlResultOpt,  `feed: update opt ${date}`));
+    if(xmlResultDrop) tasks.push(ghPutFile(token,'web/feed.xml',       xmlResultDrop, `feed: update drop ${date}`));
+    if(xmlResultOpt)  tasks.push(ghPutFile(token,'web/feed-opt.xml',   xmlResultOpt,  `feed: update opt ${date}`));
+    if(xmlResultD4)   tasks.push(ghPutFile(token,'web/feed-d4buy.xml', xmlResultD4,   `feed: update d4buy ${date}`));
     await Promise.all(tasks);
     ghStatus('ok','✅ Опубліковано! Посилання оновляться за ~1 хвилину');
   }catch(err){
