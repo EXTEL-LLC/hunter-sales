@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-13">
+<price date="2026-07-15">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1389,7 +1389,7 @@
 <p>Одна розетка дозволяє підключати стандартні електроприлади. Простий і надійний дизайн робить використання комфортним і безпечним.</p> <p><strong>Подовжувач P01225R</strong> – практичне та надійне рішення для дому, майстерні або дачі, яке забезпечує безпечну роботу з електроприладами на відстані.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01230R" available="true" group_id="12">
+    <offer id="P01230R" available="false" group_id="12">
       <article>P01230R</article>
       <name><![CDATA[Мережевий подовжувач Emos P01230R 1 розетка 30 м 1,5 мм²]]></name>
       <brand>EMOS</brand>
@@ -1397,7 +1397,7 @@
       <price_rrc>2726.00</price_rrc>
       <price>2235.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/1/62723669975741_+446cfbf82b.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/1/27866657724055_+5d9a847523.jpg</picture>
@@ -23603,7 +23603,7 @@ Smart-керування через мобільний застосунок
 <p>Кнопка дзвінка працює від батарей та має <strong>захист IP44</strong>, тому витримує несприятливі погодні умови. <strong>Бездротовий зв’язок</strong> на частоті 433 МГц забезпечує стабільне з’єднання на відстані до 180 метрів без прокладання кабелів.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57103" available="true" group_id="75">
+    <offer id="P57103" available="false" group_id="75">
       <article>P57103</article>
       <name><![CDATA[Дротовий/бездротовий дверний дзвінок EMOS P57103 вбудований]]></name>
       <brand>EMOS</brand>
@@ -23611,7 +23611,7 @@ Smart-керування через мобільний застосунок
       <price_rrc>1026.00</price_rrc>
       <price>841.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/23/56710675523338_+6add6a4ddb.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/23/47099968657400_+225ff3d34a.jpg</picture>
