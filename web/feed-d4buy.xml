@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-13">
+<price date="2026-07-15">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1849,7 +1849,7 @@
 <p>Одна розетка позволяет подключать стандартные электроприборы. Простой и надежный дизайн делает использование комфортным и безопасным.</p> <p><strong>Удлинитель P01225R</strong> – практичное и надежное решение для дома, мастерской или дачи, обеспечивающее безопасную работу с электроприборами на расстоянии.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01230R" available="true" group_id="12">
+    <offer id="P01230R" available="false" group_id="12">
       <article>P01230R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01230R 1 розетка 30 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01230R 1 розетка 30 м 1,5 мм²]]></name_ru>
@@ -1858,7 +1858,7 @@
       <price_rrc>2726.00</price_rrc>
       <price>2178.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/1/62723669975741_+446cfbf82b.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/1/27866657724055_+5d9a847523.jpg</picture>
@@ -31058,7 +31058,7 @@ Smart-управление через мобильное приложение
 <p>Кнопка звонка работает от батарей и имеет <strong>защиту IP44</strong>, поэтому выдерживает неблагоприятные погодные условия. <strong>Беспроводная связь</strong> на частоте 433 МГц обеспечивает стабильное соединение на расстоянии до 180 метров без прокладки кабелей.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57103" available="true" group_id="75">
+    <offer id="P57103" available="false" group_id="75">
       <article>P57103</article>
       <name_ua><![CDATA[Дротовий/бездротовий дверний дзвінок EMOS P57103 вбудований]]></name_ua>
       <name_ru><![CDATA[Проводной/беспроводной дверной звонок EMOS P57103 встроен]]></name_ru>
@@ -31067,7 +31067,7 @@ Smart-управление через мобильное приложение
       <price_rrc>1026.00</price_rrc>
       <price>817.74</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/23/56710675523338_+6add6a4ddb.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/23/47099968657400_+225ff3d34a.jpg</picture>
