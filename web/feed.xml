@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-15">
+<price date="2026-07-16">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -6388,7 +6388,7 @@
 <p>Більшість необслуговуваних свинцево-кислотних акумуляторів EMOS оснащені клемами FASTON . Клеми FASTON широко використовуються в електронному та електричному обладнанні, а також в автомобільній промисловості. Клеми FASTON дозволяють швидко підключити провід та роз&#39;єм до акумулятора.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="B9656" available="true" group_id="19">
+    <offer id="B9656" available="false" group_id="19">
       <article>B9656</article>
       <name><![CDATA[Акумуляторна батарея EMOS B9656, AGM, 12V, 12Ah, fast 6,3mm]]></name>
       <brand>EMOS</brand>
@@ -6396,7 +6396,7 @@
       <price_rrc>1599.00</price_rrc>
       <price>1308.72</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/5/91072438740184_+183e9d329f.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/5/80686658123102_+cc9b28bfa8.jpg</picture>
@@ -25197,7 +25197,7 @@ Smart-керування через мобільний застосунок
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/3069050140_p06-h5014.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5015" available="true" group_id="78">
+    <offer id="H5015" available="false" group_id="78">
       <article>H5015</article>
       <name><![CDATA[Розумний вимикач EMOS H5015 2 кнопки, ZigBee 3.0, чорний]]></name>
       <brand>EMOS</brand>
@@ -25205,7 +25205,7 @@ Smart-керування через мобільний застосунок
       <price_rrc>1469.00</price_rrc>
       <price>1204.56</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/14/97865218199538_+5804955af2.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/14/95258189667641_+395da66589.jpg</picture>
@@ -25386,7 +25386,7 @@ ZigBee – це стандартизована технологія, що озн
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5103" available="true" group_id="78">
+    <offer id="H5103" available="false" group_id="78">
       <article>H5103</article>
       <name><![CDATA[Розумний модуль перемикача EMOS H5103, ZigBee 3.0, 1-канальний не потребує N-проводу]]></name>
       <brand>EMOS</brand>
@@ -25394,7 +25394,7 @@ ZigBee – це стандартизована технологія, що озн
       <price_rrc>979.00</price_rrc>
       <price>802.8</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/22/30618798221663_+fd89b3dca8.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/22/91115071912885_+7e2b98947b.jpg</picture>
@@ -25441,7 +25441,7 @@ ZigBee – це стандартизована технологія, що озн
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5104" available="true" group_id="78">
+    <offer id="H5104" available="false" group_id="78">
       <article>H5104</article>
       <name><![CDATA[Розумний модуль перемикача EMOS H5104, ZigBee 3.0, 2-канальний]]></name>
       <brand>EMOS</brand>
@@ -25449,7 +25449,7 @@ ZigBee – це стандартизована технологія, що озн
       <price_rrc>1206.00</price_rrc>
       <price>988.92</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/23/34719116097387_+50b8f1775f.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/23/80793663974923_+a6c8d7cbf2.jpg</picture>
