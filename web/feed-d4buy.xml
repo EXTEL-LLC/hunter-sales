@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-15">
+<price date="2026-07-20">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -8361,7 +8361,7 @@
 <p>Большинство необслуживаемых свинцово-кислотных аккумуляторов EMOS оснащены клеммами FASTON. Клеммы FASTON широко используются в электронном и электрическом оборудовании, а также в автомобильной промышленности. Клеммы FASTON позволяют быстро подключить провод и разъем к аккумулятору.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="B9656" available="true" group_id="19">
+    <offer id="B9656" available="false" group_id="19">
       <article>B9656</article>
       <name_ua><![CDATA[Акумуляторна батарея EMOS B9656, AGM, 12V, 12Ah, fast 6,3mm]]></name_ua>
       <name_ru><![CDATA[Аккумуляторная батарея EMOS B9656, AGM, 12V, 12Ah, fast 6,3mm]]></name_ru>
@@ -8370,7 +8370,7 @@
       <price_rrc>1599.00</price_rrc>
       <price>1276.02</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/5/91072438740184_+183e9d329f.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/5/80686658123102_+cc9b28bfa8.jpg</picture>
@@ -20389,7 +20389,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[<h2 style="text-align: center;"><span style="color:#c0392b;"><strong>Метеостанция с двумя ЖК-дисплеями</strong></span></h2> <p>Представляем новую современную метеостанцию, которая превращает ежедневный мониторинг погоды в четкий и элегантный процесс. Благодаря измерению <strong>температуры и влажности в помещении и на улице</strong> вы всегда имеете полный контроль климата в вашем регионе. Четкий <strong>прогноз погоды</strong> вместе с отображением <strong>12 фаз Луны</strong> предоставляет более широкий контекст для планирования каждого дня. Станция оснащена <strong>двумя ЖК-дисплеями с подсветкой</strong> и функцией <strong>Comfort View</strong>, обеспечивающей легкое считывание данных днем и ночью. Встроенные <strong>часы с синхронизацией по сигналу DCF</strong> обеспечивают точное время. Также предусмотрены <strong>будильник с функцией повтора, барометр, индикатор комфорта, тенденция температуры, запись минимальных и максимальных значений, регулируемые температурные пределы, дата, время и календарь</strong> &mdash; все удобно отображается в одном месте.</p> <p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/2606186000_E40-E8625_HOR.JPG" /></p> <p><strong>Два больших легко читаемых ЖК-дисплея</strong> обеспечивают комфортное и быстрое считывание данных. Благодаря возможности <strong>установки на столе или крепления на стене</strong> вы можете разместить метеостанцию там, где это наиболее удобно. Питание осуществляется либо постоянно через <strong>сетевой адаптер</strong>, либо от <strong>3 батареек типа AAA (не входят в комплект)</strong>, что обеспечивает гибкость использования. Практичный <strong>индикатор низкого заряда батарей</strong> своевременно предупредит о необходимости их замены &mdash; как в станции, так и во внешних датчиках.</p> <p><img alt="" height="759" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260208_181303417.jpg" width="1250" /></p> <p><img alt="" height="252" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260208_181616553.jpg" width="1250" /></p> <p><img alt="" height="759" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260208_181756551.jpg" width="1250" /></p> <p><strong>Внешние датчики</strong>, питающиеся от <strong>2 батареек типа AAA 1,5 В</strong>, можно размещать в помещении или на улице. В комплект входит <strong>один внешний датчик</strong>, но станцию можно расширить, добавив до <strong>двух дополнительных совместимых датчиков (E05018)</strong>, доступных на нашем сайте. Метеостанция обеспечивает <strong>высокоточные измерения с разрешением 0,1 &deg;C</strong>. Она контролирует <strong>температуру в помещении от 0 &deg;C до +50 &deg;C</strong> и <strong>температуру на улице от &minus;40 &deg;C до +70 &deg;C</strong>, предоставляя надежную информацию даже в экстремальных условиях.</p> <h2 style="text-align: center;"><span style="color:#c0392b;"><strong>Два больших цветных дисплея</strong></span></h2> <p>Метеостанция оснащена <strong>двумя ЖК-дисплеями с подсветкой и технологией Comfort View</strong>, обеспечивающей отличную читаемость как днем, так и ночью. При питании от сети дисплеи постоянно подсвечиваются для максимального удобства; при работе от батареек они автоматически переходят в режим энергосбережения &mdash; <strong>подсветку можно активировать одним касанием примерно на 10 секунд</strong>.</p> <p><strong>Левый дисплей</strong> четко показывает <strong>текущее время, дату и день недели</strong>, тогда как <strong>правый дисплей</strong> отображает всю важную метеорологическую информацию &mdash; <strong>прогноз погоды, температуру и влажность в помещении и на улице, барометр, фазу Луны, показатели комфорта и другие полезные данные</strong>. Все расположено так, чтобы вы могли получить необходимую информацию с первого взгляда.</p> <p><img alt="" height="759" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260208_182015302.jpg" width="1250" /></p> <p><img alt="" height="1250" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260208_182503231.jpg" width="1250" /></p> <p><img alt="" height="1250" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260209_110033371.jpg" width="1250" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="E0202" available="true" group_id="50">
+    <offer id="E0202" available="false" group_id="50">
       <article>E0202</article>
       <name_ua><![CDATA[Цифровий кухонний таймер EMOS E0202]]></name_ua>
       <name_ru><![CDATA[Цифровой кухонный таймер EMOS E0202]]></name_ru>
@@ -20398,7 +20398,7 @@ IP20 – идеально для помещений
       <price_rrc>199.00</price_rrc>
       <price>151.26</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/48/14475171201381_+7c2909f98e.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/48/47864310346906_+ea68a64d46.jpg</picture>
@@ -33270,7 +33270,7 @@ Smart-управление через мобильное приложение
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/3069050140_p06-h5014.jpg" width="850" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5015" available="true" group_id="78">
+    <offer id="H5015" available="false" group_id="78">
       <article>H5015</article>
       <name_ua><![CDATA[Розумний вимикач EMOS H5015 2 кнопки, ZigBee 3.0, чорний]]></name_ua>
       <name_ru><![CDATA[Умный выключатель EMOS H5015 2 кнопки, ZigBee 3.0, черный]]></name_ru>
@@ -33279,7 +33279,7 @@ Smart-управление через мобильное приложение
       <price_rrc>1469.00</price_rrc>
       <price>1174.98</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/14/97865218199538_+5804955af2.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/14/95258189667641_+395da66589.jpg</picture>
@@ -33560,7 +33560,7 @@ ZigBee – стандартизированная технология, что �
 </p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5103" available="true" group_id="78">
+    <offer id="H5103" available="false" group_id="78">
       <article>H5103</article>
       <name_ua><![CDATA[Розумний модуль перемикача EMOS H5103, ZigBee 3.0, 1-канальний не потребує N-проводу]]></name_ua>
       <name_ru><![CDATA[Умный модуль переключателя EMOS H5103, ZigBee 3.0, 1-канальный не требует N-провоТак]]></name_ru>
@@ -33569,7 +33569,7 @@ ZigBee – стандартизированная технология, что �
       <price_rrc>979.00</price_rrc>
       <price>782.04</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/22/30618798221663_+fd89b3dca8.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/22/91115071912885_+7e2b98947b.jpg</picture>
@@ -33637,7 +33637,7 @@ ZigBee – стандартизированная технология, что �
 </ul>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="H5104" available="true" group_id="78">
+    <offer id="H5104" available="false" group_id="78">
       <article>H5104</article>
       <name_ua><![CDATA[Розумний модуль перемикача EMOS H5104, ZigBee 3.0, 2-канальний]]></name_ua>
       <name_ru><![CDATA[Умный модуль переключателя EMOS H5104, ZigBee 3.0, 2-канальный]]></name_ru>
@@ -33646,7 +33646,7 @@ ZigBee – стандартизированная технология, что �
       <price_rrc>1206.00</price_rrc>
       <price>962.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/23/34719116097387_+50b8f1775f.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/23/80793663974923_+a6c8d7cbf2.jpg</picture>
