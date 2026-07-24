@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-23">
+<price date="2026-07-24">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -3374,7 +3374,7 @@
 <p>Три розетки позволяют одновременно подключать несколько электроприборов, а выключатель обеспечивает быстрое и легкое управление электропитанием, делая устройство практичным для дома, офиса или мастерской.</p> <p><strong>Удлинитель P1321R</strong> – надежное, безопасное и комфортное решение для любых условий.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1322" available="true" group_id="12">
+    <offer id="P1322" available="false" group_id="12">
       <article>P1322</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P1322 3 розетки 2 м 1,0 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P1322 3 розетки 2 м 1,5 мм²]]></name_ru>
@@ -3383,7 +3383,7 @@
       <price_rrc>306.00</price_rrc>
       <price>209.28</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/14/21185272690718_+451e06633a.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/14/65597051391430_+8306f16c1b.jpg</picture>
@@ -21314,7 +21314,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[<h2>Тестер напряжения EMOS M0007A — быстрое бесконтактное обнаружение 70–1000 В</h2> <p> <strong>EMOS M0007A</strong> — удобный детектор напряжения для безопасной проверки электросети без прямого контакта с проводами. Подходит для тестирования розеток, силовых кабелей и скрытой проводки. </p> <p> Прибор работает в диапазоне <strong>70–1000 В</strong> и соответствует стандарту безопасности <strong>CAT III</strong>. Бесконтактное обнаружение переменного напряжения позволяет быстро и безопасно определить наличие тока. </p> <p> Оснащён <strong>двойной индикацией — световой и звуковой</strong>. Вы сразу увидите и услышите сигнал о наличии напряжения, что особенно удобно при работе в сложных условиях. </p> <p> Компактные размеры 153 × 22 мм делают прибор удобным в использовании, а питание от <strong>2 батареек AAA</strong> (в комплекте) позволяет приступить к работе сразу после покупки. </p> <p><strong>EMOS M0007A — простой и безопасный способ проверить наличие напряжения.</strong></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="M0012A" available="true" group_id="53">
+    <offer id="M0012A" available="false" group_id="53">
       <article>M0012A</article>
       <name_ua><![CDATA[Тестер наявності напруги EMOS M0012А 12–690 V з оптичним та акустичним сигналом]]></name_ua>
       <name_ru><![CDATA[Тестер наличия напряжения EMOS M0012А 12–690 V с оптическим и акустическим сигналом]]></name_ru>
@@ -21323,7 +21323,7 @@ IP20 – идеально для помещений
       <price_rrc>779.00</price_rrc>
       <price>543.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/45/12715763336563_+ca5571aa3b.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/45/75652222705822_+666f559cd7.jpg</picture>
