@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-24">
+<price date="2026-07-30">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -5353,7 +5353,7 @@
 <p>Таймер компактен и надежен с размерами <strong>58 × 128 × 87 мм</strong>, что позволяет устанавливать его в любом удобном месте на открытом воздухе. Это практическое решение для контроля внешних электроприборов без лишних хлопот.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5822" available="true" group_id="14">
+    <offer id="P5822" available="false" group_id="14">
       <article>P5822</article>
       <name_ua><![CDATA[Ватметр Emos P5822 3680 Вт із заземленням]]></name_ua>
       <name_ru><![CDATA[Ватметр Emos P5822 3680 Вт с заземлением]]></name_ru>
@@ -5362,7 +5362,7 @@
       <price_rrc>876.00</price_rrc>
       <price>696.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/3/34131039057072_+29e40b007c.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/3/85429795213058_+93ca76c11a.jpg</picture>
@@ -19480,7 +19480,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[<p><strong>Метеорологическая станция с практичными функциями</strong></p> <p>Мы представляем вам <strong>метеостанцию премиум-класса</strong>, которая станет незаменимым помощником в вашем доме. Эта метеостанция измеряет <strong>наружную и внутреннюю температуру и влажность</strong>, отображает <strong>время, дату, минимальную и максимальную температуру</strong> и <strong>предупреждает о заморозках</strong>. Она надежно <strong>прогнозирует погоду</strong> и отображает <strong>тенденцию давления</strong>. Практичные <strong>две функции будильника</strong> или <strong>часы с управлением по сигналу DCF</strong> значительно упрощают повседневную жизнь.</p> <p><strong>Большой прозрачный цветной дисплей</strong> обеспечивает легкое считывание информации, а возможность <strong>настольного или настенного крепления</strong> позволяет разместить устройство в любом месте. Метеостанция может постоянно питаться от <strong>адаптера</strong> или от <strong>3 батареек типа AAA</strong>, которые не входят в комплект. Она оснащена <strong>выходом USB-A</strong>, позволяющим удобно заряжать различные устройства, такие как <strong>телефоны или зарядные устройства</strong>.</p> <p><strong>Внешние датчики</strong>, работающие от <strong>2 батареек типа AAA</strong>, можно размещать как <strong>в помещении</strong>, так и <strong>на улице</strong>. В комплект входят <strong>3 внешних датчика</strong>. Метеостанция измеряет <strong>температуру в помещении от -10 °C до +50 °C</strong> и <strong>наружную температуру от -40 °C до +70 °C</strong> с разрешением <strong>0,1 °C</strong>.</p> <p><strong>Четкий цветной дисплей</strong></p> <p><strong>Большой, четкий цветной дисплей</strong> отображает всю важную информацию о <strong>внутренней и наружной температуре и влажности</strong>. Он также предупреждает <strong>значком льда</strong>, когда наружная температура находится в диапазоне <strong>от -1 °C до +3 °C</strong>, отображает <strong>прогноз погоды</strong>, <strong>тенденцию давления</strong> и <strong>память минимальных измеренных значений температуры</strong>. С этой метеостанцией у вас всегда будет актуальная информация о погоде под рукой.</p> <p><strong>Цветной дисплей</strong> постоянно подсвечивается только при питании от <strong>адаптера</strong>. При питании от <strong>3 батареек типа AAA</strong> подсветка выключена и может быть включена <strong>вручную на 15 секунд</strong> с помощью кнопки.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8620" available="true" group_id="46">
+    <offer id="E8620" available="false" group_id="46">
       <article>E8620</article>
       <name_ua><![CDATA[Бездротова цифрова Метеостанція EMOS E8620]]></name_ua>
       <name_ru><![CDATA[Беспроводная цифровая метеостанция EMOS E8620]]></name_ru>
@@ -19489,7 +19489,7 @@ IP20 – идеально для помещений
       <price_rrc>2436.00</price_rrc>
       <price>1944.84</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/24/13077643652466_+cb5f7c219f.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/24/42748199442093_+bfca537338.jpg</picture>
@@ -29313,7 +29313,7 @@ Smart-управление через мобильное приложение
 <p><img alt="" height="850" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1538179000_e40-z7617.jpg" width="850" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="Z7625" available="true" group_id="69">
+    <offer id="Z7625" available="false" group_id="69">
       <article>Z7625</article>
       <name_ua><![CDATA[Світлодіодний монітор MIA Z7625]]></name_ua>
       <name_ru><![CDATA[Светодиодный монитор MIA Z7625]]></name_ru>
@@ -29322,7 +29322,7 @@ Smart-управление через мобильное приложение
       <price_rrc>1559.00</price_rrc>
       <price>1184.82</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/29/59793388844733_+7bc662e5c9.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/29/70218836999728_+c6e9936925.jpg</picture>
