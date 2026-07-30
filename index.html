@@ -2118,7 +2118,19 @@ async function _gistRead(){
     localStorage.removeItem('hsm_gist_token');
     r=await fetch(`https://api.github.com/gists/${_gistId()}`,{headers:{'Accept':'application/vnd.github+json'}});
   }
-  const j=await r.json();if(!r.ok)throw new Error(j.message||r.statusText);return j.files;
+  const j=await r.json();if(!r.ok)throw new Error(j.message||r.statusText);
+  const files=j.files||{};
+  // GitHub API truncates file content over 1MB \u2014 fetch full content via raw_url
+  for(const fname of Object.keys(files)){
+    const f=files[fname];
+    if(f&&f.truncated&&f.raw_url){
+      try{
+        const rr=await fetch(f.raw_url);
+        f.content=await rr.text();
+      }catch(e){/* keep truncated; caller will handle parse error */}
+    }
+  }
+  return files;
 }
 async function _gistPatch(files){
   const r=await fetch(`https://api.github.com/gists/${_gistId()}`,{method:'PATCH',headers:{'Authorization':'token '+_gistToken(),'Accept':'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify({files})});
