@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-07-30">
+<price date="2026-07-31">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -14192,7 +14192,7 @@ COB-світлодіоди забезпечують світловий поті�
 </ul> <p>Идеальный выбор для туризма, кемпинга, активного отдыха и аварийного освещения. <strong>P3170</strong> всегда готов обеспечить надежный свет в любых условиях.</p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3210" available="true" group_id="34">
+    <offer id="P3210" available="false" group_id="34">
       <article>P3210</article>
       <name_ua><![CDATA[Лiхтар ручний Emos P3210 55 Lm 2×AA пластик]]></name_ua>
       <name_ru><![CDATA[Фонарь ручной Emos P3210 55 Lm 2×AA пластик]]></name_ru>
@@ -14201,7 +14201,7 @@ COB-світлодіоди забезпечують світловий поті�
       <price_rrc>319.00</price_rrc>
       <price>242.46</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/23/49155973106504_+b3b5872573.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/23/58547395435137_+5e93b18b9f.jpg</picture>
@@ -23461,7 +23461,7 @@ P56402 можно установить на стену или свободно �
 <p><img alt="" height="1250" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260319_165319191.jpg" width="1250" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5640S" available="true" group_id="62">
+    <offer id="P5640S" available="false" group_id="62">
       <article>P5640S</article>
       <name_ua><![CDATA[Розумний моторизований контолер водяного, газового крану EMOS P5640S ZigBee]]></name_ua>
       <name_ru><![CDATA[Умный моторизированный контоллер водяного, газового крана EMOS P5640S ZigBee]]></name_ru>
@@ -23470,7 +23470,7 @@ P56402 можно установить на стену или свободно �
       <price_rrc>1909.00</price_rrc>
       <price>1524.54</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/43/77292232501016_+3b814e3bd1.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/43/84486360051356_+620f18a9a3.jpg</picture>
@@ -27665,7 +27665,7 @@ LED-лента длиной 2 м состоит из сегментов по 20 
 </p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZPW313I" available="true" group_id="69">
+    <offer id="ZPW313I" available="false" group_id="69">
       <article>ZPW313I</article>
       <name_ua><![CDATA[Розумна гнучка світлодіодна стрічка EMOS ZPW313I NEON біла, 3 м, 24 Вт, RGBIC WiFi]]></name_ua>
       <name_ru><![CDATA[Умная гибкая светодиодная лента EMOS ZPW313I NEON белая, 3 м, 24 Вт, RGBIC WiFi]]></name_ru>
@@ -27674,7 +27674,7 @@ LED-лента длиной 2 м состоит из сегментов по 20 
       <price_rrc>2699.00</price_rrc>
       <price>2051.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/30/65007233519547_+b9865ec8d9.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/30/12849944567348_+5021f3cad5.jpg</picture>
@@ -32710,7 +32710,7 @@ Smart-управление через мобильное приложение
 <p><img alt="" height="760" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/znmok-ekrana-2026-05-04-001755.jpg" width="778" /></p>]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57001" available="true" group_id="77">
+    <offer id="P57001" available="false" group_id="77">
       <article>P57001</article>
       <name_ua><![CDATA[Дротовий дверний дзвінок EMOS P57001]]></name_ua>
       <name_ru><![CDATA[Проводной дверной звонок EMOS P57001]]></name_ru>
@@ -32719,7 +32719,7 @@ Smart-управление через мобильное приложение
       <price_rrc>509.00</price_rrc>
       <price>386.82</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://www.extel.com.ua/content/images/18/94776483880772_+60f094984b.jpg</picture>
         <picture>https://www.extel.com.ua/content/images/18/75623898862431_+508aed24ea.jpg</picture>
