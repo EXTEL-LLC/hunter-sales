@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-08-26">
+<price date="2026-08-27">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -41,7 +41,6 @@
     <category id="38" parentId="4">Велосипедні LED-ліхтарі</category>
     <category id="39" parentId="4">Туристичні лампи та знищувачі комах</category>
     <category id="40" parentId="4">Переносні робочі лампи</category>
-    <category id="41" parentId="5">Датчики руху PIR, MW</category>
     <category id="42" parentId="5">Аварійне освітлення</category>
     <category id="43" parentId="5">Настільні лампи</category>
     <category id="44" parentId="5">Нічники</category>
@@ -58,7 +57,6 @@
     <category id="56" parentId="8">Автоматичні поїлки, фонтани для тварин</category>
     <category id="57" parentId="8">Комплекти фільтрів для поїлок</category>
     <category id="58" parentId="8">Запасні помпи для поїлок</category>
-    <category id="59" parentId="9">Терморозетки</category>
     <category id="60" parentId="9">Датчики протікання води</category>
     <category id="61" parentId="9">CO та димові датчики (сигналізації)</category>
     <category id="62" parentId="9">Автоматичні закривачі клапанів</category>
@@ -83,6 +81,8 @@
     <category id="141" parentId="6">Кухонні та персональні ваги</category>
     <category id="142" parentId="9">Термостатичні клапани для радіаторів</category>
     <category id="143" parentId="5">Накладні світильники</category>
+    <category id="144" parentId="5">Датчики руху PIR, MW, сутінків</category>
+    <category id="145" parentId="9">Терморегулятори в розетку</category>
   </categories>
   <offers>
     <offer id="J0803" available="false" group_id="140">
@@ -4282,6 +4282,46 @@
 	<li>Возможность настенного монтажа.</li>
 	<li>Предназначен для использования внутри помещений (IP20).</li>
 </ul>]]></description_ua>
+      <description_ru><![CDATA[0]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P0625R" available="false" group_id="12">
+      <article>P0625R</article>
+      <name_ua><![CDATA[Мережевий подовжувач EMOS P0625R 6 розеток 5 м]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель EMOS P0625R 6 розеток 5 м]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>719.00</price_rrc>
+      <price>503.28</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/21/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m-83068631110447_+ff758e29f9.jpg</picture>
+        <picture>https://extel.com.ua/content/images/21/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m-42042748281262_+8cfadc1c7a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/21/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m-96206745905016_+83d14ceb8f.jpg</picture>
+        <picture>https://extel.com.ua/content/images/21/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m-67893417057538_+9f0aa4248a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/21/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m-60681900061654_+361e019327.jpg</picture>
+      </pictures>
+      <url>https://extel.com.ua/merezhevyi-podovzhuvach-emos-p0625r-6-rozetok-5-m/</url>
+      <description_ua><![CDATA[<p>Сетевой удлинитель P0625R от чешского производителя EMOS. Отличное и качественное решение для подключения электроприборов вдали от розетки. Корпус изготовлен из негорючего пластика. При перегрузке нет вспышки. Также есть заглушки для защиты детей. Имеет утолщенное сечение кабеля, рассчитанное на подключение источников с повышенным классом энергопотребления.</p>
+
+<p>Наиболее важные параметры:</p>
+
+<ul>
+	<li>длина &ndash; 5 м</li>
+	<li>количество розеток &ndash; 6&times;2P + PE SCHUKO</li>
+	<li>переключатель &ndash; нет</li>
+	<li>напряжение/ток - 250 В ~/16 А макс.</li>
+	<li>цвет &ndash; белый</li>
+	<li>тип и сечение кабеля - H05VV-F3G 1,5 мм&sup2;</li>
+	<li>защита детей &ndash; да</li>
+	<li>тип изоляции &ndash; ПВХ</li>
+	<li>USB-выход &ndash; нет</li>
+	<li>максимальная нагрузка &ndash; 3680 Вт</li>
+	<li>упаковка &ndash; 1 шт., подвесная</li>
+</ul>
+
+<p>EMOS &ndash; чешский бренд, принадлежащий компании Emos spol. s.r.o., основанной в 1991 году. Компания занимается производством фонарей (ручные, прожекторы, настольные лампы и т.п.), видеодомофонов, метео-станций, термометров, ТВ-антенн и другого оборудования. Производственные мощности находятся в Чехии, Китае. Головной офис расположен в г. Пршеров (Чехия, Оломоуцкий край).</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
@@ -12074,8 +12114,8 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
     </offer>
     <offer id="P4721" available="false" group_id="34">
       <article>P4721</article>
-      <name_ua><![CDATA[Ліхтар-брелок Emos P4721 5 Lm 3× LR54 пластик]]></name_ua>
-      <name_ru><![CDATA[Фонарь-брелок Emos P4721 5 Lm 3× LR54 пластик]]></name_ru>
+      <name_ua><![CDATA[Ліхтар-брелок Emos P4721 монстри зі звуком 5 Lm 3× LR54 пластик]]></name_ua>
+      <name_ru><![CDATA[Фонарь-брелок Emos P4721 монстры со звуком 5 Lm 3× LR54 пластик]]></name_ru>
       <brand>EMOS</brand>
       <categoryId>34</categoryId>
       <price_rrc>179.00</price_rrc>
@@ -12093,9 +12133,21 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
         <picture>https://extel.com.ua/content/images/8/76728522618112_+822d88488f.jpg</picture>
       </pictures>
       <url>https://extel.com.ua/svitlodiodnyi-brelok-monstry-zi-zvukom-18-sht.-korobka-dlia-demonstratsii-p4721/</url>
-      <description_ua><![CDATA[<h2 Светодиодный брелок Emos P4721 – монстры со звуком</h2> <p>Светодиодный брелок <strong>Emos P4721</strong> станет ярким и веселым аксессуаром для ключей или сумки. Он работает от трех идущих в комплекте батареек LR54 (1,5 В), обеспечивая световой поток 5 лм. Фонарик имеет один режим освещения – включен/выключен, а корпус выполнен из легкого пластика с цветной смесью. Благодаря компактному дизайну и кулону для подвешивания легко носить с собой.</p> <h3>Преимущества:</h3>
-<ul> <li>Веселый и яркий дизайн в виде монстров – идеальный для детей и подростков.</li> <li>Легкий и компактный, удобный для ношения на ключах или рюкзаке.</li> <li>Работает от стандартных батареек, входящих в комплект.</li> <li>Простое управление одним режимом света – включено/выключено.</li> <li>Кулон для подвешивания позволяет легко закрепить брелок в любом месте.</li>
-</ul> <p>Этот брелок сочетает яркий свет и веселый дизайн, добавляя нотку юмора и практичности в повседневную жизнь.</p>]]></description_ua>
+      <description_ua><![CDATA[<h2>&nbsp;</h2>
+
+<p>Светодиодный брелок <strong>Emos P4721</strong> станет ярким и веселым аксессуаром для ключей или сумки. Он работает от трех идущих в комплекте батареек LR54 (1,5 В), обеспечивая световой поток 5 лм. Фонарик имеет один режим освещения &ndash; включен/выключен, а корпус выполнен из легкого пластика с цветной смесью. Благодаря компактному дизайну и кулону для подвешивания легко носить с собой.</p>
+
+<h3>Преимущества:</h3>
+
+<ul>
+	<li>Веселый и яркий дизайн в виде монстров &ndash; идеальный для детей и подростков.</li>
+	<li>Легкий и компактный, удобный для ношения на ключах или рюкзаке.</li>
+	<li>Работает от стандартных батареек, входящих в комплект.</li>
+	<li>Простое управление одним режимом света &ndash; включено/выключено.</li>
+	<li>Кулон для подвешивания позволяет легко закрепить брелок в любом месте.</li>
+</ul>
+
+<p>Этот брелок сочетает яркий свет и веселый дизайн, добавляя нотку юмора и практичности в повседневную жизнь.</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
@@ -13362,12 +13414,12 @@ Ultra Slim – компактность каждый день
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1110" available="false" group_id="41">
+    <offer id="G1110" available="false" group_id="144">
       <article>G1110</article>
       <name_ua><![CDATA[Датчик руху EMOS G1110, PIR, IP20, 800 Вт білий]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS G1110, PIR, IP20, 800 Вт белый]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>279.3</price>
       <currencyId>грн</currencyId>
@@ -13392,12 +13444,12 @@ Ultra Slim – компактность каждый день
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1120" available="true" group_id="41">
+    <offer id="G1120" available="true" group_id="144">
       <article>G1120</article>
       <name_ua><![CDATA[Датчик руху EMOS PIR IP44 W 1200W Білий G1120]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS PIR IP44 W 1200W Білий G1120]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>279.3</price>
       <currencyId>грн</currencyId>
@@ -13429,12 +13481,12 @@ Ultra Slim – компактность каждый день
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1125" available="true" group_id="41">
+    <offer id="G1125" available="true" group_id="144">
       <article>G1125</article>
       <name_ua><![CDATA[Датчик руху EMOS PIR IP44 W 1200W Чорний G1125]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS PIR IP44 W 1200W Чорний G1125]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>279.3</price>
       <currencyId>грн</currencyId>
@@ -13474,12 +13526,12 @@ PIR-датчики являются <strong>не требующими обслу
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1150" available="false" group_id="41">
+    <offer id="G1150" available="false" group_id="144">
       <article>G1150</article>
       <name_ua><![CDATA[Датчик руху EMOS, G1150, PIR, 2000W, IP20, білий]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS, G1150, PIR, 2000W, IP20, белый]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>499.00</price_rrc>
       <price>349.32</price>
       <currencyId>грн</currencyId>
@@ -13514,12 +13566,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1160" available="false" group_id="41">
+    <offer id="G1160" available="false" group_id="144">
       <article>G1160</article>
       <name_ua><![CDATA[Датчик руху EMOS PIR W 1200W IP20 G1160]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS PIR W 1200W IP20 G1160]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>339.00</price_rrc>
       <price>237.3</price>
       <currencyId>грн</currencyId>
@@ -13549,12 +13601,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1180" available="false" group_id="41">
+    <offer id="G1180" available="false" group_id="144">
       <article>G1180</article>
       <name_ua><![CDATA[Датчик руху мікрохвильовий EMOS G1180 IP20 1200W білий]]></name_ua>
       <name_ru><![CDATA[Датчик движения микроволновый EMOS G1180 IP20 C 1200W белый]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>529.00</price_rrc>
       <price>370.32</price>
       <currencyId>грн</currencyId>
@@ -13582,12 +13634,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1210" available="false" group_id="41">
+    <offer id="G1210" available="false" group_id="144">
       <article>G1210</article>
       <name_ua><![CDATA[Датчик руху мікрохвильовий EMOS G1210 IP20 360° білий]]></name_ua>
       <name_ru><![CDATA[Датчик движения микроволновый EMOS G1210 IP20 360° белый]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>549.00</price_rrc>
       <price>384.3</price>
       <currencyId>грн</currencyId>
@@ -13616,12 +13668,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1240" available="true" group_id="41">
+    <offer id="G1240" available="true" group_id="144">
       <article>G1240</article>
       <name_ua><![CDATA[Датчик руху EMOS PIR IP65 W 1200W Білий G1240]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS PIR IP65 W 1200W Білий G1240]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>379.00</price_rrc>
       <price>265.32</price>
       <currencyId>грн</currencyId>
@@ -13652,12 +13704,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS21111" available="false" group_id="41">
+    <offer id="GS21111" available="false" group_id="144">
       <article>GS21111</article>
       <name_ua><![CDATA[Датчик руху EMOS GS21111 мікрохвильовий IP20 2000W]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS GS21111 микроволновый IP20 2000W]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>699.00</price_rrc>
       <price>489.3</price>
       <currencyId>грн</currencyId>
@@ -13709,12 +13761,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS12111" available="false" group_id="41">
+    <offer id="GS12111" available="false" group_id="144">
       <article>GS12111</article>
       <name_ua><![CDATA[Датчик руху Emos GS12111 PIR IP20 1200 W]]></name_ua>
       <name_ru><![CDATA[Датчик движения Emos GS12111 PIR IP20 1200 W]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>449.00</price_rrc>
       <price>314.28</price>
       <currencyId>грн</currencyId>
@@ -13762,12 +13814,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS22111" available="false" group_id="41">
+    <offer id="GS22111" available="false" group_id="144">
       <article>GS22111</article>
       <name_ua><![CDATA[Датчик руху EMOS GS22111 мікрохвильовий IP20 1200W]]></name_ua>
       <name_ru><![CDATA[Датчик движения EMOS GS22111 микроволновый IP20 1200W]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>749.00</price_rrc>
       <price>524.28</price>
       <currencyId>грн</currencyId>
@@ -13817,12 +13869,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS11111" available="false" group_id="41">
+    <offer id="GS11111" available="false" group_id="144">
       <article>GS11111</article>
       <name_ua><![CDATA[Датчик руху Emos GS11111 PIR IP20 1200 W]]></name_ua>
       <name_ru><![CDATA[Датчик движения Emos GS11111 PIR IP20 1200 W]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>41</categoryId>
+      <categoryId>144</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>279.3</price>
       <currencyId>грн</currencyId>
@@ -13871,6 +13923,248 @@ IP20 – идеально для помещений
 <p><img alt="" height="759" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/inshot_20260319_191611966.jpg" width="1250" /></p>
 
 <p>Датчик движения разработан для <strong>быстрой, чистой и незаметной установки</strong>. Его поверхностная конструкция позволяет легко монтировать его на стене или потолке без сложных настроек или специальных инструментов. Благодаря интуитивно понятному подключению и возможности прямого подключения к стандартной сети можно сразу начать использовать датчик.</p>]]></description_ua>
+      <description_ru><![CDATA[0]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="GS41151" available="false" group_id="144">
+      <article>GS41151</article>
+      <name_ua><![CDATA[Фотодатчик сутінків EMOS GS41151 1800 Вт IP65 для вуличного освітлення]]></name_ua>
+      <name_ru><![CDATA[Фотодатчик сумерек EMOS GS41151 1800 Вт IP65 для уличного освещения]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>144</categoryId>
+      <price_rrc>499.00</price_rrc>
+      <price>349.32</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/18/91315266649124_+c3b748a10a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/62903454334693_+371e2416f5.png</picture>
+        <picture>https://extel.com.ua/content/images/18/61620842559832_+26be7a2b68.png</picture>
+        <picture>https://extel.com.ua/content/images/18/31432942370583_+c04f5667a0.png</picture>
+        <picture>https://extel.com.ua/content/images/18/12100759301276_+49234fec76.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/94457170706563_+c22a53fb3f.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/39695575016775_+7de564d3a6.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/71469782934287_+33d75cd8b5.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/12889343273752_+75435e2310.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/18745616968438_+04c4558f4a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/29104665110449_+bcfd810e95.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/43957049102861_+c713028023.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/13793631588765_+e33f07dd58.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/87917525003325_+7c92d29ac8.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/70626614789138_+7e43c6b3c1.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/73977629328493_+61cbcca9ba.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/31922447119995_+c4009b164d.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/71208975967859_+5fb9e8c822.jpg</picture>
+        <picture>https://extel.com.ua/content/images/18/20792912320706_+56a1d7fe15.jpg</picture>
+      </pictures>
+      <description_ua><![CDATA[<h3 style="text-align: center;"><span style="color:#c0392b;">Фотодатчик сумерек EMOS GS41151, 1800 Вт, IP65</span></h3>
+
+<p>Автоматическое управление освещением без лишних выключателей и лишних затрат электроэнергии. <strong>Фотодатчик сумерек EMOS GS41151</strong> включает подключенное освещение, когда уровень естественного освещения становится недостаточным, и помогает обеспечить комфортное освещение именно тогда, когда оно необходимо.</p>
+
+<p>Благодаря чувствительности <strong>менее 3 лк</strong> датчик реагирует на снижение уровня освещенности и автоматически управляет подключенным светильником. Время работы можно настроить в диапазоне <strong>от 1 до 9 часов</strong>, поэтому устройство легко адаптировать под конкретные потребности &mdash; например, для освещения входа, фасада, двора или территории возле гаража.</p>
+
+<p>Корпус со степенью защиты <strong>IP65</strong> надежно защищает электронику от пыли и струй воды, поэтому датчик подходит для использования на открытом воздухе. Устройство работает от сети <strong>220&ndash;240 В</strong> и поддерживает резистивную нагрузку до <strong>1800 Вт</strong>.</p>
+
+<h3>Основные преимущества</h3>
+
+<ul>
+	<li>
+	<p><strong>Автоматическое управление освещением</strong> &mdash; свет включается в зависимости от уровня естественного освещения.</p>
+	</li>
+	<li>
+	<p><strong>Экономия электроэнергии</strong> &mdash; освещение работает только тогда, когда в нем есть необходимость.</p>
+	</li>
+	<li>
+	<p><strong>Регулируемое время работы</strong> &mdash; от 1 до 9 часов.</p>
+	</li>
+	<li>
+	<p><strong>Чувствительность &lt;3 лк</strong> &mdash; реагирует на низкий уровень освещенности.</p>
+	</li>
+	<li>
+	<p><strong>Защита IP65</strong> &mdash; подходит для наружного использования.</p>
+	</li>
+	<li>
+	<p><strong>Мощность нагрузки до 1800 Вт</strong> &mdash; можно использовать с различными видами освещения.</p>
+	</li>
+	<li>
+	<p><strong>Питание 220&ndash;240 В</strong> &mdash; подключение непосредственно к электросети.</p>
+	</li>
+	<li>
+	<p><strong>Компактный корпус</strong> &mdash; размеры всего 105 &times; 67 &times; 34 мм.</p>
+	</li>
+</ul>
+
+<h3 style="text-align: center;"><span style="color:#c0392b;">Где использовать?</span></h3>
+
+<p>EMOS GS41151 станет практичным решением для <strong>уличного освещения частного дома, входа, террасы, гаража, двора, фасада, сада или территории коммерческого объекта</strong>. Установив датчик, можно автоматизировать работу освещения и больше не беспокоиться о его своевременном включении.</p>
+
+<p><strong>EMOS GS41151 &mdash; простой способ сделать наружное освещение автоматическим, удобным и экономичным.</strong></p>]]></description_ua>
+      <description_ru><![CDATA[0]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="GS32111" available="false" group_id="144">
+      <article>GS32111</article>
+      <name_ua><![CDATA[Мікрохвильовий датчик руху та присутності EMOS GS32111 2000 W IP20 24 GHZ]]></name_ua>
+      <name_ru><![CDATA[Микроволновый датчик движения и присутствия EMOS GS32111 2000 W IP20 24 GHZ]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>144</categoryId>
+      <price_rrc>1099.00</price_rrc>
+      <price>769.32</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-97585248209478_+4ee9605b06.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-98871813621344_+855fc61098.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-72080907239226_+9dd2efdd44.png</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-65636593603990_+4e5c2489a5.png</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-39712313327290_+e20ff24705.png</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-44230354357168_+73187418f9.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-73720483886330_+12fb494f33.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-30553582300083_+b0fb32048c.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-64083675203251_+a7ce02c2ac.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-31130767991083_+f40ff36d6f.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-20449677463972_+325d3d8154.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-95970237235476_+1989ece6d4.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-78842209224387_+9c8529aa93.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-66391887320535_+b800f40baf.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-53773423603116_+49d06ec5ee.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-99017749407071_+b699303dbb.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-89376381044259_+6bdd068fa5.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-60472738216124_+c79bb93a15.jpg</picture>
+        <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-44323483198680_+2ebf916dd6.jpg</picture>
+      </pictures>
+      <url>https://extel.com.ua/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz/</url>
+      <description_ua><![CDATA[<h3 style="text-align: center;"><span style="color:#c0392b;">Микроволновый датчик присутствия EMOS GS32111, 2000 Вт, IP20</span></h3>
+
+<p>Автоматическое управление освещением без необходимости искать выключатель. <strong>Микроволновый датчик присутствия EMOS GS32111</strong> обнаруживает движение и присутствие человека и автоматически включает подключенное освещение только тогда, когда это необходимо.</p>
+
+<p>В отличие от обычных инфракрасных датчиков, устройство использует <strong>микроволновую технологию обнаружения</strong>, обеспечивая круговую зону контроля <strong>360&deg;</strong> с дальностью до <strong>6 метров</strong>. Это позволяет эффективно контролировать пространство вокруг датчика и автоматизировать освещение в помещении.</p>
+
+<p>Время работы освещения после срабатывания можно настроить <strong>от 10 секунд до 12 минут</strong>. Датчик также реагирует на уровень окружающего освещения &mdash; чувствительность составляет <strong>менее 3 лк</strong>, поэтому свет не будет включаться без необходимости при достаточном естественном освещении.</p>
+
+<p>Устройство работает от сети <strong>220&ndash;240 В</strong> и поддерживает резистивную нагрузку до <strong>2000 Вт</strong> и емкостную нагрузку до <strong>1000 Вт</strong>. Компактный корпус размером <strong>76 &times; 66 мм</strong> позволяет аккуратно интегрировать датчик в систему освещения.</p>
+
+<h3>Основные преимущества</h3>
+
+<ul>
+	<li>
+	<p><strong>Микроволновая технология</strong> &mdash; надежное обнаружение движения и присутствия.</p>
+	</li>
+	<li>
+	<p><strong>Угол обнаружения 360&deg;</strong> &mdash; контроль пространства вокруг датчика.</p>
+	</li>
+	<li>
+	<p><strong>Дальность обнаружения до 6 м</strong> &mdash; подходит для различных помещений.</p>
+	</li>
+	<li>
+	<p><strong>Регулируемое время переключения</strong> &mdash; от 10 секунд до 12 минут.</p>
+	</li>
+	<li>
+	<p><strong>Чувствительность &lt;3 лк</strong> &mdash; освещение включается только при недостаточном уровне естественного света.</p>
+	</li>
+	<li>
+	<p><strong>Мощность до 2000 Вт</strong> &mdash; подходит для управления различными типами освещения.</p>
+	</li>
+	<li>
+	<p><strong>Питание 220&ndash;240 В</strong> &mdash; стандартное подключение к электросети.</p>
+	</li>
+	<li>
+	<p><strong>Функция обнаружения присутствия</strong> &mdash; свет автоматически реагирует на нахождение человека.</p>
+	</li>
+	<li>
+	<p><strong>Компактный белый корпус</strong> &mdash; аккуратно выглядит в интерьере.</p>
+	</li>
+</ul>
+
+<h3 style="text-align: center;"><span style="color:#c0392b;">Где использовать?</span></h3>
+
+<p>EMOS GS32111 отлично подходит для <strong>коридоров, лестничных клеток, санузлов, кладовых, подсобных помещений, офисов, гаражей и других зон, где освещение должно включаться автоматически при появлении человека</strong>.</p>
+
+<p>Датчик помогает сделать освещение более комфортным и экономичным: свет автоматически включается при обнаружении присутствия и выключается после истечения заданного времени.</p>
+
+<p><strong>EMOS GS32111 &mdash; удобное решение для автоматического управления освещением с широкой зоной обнаружения 360&deg;.</strong></p>]]></description_ua>
+      <description_ru><![CDATA[0]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="GS15117" available="false" group_id="144">
+      <article>GS15117</article>
+      <name_ua><![CDATA[Датчик руху EMOS GS15117 PIR IP20 1200 Вт]]></name_ua>
+      <name_ru><![CDATA[Датчик движения EMOS GS15117 PIR IP20 1200 Вт]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>144</categoryId>
+      <price_rrc>549.00</price_rrc>
+      <price>384.3</price>
+      <currencyId>грн</currencyId>
+      <available>Очікується</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-19520943720182_+8a765636d6.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-11300526126491_+ab2da239d4.png</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-94406770819270_+8192f10196.png</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-59125846953774_+72954d5f45.png</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-17745105848486_+6d5ae1db42.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-58457345876285_+89560b8370.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-26901874380211_+fd9f7b8cf6.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-58141657581773_+21cb0d9c66.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-66358752860737_+d8150a7716.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-44760387179695_+0d54b04b5b.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-51970015675284_+54a3166661.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-11873439019986_+ae216e378e.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-94923646181258_+cbbd7d6992.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-74588468425937_+80517b5df9.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-87903812213563_+60e30febab.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-90487054275902_+4ec235658c.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-70781414950452_+25cab353f8.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-93279075537141_+95d69e4e0a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/20/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt-58393580926639_+ba56beffa5.jpg</picture>
+      </pictures>
+      <url>https://extel.com.ua/datchyk-rukhu-emos-gs15117-pir-ip20-1200-vt/</url>
+      <description_ua><![CDATA[<h3 style="text-align: center;"><span style="color:#c0392b;">PIR датчик движения EMOS GS15117, 1200 Вт, IP20</span></h3>
+
+<p>Автоматическое освещение без необходимости каждый раз включать его вручную. <strong>PIR датчик движения EMOS GS15117</strong> обнаруживает движение в зоне до <strong>9 метров</strong> и автоматически активирует подключенное освещение или другое устройство. Благодаря углу обнаружения <strong>160&deg;</strong> датчик обеспечивает широкий контроль пространства и удобно подходит для повседневного использования в помещениях.</p>
+
+<p>Время работы можно настроить в диапазоне <strong>от 10 секунд до 15 минут</strong>, поэтому освещение не будет работать дольше, чем необходимо. Датчик также имеет регулируемую чувствительность к уровню освещенности <strong>&lt;3 лк</strong>, что помогает избежать ненужного включения света при достаточном естественном освещении.</p>
+
+<p>Модель использует <strong>PIR-технологию</strong> для обнаружения движения и поддерживает <strong>аудиоуправление</strong>. Устройство работает от сети <strong>220&ndash;240 В</strong>, поддерживает резистивную нагрузку до <strong>1200 Вт</strong> и емкостную нагрузку до <strong>600 Вт</strong>. Компактный корпус размером <strong>80 &times; 80 &times; 34 мм</strong> легко вписывается в интерьер.</p>
+
+<h3>Основные преимущества</h3>
+
+<ul>
+	<li>
+	<p><strong>PIR-сенсор</strong> &mdash; надежное обнаружение движения.</p>
+	</li>
+	<li>
+	<p><strong>Дальность обнаружения до 9 м</strong> &mdash; охватывает значительную площадь помещения.</p>
+	</li>
+	<li>
+	<p><strong>Угол обнаружения 160&deg;</strong> &mdash; широкий сектор контроля.</p>
+	</li>
+	<li>
+	<p><strong>Регулируемое время работы</strong> &mdash; от 10 секунд до 15 минут.</p>
+	</li>
+	<li>
+	<p><strong>Чувствительность &lt;3 лк</strong> &mdash; освещение включается при недостаточном уровне естественного света.</p>
+	</li>
+	<li>
+	<p><strong>Аудиоуправление</strong> &mdash; дополнительная возможность управления с помощью звука.</p>
+	</li>
+	<li>
+	<p><strong>Мощность нагрузки до 1200 Вт</strong> &mdash; подходит для управления освещением и другими устройствами.</p>
+	</li>
+	<li>
+	<p><strong>Защита IP20</strong> &mdash; предназначен для использования внутри помещений.</p>
+	</li>
+	<li>
+	<p><strong>Компактный белый корпус</strong> &mdash; размер 80 &times; 80 &times; 34 мм.</p>
+	</li>
+</ul>
+
+<h3 style="text-align: center;"><span style="color:#c0392b;">Где использовать?</span></h3>
+
+<p>EMOS GS15117 станет практичным решением для <strong>коридоров, прихожих, лестничных зон, кладовых, подсобных и других внутренних помещений</strong>, где удобно автоматически включать освещение при обнаружении движения.</p>
+
+<p>Датчик помогает сделать использование освещения комфортнее и экономичнее: свет включается автоматически при появлении движения, а после заданного времени выключается.</p>
+
+<p><strong>EMOS GS15117 &mdash; удобный PIR-датчик для автоматического управления освещением с дальностью обнаружения до 9 м и углом 160&deg;.</strong></p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
@@ -17959,6 +18253,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>4192.00</price_rrc>
+      <price>3009.3</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -18031,6 +18326,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>5564.00</price_rrc>
+      <price>3989.28</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -18256,12 +18552,12 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56601SH" available="false" group_id="59">
+    <offer id="P56601SH" available="false" group_id="145">
       <article>P56601SH</article>
-      <name_ua><![CDATA[Термостат EMOS P56601SH 2-в-1 з цифровим таймером, штепсельною вилкою, WiFi]]></name_ua>
-      <name_ru><![CDATA[Термостат EMOS P56601SH 2-в-1 с цифровым таймером, штепсельной вилкой, WiFi]]></name_ru>
+      <name_ua><![CDATA[Розетковий терморегулятор EMOS P56601SH 2-в-1 з цифровим таймером і Wi-Fi]]></name_ua>
+      <name_ru><![CDATA[Розеточный терморегулятор EMOS P56601SH 2-в-1 с цифровым таймером и Wi-Fi]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>145</categoryId>
       <price_rrc>2299.00</price_rrc>
       <price>1609.32</price>
       <currencyId>грн</currencyId>
@@ -18289,48 +18585,46 @@ IP20 – идеально для помещений
         <picture>https://extel.com.ua/content/images/50/53937291482803_+452372d931.jpg</picture>
       </pictures>
       <url>https://extel.com.ua/termostat-emos-p56601sh-2-v-1-z-tsyfrovym-taimerom-shtepselnoiu-vylkoiu-wifi/</url>
-      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Умная жизнь стала еще доступнее
-</h2> <p>
-Создайте свой умный дом с устройствами <strong>EMOS GoSmart</strong> и другими совместимыми с TUYA. Подключайте отдельные устройства, настраивайте автоматизацию их работы и управляйте ими дистанционно через интуитивное мобильное приложение с полной локализацией.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Умная термостатическая розетка – тепло и потребление под контролем
-</h2> <p>
-Откройте для себя многофункциональную термостатическую и коммутационную розетку <strong>EMOS GoSmart</strong>, которая приносит комфорт, экономию и контроль в вашем доме. В отопительный сезон используйте ее в качестве термостата для электроотопления, а в межсезонье – в качестве таймера для управления бытовыми приборами. Через мобильное приложение вы всегда имеете полный контроль над энергопотреблением, можете создавать индивидуальные графики и автоматизации, а обычные устройства превращаются в «умные». Все это дополнено четким подсвеченным экраном и памятью программ даже при отключении электричества.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Функции термостата
-</h2> <p>
-Создайте желаемый комфорт в доме или офисе. Используйте термостат для автоматической регулировки электроотопления и охлаждения, например, обогревателей, тепловых полотенцесушителей или кондиционеров. Все настройки легко производить через приложение EMOS GoSmart. Диапазон регулирования температуры: от 5 до 40 °C.
-</p> <p>
-Функция <strong>BOOST</strong> позволяет изменить текущую температуру вне запланированного приложения. По истечении установленного времени розетка автоматически возвращается в основную программу.
-</p> <p>
-Если вы используете цифровую розетку в качестве термостата, размещайте ее в месте со свободной циркуляцией воздуха и без прямого солнечного света. Термостат поддерживает режимы обогрева и охлаждения.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Умное управление бытовыми приборами
-</h2> <p>
-Розетка позволяет дистанционно включать и выключать приборы, измерять потребление электроэнергии, устанавливать графики работы и автоматические вкл/выкл. Это превращает любой стандартный прибор в «умный».
-</p> <p>
-Функция <strong>Тимер</strong> автоматизирует работу подключенных приборов за определенное время и день. Отсутствуют дома? Перед вами возвратится розетка. <strong>Countdown</strong> позволяет установить автоматическое включение или выключение. <strong>Scheduled Shut-Off</strong> отключает устройство через заданное время, например кондиционер или воздухоочиститель.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Прозрачный дисплей с подсветкой
-</h2> <p>
-Большой подсвеченный дисплей розетки делает управление простым даже в темноте или при слабом освещении. Большие цифры позволяют легко проверять текущую и установленную температуру или время. Управление возможно через приложение EMOS GoSmart, вручную с помощью кнопок или голосовые помощники <strong>Amazon Alexa</strong> и <strong>Google Assistant</strong>.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Легкое подключение и автоматизация
-</h2> <p>
-Подключите розетку к сети, подключите Wi-Fi и спарируйте с бесплатным приложением EMOS GoSmart. Настройте автоматизацию и создавайте сценарии, например автоматическое выключение при достижении заданного потребления или сообщений на телефон. Любите тёплую ванну? Установите автоматическое включение полотенцесушителя при понижении температуры.
-</p> <p>
-Дайте вашему дому заботиться о себе и наслаждайтесь больше времени с близкими и любимыми занятиями.
-</p>]]></description_ua>
+      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Умная жизнь стала еще доступнее</h2>
+
+<p>Создайте свой умный дом с устройствами <strong>EMOS GoSmart</strong> и другими совместимыми с TUYA. Подключайте отдельные устройства, настраивайте автоматизацию их работы и управляйте ими дистанционно через интуитивное мобильное приложение с полной локализацией.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Умная термостатическая розетка &ndash; тепло и потребление под контролем</h2>
+
+<p>Откройте для себя многофункциональную термостатическую и коммутационную розетку <strong>EMOS GoSmart</strong>, которая приносит комфорт, экономию и контроль в вашем доме. В отопительный сезон используйте ее в качестве термостата для электроотопления, а в межсезонье &ndash; в качестве таймера для управления бытовыми приборами. Через мобильное приложение вы всегда имеете полный контроль над энергопотреблением, можете создавать индивидуальные графики и автоматизации, а обычные устройства превращаются в &laquo;умные&raquo;. Все это дополнено четким подсвеченным экраном и памятью программ даже при отключении электричества.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Функции термостата</h2>
+
+<p>Создайте желаемый комфорт в доме или офисе. Используйте термостат для автоматической регулировки электроотопления и охлаждения, например, обогревателей, тепловых полотенцесушителей или кондиционеров. Все настройки легко производить через приложение EMOS GoSmart. Диапазон регулирования температуры: от 5 до 40 &deg;C.</p>
+
+<p>Функция <strong>BOOST</strong> позволяет изменить текущую температуру вне запланированного приложения. По истечении установленного времени розетка автоматически возвращается в основную программу.</p>
+
+<p>Если вы используете цифровую розетку в качестве термостата, размещайте ее в месте со свободной циркуляцией воздуха и без прямого солнечного света. Термостат поддерживает режимы обогрева и охлаждения.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Умное управление бытовыми приборами</h2>
+
+<p>Розетка позволяет дистанционно включать и выключать приборы, измерять потребление электроэнергии, устанавливать графики работы и автоматические вкл/выкл. Это превращает любой стандартный прибор в &laquo;умный&raquo;.</p>
+
+<p>Функция <strong>Тимер</strong> автоматизирует работу подключенных приборов за определенное время и день. Отсутствуют дома? Перед вами возвратится розетка. <strong>Countdown</strong> позволяет установить автоматическое включение или выключение. <strong>Scheduled Shut-Off</strong> отключает устройство через заданное время, например кондиционер или воздухоочиститель.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Прозрачный дисплей с подсветкой</h2>
+
+<p>Большой подсвеченный дисплей розетки делает управление простым даже в темноте или при слабом освещении. Большие цифры позволяют легко проверять текущую и установленную температуру или время. Управление возможно через приложение EMOS GoSmart, вручную с помощью кнопок или голосовые помощники <strong>Amazon Alexa</strong> и <strong>Google Assistant</strong>.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Легкое подключение и автоматизация</h2>
+
+<p>Подключите розетку к сети, подключите Wi-Fi и спарируйте с бесплатным приложением EMOS GoSmart. Настройте автоматизацию и создавайте сценарии, например автоматическое выключение при достижении заданного потребления или сообщений на телефон. Любите тёплую ванну? Установите автоматическое включение полотенцесушителя при понижении температуры.</p>
+
+<p>Дайте вашему дому заботиться о себе и наслаждайтесь больше времени с близкими и любимыми занятиями.</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5660SH" available="false" group_id="59">
+    <offer id="P5660SH" available="false" group_id="145">
       <article>P5660SH</article>
-      <name_ua><![CDATA[Термостат 2-в-1 з розеткою та функцією цифрового таймера, Schuko P5660SH]]></name_ua>
-      <name_ru><![CDATA[Термостат 2-в-1 с розеткой и функцией цифрового таймера, Schuko P5660SH]]></name_ru>
+      <name_ua><![CDATA[Терморегулятор у розетку EMOS P5660SH 2-в-1 з цифровим таймером]]></name_ua>
+      <name_ru><![CDATA[Терморегулятор в розетку EMOS P5660SH 2-в-1 с цифровым таймером]]></name_ru>
       <brand>EMOS</brand>
-      <categoryId>59</categoryId>
+      <categoryId>145</categoryId>
       <price_rrc>1099.00</price_rrc>
       <price>857.22</price>
       <currencyId>грн</currencyId>
@@ -18360,31 +18654,29 @@ IP20 – идеально для помещений
         <picture>https://extel.com.ua/content/images/1/77203292960281_+d0d0d065eb.jpg</picture>
       </pictures>
       <url>https://extel.com.ua/termostat-2-v-1-z-rozetkoiu-ta-funktsiieiu-tsyfrovoho-taimera-schuko-p5660sh/</url>
-      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Цифровая розетка 2 в 1
-</h2> <p>
-Ищете многофункциональную цифровую розетку, которую можно использовать как практичный термостат в отопительный сезон или как таймер, например, для новогодних гирлянд? Тогда термостатическая и коммутационная розетка <strong>EMOS</strong> станет вашим незаменимым помощником круглогодично. Вас приятно удивит не только четкий дисплей с большими цифрами, но возможность настройки до 24 программ. Не беспокойтесь об отключении электричества – все настройки сохраняются, и вы продолжите пользоваться идеальной температурой или своевременным включением освещения.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Термостат и таймер в одном
-</h2> <p>
-Цените простые и универсальные решения в доме или хотите экономно контролировать растущие счета за электроэнергию? Функция 2-в-1 позволяет использовать розетку в качестве таймера для бытовых приборов и в качестве термостата для автоматического управления нагреванием. Благодаря этому вы эффективно используете все возможности розетки в течение года. Регулируйте обогреватель, вентилятор, фильтрацию бассейна или даже подсветку елки.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Четкий дисплей с подсветкой
-</h2> <p>
-Преимуществом розетки является четкий дисплей с яркой подсветкой, что облегчает управление даже в темноте или при слабом освещении. Большие цифры позволяют легко проверять текущую и установленную температуру, что особенно ценно людям с плохим зрением. Активировать подсветку очень просто – нажмите любую кнопку, и она включится на 15 секунд.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Функция таймера
-</h2> <p>
-Таймер позволяет автоматически управлять освещением аквариума, фильтрацией бассейна или новогодней гирляндой. Вы можете настроить до 24 программ с минимальным интервалом в одну минуту, и эти настройки сохранятся даже при отключении электричества. Функция <strong>BOOST</strong> (обратный отсчет) позволяет временно изменить настройки вне основной программы. По истечении заданного времени розетка возвращается в исходный режим.
-</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">
-Функции термостата
-</h2> <p>
-Создайте комфорт в доме или офисе. Термостат автоматически управляет электроотоплением и охлаждением: обогревателями, тепловыми полотенцесушками или кондиционерами. Просто нажмите и установите желаемую температуру от 5°C до 40°C.
-</p> <p>
-Функция <strong>BOOST</strong> позволяет однократно изменить температуру вне текущей программы. По истечении заданного времени розетка автоматически возвращается к исходным настройкам.
-</p> <p>
-Если вы используете розетку в качестве термостата, размещайте ее в месте со свободной циркуляцией воздуха и без прямого солнечного света. Термостат поддерживает режимы отопления и охлаждения.
-</p>]]></description_ua>
+      <description_ua><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Цифровая розетка 2 в 1</h2>
+
+<p>Ищете многофункциональную цифровую розетку, которую можно использовать как практичный термостат в отопительный сезон или как таймер, например, для новогодних гирлянд? Тогда термостатическая и коммутационная розетка <strong>EMOS</strong> станет вашим незаменимым помощником круглогодично. Вас приятно удивит не только четкий дисплей с большими цифрами, но возможность настройки до 24 программ. Не беспокойтесь об отключении электричества &ndash; все настройки сохраняются, и вы продолжите пользоваться идеальной температурой или своевременным включением освещения.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Термостат и таймер в одном</h2>
+
+<p>Цените простые и универсальные решения в доме или хотите экономно контролировать растущие счета за электроэнергию? Функция 2-в-1 позволяет использовать розетку в качестве таймера для бытовых приборов и в качестве термостата для автоматического управления нагреванием. Благодаря этому вы эффективно используете все возможности розетки в течение года. Регулируйте обогреватель, вентилятор, фильтрацию бассейна или даже подсветку елки.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Четкий дисплей с подсветкой</h2>
+
+<p>Преимуществом розетки является четкий дисплей с яркой подсветкой, что облегчает управление даже в темноте или при слабом освещении. Большие цифры позволяют легко проверять текущую и установленную температуру, что особенно ценно людям с плохим зрением. Активировать подсветку очень просто &ndash; нажмите любую кнопку, и она включится на 15 секунд.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Функция таймера</h2>
+
+<p>Таймер позволяет автоматически управлять освещением аквариума, фильтрацией бассейна или новогодней гирляндой. Вы можете настроить до 24 программ с минимальным интервалом в одну минуту, и эти настройки сохранятся даже при отключении электричества. Функция <strong>BOOST</strong> (обратный отсчет) позволяет временно изменить настройки вне основной программы. По истечении заданного времени розетка возвращается в исходный режим.</p>
+
+<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Функции термостата</h2>
+
+<p>Создайте комфорт в доме или офисе. Термостат автоматически управляет электроотоплением и охлаждением: обогревателями, тепловыми полотенцесушками или кондиционерами. Просто нажмите и установите желаемую температуру от 5&deg;C до 40&deg;C.</p>
+
+<p>Функция <strong>BOOST</strong> позволяет однократно изменить температуру вне текущей программы. По истечении заданного времени розетка автоматически возвращается к исходным настройкам.</p>
+
+<p>Если вы используете розетку в качестве термостата, размещайте ее в месте со свободной циркуляцией воздуха и без прямого солнечного света. Термостат поддерживает режимы отопления и охлаждения.</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
