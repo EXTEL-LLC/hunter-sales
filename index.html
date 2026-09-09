@@ -433,7 +433,7 @@ tr.row-crit td{background:rgba(160,90,78,.04)}tr.row-risk td{background:rgba(163
 </div>
 
 <!-- ===== SETTINGS ===== -->
-<div class="tab-pane" id="tab-settings">
+<div class="tab-pane admin-only" id="tab-settings">
 
   <!-- Password -->
   <div class="settings-section">
@@ -990,6 +990,11 @@ function showApp(role){
   document.getElementById('appMain').style.display='block';
   document.getElementById('nav-date').textContent=new Date().toLocaleDateString('uk-UA',{weekday:'short',day:'numeric',month:'long'});
   applyRole(role);
+  // Always start on Pipeline \u2014 reset any leftover active tab/pane from a previous session
+  document.querySelectorAll('.tab-pane').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  const pipePane=document.getElementById('tab-pipeline'); if(pipePane)pipePane.classList.add('active');
+  const pipeTab=document.querySelector('.nav-tab[onclick*="pipeline"]'); if(pipeTab)pipeTab.classList.add('active');
   initCatFilter();
   renderPipeline();
   if(role==='manager'){
@@ -1094,6 +1099,8 @@ async function changePassword(){
 // TABS
 // ============================================================
 function showTab(name,el){
+  // Access guard: settings is admin-only; managers can't open it
+  if(name==='settings'&&getRole()!=='admin'){name='pipeline';el=null;}
   document.querySelectorAll('.tab-pane').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
