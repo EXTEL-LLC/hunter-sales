@@ -1951,6 +1951,19 @@ async function unblockMgr(id){
   updateDashMgrFilter();
   showStatus(document.getElementById('mgr-status'),`\uD83D\uDD13 \u0414\u043E\u0441\u0442\u0443\u043F "${mgr.name}" \u0432\u0456\u0434\u043D\u043E\u0432\u043B\u0435\u043D\u043E`,'ok');
 }
+async function resetMgrPass(id){
+  const managers=getManagers();
+  const mgr=managers.find(m=>m.id===id);
+  if(!mgr)return;
+  const np=prompt(`\u041D\u043E\u0432\u0438\u0439 \u043F\u0430\u0440\u043E\u043B\u044C \u0434\u043B\u044F \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0430 "${mgr.name}":\n(\u043F\u043E\u0432\u0456\u0434\u043E\u043C\u0442\u0435 \u0439\u043E\u0433\u043E \u043C\u0435\u043D\u0435\u0434\u0436\u0435\u0440\u0443 \u2014 \u0441\u0442\u0430\u0440\u0438\u0439 \u043F\u0430\u0440\u043E\u043B\u044C \u043F\u0435\u0440\u0435\u0441\u0442\u0430\u043D\u0435 \u0434\u0456\u044F\u0442\u0438)`);
+  if(np===null)return;
+  if(np.length<3){alert('\u041F\u0430\u0440\u043E\u043B\u044C \u043C\u0456\u043D\u0456\u043C\u0443\u043C 3 \u0441\u0438\u043C\u0432\u043E\u043B\u0438');return;}
+  mgr.passHash=await sha256(np);
+  saveManagers(managers);
+  await autoCloudPush();
+  renderMgrList();
+  showStatus(document.getElementById('mgr-status'),`\uD83D\uDD11 \u041F\u0430\u0440\u043E\u043B\u044C "${mgr.name}" \u0437\u043C\u0456\u043D\u0435\u043D\u043E. \u041D\u043E\u0432\u0438\u0439: ${np}`,'ok');
+}
 async function deleteMgr(id){
   const mgr=getManagers().find(m=>m.id===id);
   if(!mgr)return;
@@ -1994,6 +2007,7 @@ function renderMgrList(){
       </div>
       <div style="display:flex;gap:6px">
         <button class="btn btn-sm btn-primary" onclick="openMgrEdit('${m.id}')">\u270F \u041F\u0440\u0430\u0432\u0430</button>
+        <button class="btn btn-sm" style="background:#4f7a80;color:#fff" onclick="resetMgrPass('${m.id}')">\uD83D\uDD11 \u041F\u0430\u0440\u043E\u043B\u044C</button>
         ${blocked
           ? `<button class="btn btn-sm btn-success" onclick="unblockMgr('${m.id}')">\uD83D\uDD13 \u0420\u043E\u0437\u0431\u043B\u043E\u043A\u0443\u0432\u0430\u0442\u0438</button>`
           : `<button class="btn btn-sm" style="background:#a3703f;color:#fff" onclick="blockMgr('${m.id}')">\uD83D\uDD12 \u0417\u0430\u0431\u043B\u043E\u043A\u0443\u0432\u0430\u0442\u0438</button>`}
