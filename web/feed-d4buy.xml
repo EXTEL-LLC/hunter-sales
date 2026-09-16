@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-15">
+<price date="2026-09-16">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -466,7 +466,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P09220" available="false" group_id="11">
+    <offer id="P09220" available="true" group_id="11">
       <article>P09220</article>
       <name_ua><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель на катушке Emos P09220 4 розетки 20 м 1,0 мм²]]></name_ru>
@@ -475,7 +475,7 @@
       <price_rrc>2049.00</price_rrc>
       <price>1557.24</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/47884341518343_+9f42e3efe2.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/42963628151804_+4080ed1aac.jpg</picture>
@@ -10195,7 +10195,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P2312" available="false" group_id="33">
+    <offer id="P2312" available="true" group_id="33">
       <article>P2312</article>
       <name_ua><![CDATA[Лiхтар акумуляторний Emos P2312 750 Lm 4000 mAh Li-Ion пластик]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P2312 750 Lm 4000 mAh Li-Ion пластик]]></name_ru>
@@ -10203,7 +10203,7 @@ N1015 — надёжное решение для сезонного обслуж
       <categoryId>33</categoryId>
       <price_rrc>2285.00</price_rrc>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/99586144649212_+2f3d16fcaf.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/97896939230371_+92edb74de4.jpg</picture>
@@ -10351,7 +10351,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P2316" available="false" group_id="33">
+    <offer id="P2316" available="true" group_id="33">
       <article>P2316</article>
       <name_ua><![CDATA[Ліхтар пошуковий акумуляторний EMOS P2316 850 лм, 400 м, 8000 мА·год]]></name_ua>
       <name_ru><![CDATA[Фонарь поисковый аккумуляторный EMOS P2316 850 лм, 400 м, 8000 мАч]]></name_ru>
@@ -10360,7 +10360,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>2329.00</price_rrc>
       <price>1770.06</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/6/48507121016978_+250a3c2cbf.jpg</picture>
         <picture>https://extel.com.ua/content/images/6/86022376684991_+d2a035b611.jpg</picture>
@@ -11828,7 +11828,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3861" available="false" group_id="34">
+    <offer id="P3861" available="true" group_id="34">
       <article>P3861</article>
       <name_ua><![CDATA[Лiхтар ручний Emos P3861 20 Lm 2×AA пластик гума]]></name_ua>
       <name_ru><![CDATA[Фонарь ручной Emos P3861 20 Lm 2×AA пластик резина]]></name_ru>
@@ -11837,7 +11837,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>219.00</price_rrc>
       <price>166.44</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/8/44309673511725_+8618065ec7.jpg</picture>
         <picture>https://extel.com.ua/content/images/8/36605817505661_+662b4a007f.jpg</picture>
@@ -12023,7 +12023,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4112" available="false" group_id="36">
+    <offer id="P4112" available="true" group_id="36">
       <article>P4112</article>
       <name_ua><![CDATA[Лiхтар прожектор Emos P4112 350 Lm 3xAA]]></name_ua>
       <name_ru><![CDATA[Фонарь прожектор Emos P4112 350 Lm 3xAA]]></name_ru>
@@ -12032,7 +12032,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>389.00</price_rrc>
       <price>295.62</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/55067196997078_+8631bf7073.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/21926670676629_+af6bec299d.jpg</picture>
@@ -18201,8 +18201,8 @@ IP20 – идеально для помещений
       <name_ru><![CDATA[Указатель напряжения (фазовоказатель) EMOS M0003BN]]></name_ru>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
-      <price_rrc>349.00</price_rrc>
-      <price>265.26</price>
+      <price_rrc>350.00</price_rrc>
+      <price>265.98</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -18303,8 +18303,8 @@ IP20 – идеально для помещений
       <name_ru><![CDATA[Мультитестер EMOS M0018N]]></name_ru>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
-      <price_rrc>129.00</price_rrc>
-      <price>98.04</price>
+      <price_rrc>139.00</price_rrc>
+      <price>105.66</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -18403,8 +18403,8 @@ IP20 – идеально для помещений
       <name_ru><![CDATA[Мультиметр EMOS M0391N]]></name_ru>
       <brand>EMOS</brand>
       <categoryId>52</categoryId>
-      <price_rrc>749.00</price_rrc>
-      <price>569.22</price>
+      <price_rrc>769.00</price_rrc>
+      <price>584.46</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -26682,7 +26682,7 @@ Smart-управление через мобильное приложение
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5733W" available="false" group_id="75">
+    <offer id="P5733W" available="true" group_id="75">
       <article>P5733W</article>
       <name_ua><![CDATA[Бездротовий дверний дзвінок EMOS P5733W]]></name_ua>
       <name_ru><![CDATA[Беспроводной дверной звонок EMOS P5733W]]></name_ru>
@@ -26691,7 +26691,7 @@ Smart-управление через мобильное приложение
       <price_rrc>999.00</price_rrc>
       <price>759.24</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/39/14061805227096_+b6d9d3b7db.jpg</picture>
         <picture>https://extel.com.ua/content/images/39/48423827995793_+9672bf74e7.jpg</picture>
