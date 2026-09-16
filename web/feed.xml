@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-15">
+<price date="2026-09-16">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -450,7 +450,7 @@
 <p>Катушка обеспечивает подачу электроэнергии в широком диапазоне рабочих температур от <b>-35&deg;C до +60&deg;C</b>. <b>Морозостойкий кабель</b> также обладает повышенной <b>устойчивостью к ультрафиолету</b> и не имеет характерного резинового запаха.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P09220" available="false" group_id="11">
+    <offer id="P09220" available="true" group_id="11">
       <article>P09220</article>
       <name><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм²]]></name>
       <brand>EMOS</brand>
@@ -458,7 +458,7 @@
       <price_rrc>2049.00</price_rrc>
       <price>1680.18</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/47884341518343_+9f42e3efe2.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/42963628151804_+4080ed1aac.jpg</picture>
@@ -4151,7 +4151,7 @@
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>3599.00</price_rrc>
-      <price>0.00</price>
+      <price>2952</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -9650,7 +9650,7 @@ N1015 — надёжное решение для сезонного обслуж
 <p><img alt="picture" loading="lazy" src="https://content1.rozetka.com.ua/files/images/original/626542868.png" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P2312" available="false" group_id="33">
+    <offer id="P2312" available="true" group_id="33">
       <article>P2312</article>
       <name><![CDATA[Лiхтар акумуляторний Emos P2312 750 Lm 4000 mAh Li-Ion пластик]]></name>
       <brand>EMOS</brand>
@@ -9658,7 +9658,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>2285.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/99586144649212_+2f3d16fcaf.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/97896939230371_+92edb74de4.jpg</picture>
@@ -9799,7 +9799,7 @@ N1015 — надёжное решение для сезонного обслуж
 <p>Светодиод <strong>COB</strong> светится красным и белым цветом &mdash; красный свет служит предупреждением в дорожных ситуациях, обеспечивая максимальную ситуационную осведомлённость.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P2316" available="false" group_id="33">
+    <offer id="P2316" available="true" group_id="33">
       <article>P2316</article>
       <name><![CDATA[Ліхтар пошуковий акумуляторний EMOS P2316 850 лм, 400 м, 8000 мА·год]]></name>
       <brand>EMOS</brand>
@@ -9807,7 +9807,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>2329.00</price_rrc>
       <price>1909.8</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/6/48507121016978_+250a3c2cbf.jpg</picture>
         <picture>https://extel.com.ua/content/images/6/86022376684991_+d2a035b611.jpg</picture>
@@ -11197,7 +11197,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 </ul> <p>Идеальный вариант для домашнего использования, кемпинга, рыбалки или ночных прогулок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3861" available="false" group_id="34">
+    <offer id="P3861" available="true" group_id="34">
       <article>P3861</article>
       <name><![CDATA[Лiхтар ручний Emos P3861 20 Lm 2×AA пластик гума]]></name>
       <brand>EMOS</brand>
@@ -11205,7 +11205,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>219.00</price_rrc>
       <price>179.58</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/8/44309673511725_+8618065ec7.jpg</picture>
         <picture>https://extel.com.ua/content/images/8/36605817505661_+662b4a007f.jpg</picture>
@@ -11381,7 +11381,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 </ul> <p>Идеален для кемпинга, ремонта, аварийных ситуаций и бытовых задач.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4112" available="false" group_id="36">
+    <offer id="P4112" available="true" group_id="36">
       <article>P4112</article>
       <name><![CDATA[Лiхтар прожектор Emos P4112 350 Lm 3xAA]]></name>
       <brand>EMOS</brand>
@@ -11389,7 +11389,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>389.00</price_rrc>
       <price>318.96</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/55067196997078_+8631bf7073.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/21926670676629_+af6bec299d.jpg</picture>
@@ -17252,8 +17252,8 @@ IP20 – идеально для помещений
       <name><![CDATA[Покажчик напруги (фазовказівник) EMOS M0003BN]]></name>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
-      <price_rrc>349.00</price_rrc>
-      <price>286.2</price>
+      <price_rrc>350.00</price_rrc>
+      <price>286.98</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -17352,8 +17352,8 @@ IP20 – идеально для помещений
       <name><![CDATA[Мультитестер EMOS M0018N]]></name>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
-      <price_rrc>129.00</price_rrc>
-      <price>105.78</price>
+      <price_rrc>139.00</price_rrc>
+      <price>114</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -17450,8 +17450,8 @@ IP20 – идеально для помещений
       <name><![CDATA[Мультиметр EMOS M0391N]]></name>
       <brand>EMOS</brand>
       <categoryId>52</categoryId>
-      <price_rrc>749.00</price_rrc>
-      <price>614.16</price>
+      <price_rrc>769.00</price_rrc>
+      <price>630.6</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -25400,7 +25400,7 @@ Smart-управление через мобильное приложение
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5733W" available="false" group_id="75">
+    <offer id="P5733W" available="true" group_id="75">
       <article>P5733W</article>
       <name><![CDATA[Бездротовий дверний дзвінок EMOS P5733W]]></name>
       <brand>EMOS</brand>
@@ -25408,7 +25408,7 @@ Smart-управление через мобильное приложение
       <price_rrc>999.00</price_rrc>
       <price>819.18</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/39/14061805227096_+b6d9d3b7db.jpg</picture>
         <picture>https://extel.com.ua/content/images/39/48423827995793_+9672bf74e7.jpg</picture>
