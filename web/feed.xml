@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-16">
+<price date="2026-09-24">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -77,19 +77,19 @@
     <category id="77" parentId="10">Дверні дзвінки, дротові та бездротові/Дротові дверні дзвінки</category>
     <category id="78" parentId="10">Аксесуари GoSmart</category>
     <category id="79" parentId="9">Терморегулятори</category>
-    <category id="140">Новинки</category>
-    <category id="141" parentId="6">Кухонні та персональні ваги</category>
-    <category id="143" parentId="5">Накладні світильники</category>
-    <category id="144" parentId="5">Датчики руху PIR, MW, сутінків</category>
-    <category id="145" parentId="9">Терморегулятори в розетку</category>
-    <category id="146" parentId="9">Термоголовки (термостатичні головки) для радіаторів</category>
+    <category id="80">Новинки</category>
+    <category id="81" parentId="5">Датчики руху PIR, MW, сутінків</category>
+    <category id="82" parentId="6">Кухонні та персональні ваги</category>
+    <category id="83" parentId="9">Термоголовки (термостатичні головки) для радіаторів</category>
+    <category id="84" parentId="9">Терморегулятори в розетку</category>
+    <category id="85" parentId="5">Накладні світильники</category>
   </categories>
   <offers>
-    <offer id="J0803" available="true" group_id="140">
+    <offer id="J0803" available="true" group_id="80">
       <article>J0803</article>
       <name><![CDATA[Антена універсальна EMOS J0803 DVB-T2, FM, DAB, фільтр LTE/4G/5G]]></name>
       <brand>EMOS</brand>
-      <categoryId>140</categoryId>
+      <categoryId>80</categoryId>
       <price_rrc>3106.00</price_rrc>
       <price>2546.94</price>
       <currencyId>грн</currencyId>
@@ -147,7 +147,7 @@
     </offer>
     <offer id="P08215" available="true" group_id="11">
       <article>P08215</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P08215 4 розетки 15 м 1,5 мм² з led прожектором гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P08215 4 розетки 15 м 1,5 мм² з led прожектором гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>5099.00</price_rrc>
@@ -211,7 +211,7 @@
     </offer>
     <offer id="P08225" available="true" group_id="11">
       <article>P08225</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P08225 4 розетки 25 м 1,5 мм² гума]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P08225 4 розетки 25 м 1,5 мм² гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>4199.00</price_rrc>
@@ -247,7 +247,7 @@
     </offer>
     <offer id="P082251" available="true" group_id="11">
       <article>P082251</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P082251 4 розетки 25 м 1,0 мм² гума]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P082251 4 розетки 25 м 1,0 мм² гума з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>3649.00</price_rrc>
@@ -298,7 +298,7 @@
     </offer>
     <offer id="P08250" available="true" group_id="11">
       <article>P08250</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P08250 4 розетки 50 м 1,5 мм² гума]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P08250 4 розетки 50 м 1,5 мм² гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>7349.00</price_rrc>
@@ -382,7 +382,7 @@
     </offer>
     <offer id="P08625W" available="true" group_id="11">
       <article>P08625W</article>
-      <name><![CDATA[Мережевий Подовжувач на котушці Emos P08625W 4 розетки 25 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P08625W 4 розетки 25 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>4949.00</price_rrc>
@@ -414,7 +414,7 @@
     </offer>
     <offer id="P08650W" available="true" group_id="11">
       <article>P08650W</article>
-      <name><![CDATA[Мережевий Подовжувач на котушці Emos P08650W 4 розетки 50 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P08650W 4 розетки 50 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>8799.00</price_rrc>
@@ -452,7 +452,7 @@
     </offer>
     <offer id="P09220" available="true" group_id="11">
       <article>P09220</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>2049.00</price_rrc>
@@ -480,7 +480,7 @@
     </offer>
     <offer id="P09225" available="true" group_id="11">
       <article>P09225</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09225 4 розетки 25 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09225 4 розетки 25 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>3499.00</price_rrc>
@@ -577,7 +577,7 @@
     </offer>
     <offer id="P09225M" available="true" group_id="11">
       <article>P09225M</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09225M 4 розетки 25 м 2,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09225M 4 розетки 25 м 2,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>5599.00</price_rrc>
@@ -628,7 +628,7 @@
     </offer>
     <offer id="P09240" available="true" group_id="11">
       <article>P09240</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09240 4 розетки 40 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09240 4 розетки 40 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>4799.00</price_rrc>
@@ -675,7 +675,7 @@
     </offer>
     <offer id="P09240M" available="true" group_id="11">
       <article>P09240M</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09240M 4 розетки 40 м 2,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09240M 4 розетки 40 м 2,5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>8499.00</price_rrc>
@@ -721,7 +721,7 @@
     </offer>
     <offer id="P09250" available="true" group_id="11">
       <article>P09250</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P09250 4 розетки 50 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P09250 4 розетки 50 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>5799.00</price_rrc>
@@ -796,7 +796,7 @@
     </offer>
     <offer id="P19221" available="true" group_id="11">
       <article>P19221</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P19221 4 розетки 50 м 2,5 мм² гума]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P19221 4 розетки 50 м 3х2,5 мм² гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>12699.00</price_rrc>
@@ -939,7 +939,7 @@
     </offer>
     <offer id="P19224" available="true" group_id="11">
       <article>P19224</article>
-      <name><![CDATA[Мережевий подовжувач на металевій котушці Emos P19224 4 розетки 40 м 2,5 мм² гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач на металевій котушці Emos P19224 4 розетки 40 м 2,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>10549.00</price_rrc>
@@ -1094,7 +1094,7 @@
     </offer>
     <offer id="P19510" available="true" group_id="11">
       <article>P19510</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P19510 4 розетки 10 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P19510 4 розетки 10 м 1 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>1349.00</price_rrc>
@@ -1123,7 +1123,7 @@
     </offer>
     <offer id="P19515" available="true" group_id="11">
       <article>P19515</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P19515 4 розетки 15 м 1 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P19515 4 розетки 15 м 1 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>1749.00</price_rrc>
@@ -1154,7 +1154,7 @@
     </offer>
     <offer id="P19625" available="true" group_id="11">
       <article>P19625</article>
-      <name><![CDATA[Мережевий подовжувач на котушці Emos P19625 4 розетки 25 м 2,5 мм² гума]]></name>
+      <name><![CDATA[Мережевий подовжувач на котушці Emos P19625 4 розетки 25 м 3х2,5 мм² гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>11</categoryId>
       <price_rrc>5499.00</price_rrc>
@@ -1240,7 +1240,7 @@
     </offer>
     <offer id="P0120R" available="true" group_id="12">
       <article>P0120R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0120R 1 розеткa 10 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0120R 1 розеткa 10 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1049.00</price_rrc>
@@ -1274,7 +1274,7 @@
     </offer>
     <offer id="P0121" available="true" group_id="12">
       <article>P0121</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0121 1 розеткa 1,4 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0121 1 розеткa 1,4 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>209.00</price_rrc>
@@ -1331,7 +1331,7 @@
     </offer>
     <offer id="P0122" available="true" group_id="12">
       <article>P0122</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0122 1 розеткa 2 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0122 1 розеткa 2 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>289.00</price_rrc>
@@ -1356,7 +1356,7 @@
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>746.00</price_rrc>
-      <price>611.7</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -1445,7 +1445,7 @@
     </offer>
     <offer id="P0123R" available="true" group_id="12">
       <article>P0123R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0123R 1 розетка 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0123R 1 розетка 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>429.00</price_rrc>
@@ -1484,7 +1484,7 @@
     </offer>
     <offer id="P0125R" available="true" group_id="12">
       <article>P0125R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0125R 1 розетка 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0125R 1 розетка 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>599.00</price_rrc>
@@ -1508,7 +1508,7 @@
     </offer>
     <offer id="P0127R" available="true" group_id="12">
       <article>P0127R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0127R 1 розетка 7 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0127R 1 розетка 7 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>779.00</price_rrc>
@@ -1556,7 +1556,7 @@
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01303" available="true" group_id="12">
+    <offer id="P01303" available="false" group_id="12">
       <article>P01303</article>
       <name><![CDATA[Мережевий подовжувач Emos P01303 1 розетка 3 м 0,75 мм²]]></name>
       <brand>EMOS</brand>
@@ -1564,7 +1564,7 @@
       <price_rrc>209.00</price_rrc>
       <price>163.02</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/6/53932008379439_+4c463ea67f.jpg</picture>
         <picture>https://extel.com.ua/content/images/6/70447950004323_+2860f15042.jpg</picture>
@@ -1626,7 +1626,7 @@
     </offer>
     <offer id="P01510W" available="true" group_id="12">
       <article>P01510W</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01510W 1 розетка 10 м 1,5 мм² IP44 силікон]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01510W 1 розетка 10 м 1,5 мм² IP44 силікон 16 А 3680 Вт з заземленням морозостійкий]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1449.00</price_rrc>
@@ -1664,7 +1664,7 @@
     </offer>
     <offer id="P01520W" available="true" group_id="12">
       <article>P01520W</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01520W 1 розетка 20 м 1,5 мм² IP44 силікон]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01520W 1 розетка 20 м 1,5 мм² IP44 силікон 16 А 3680 Вт з заземленням морозостійкий]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>3149.00</price_rrc>
@@ -1699,7 +1699,7 @@
     </offer>
     <offer id="P01805" available="true" group_id="12">
       <article>P01805</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01805 1 розетка 5 м 1,5 мм² IP44 гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01805 1 розетка 5 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>899.00</price_rrc>
@@ -1722,15 +1722,15 @@
 <p>Одна розетка SCHUKO позволяет подключать стандартные электроприборы. Прочный и надежный дизайн делает использование простым и комфортным.</p> <p><strong>Удлинитель P01805 5 м</strong> – практичное и безопасное решение для дома, мастерской, дачи или влажных рабочих зон.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01810" available="true" group_id="12">
+    <offer id="P01810" available="false" group_id="12">
       <article>P01810</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01810 1 розетка 10 м 1,5 мм² IP44 гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01810 1 розетка 10 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1599.00</price_rrc>
       <price>1311.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/12/85856888693119_+c4e0822eb7.jpg</picture>
         <picture>https://extel.com.ua/content/images/12/28061737624182_+10edd97afd.jpg</picture>
@@ -1772,15 +1772,15 @@
 <p>Одна розетка SCHUKO позволяет подключать стандартные электроприборы. Прочный и надежный дизайн делает использование простым и комфортным.</p> <p><strong>Удлинитель P01810R 10 м</strong> – практичное и безопасное решение для дома, мастерской, дачи или влажных рабочих зон.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01820" available="true" group_id="12">
+    <offer id="P01820" available="false" group_id="12">
       <article>P01820</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01820 1 розетка 20 м 1,5 мм² IP44 гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01820 1 розетка 20 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>2499.00</price_rrc>
       <price>2199.12</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/14/29491500247689_+d2eb4fcc2d.jpg</picture>
         <picture>https://extel.com.ua/content/images/14/73202067034183_+33f4c38085.jpg</picture>
@@ -1799,7 +1799,7 @@
     </offer>
     <offer id="P01825R" available="true" group_id="12">
       <article>P01825R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01825R 1 розетка 25 м 2,5 мм² IP44 гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01825R 1 розетка 25 м 2,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>5149.00</price_rrc>
@@ -1834,7 +1834,7 @@
     </offer>
     <offer id="P01830" available="true" group_id="12">
       <article>P01830</article>
-      <name><![CDATA[Мережевий подовжувач Emos P01830 1 розетка 30 м 1,5 мм² IP44 резина/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P01830 1 розетка 30 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>3599.00</price_rrc>
@@ -1859,7 +1859,7 @@
     </offer>
     <offer id="P0221U" available="true" group_id="12">
       <article>P0221U</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0221U 2 розетки 1,5 м 1,5 мм² USB-A USB-C]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0221U 2 розетки 1,5 м 1,5 мм² USB-A USB-C 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>729.00</price_rrc>
@@ -1920,7 +1920,7 @@
     </offer>
     <offer id="P0321" available="true" group_id="12">
       <article>P0321</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0321 3 розетки 1,5 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0321 3 розетки 1,5 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>249.00</price_rrc>
@@ -1978,7 +1978,7 @@
     </offer>
     <offer id="P0322" available="true" group_id="12">
       <article>P0322</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0322 3 розетки 2 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0322 3 розетки 2 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>279.00</price_rrc>
@@ -2001,7 +2001,7 @@
     </offer>
     <offer id="P0323R" available="true" group_id="12">
       <article>P0323R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0323R 3 розетки 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0323R 3 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>419.00</price_rrc>
@@ -2036,7 +2036,7 @@
     </offer>
     <offer id="P0325R" available="true" group_id="12">
       <article>P0325R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0325R 3 розетки 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0325R 3 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>629.00</price_rrc>
@@ -2178,7 +2178,7 @@
     </offer>
     <offer id="P0423R" available="true" group_id="12">
       <article>P0423R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0423R 4 розетки 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0423R 4 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>449.00</price_rrc>
@@ -2213,7 +2213,7 @@
     </offer>
     <offer id="P0425R" available="true" group_id="12">
       <article>P0425R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0425R 4 розетки 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0425R 4 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>649.00</price_rrc>
@@ -2271,7 +2271,7 @@
     </offer>
     <offer id="P0521R" available="true" group_id="12">
       <article>P0521R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0521R 5 розеток 1,5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0521R 5 розеток 1,5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>349.00</price_rrc>
@@ -2327,7 +2327,7 @@
     </offer>
     <offer id="P0523R" available="true" group_id="12">
       <article>P0523R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0523R 5 розеток 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0523R 5 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>489.00</price_rrc>
@@ -2362,7 +2362,7 @@
     </offer>
     <offer id="P0525R" available="true" group_id="12">
       <article>P0525R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0525R 5 розеток 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>679.00</price_rrc>
@@ -2397,7 +2397,7 @@
     </offer>
     <offer id="P0621" available="true" group_id="12">
       <article>P0621</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0621 6 розеток 1,4 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0621 6 розеток 1,4 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>379.00</price_rrc>
@@ -2440,7 +2440,7 @@
     </offer>
     <offer id="P0623R" available="true" group_id="12">
       <article>P0623R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0623R 6 розеток 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0623R 6 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>519.00</price_rrc>
@@ -2474,7 +2474,7 @@
     </offer>
     <offer id="P0701" available="true" group_id="12">
       <article>P0701</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0701 2 розетки 10 м 1,5 мм² IP44 гума]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0701 2 розетки 10 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1599.00</price_rrc>
@@ -2499,7 +2499,7 @@
     </offer>
     <offer id="P0702" available="true" group_id="12">
       <article>P0702</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0702 2 розетки 15 м 1,5 мм² IP44 гума]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0702 2 розетки 15 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>2199.00</price_rrc>
@@ -2524,7 +2524,7 @@
     </offer>
     <offer id="P0703" available="true" group_id="12">
       <article>P0703</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0703 2 розетки 20 м 1,5 мм² IP44 гума]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0703 2 розетки 20 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>2499.00</price_rrc>
@@ -2549,7 +2549,7 @@
     </offer>
     <offer id="P0704" available="true" group_id="12">
       <article>P0704</article>
-      <name><![CDATA[Мережевий подовжувач Emos P0704 2 розетки 25 м 1,5 мм² IP44 гума]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P0704 2 розетки 25 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>3099.00</price_rrc>
@@ -2574,7 +2574,7 @@
     </offer>
     <offer id="P1321" available="true" group_id="12">
       <article>P1321</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1321 3 розетки 1,5 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1321 3 розетки 1,5 м 1,0 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>299.00</price_rrc>
@@ -2628,15 +2628,15 @@
 <p>Три розетки позволяют подключать несколько электроприборов одновременно, USB-выходы обеспечивают быструю зарядку мобильных устройств, а выключатель и настольный крепеж делают использование максимально комфортным как дома, так и в офисе.</p> <p><strong>Удлинитель P1321R</strong> – практичное, безопасное и универсальное решение для любого помещения.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1321R" available="true" group_id="12">
+    <offer id="P1321R" available="false" group_id="12">
       <article>P1321R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1321R 3 розетки 1,5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1321R 3 розетки 1,5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>369.00</price_rrc>
       <price>287.82</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/13/88571067169155_+c086ff8c48.jpg</picture>
         <picture>https://extel.com.ua/content/images/13/88234373661001_+6665980256.jpg</picture>
@@ -2659,7 +2659,7 @@
     </offer>
     <offer id="P1322" available="true" group_id="12">
       <article>P1322</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1322 3 розетки 2 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1322 3 розетки 2 м 1,0 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>319.00</price_rrc>
@@ -2684,7 +2684,7 @@
     </offer>
     <offer id="P1322CU" available="true" group_id="12">
       <article>P1322CU</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1322CU 3 розетки 2 м 1,5 мм² USB-A USB-C]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1322CU 3 розетки 2 м 1,5 мм² USB-A USB-C 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>899.00</price_rrc>
@@ -2749,7 +2749,7 @@
     </offer>
     <offer id="P1323R" available="true" group_id="12">
       <article>P1323R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1323R 3 розетки 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1323R 3 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>469.00</price_rrc>
@@ -2788,7 +2788,7 @@
     </offer>
     <offer id="P1325R" available="true" group_id="12">
       <article>P1325R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1325R 3 розетки 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1325R 3 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>699.00</price_rrc>
@@ -2826,7 +2826,7 @@
     </offer>
     <offer id="P14201" available="true" group_id="12">
       <article>P14201</article>
-      <name><![CDATA[Мережевий подовжувач Emos P14201 4 розетки 10 м 1,5 мм² гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P14201 4 розетки 10 м 1,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1999.00</price_rrc>
@@ -2862,7 +2862,7 @@
     </offer>
     <offer id="P1421" available="true" group_id="12">
       <article>P1421</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1421 4 розетки 1,4 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1421 4 розетки 1,4 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>329.00</price_rrc>
@@ -2996,7 +2996,7 @@
     </offer>
     <offer id="P14231" available="true" group_id="12">
       <article>P14231</article>
-      <name><![CDATA[Мережевий подовжувач Emos P14231 4 розетки 3 м 1,5 мм² гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P14231 4 розетки 3 м 1,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>929.00</price_rrc>
@@ -3023,7 +3023,7 @@
     </offer>
     <offer id="P1423R" available="true" group_id="12">
       <article>P1423R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1423R 4 розетки 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1423R 4 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>569.00</price_rrc>
@@ -3050,7 +3050,7 @@
     </offer>
     <offer id="P14251" available="true" group_id="12">
       <article>P14251</article>
-      <name><![CDATA[Мережевий подовжувач Emos P14251, 4 розетки, 5 м, 1,5 мм² гума/неопрен]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P14251, 4 розетки, 5 м, 1,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1349.00</price_rrc>
@@ -3076,7 +3076,7 @@
     </offer>
     <offer id="P1425R" available="true" group_id="12">
       <article>P1425R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1425R 4 розетки 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1425R 4 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>739.00</price_rrc>
@@ -3103,7 +3103,7 @@
     </offer>
     <offer id="P1521" available="true" group_id="12">
       <article>P1521</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1521 5 розеток 1,4 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1521 5 розеток 1,4 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>389.00</price_rrc>
@@ -3179,7 +3179,7 @@
     </offer>
     <offer id="P1523CU" available="true" group_id="12">
       <article>P1523CU</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1523CU 5 розеток 3 м 1,5 мм² USB-A USB-C]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1523CU 5 розеток 3 м 1,5 мм² USB-A USB-C 16 А 3680 Вт вимикач, з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1099.00</price_rrc>
@@ -3207,7 +3207,7 @@
     </offer>
     <offer id="P1523FC" available="true" group_id="12">
       <article>P1523FC</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1523FC 5 розеток 3 м 1,5 мм² USB-A USB-C]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1523FC 5 розеток 3 м 1,5 мм² USB-A USB-C 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>1349.00</price_rrc>
@@ -3241,7 +3241,7 @@
     </offer>
     <offer id="P1523R" available="true" group_id="12">
       <article>P1523R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1523R 5 розеток 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1523R 5 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>569.00</price_rrc>
@@ -3281,7 +3281,7 @@
     </offer>
     <offer id="P1525R" available="true" group_id="12">
       <article>P1525R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1525R 5 розеток 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>799.00</price_rrc>
@@ -3333,7 +3333,7 @@
     </offer>
     <offer id="P1621R" available="true" group_id="12">
       <article>P1621R</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1621R 6 розеток 1,5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1621R 6 розеток 1,5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>469.00</price_rrc>
@@ -3359,7 +3359,7 @@
     </offer>
     <offer id="P1622" available="true" group_id="12">
       <article>P1622</article>
-      <name><![CDATA[Мережевий подовжувач Emos P1622 6 розеток 2 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos P1622 6 розеток 2 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>459.00</price_rrc>
@@ -3443,7 +3443,7 @@
     </offer>
     <offer id="PC1321" available="true" group_id="12">
       <article>PC1321</article>
-      <name><![CDATA[Мережевий подовжувач Emos PС1321 3 розетки 1,5 м 1,0 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos PС1321 3 розетки 1,5 м 1,0 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>299.00</price_rrc>
@@ -3517,7 +3517,7 @@
     </offer>
     <offer id="PC1423R" available="true" group_id="12">
       <article>PC1423R</article>
-      <name><![CDATA[Мережевий подовжувач Emos PC1423R 4 розетки 3 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos PC1423R 4 розетки 3 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>549.00</price_rrc>
@@ -3539,7 +3539,7 @@
     </offer>
     <offer id="PC1425R" available="true" group_id="12">
       <article>PC1425R</article>
-      <name><![CDATA[Мережевий подовжувач Emos PC1425R 4 розетки 5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos PC1425R 4 розетки 5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>739.00</price_rrc>
@@ -3565,7 +3565,7 @@
     </offer>
     <offer id="PC1521R" available="true" group_id="12">
       <article>PC1521R</article>
-      <name><![CDATA[Мережевий подовжувач Emos PC1521R 5 розеток 1,5 м 1,5 мм²]]></name>
+      <name><![CDATA[Мережевий подовжувач Emos PC1521R 5 розеток 1,5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>419.00</price_rrc>
@@ -3977,7 +3977,7 @@
     </offer>
     <offer id="PC0121R" available="true" group_id="12">
       <article>PC0121R</article>
-      <name><![CDATA[Мережевий подовжувач EMOS PC0121R 1 розеткa 1,5 м]]></name>
+      <name><![CDATA[Мережевий подовжувач EMOS PC0121R 1 розеткa 1,5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>289.00</price_rrc>
@@ -4005,15 +4005,15 @@
 <p><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/1921210150_E40-PC0121R_HOR.JPG" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC0123R" available="true" group_id="12">
+    <offer id="PC0123R" available="false" group_id="12">
       <article>PC0123R</article>
-      <name><![CDATA[Мережевий подовжувач EMOS PC0123R 1 розетка 3 м]]></name>
+      <name><![CDATA[Мережевий подовжувач EMOS PC0123R 1 розетка 3 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>449.00</price_rrc>
       <price>368.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-92829990609267_+d2c1b3ae3e.jpg</picture>
         <picture>https://extel.com.ua/content/images/12/merezhevyi-podovzhuvach-emos-pc0123r-1-rozetka-3-m-27557703930816_+f77e011c30.jpg</picture>
@@ -4037,7 +4037,7 @@
     </offer>
     <offer id="PC0125R" available="true" group_id="12">
       <article>PC0125R</article>
-      <name><![CDATA[Мережевий подовжувач EMOS PC0125R 1 розетка 5 м]]></name>
+      <name><![CDATA[Мережевий подовжувач EMOS PC0125R 1 розетка 5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>669.00</price_rrc>
@@ -4145,15 +4145,15 @@
 <p>EMOS &ndash; чешский бренд, принадлежащий компании Emos spol. s.r.o., основанной в 1991 году. Компания занимается производством фонарей (ручные, прожекторы, настольные лампы и т.п.), видеодомофонов, метео-станций, термометров, ТВ-антенн и другого оборудования. Производственные мощности находятся в Чехии, Китае. Головной офис расположен в г. Пршеров (Чехия, Оломоуцкий край).</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1422ST" available="true" group_id="12">
+    <offer id="P1422ST" available="false" group_id="12">
       <article>P1422ST</article>
-      <name><![CDATA[Мережевий подовжувач EMOS P1422ST 2 м 4 розетки з вимикачем USB Wi-Fi]]></name>
+      <name><![CDATA[Мережевий подовжувач EMOS P1422ST 2 м 4 розетки з вимикачем та заземленням USB Wi-Fi]]></name>
       <brand>EMOS</brand>
       <categoryId>12</categoryId>
       <price_rrc>3599.00</price_rrc>
       <price>2952</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/26/95178916936564_+ed76430c89.jpg</picture>
         <picture>https://extel.com.ua/content/images/26/52531529731313_+47c3176614.jpg</picture>
@@ -4689,7 +4689,7 @@
       <brand>SKROSS</brand>
       <categoryId>16</categoryId>
       <price_rrc>586.00</price_rrc>
-      <price>480.54</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -4903,7 +4903,7 @@
     </offer>
     <offer id="P00242" available="true" group_id="17">
       <article>P00242</article>
-      <name><![CDATA[Мережевий Розгалужувач EMOS P00242, 3 розетки]]></name>
+      <name><![CDATA[Мережевий розгалужувач EMOS P00242, 3 розетки з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>219.00</price_rrc>
@@ -4932,7 +4932,7 @@
     </offer>
     <offer id="P00252N" available="true" group_id="17">
       <article>P00252N</article>
-      <name><![CDATA[Мережевий Розгалужувач EMOS P00252N на 2 розетки із заземленням]]></name>
+      <name><![CDATA[Мережевий розгалужувач EMOS P00252N на 2 розетки із заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>169.00</price_rrc>
@@ -4960,7 +4960,7 @@
     </offer>
     <offer id="P00262" available="true" group_id="17">
       <article>P00262</article>
-      <name><![CDATA[Адаптер з вимикачем Мережевий EMOS P00262]]></name>
+      <name><![CDATA[Адаптер EMOS P00262 з вимикачем мережевий]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>219.00</price_rrc>
@@ -5012,7 +5012,7 @@
     </offer>
     <offer id="P00282" available="true" group_id="17">
       <article>P00282</article>
-      <name><![CDATA[Адаптер розетка EMOS SCHUKO P00282 2× прямокутна + 1× кругла + вимикач]]></name>
+      <name><![CDATA[Адаптер розетка EMOS P00282 2× прямокутна + 1× кругла + вимикач]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>219.00</price_rrc>
@@ -5186,7 +5186,7 @@
     </offer>
     <offer id="P0049" available="true" group_id="17">
       <article>P0049</article>
-      <name><![CDATA[Розетка гумова IP44 чорна шуко EMOS P0049]]></name>
+      <name><![CDATA[Розетка EMOS P0049 гумова IP44 чорна]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>199.00</price_rrc>
@@ -5507,7 +5507,7 @@
     </offer>
     <offer id="P1520" available="true" group_id="17">
       <article>P1520</article>
-      <name><![CDATA[Колодка EMOS P1520, 5 розеток з вимикачем 16 A]]></name>
+      <name><![CDATA[Колодка EMOS P1520, 5 розеток з вимикачем 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
       <categoryId>17</categoryId>
       <price_rrc>249.00</price_rrc>
@@ -5527,9 +5527,40 @@
 <p>Изготовлена ​​из прочного <strong>пластика</strong> и оснащена <strong>защитой детей</strong> для безопасного использования. Идеально подходит для дома, офиса или мастерской, где нужно одновременно подключать несколько приборов и легко управлять питанием.</p>]]></description>
       <warranty>12</warranty>
     </offer>
+    <offer id="P0420" available="true" group_id="17">
+      <article>P0420</article>
+      <name><![CDATA[Колодка EMOS P0420, 4 розетки, 16 A з заземленням]]></name>
+      <brand>EMOS</brand>
+      <categoryId>17</categoryId>
+      <price_rrc>299.00</price_rrc>
+      <price>245.16</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/27/kolodka-emos-p0420-4-rozetky-16-a-20315080330893_+6054c277bc.jpg</picture>
+        <picture>https://extel.com.ua/content/images/27/kolodka-emos-p0420-4-rozetky-16-a-54517580732288_+635c68d25a.jpg</picture>
+        <picture>https://extel.com.ua/content/images/27/kolodka-emos-p0420-4-rozetky-16-a-57892048595704_+d81a4370c4.jpg</picture>
+      </pictures>
+      <url>https://extel.com.ua/kolodka-emos-p0420-4-rozetky-16-a/</url>
+      <description><![CDATA[<p>Колодка <strong>P0420 </strong>от чешского производителя <strong>EMOS </strong>&ndash; отличное и качественное решение для подключения электроприборов на расстоянии от розетки. Корпус изготовлен из негорючего пластика. В случае перегрузки не происходит возгорания. Отсутствует токсический запах. Также предусмотрены защитные заглушки для безопасности детей. Рассчитана на подключение устройств с высоким классом энергопотребления.</p>
+
+<p><strong>Важнейшие параметры</strong></p>
+
+<ul>
+	<li>Материал колодки: негорючий пластик</li>
+	<li>Питание: максимум 250 В/16 А</li>
+	<li>Максимальная нагрузка: 3680 Вт</li>
+	<li>Рейтинг защиты: IP20</li>
+	<li>Контакты розеток: 4&times;2P + PE</li>
+	<li>Защита от детей: да</li>
+</ul>
+
+<p><strong>EMOS </strong>&ndash; чешский бренд, принадлежащий компании Emos spol. s.r.o., основанной в 1991 году. Компания специализируется на производстве фонарей (ручных, прожекторов, настольных ламп и т.п.), видеодомофонов, метеостанций, термометров, ТВ-антенн и другого оборудования. Производственные мощности расположены в Чехии и Китае. Головной офис находится в городе Пршеров (Чехия, Оломоуцкий край).</p>]]></description>
+      <warranty>12</warranty>
+    </offer>
     <offer id="B0531B" available="true" group_id="18">
       <article>B0531B</article>
-      <name><![CDATA[Павербанк EMOS B0531B 22,5W / 10000mAh, чорний, PD20W]]></name>
+      <name><![CDATA[Павербанк EMOS B0531B 22,5W / 10 000mAh, чорний, PD20W]]></name>
       <brand>EMOS</brand>
       <categoryId>18</categoryId>
       <price_rrc>999.00</price_rrc>
@@ -5594,7 +5625,7 @@
     </offer>
     <offer id="B0532B" available="true" group_id="18">
       <article>B0532B</article>
-      <name><![CDATA[Павербанк EMOS B0532B 22,5W/20000mAh, чорний, PD20W]]></name>
+      <name><![CDATA[Павербанк EMOS B0532B 22,5W/20 000mAh, чорний, PD20W]]></name>
       <brand>EMOS</brand>
       <categoryId>18</categoryId>
       <price_rrc>1399.00</price_rrc>
@@ -5602,21 +5633,21 @@
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
-        <picture>https://extel.com.ua/content/images/33/61685269475011_+98d658949e.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/18353192306946_+1a77aa4caa.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/98778831193439_+99d4ec2ae1.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/96258373512379_+64fd35eab2.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/63429498686281_+af685ca234.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/55707189113562_+a9489d0d8b.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/95737434606129_+b988a2c08d.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/32534785620640_+216e0005de.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/27819333457911_+664a429a23.jpg</picture>
-        <picture>https://extel.com.ua/content/images/33/98778831193439_+99d4ec2ae1.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/15137813595120_+42feb3574c.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/43441476271604_+3769ada8f4.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/43590973508296_+c64980ab21.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/44702804561067_+d922fc0f62.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/96576687054990_+ac65c823df.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/96709192766563_+6cd78a7873.jpg</picture>
-        <picture>https://extel.com.ua/content/images/33/44702804561067_+d922fc0f62.jpg</picture>
-        <picture>https://extel.com.ua/content/images/33/63429498686281_+af685ca234.jpg</picture>
-        <picture>https://extel.com.ua/content/images/33/96258373512379_+64fd35eab2.jpg</picture>
-        <picture>https://extel.com.ua/content/images/33/18353192306946_+1a77aa4caa.jpg</picture>
+        <picture>https://extel.com.ua/content/images/33/61685269475011_+98d658949e.jpg</picture>
       </pictures>
       <url>https://extel.com.ua/portatyvna-akkumuliatorna-batareia-emos-b0532b-20000-mach/</url>
       <description><![CDATA[<h3 style="text-align: center;"><span style="color:#c0392b;"><strong>Для круглосуточных дел по городу</strong></span></h3>
@@ -5779,7 +5810,7 @@
       <brand>EMOS</brand>
       <categoryId>18</categoryId>
       <price_rrc>1446.00</price_rrc>
-      <price>1179.96</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -6283,7 +6314,7 @@
     </offer>
     <offer id="B0572B" available="true" group_id="18">
       <article>B0572B</article>
-      <name><![CDATA[Павербанк EMOS B0572B 22,5W/20000mAh, чорний, PD20W]]></name>
+      <name><![CDATA[Павербанк EMOS B0572B 22,5W/20 000mAh, чорний, PD20W]]></name>
       <brand>EMOS</brand>
       <categoryId>18</categoryId>
       <price_rrc>999.00</price_rrc>
@@ -7363,7 +7394,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="N0322" available="true" group_id="24">
       <article>N0322</article>
-      <name><![CDATA[Універсальний тестер батарей із дисплеєм EMOS N0322]]></name>
+      <name><![CDATA[Універсальний тестер батарей EMOS N0322 із дисплеєм]]></name>
       <brand>EMOS</brand>
       <categoryId>24</categoryId>
       <price_rrc>289.00</price_rrc>
@@ -8410,7 +8441,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="F61516" available="true" group_id="30">
       <article>F61516</article>
-      <name><![CDATA[Ізоляційна стрічка EMOS F61516 PVC 15/10 YELLOW]]></name>
+      <name><![CDATA[Ізоляційна стрічка EMOS F61516 PVC 15 мм /10 м жовта]]></name>
       <brand>EMOS</brand>
       <categoryId>30</categoryId>
       <price_rrc>29.00</price_rrc>
@@ -8945,7 +8976,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="F6515" available="true" group_id="31">
       <article>F6515</article>
-      <name><![CDATA[Стрічка текстильна EMOS 15/15 Чорний F6515]]></name>
+      <name><![CDATA[Стрічка текстильна EMOS F6515 15 мм/15 м чорна]]></name>
       <brand>EMOS</brand>
       <categoryId>31</categoryId>
       <price_rrc>99.00</price_rrc>
@@ -8983,7 +9014,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="F6910" available="true" group_id="31">
       <article>F6910</article>
-      <name><![CDATA[Стрічка текстильна EMOS 19/10 Чорний F6910]]></name>
+      <name><![CDATA[Стрічка текстильна EMOS F6910 19 мм/10 м чорна]]></name>
       <brand>EMOS</brand>
       <categoryId>31</categoryId>
       <price_rrc>89.00</price_rrc>
@@ -9195,7 +9226,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="F6060" available="true" group_id="32">
       <article>F6060</article>
-      <name><![CDATA[Стрічка акрилова двостороння EMOS 12/3 F6060]]></name>
+      <name><![CDATA[Стрічка акрилова двостороння EMOS F6060 12 мм/3 м]]></name>
       <brand>EMOS</brand>
       <categoryId>32</categoryId>
       <price_rrc>99.00</price_rrc>
@@ -9249,7 +9280,7 @@ N1015 — надёжное решение для сезонного обслуж
     </offer>
     <offer id="F6080" available="true" group_id="32">
       <article>F6080</article>
-      <name><![CDATA[Стрічка акрилова двостороння EMOS 18/3 F6080]]></name>
+      <name><![CDATA[Стрічка акрилова двостороння EMOS F6080 18 мм /3 м]]></name>
       <brand>EMOS</brand>
       <categoryId>32</categoryId>
       <price_rrc>139.00</price_rrc>
@@ -9898,7 +9929,7 @@ N1015 — надёжное решение для сезонного обслуж
       <brand>EMOS</brand>
       <categoryId>34</categoryId>
       <price_rrc>849.00</price_rrc>
-      <price>696.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -11927,7 +11958,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <brand>EMOS</brand>
       <categoryId>37</categoryId>
       <price_rrc>399.00</price_rrc>
-      <price>327.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -13011,11 +13042,11 @@ Ultra Slim – компактность каждый день
 <p><strong>Практичный, мощный и всегда готовый к работе &ndash; налобный фонарь EMOS станет незаменимым источником света дома, на работе и во время отдыха.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1110" available="true" group_id="144">
+    <offer id="G1110" available="true" group_id="81">
       <article>G1110</article>
       <name><![CDATA[Датчик руху EMOS G1110, PIR, IP20, 800 Вт білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>327.18</price>
       <currencyId>грн</currencyId>
@@ -13039,11 +13070,11 @@ Ultra Slim – компактность каждый день
 </p> <p><strong>Emos G1110 — разумное решение для экономии электроэнергии и комфорта каждый день.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1120" available="true" group_id="144">
+    <offer id="G1120" available="true" group_id="81">
       <article>G1120</article>
-      <name><![CDATA[Датчик руху EMOS PIR IP44 W 1200W Білий G1120]]></name>
+      <name><![CDATA[Датчик руху EMOS G1120 PIR IP44 W 1200W білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>327.18</price>
       <currencyId>грн</currencyId>
@@ -13074,11 +13105,11 @@ Ultra Slim – компактность каждый день
 </p> <p><strong>G1120 — максимальная мощность, широкая зона контроля и автоматический комфорт каждый день.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1125" available="true" group_id="144">
+    <offer id="G1125" available="true" group_id="81">
       <article>G1125</article>
-      <name><![CDATA[Датчик руху EMOS PIR IP44 W 1200W Чорний G1125]]></name>
+      <name><![CDATA[Датчик руху EMOS G1125 PIR IP44 W 1200W чорний]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>327.18</price>
       <currencyId>грн</currencyId>
@@ -13117,11 +13148,11 @@ PIR-датчики являются <strong>не требующими обслу
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1150" available="false" group_id="144">
+    <offer id="G1150" available="false" group_id="81">
       <article>G1150</article>
       <name><![CDATA[Датчик руху EMOS, G1150, PIR, 2000W, IP20, білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>499.00</price_rrc>
       <price>409.2</price>
       <currencyId>грн</currencyId>
@@ -13155,13 +13186,13 @@ IP20 – идеально для помещений
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1160" available="false" group_id="144">
+    <offer id="G1160" available="false" group_id="81">
       <article>G1160</article>
       <name><![CDATA[Датчик руху EMOS PIR W 1200W IP20 G1160]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>339.00</price_rrc>
-      <price>277.98</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -13188,13 +13219,13 @@ IP20 – идеально для помещений
 <p><strong>EMOS G1160 &mdash; надёжная автоматизация освещения и реальная экономия электроэнергии.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1180" available="false" group_id="144">
+    <offer id="G1180" available="false" group_id="81">
       <article>G1180</article>
       <name><![CDATA[Датчик руху мікрохвильовий EMOS G1180 IP20 1200W білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>529.00</price_rrc>
-      <price>433.8</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -13219,11 +13250,11 @@ IP20 – идеально для помещений
 </p> <p><strong>EMOS G1180 — современная технология автоматического освещения для комфорта и экономии энергии.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1210" available="true" group_id="144">
+    <offer id="G1210" available="true" group_id="81">
       <article>G1210</article>
       <name><![CDATA[Датчик руху мікрохвильовий EMOS G1210 IP20 360° білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>549.00</price_rrc>
       <price>450.18</price>
       <currencyId>грн</currencyId>
@@ -13251,13 +13282,13 @@ IP20 – идеально для помещений
 </p> <p><strong>EMOS G1210 — профессиональный контроль освещения для больших пространств.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1240" available="true" group_id="144">
+    <offer id="G1240" available="true" group_id="81">
       <article>G1240</article>
-      <name><![CDATA[Датчик руху EMOS PIR IP65 W 1200W Білий G1240]]></name>
+      <name><![CDATA[Датчик руху EMOS G1240 PIR IP65 W 1200W білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>379.00</price_rrc>
-      <price>310.8</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -13285,11 +13316,11 @@ IP20 – идеально для помещений
 </p> <p><strong>EMOS G1240 — максимальная защита, мощность и автоматический комфорт в любую погоду.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS21111" available="false" group_id="144">
+    <offer id="GS21111" available="false" group_id="81">
       <article>GS21111</article>
       <name><![CDATA[Датчик руху EMOS GS21111 мікрохвильовий IP20 2000W]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>699.00</price_rrc>
       <price>573.18</price>
       <currencyId>грн</currencyId>
@@ -13340,11 +13371,11 @@ IP20 – идеально для помещений
 <p>Датчик движения разработан<strong> для быстрой и легкой установки</strong>. Его конструкция для поверхностного монтажа позволяет легко монтировать его на стене или потолке без сложных настроек или специальных инструментов. Благодаря интуитивно понятному подключению и возможности непосредственного подключения к стандартной розетке вы можете сразу начать использовать датчик.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS12111" available="true" group_id="144">
+    <offer id="GS12111" available="true" group_id="81">
       <article>GS12111</article>
       <name><![CDATA[Датчик руху Emos GS12111 PIR IP20 1200 W]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>449.00</price_rrc>
       <price>368.16</price>
       <currencyId>грн</currencyId>
@@ -13391,11 +13422,11 @@ IP20 – идеально для помещений
 <p>Датчик движения разработан для <strong>быстрой, чистой и незаметной установки</strong>. Благодаря дизайну скрытого монтажа он элегантно сочетается с окружающей поверхностью и идеально подходит для установки в потолке или подвесных потолках, не нарушая внешнего вида интерьера. Интуитивно понятная проводка и возможность подключения к стандартному источнику питания обеспечивают легкий ввод в эксплуатацию без сложной настройки или специальных инструментов.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS22111" available="true" group_id="144">
+    <offer id="GS22111" available="true" group_id="81">
       <article>GS22111</article>
       <name><![CDATA[Датчик руху EMOS GS22111 мікрохвильовий IP20 1200W]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>749.00</price_rrc>
       <price>614.16</price>
       <currencyId>грн</currencyId>
@@ -13444,11 +13475,11 @@ IP20 – идеально для помещений
 <p>Датчик движения разработан<strong> для быстрой и легкой установки</strong>. Его конструкция для поверхностного монтажа позволяет легко монтировать его на стене или потолке без сложных настроек или специальных инструментов. Благодаря интуитивно понятному подключению и возможности непосредственного подключения к стандартной розетке вы можете сразу начать использовать датчик.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS11111" available="true" group_id="144">
+    <offer id="GS11111" available="true" group_id="81">
       <article>GS11111</article>
       <name><![CDATA[Датчик руху Emos GS11111 PIR IP20 1200 W]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>399.00</price_rrc>
       <price>327.18</price>
       <currencyId>грн</currencyId>
@@ -13499,11 +13530,11 @@ IP20 – идеально для помещений
 <p>Датчик движения разработан для <strong>быстрой, чистой и незаметной установки</strong>. Его поверхностная конструкция позволяет легко монтировать его на стене или потолке без сложных настроек или специальных инструментов. Благодаря интуитивно понятному подключению и возможности прямого подключения к стандартной сети можно сразу начать использовать датчик.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS41151" available="true" group_id="144">
+    <offer id="GS41151" available="true" group_id="81">
       <article>GS41151</article>
       <name><![CDATA[Фотодатчик сутінків EMOS GS41151 1800 Вт IP65 для вуличного освітлення]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>499.00</price_rrc>
       <price>409.2</price>
       <currencyId>грн</currencyId>
@@ -13574,11 +13605,11 @@ IP20 – идеально для помещений
 <p><strong>EMOS GS41151 &mdash; простой способ сделать наружное освещение автоматическим, удобным и экономичным.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS32111" available="true" group_id="144">
+    <offer id="GS32111" available="true" group_id="81">
       <article>GS32111</article>
       <name><![CDATA[Мікрохвильовий датчик руху та присутності EMOS GS32111 2000 W IP20 24 GHZ]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
@@ -13656,11 +13687,11 @@ IP20 – идеально для помещений
 <p><strong>EMOS GS32111 &mdash; удобное решение для автоматического управления освещением с широкой зоной обнаружения 360&deg;.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS15117" available="true" group_id="144">
+    <offer id="GS15117" available="true" group_id="81">
       <article>GS15117</article>
       <name><![CDATA[Датчик руху EMOS GS15117 PIR IP20 1200 Вт]]></name>
       <brand>EMOS</brand>
-      <categoryId>144</categoryId>
+      <categoryId>81</categoryId>
       <price_rrc>549.00</price_rrc>
       <price>450.18</price>
       <currencyId>грн</currencyId>
@@ -13738,7 +13769,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="ZN1110" available="true" group_id="42">
       <article>ZN1110</article>
-      <name><![CDATA[Світлодіодний аварійний світильник NESSI 3W 3h IP65 ZN1110]]></name>
+      <name><![CDATA[Світлодіодний аварійний світильник EMOS ZN1110 3W 3h IP65]]></name>
       <brand>EMOS</brand>
       <categoryId>42</categoryId>
       <price_rrc>1396.00</price_rrc>
@@ -14415,7 +14446,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>44</categoryId>
       <price_rrc>699.00</price_rrc>
-      <price>573.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15038,7 +15069,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="E0352" available="true" group_id="46">
       <article>E0352</article>
-      <name><![CDATA[Бездротова цифрова Метеостанція EMOS E0352]]></name>
+      <name><![CDATA[Бездротова цифрова метеостанція EMOS E0352]]></name>
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>1399.00</price_rrc>
@@ -15072,7 +15103,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>3539.00</price_rrc>
-      <price>2901.96</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15138,7 +15169,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>1366.00</price_rrc>
-      <price>1120.14</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15174,7 +15205,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>3886.00</price_rrc>
-      <price>3186.54</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15238,7 +15269,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="E6018" available="true" group_id="46">
       <article>E6018</article>
-      <name><![CDATA[Бездротова цифрова Метеостанція EMOS E6018]]></name>
+      <name><![CDATA[Метеостанція EMOS E6018 бездротова цифрова]]></name>
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>2999.00</price_rrc>
@@ -15270,15 +15301,15 @@ IP20 – идеально для помещений
 :contentReference[oaicite:1]{index=1} <p><strong>Идеальна для дома и дачи</strong></p> <p>Благодаря стильному дизайну и компактным размерам EMOS E6018 легко вписывается в любой интерьер. Она покажет вам не только текущее состояние погоды, но и изменение параметров — максимальные и минимальные значения температуры и давления, что особенно полезно для планирования активного отдыха или работы на свежем воздухе. :contentReference[oaicite:2]{index=2}</p> <p><strong>Как использовать:</strong> Просто разместите внешний датчик на открытом месте (например, в саду), включите станцию, и она начнет передавать данные. Все показатели — температура, влажность, давление и прогноз погоды — вы увидите на ярком дисплее прямо у себя дома!</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8010" available="true" group_id="46">
+    <offer id="E8010" available="false" group_id="46">
       <article>E8010</article>
-      <name><![CDATA[Бездротова цифрова Метеостанція EMOS E8010 з вбудованим бездротовим QI зарядним пристроєм]]></name>
+      <name><![CDATA[Метеостанція EMOS E8010 бездротова цифрова з вбудованим бездротовим QI зарядним пристроєм]]></name>
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>2849.00</price_rrc>
       <price>2336.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/51214765658652_+0c8fce29c3.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/11300326288497_+30c8ec382f.jpg</picture>
@@ -15377,7 +15408,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="E8620" available="true" group_id="46">
       <article>E8620</article>
-      <name><![CDATA[Бездротова цифрова Метеостанція EMOS E8620]]></name>
+      <name><![CDATA[Метеостанція EMOS E8620 бездротова цифрова]]></name>
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>2499.00</price_rrc>
@@ -15439,7 +15470,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>46</categoryId>
       <price_rrc>3776.00</price_rrc>
-      <price>3096.3</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15470,7 +15501,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="E0041" available="true" group_id="47">
       <article>E0041</article>
-      <name><![CDATA[Цифровий термометр з проводним датчиком EMOS E0041]]></name>
+      <name><![CDATA[Цифровий термометр EMOS E0041 з проводним датчиком]]></name>
       <brand>EMOS</brand>
       <categoryId>47</categoryId>
       <price_rrc>499.00</price_rrc>
@@ -15721,7 +15752,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>47</categoryId>
       <price_rrc>1159.00</price_rrc>
-      <price>947.94</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -15754,7 +15785,7 @@ IP20 – идеально для помещений
       <brand>EMOS</brand>
       <categoryId>47</categoryId>
       <price_rrc>976.00</price_rrc>
-      <price>800.34</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -16256,11 +16287,11 @@ IP20 – идеально для помещений
 <p><strong>Идеален для:</strong> кухни, выпечки, чая или кофе, спорта и любых ситуаций, где важно точно отсчитывать время.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV012" available="false" group_id="141">
+    <offer id="EV012" available="false" group_id="82">
       <article>EV012</article>
       <name><![CDATA[Цифрові кухонні ваги EV012, сріблясті]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>796.00</price_rrc>
       <price>652.74</price>
       <currencyId>грн</currencyId>
@@ -16284,11 +16315,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Цифровые кухонные весы EV012</strong></p> <p>Ищете <strong>надежные кухонные весы с высокой точностью</strong>? Весы из <strong>нержавеющей стали</strong> имеют чистый дизайн и просты в использовании. Преимущество — <strong>дисплей с подсветкой</strong> с белыми цифрами и <strong>умная функция TARE</strong>, которая облегчает взвешивание при выпечке или приготовлении пищи. Весы станут не только практичным помощником для каждого повара, но и стильным элементом современной кухни.</p> <p><strong>Стильный тонкий дизайн</strong></p> <p>Сочетание <strong>нержавеющей стали</strong> с современным дисплеем и тонким корпусом делает весы стильным предметом для любого кухонного стола. При высоте всего 15 мм их можно спрятать в ящике или приставить к стене. Вы сразу видите <strong>точный вес на подсвеченном дисплее</strong>.</p> <p><strong>Высокая точность взвешивания и вместимость 5 кг</strong></p> <p>Весы обеспечивают <strong>точность до 1 г</strong> и выдерживают <strong>нагрузку до 5 кг</strong>. <strong>Индикатор перегрузки</strong> предупредит, если предел превышен. Весы могут измерять в <strong>граммах, унциях, фунтах и кг</strong>, что позволяет использовать иностранные рецепты без проблем.</p> <p><strong>Функция TARE</strong></p> <p>Функция <strong>TARE</strong> позволяет взвешивать ингредиенты по одному за раз в одной миске. Просто сбрасывайте дисплей на ноль при добавлении нового ингредиента. Это экономит время и уменьшает количество посуды.</p> <p><strong>Эффективное питание от 2 батареек</strong></p> <p>Питание осуществляется от <strong>2 батареек CR2032</strong>, которые входят в комплект. <strong>Индикатор низкого заряда батареи</strong> предупредит о необходимости замены. Весы можно выключить вручную, либо они автоматически отключаются для экономии энергии.</p> <p><strong>Нижняя обработка из нержавеющей стали</strong></p> <p>Благодаря <strong>нержавеющей стали</strong> весы прочные и долговечные. Их легко чистить, можно взвешивать еду напрямую без миски, что делает EV012 отличным выбором для контроля диеты и приготовления пищи.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV014" available="false" group_id="141">
+    <offer id="EV014" available="false" group_id="82">
       <article>EV014</article>
       <name><![CDATA[Цифрові кухонні ваги EMOS EV014, білі]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>616.00</price_rrc>
       <price>505.14</price>
       <currencyId>грн</currencyId>
@@ -16314,11 +16345,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Цифровые кухонные весы EV014</strong></p> <p>С помощью этих <strong>цифровых весов из закаленного стекла</strong> вы легко справитесь с самыми сложными рецептами. <strong>Высокая точность взвешивания до 1 г</strong> и <strong>простота использования</strong> оценятся как новичком, так и опытным кулинаром. Преимущество – <strong>функция TARE</strong>, благодаря которой нет необходимости взвешивать каждый ингредиент отдельно, что экономит время и посуду. Практичные функции дополняет <strong>современный минималистичный дизайн</strong>.</p> <p><strong>Элегантный тонкий дизайн</strong></p> <p>Цифровые весы высотой всего 15 мм можно легко убрать в ящик. Если вы часто готовите или печете, держите их на кухонном столе – они будут стильным элементом интерьера. <strong>Прозрачное закаленное стекло</strong> в сочетании с <strong>ЖК-дисплеем</strong> понравится любителям минимализма и вечного дизайна.</p> <p><strong>Высокая точность взвешивания и вместимость 5 кг</strong></p> <p>Благодаря высокой чувствительности весы показывают вес с точностью <strong>1 г</strong> до <strong>максимальной нагрузки 5 кг</strong>. <strong>Индикатор перегрузки</strong> предупредит, если предел превышен. Можно выбрать единицы измерения: g, oz, lb, kg, что позволяет легко использовать рецепты из разных стран.</p> <p><strong>Функция TARE</strong></p> <p>Умная <strong>функция TARE</strong> позволяет добавлять ингредиенты в одну миску, сбрасывая дисплей на ноль после каждого добавления. Это экономит время и делает взвешивание максимально простым.</p> <p><strong>Долговечная и гигиеничная поверхность из закаленного стекла</strong></p> <p>Поверхность весов <strong>устойчива к царапинам</strong> и не трескается даже при большой нагрузке. Легко чистится и позволяет взвешивать продукты напрямую без использования миски.</p> <p><strong>Эффективный источник питания на 1 батарее</strong></p> <p>Питание обеспечивает <strong>1 батарея CR2032</strong> (в комплекте). <strong>Индикатор состояния батареи</strong> предупредит о необходимости замены. Весы можно выключить вручную, либо они автоматически отключаются для экономии энергии.</p> <p><strong>Доверяйте качеству</strong></p> <p>Продукт года 2017, 2018, 2019 и 2020 по версии Heuréka.cz. Признание клиентов подтверждает <strong>отличное соотношение цена/качество, элегантный дизайн, простоту использования и функцию TARE</strong>. Идеальный выбор для любой современной кухни.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV014B" available="false" group_id="141">
+    <offer id="EV014B" available="false" group_id="82">
       <article>EV014B</article>
       <name><![CDATA[Цифрові кухонні ваги EMOS EV014B, чорні]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>616.00</price_rrc>
       <price>505.14</price>
       <currencyId>грн</currencyId>
@@ -16341,11 +16372,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Цифровые кухонные весы EV014B</strong></p> <p>С помощью этих <strong>цифровых весов из закаленного стекла</strong> вы легко справитесь с самыми сложными рецептами. <strong>Высокая точность взвешивания до 1 г</strong> и <strong>простота использования</strong> оценятся как новичком, так и опытным кулинаром. Преимущество – <strong>функция TARE</strong>, благодаря которой нет необходимости взвешивать каждый ингредиент отдельно, что экономит время и посуду. Практичные функции дополняет <strong>современный минималистичный дизайн</strong>.</p> <p><strong>Элегантный тонкий дизайн</strong></p> <p>Цифровые весы высотой всего 15 мм можно легко убрать в ящик. Если вы часто готовите или печете, держите их на кухонном столе – они будут стильным элементом интерьера. <strong>Прозрачное закаленное стекло</strong> в сочетании с <strong>ЖК-дисплеем</strong> понравится любителям минимализма и вечного дизайна.</p> <p><strong>Высокая точность взвешивания и вместимость 5 кг</strong></p> <p>Благодаря высокой чувствительности весы показывают вес с точностью <strong>1 г</strong> до <strong>максимальной нагрузки 5 кг</strong>. <strong>Индикатор перегрузки</strong> предупредит, если предел превышен. Можно выбрать единицы измерения: g, oz, lb, kg, что позволяет легко использовать рецепты из разных стран.</p> <p><strong>Функция TARE</strong></p> <p>Умная <strong>функция TARE</strong> позволяет добавлять ингредиенты в одну миску, сбрасывая дисплей на ноль после каждого добавления. Это экономит время и делает взвешивание максимально простым.</p> <p><strong>Долговечная и гигиеничная поверхность из закаленного стекла</strong></p> <p>Поверхность весов <strong>устойчива к царапинам</strong> и не трескается даже при большой нагрузке. Легко чистится и позволяет взвешивать продукты напрямую без использования миски.</p> <p><strong>Эффективный источник питания на 1 батарее</strong></p> <p>Питание обеспечивает <strong>1 батарея CR2032</strong> (в комплекте). <strong>Индикатор состояния батареи</strong> предупредит о необходимости замены. Весы можно выключить вручную, либо они автоматически отключаются для экономии энергии.</p> <p><strong>Доверяйте качеству</strong></p> <p>Продукт года 2017, 2018, 2019 и 2020 по версии Heuréka.cz. Признание клиентов подтверждает <strong>отличное соотношение цена/качество, элегантный дизайн, простоту использования и функцию TARE</strong>. Идеальный выбор для любой современной кухни.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV020" available="false" group_id="141">
+    <offer id="EV020" available="false" group_id="82">
       <article>EV020</article>
       <name><![CDATA[Цифрові ваги EV020]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>489.00</price_rrc>
       <price>400.98</price>
       <currencyId>грн</currencyId>
@@ -16369,11 +16400,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Цифровые весы EMOS EV020 до 50 кг</strong></p> <p>Нужны надежные весы для взвешивания тяжёлых предметов и багажа? <strong>Цифровые весы EMOS EV020</strong> созданы именно для этого. Они сочетают <strong>высокую грузоподъёмность до 50 кг</strong>, <strong>точное измерение</strong> и <strong>простое управление</strong>, что делает их идеальными для дома, склада, гаража, хозяйственных нужд или путешествий.</p> <p><strong>Большая грузоподъёмность — максимум возможностей</strong></p> <p>Благодаря возможности взвешивания до <strong>50 кг</strong> эти весы отлично подходят для коробок, мешков, бытовых и хозяйственных грузов. <strong>Индикатор перегрузки</strong> защищает устройство от повреждения и гарантирует безопасную эксплуатацию.</p> <p><strong>Точное взвешивание и чёткий дисплей</strong></p> <p>Весы обеспечивают <strong>стабильные и точные результаты</strong>, а большой <strong>ЖК-дисплей</strong> позволяет легко считывать показатели даже при плохом освещении. Поддержка разных единиц измерения делает устройство универсальным для различных задач.</p> <p><strong>Функция TARE для удобства</strong></p> <p>Практичная <strong>функция TARE</strong> позволяет обнулять вес тары и взвешивать только содержимое. Это значительно упрощает работу и экономит время при многократных измерениях.</p> <p><strong>Прочная и практичная конструкция</strong></p> <p>Весы имеют <strong>устойчивую платформу</strong>, рассчитанную на большую нагрузку. Поверхность легко очищается и подходит для ежедневного использования в любых условиях.</p> <p><strong>Идеальны для путешествий и багажа</strong></p> <p><strong>Цифровые дорожные весы EMOS EV020</strong> станут практичным помощником в поездках. Они позволяют взвешивать предметы и багаж весом до <strong>50 кг</strong>, поэтому вы сможете заранее проверить вес чемодана и <strong>избежать дополнительных расходов за превышение лимита</strong> при авиаперелётах. Компактный формат и простота использования делают эти весы незаменимыми в дороге.</p> <p><strong>Энергоэкономичное питание</strong></p> <p>Питание осуществляется от <strong>батареи</strong>, а <strong>автоматическое выключение</strong> помогает сохранять заряд и продлевает срок службы элемента питания.</p> <p><strong>Надёжный помощник для дома, хозяйства и путешествий</strong></p> <p><strong>EMOS EV020</strong> — это сочетание <strong>высокой прочности, точности и простоты</strong>. Идеальный выбор для тех, кому нужны весы не только для кухни, но и для более серьёзных задач или путешествий.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV023" available="false" group_id="141">
+    <offer id="EV023" available="false" group_id="82">
       <article>EV023</article>
       <name><![CDATA[Цифрові кухонні ваги EMOS EV023, срібло]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>789.00</price_rrc>
       <price>646.98</price>
       <currencyId>грн</currencyId>
@@ -16402,15 +16433,15 @@ IP20 – идеально для помещений
 <p><strong>Из чего изготовлены?</strong> Корпус и платформа из <strong>нержавеющей стали</strong>, дисплей – ЖК, высококачественное закаленное стекло.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV025" available="true" group_id="141">
+    <offer id="EV025" available="false" group_id="82">
       <article>EV025</article>
       <name><![CDATA[Цифрові кухонні ваги EMOS EV025, чорні з чашею]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>819.00</price_rrc>
       <price>671.58</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/35/90973258111903_+9319f2edcd.jpg</picture>
         <picture>https://extel.com.ua/content/images/35/53850161252969_+4435e62b09.jpg</picture>
@@ -16432,11 +16463,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Цифровые кухонные весы EV025</strong></p> <p>Получите <strong>безопасные цифровые весы с чашей</strong> для удобной выпечки и приготовления еды. Весы имеют специально сформированную поверхность для взвешивания, которая удерживает чашу на месте. Они станут надежным помощником как для новичков, так и для опытных кулинаров. Управление осуществляется с помощью <strong>двух кнопок</strong>.</p> <p><strong>Современный дизайн с практичной чашей</strong></p> <p>Весы оснащены пластиковой миской, в которой можно взвешивать сахар, орехи, масло или порцию овощей. Поверхность ABS удерживает чашу на месте, предотвращая её скольжение. Также можно взвешивать продукты без чаши или на тарелке. Простой современный дизайн легко вписывается в любую кухню.</p> <p><strong>Питание от 2 батареек</strong></p> <p>Весы работают от <strong>двух батареек AAA 1,5 В</strong>. <strong>Индикатор батареи</strong> предупреждает о необходимости замены. Функция <strong>автоматического отключения</strong> экономит энергию – если забыть выключить весы, они автоматически отключатся через 2 минуты.</p> <p><strong>Высокая точность взвешивания и максимальная нагрузка 5 кг</strong></p> <p>С точностью <strong>1 г</strong> вы легко справитесь даже с самыми сложными рецептами. Весы выдерживают нагрузку до <strong>5 кг</strong>. Дисплей с подсветкой легко читается в любое время суток. <strong>Индикатор перегрузки</strong> предупредит о превышении лимита. Единицы измерения: g, oz, lb и kg, легко переключаются кнопкой.</p> <p><strong>Функция TARE</strong></p> <p>Функция <strong>TARE</strong> позволяет добавлять ингредиенты по очереди в одну миску, сбрасывая дисплей на ноль после каждого добавления. Это экономит время и посуду, облегчая приготовление блюд.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV026" available="true" group_id="141">
+    <offer id="EV026" available="true" group_id="82">
       <article>EV026</article>
       <name><![CDATA[Цифрові кухонні ваги EMOS EV026, срібло]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>749.00</price_rrc>
       <price>614.16</price>
       <currencyId>грн</currencyId>
@@ -16465,11 +16496,11 @@ IP20 – идеально для помещений
 <p>Весы питаются от <strong>двух батареек AAA 1,5 В</strong>, входящих в комплект. Индикатор батареи предупреждает, когда батарейки нужно заменить. Возможна ручная и автоматическая экономия энергии.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV029" available="true" group_id="141">
+    <offer id="EV029" available="true" group_id="82">
       <article>EV029</article>
-      <name><![CDATA[Цифрові кухонні ваги EMOS EV029, чорні]]></name>
+      <name><![CDATA[Кухонні ваги EMOS EV029 цифрові, чорні]]></name>
       <brand>EMOS</brand>
-      <categoryId>141</categoryId>
+      <categoryId>82</categoryId>
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
@@ -17249,7 +17280,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="M0003BN" available="true" group_id="53">
       <article>M0003BN</article>
-      <name><![CDATA[Покажчик напруги (фазовказівник) EMOS M0003BN]]></name>
+      <name><![CDATA[Тестер наличия напряжения EMOS M0003BN АС/DC6-400В CATIII]]></name>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
       <price_rrc>350.00</price_rrc>
@@ -17495,7 +17526,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="M0010" available="true" group_id="53">
       <article>M0010</article>
-      <name><![CDATA[Двополюсний тестер напруги Z10, 12–400 В AC/DC]]></name>
+      <name><![CDATA[Двополюсний тестер напруги Emos M0010, 12–400 В AC/DC]]></name>
       <brand>EMOS</brand>
       <categoryId>53</categoryId>
       <price_rrc>499.00</price_rrc>
@@ -17954,7 +17985,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P5603R" available="true" group_id="79">
       <article>P5603R</article>
-      <name><![CDATA[Кімнатний ручний дротовий терморегулятор EMOS P5603R]]></name>
+      <name><![CDATA[Т ерморегулятор EMOS P5603R ручний дротовий кімнатний]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>1099.00</price_rrc>
@@ -17984,7 +18015,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P5604" available="true" group_id="79">
       <article>P5604</article>
-      <name><![CDATA[Кімнатний ручний дротовий терморегулятор EMOS P5604]]></name>
+      <name><![CDATA[Терморегулятор EMOS P5604 дротовий кімнатний ручний]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>1699.00</price_rrc>
@@ -18010,7 +18041,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P5614" available="true" group_id="79">
       <article>P5614</article>
-      <name><![CDATA[Кімнатний ручний бездротовий терморегулятор EMOS P5614]]></name>
+      <name><![CDATA[Терморегулятор EMOS P5614 кімнатний ручний бездротовий]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>3399.00</price_rrc>
@@ -18042,7 +18073,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P56201" available="true" group_id="79">
       <article>P56201</article>
-      <name><![CDATA[Цифровий кімнатний терморегулятор EMOS P56201 з Wi-Fi]]></name>
+      <name><![CDATA[Цифровий терморегулятор EMOS P56201 з Wi-Fi кімнатний]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>4299.00</price_rrc>
@@ -18113,7 +18144,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P56211" available="true" group_id="79">
       <article>P56211</article>
-      <name><![CDATA[Цифровий кімнатний бездротовий терморегулятор EMOS P56211 з Wi-Fi]]></name>
+      <name><![CDATA[Цифровий терморегулятор EMOS P56211 кімнатний бездротовий з Wi-Fi]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>5699.00</price_rrc>
@@ -18190,7 +18221,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P5683" available="true" group_id="79">
       <article>P5683</article>
-      <name><![CDATA[Ручний терморегулятор для поверхневого монтажу EMOS P5683]]></name>
+      <name><![CDATA[Ручний терморегулятор EMOS P5683 для поверхневого монтажу]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>1299.00</price_rrc>
@@ -18302,7 +18333,7 @@ IP20 – идеально для помещений
     </offer>
     <offer id="P56S11" available="true" group_id="79">
       <article>P56S11</article>
-      <name><![CDATA[Кімнатний програмований бездротовий WiFi терморегулятор GoSmart EMOS P56S11]]></name>
+      <name><![CDATA[Терморегулятор програмований EMOS P56S11 кімнатний бездротовий WiFi]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>5999.00</price_rrc>
@@ -18332,11 +18363,11 @@ IP20 – идеально для помещений
       <description><![CDATA[<h2 style="color:#cc3300; text-align:center; font-weight:bold;">Умное тепло под контролем &ndash; всегда и всюду</h2> <p>Создайте свой умный дом с помощью <strong>EMOS GoSmart</strong> и других совместимых с TUYA устройств. Подключайте отдельные продукты, настраивайте автоматизацию их работы и управляйте ими дистанционно через интуитивное мобильное приложение с полной локализацией.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Умный терморегулятор P56S11</h2> <p>Терморегулятор P56S11 серии EMOS GoSmart помогает поддерживать идеальную температуру, экономить энергию и наслаждаться максимальным комфортом. Благодаря передовой технологии <strong>OpenTherm</strong> он автоматически оптимизирует отопление и охлаждение в соответствии с текущими условиями, обеспечивая эффективную работу без лишних потерь. GPS-управление, планирование сценариев, управление через приложение и поддержка <strong>Google Assistant</strong> и <strong>Amazon Alexa</strong> делают его настоящим интеллектуальным центром климат-контроля для вашего дома.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Управление температурой для современного дома</h2> <p>Установите идеальную температуру для каждой комнаты, дня и часа. Хотите тепло в ванной утром или прохладе в спальне перед сном &ndash; ваш дом всегда адаптируется к вашему ритму. Функция калибровки температуры гарантирует точность показов терморегулятора в соответствии с любимыми устройствами, такими как термометр или метеостанция.</p> <p>Функция GPS позволяет автоматически включить отопление или охлаждение, чтобы при возвращении домой вас встречала комфортная температура. Если вы уехали в отпуск и забыли выключить тепло &ndash; все можно легко отрегулировать через мобильное приложение EMOS GoSmart.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Возможности управления</h2> <p>Терморегулятор P56S11 с реле на 16 А управляет не только стандартным отоплением, но и устройствами с высокой нагрузкой, такими как инфракрасные панели или обогреватели. Он предлагает до 6 программ температуры в день и 3 пользовательских сценария, а функция <strong>Holiday Mode</strong> позволяет устанавливать длительные температурные настройки.</p> <p>Благодаря беспроводной связи до 100 м между передатчиком и приемником вы получаете свободу расположения без ограничений кабелями. При необходимости можно приобрести отдельный приемник P5611OTR, полностью совместимый с терморегулятором.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Элегантный дизайн и простое управление</h2> <p>Терморегулятор совмещает практичность с современным дизайном. Сенсорный дисплей с подсветкой интуитивно понятен: большие цифры легко читаются, подсветка позволяет комфортно управлять терморегулятором даже ночью. Поддержка голосовых ассистентов Amazon Alexa и Google Assistant обеспечивает еще более удобное управление.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Монтаж и подключение</h2> <p>Терморегулятор состоит из передатчика (терморегулятора) и приемника (реле), которые легко спаривать в соответствии с инструкциями. Выберите оптимальное место для терморегулятора и установите реле на стене у источника тепла, подключив провода по схеме. После монтажа подключите устройство к домашней сети Wi-Fi и синхронизируйте с приложением EMOS GoSmart для Android и iOS.</p> <h2 style="color:#cc3300; text-align:center; font-weight:bold;">Выбор терморегулятора под ваши потребности</h2> <p>Ознакомьтесь с нашей новой линейкой терморегуляторов &ndash; от классических до умных, с напольным датчиком или встроенных в эксклюзивном дизайне от EMOS.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5630S" available="true" group_id="146">
+    <offer id="P5630S" available="true" group_id="83">
       <article>P5630S</article>
-      <name><![CDATA[Розумна цифрова термоголовка Emos P5630S GoSmart з бездротовим керуванням ZigBee]]></name>
+      <name><![CDATA[Розумна цифрова термоголовка Emos P5630S з бездротовим керуванням ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>146</categoryId>
+      <categoryId>83</categoryId>
       <price_rrc>1599.00</price_rrc>
       <price>1311.18</price>
       <currencyId>грн</currencyId>
@@ -18394,11 +18425,11 @@ IP20 – идеально для помещений
 <p><strong>EMOS P5630S</strong> &ndash; компактное и функциональное решение для современного умного дома, сочетающего комфорт, экономию и простоту управления.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56601SH" available="false" group_id="145">
+    <offer id="P56601SH" available="false" group_id="84">
       <article>P56601SH</article>
       <name><![CDATA[Розетковий терморегулятор EMOS P56601SH 2-в-1 з цифровим таймером і Wi-Fi]]></name>
       <brand>EMOS</brand>
-      <categoryId>145</categoryId>
+      <categoryId>84</categoryId>
       <price_rrc>2299.00</price_rrc>
       <price>1885.2</price>
       <currencyId>грн</currencyId>
@@ -18459,11 +18490,11 @@ IP20 – идеально для помещений
 <p>Дайте вашему дому заботиться о себе и наслаждайтесь больше времени с близкими и любимыми занятиями.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5660SH" available="false" group_id="145">
+    <offer id="P5660SH" available="false" group_id="84">
       <article>P5660SH</article>
       <name><![CDATA[Терморегулятор у розетку EMOS P5660SH 2-в-1 з цифровим таймером]]></name>
       <brand>EMOS</brand>
-      <categoryId>145</categoryId>
+      <categoryId>84</categoryId>
       <price_rrc>1099.00</price_rrc>
       <price>967.14</price>
       <currencyId>грн</currencyId>
@@ -19037,7 +19068,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>62</categoryId>
       <price_rrc>1909.00</price_rrc>
-      <price>1565.4</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -19083,7 +19114,7 @@ P56402 можно установить на стену или свободно �
     </offer>
     <offer id="P56S01F" available="true" group_id="79">
       <article>P56S01F</article>
-      <name><![CDATA[Підлоговий програмований дротовий WiFi терморегулятор GoSmart EMOS P56S01F]]></name>
+      <name><![CDATA[Підлоговий терморегулятор EMOS P56S01F програмований дротовий WiFi]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>3799.00</price_rrc>
@@ -19118,7 +19149,7 @@ P56402 можно установить на стену или свободно �
     </offer>
     <offer id="P56A01" available="true" group_id="79">
       <article>P56A01</article>
-      <name><![CDATA[Кімнатний програмований дротовий терморегулятор OpenTherm EMOS P56A01]]></name>
+      <name><![CDATA[Терморегулятор OpenTherm EMOS P56A01 кімнатний програмований дротовий]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>3999.00</price_rrc>
@@ -19337,7 +19368,7 @@ P56402 можно установить на стену или свободно �
     </offer>
     <offer id="P56A11" available="true" group_id="79">
       <article>P56A11</article>
-      <name><![CDATA[Терморегулятор кімнатний програмований бездротовий EMOS P56A11 OpenTherm]]></name>
+      <name><![CDATA[Терморегулятор програмований EMOS P56A11 кімнатний бездротовий OpenTherm]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>4599.00</price_rrc>
@@ -19381,7 +19412,7 @@ P56402 можно установить на стену или свободно �
     </offer>
     <offer id="P56A02" available="true" group_id="79">
       <article>P56A02</article>
-      <name><![CDATA[Терморегулятор кімнатний програмований дротовий OpenTherm EMOS P56A02]]></name>
+      <name><![CDATA[Терморегулятор програмований EMOS P56A02 кімнатний дротовий OpenTherm]]></name>
       <brand>EMOS</brand>
       <categoryId>79</categoryId>
       <price_rrc>2699.00</price_rrc>
@@ -19415,11 +19446,11 @@ P56402 можно установить на стену или свободно �
       <description><![CDATA[<h3 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Отопление и охлаждение круглый год</font></font></font></font></h3> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Поддерживайте идеальную температуру в вашем доме в любое время года.&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Проводной комнатный терморегулятор с поддержкой связи OpenTherm</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;автоматически согреет вас зимой и охладит летом &mdash; именно так, как вам нравится. Благодаря&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">6 предустановленным и 3 настраиваемым пользователем программам</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;, легко запланировать отопление и охлаждение в соответствии с вашим распорядком дня. терморегулятор надежно управляет системой отопления и кондиционирования воздуха и обеспечивает&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">стабильную температуру от 7&deg;C до 30&deg;C</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;&mdash; днем ​​и ночью. Четкий дисплей с подсветкой и крупными цифрами всегда наглядно отображает текущую и желаемую температуру.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/2101214000_E40-P56A02_HOR.JPG" /></p> <h3 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">OpenTherm communication</font></font></font></font></h3> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">терморегулятор можно подключить к котлу, поддерживающему связь OpenTherm.&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Переключение осуществляется с помощью выходного трансформатора (OT) и реле</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">. Большинство терморегуляторов имеют либо только выходной трансформатор (OT), либо релейный выход. терморегулятор P56A01 имеет оба выхода для&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">подключения к котлу</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <h3 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Регулировка температуры от 7&deg;C до 30&deg;C</font></font></font></font></h3> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Больше никаких резких перепадов температуры, никаких походов к бойлеру и никаких дорогостоящих перегревов &mdash; терморегулятор&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">поддерживает идеальную температуру для вас</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">. Создайте комфортную температуру в помещении, чтобы чувствовать себя наилучшим образом. Для&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">оптимальной температуры</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">&nbsp;просто выберите диапазон температур от 7&deg;C до 30&deg;C на терморегуляторе, который можно регулировать с шагом 0,2&deg;C. Затем вы сможете увидеть на дисплее, соответствует ли установленная вами температура фактической температуре в помещении.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <h3 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Четкий дисплей с подсветкой</font></font></font></font></h3> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">терморегулятор P56A02 сочетает в себе практичность и&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">современный, вневременной дизайн</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">, который впишется в любой интерьер. Сенсорный дисплей с подсветкой отличается&nbsp;</font></font></font></font><strong style="box-sizing:border-box; -webkit-font-smoothing:antialiased; font-weight:bolder"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">четкостью и интуитивно понятным управлением</font></font></font></font></strong><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">: крупные цифры позволяют легко видеть текущую и заданную температуру, а подсветка делает его удобным в использовании даже ночью, без необходимости включать свет.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <h3 style="box-sizing:border-box; -webkit-font-smoothing:antialiased; color:#dc3d3d; font-family:"Roboto Condensed", sans-serif; font-size:22px; font-weight:700; line-height:1.2em; text-rendering:optimizelegibility; overflow-wrap:break-word; margin:24px 0px 10px; text-align:center; font-style:normal; font-variant-ligatures:normal; font-variant-caps:normal; letter-spacing:normal; orphans:2; text-transform:none; widows:2; word-spacing:0px; -webkit-text-stroke-width:0px; white-space:normal; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Выберите подходящий терморегулятор для ваших нужд.</font></font></font></font></h3> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><span style="font-size:14px"><span style="box-sizing:border-box"><span style="-webkit-font-smoothing:antialiased"><span style="color:#000000"><span style="font-family:"Roboto Condensed", sans-serif"><span style="overflow-wrap:break-word"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-variant-caps:normal"><span style="font-weight:400"><span style="letter-spacing:normal"><span style="orphans:2"><span style="text-transform:none"><span style="widows:2"><span style="word-spacing:0px"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;"><font dir="auto"><font style="box-sizing: border-box; -webkit-font-smoothing: antialiased; vertical-align: inherit;">Откройте для себя нашу новую линейку терморегуляторов &mdash; от классических до &laquo;умных&raquo;, с датчиком уровня пола или встроенных, разработанных в эксклюзивном дизайне специально для EMOS.</font></font></font></font></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <p style="margin-bottom:12px; text-align:justify; -webkit-text-stroke-width:0px"><img loading="lazy" src="https://www.emos.eu/PRODUCT-DATA/PHOTO-PRODUCT_2048x1245/2101214000_E71-P56A02_ENU_HOR.JPG" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5631S" available="true" group_id="146">
+    <offer id="P5631S" available="true" group_id="83">
       <article>P5631S</article>
       <name><![CDATA[Розумна цифрова термоголовка Emos P5631S GoSmart з бездротовим керуванням ZigBee]]></name>
       <brand>EMOS</brand>
-      <categoryId>146</categoryId>
+      <categoryId>83</categoryId>
       <price_rrc>1599.00</price_rrc>
       <price>1311.18</price>
       <currencyId>грн</currencyId>
@@ -20146,11 +20177,11 @@ P56402 можно установить на стену или свободно �
 <p><strong>EMOS ZV2152 &mdash; яркое и энергоэффективное решение для качественного освещения.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZM3010" available="true" group_id="143">
+    <offer id="ZM3010" available="true" group_id="85">
       <article>ZM3010</article>
       <name><![CDATA[Стельовий світлодіодний світильник EMOS ZM3010 20 Вт 1900 Лм 4000K IP65]]></name>
       <brand>EMOS</brand>
-      <categoryId>143</categoryId>
+      <categoryId>85</categoryId>
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
@@ -20187,11 +20218,11 @@ P56402 можно установить на стену или свободно �
 <p>Качество и надежность изделия подтверждаются <strong>гарантией 2 года</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZM3020" available="true" group_id="143">
+    <offer id="ZM3020" available="true" group_id="85">
       <article>ZM3020</article>
       <name><![CDATA[Стельовий світлодіодний світильник EMOS ZM3020 20 Вт 1900 Лм 4000K IP65]]></name>
       <brand>EMOS</brand>
-      <categoryId>143</categoryId>
+      <categoryId>85</categoryId>
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
@@ -20228,11 +20259,11 @@ P56402 можно установить на стену или свободно �
 <p>Качество и надежность изделия подтверждаются <strong>гарантией 2 года</strong>.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZM3231" available="true" group_id="143">
+    <offer id="ZM3231" available="true" group_id="85">
       <article>ZM3231</article>
-      <name><![CDATA[Світлодіодний стельовий світильник ZURI з PIR, круглий, чорно-білий 14 Вт нейтральний білий ZM3231]]></name>
+      <name><![CDATA[Світлодіодний стельовий світильник EMOS ZM3231 з PIR, круглий, чорно-білий 14 Вт нейтральний білий]]></name>
       <brand>EMOS</brand>
-      <categoryId>143</categoryId>
+      <categoryId>85</categoryId>
       <price_rrc>1499.00</price_rrc>
       <price>1229.1599999999999</price>
       <currencyId>грн</currencyId>
@@ -20472,7 +20503,7 @@ P56402 можно установить на стену или свободно �
 <p><img alt="" height="564" loading="lazy" src="https://www.extel.com.ua/content/uploads/images/1552121000_e42-zg121s_hor.jpg" width="850" /></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG122S" available="true" group_id="67">
+    <offer id="ZG122S" available="false" group_id="67">
       <article>ZG122S</article>
       <name><![CDATA[Світлодіодний сонячний прожектор EMOS ZG122S 1600 лм IP54 4000K]]></name>
       <brand>EMOS</brand>
@@ -20480,7 +20511,7 @@ P56402 можно установить на стену или свободно �
       <price_rrc>1266.00</price_rrc>
       <price>1038.12</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/14/91183394158393_+ebab69d649.jpg</picture>
         <picture>https://extel.com.ua/content/images/14/98573821913842_+e909e12ed6.jpg</picture>
@@ -21036,7 +21067,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>68</categoryId>
       <price_rrc>2399.00</price_rrc>
-      <price>1967.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21373,11 +21404,11 @@ P56402 можно установить на стену или свободно �
 <p data-end="2143" data-start="1966"><strong data-end="2030" data-start="1966">ACCO &mdash; это мобильный рабочий свет, который всегда под рукой.</strong> Без лишних кабелей, без привязки к розетке и с возможностью быстро направить освещение именно на нужный участок.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZM4123" available="true" group_id="143">
+    <offer id="ZM4123" available="true" group_id="85">
       <article>ZM4123</article>
       <name><![CDATA[Стельовий світлодіодний світильник EMOS ZM4123 квадратний 15 Вт тепло-білий IP54]]></name>
       <brand>EMOS</brand>
-      <categoryId>143</categoryId>
+      <categoryId>85</categoryId>
       <price_rrc>699.00</price_rrc>
       <price>573.18</price>
       <currencyId>грн</currencyId>
@@ -21506,7 +21537,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
-      <price>1229.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21548,7 +21579,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
-      <price>1229.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21714,7 +21745,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>899.00</price_rrc>
-      <price>737.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21752,7 +21783,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>2999.00</price_rrc>
-      <price>2459.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21821,7 +21852,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
-      <price>3115.2</price>
+      <price>0.00</price>
       <currencyId>UAH</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21855,7 +21886,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>899.00</price_rrc>
-      <price>737.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21896,7 +21927,7 @@ P56402 можно установить на стену или свободно �
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
-      <price>3115.2</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -21969,7 +22000,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>699.00</price_rrc>
-      <price>573.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22008,7 +22039,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>2999.00</price_rrc>
-      <price>2459.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22078,7 +22109,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1799.00</price_rrc>
-      <price>1475.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22117,7 +22148,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>6799.00</price_rrc>
-      <price>5575.2</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22190,7 +22221,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>5799.00</price_rrc>
-      <price>4755.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22257,7 +22288,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>5799.00</price_rrc>
-      <price>4755.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22324,7 +22355,7 @@ Smart-прожекторы для любого случая
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>2799.00</price_rrc>
-      <price>2295.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22453,7 +22484,7 @@ LED-лента длиной 2 м состоит из сегментов по 20 
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>2699.00</price_rrc>
-      <price>2213.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -22521,7 +22552,7 @@ LED-лента длиной 2 м состоит из сегментов по 20 
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>3799.00</price_rrc>
-      <price>3115.2</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23507,7 +23538,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1499.00</price_rrc>
-      <price>1229.16</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23533,7 +23564,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1599.00</price_rrc>
-      <price>1311.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23558,7 +23589,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1299.00</price_rrc>
-      <price>1065.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23634,7 +23665,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>69</categoryId>
       <price_rrc>1559.00</price_rrc>
-      <price>1278.36</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23695,7 +23726,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>9576.00</price_rrc>
-      <price>8426.88</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23822,7 +23853,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>4456.00</price_rrc>
-      <price>3653.94</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23895,7 +23926,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>7876.00</price_rrc>
-      <price>6458.34</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23949,7 +23980,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>2976.00</price_rrc>
-      <price>2440.32</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -23987,7 +24018,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>4129.00</price_rrc>
-      <price>3385.8</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -24027,7 +24058,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>5339.00</price_rrc>
-      <price>4698.3</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -24104,7 +24135,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>71</categoryId>
       <price_rrc>5339.00</price_rrc>
-      <price>4698.3</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -24238,7 +24269,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>72</categoryId>
       <price_rrc>5769.00</price_rrc>
-      <price>5076.72</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -25068,7 +25099,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>75</categoryId>
       <price_rrc>929.00</price_rrc>
-      <price>761.76</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -25127,7 +25158,7 @@ Smart-управление через мобильное приложение
     </offer>
     <offer id="P5729" available="true" group_id="75">
       <article>P5729</article>
-      <name><![CDATA[Дзвінок дверний бездротовий EMOS P5729, біл.]]></name>
+      <name><![CDATA[Дзвінок дверний бездротовий EMOS P5729]]></name>
       <brand>EMOS</brand>
       <categoryId>75</categoryId>
       <price_rrc>1199.00</price_rrc>
@@ -25877,7 +25908,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>75</categoryId>
       <price_rrc>759.00</price_rrc>
-      <price>622.38</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>В наявності</available>
       <pictures>
@@ -25963,7 +25994,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>76</categoryId>
       <price_rrc>436.00</price_rrc>
-      <price>357.54</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26413,7 +26444,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1416.00</price_rrc>
-      <price>1161.12</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26474,7 +26505,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1469.00</price_rrc>
-      <price>1204.56</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26543,7 +26574,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1416.00</price_rrc>
-      <price>1161.12</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26612,7 +26643,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1469.00</price_rrc>
-      <price>1204.56</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26670,7 +26701,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1556.00</price_rrc>
-      <price>1275.9</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26733,7 +26764,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1749.00</price_rrc>
-      <price>1434.18</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26784,7 +26815,7 @@ Smart-управление через мобильное приложение
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1169.00</price_rrc>
-      <price>958.56</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26830,7 +26861,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>979.00</price_rrc>
-      <price>802.8</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26885,7 +26916,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1206.00</price_rrc>
-      <price>988.92</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -26940,7 +26971,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1269.00</price_rrc>
-      <price>1040.58</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -27001,7 +27032,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1699.00</price_rrc>
-      <price>1393.2</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -27061,7 +27092,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1269.00</price_rrc>
-      <price>1040.58</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -27119,7 +27150,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1789.00</price_rrc>
-      <price>1464.54</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
@@ -27176,7 +27207,7 @@ ZigBee – стандартизированная технология, что �
       <brand>EMOS</brand>
       <categoryId>78</categoryId>
       <price_rrc>1529.00</price_rrc>
-      <price>1253.76</price>
+      <price>0.00</price>
       <currencyId>грн</currencyId>
       <available>Очікується</available>
       <pictures>
