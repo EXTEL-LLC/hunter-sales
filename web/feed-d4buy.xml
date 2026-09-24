@@ -975,7 +975,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P19224" available="true" group_id="11">
+    <offer id="P19224" available="false" group_id="11">
       <article>P19224</article>
       <name_ua><![CDATA[Мережевий подовжувач на металевій котушці Emos P19224 4 розетки 40 м 2,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель на металлической катушке Emos P19224 4 розетки 40 м 2,5 мм² резина/неопрен 16 А 3680 Вт с заземлением]]></name_ru>
@@ -984,7 +984,7 @@
       <price_rrc>10549.00</price_rrc>
       <price>8650.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/45/99160894137603_+24878cc2bd.jpg</picture>
         <picture>https://extel.com.ua/content/images/45/20144016731900_+c937439d44.jpg</picture>
