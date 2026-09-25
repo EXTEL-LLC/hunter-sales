@@ -20101,7 +20101,7 @@ P56402 можно установить на стену или свободно �
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56A01" available="false" group_id="79">
+    <offer id="P56A01" available="true" group_id="79">
       <article>P56A01</article>
       <name_ua><![CDATA[Терморегулятор OpenTherm EMOS P56A01 кімнатний програмований дротовий]]></name_ua>
       <name_ru><![CDATA[Терморегулятор OpenTherm EMOS P56A01 комнатный программируемый проводной]]></name_ru>
@@ -20110,7 +20110,7 @@ P56402 можно установить на стену или свободно �
       <price_rrc>3999.00</price_rrc>
       <price>3039.24</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/8/72283516389991_+b49f3ceea5.jpg</picture>
         <picture>https://extel.com.ua/content/images/8/27506016490622_+8885ed13d9.jpg</picture>
