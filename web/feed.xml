@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-28">
+<price date="2026-09-29">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -3183,7 +3183,7 @@
 <p>Пять розеток позволяют подключать несколько электроприборов одновременно, а USB-выходы обеспечивают быструю зарядку мобильных устройств. Выключатель позволяет управлять электропитанием легко и удобно.</p> <p><strong>Удлинитель P1523FC</strong> – практичное, безопасное и универсальное решение для дома, офиса или мастерской.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1523R" available="true" group_id="12">
+    <offer id="P1523R" available="false" group_id="12">
       <article>P1523R</article>
       <name><![CDATA[Мережевий подовжувач Emos P1523R 5 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -3191,7 +3191,7 @@
       <price_rrc>569.00</price_rrc>
       <price>466.56</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/35/merezhevyi-podovzhuvach-emos-p1523r-5-rozetky-3-m.-55602949692659_+9dd5ee3c70.jpg</picture>
         <picture>https://extel.com.ua/content/images/35/merezhevyi-podovzhuvach-emos-p1523r-5-rozetky-3-m.-34379050224074_+0ee569d40b.jpg</picture>
@@ -15011,7 +15011,7 @@ IP20 – идеально для помещений
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E0352" available="true" group_id="46">
+    <offer id="E0352" available="false" group_id="46">
       <article>E0352</article>
       <name><![CDATA[Бездротова цифрова метеостанція EMOS E0352]]></name>
       <brand>EMOS</brand>
@@ -15019,7 +15019,7 @@ IP20 – идеально для помещений
       <price_rrc>1399.00</price_rrc>
       <price>1147.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/1/24345954755376_+3d1980b006.jpg</picture>
         <picture>https://extel.com.ua/content/images/1/67856618392718_+a39995e13f.jpg</picture>
