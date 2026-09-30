@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-29">
+<price date="2026-09-30">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1741,7 +1741,7 @@
 <p>Одна розетка SCHUKO позволяет подключать стандартные электроприборы. Прочный и надежный дизайн делает использование простым и комфортным.</p> <p><strong>Удлинитель P01820</strong> – практичное и безопасное решение для дома, мастерской, дачи или влажных рабочих зон.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01825R" available="true" group_id="12">
+    <offer id="P01825R" available="false" group_id="12">
       <article>P01825R</article>
       <name><![CDATA[Мережевий подовжувач Emos P01825R 1 розетка 25 м 2,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -1749,7 +1749,7 @@
       <price_rrc>5149.00</price_rrc>
       <price>4531.14</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/15/99838062143931_+1478a93f32.jpg</picture>
         <picture>https://extel.com.ua/content/images/15/74040499955199_+d72b6ccd74.jpg</picture>
@@ -13549,7 +13549,7 @@ IP20 – идеально для помещений
 <p><strong>EMOS GS41151 &mdash; простой способ сделать наружное освещение автоматическим, удобным и экономичным.</strong></p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS32111" available="true" group_id="81">
+    <offer id="GS32111" available="false" group_id="81">
       <article>GS32111</article>
       <name><![CDATA[Мікрохвильовий датчик руху та присутності EMOS GS32111 2000 W IP20 24 GHZ]]></name>
       <brand>EMOS</brand>
@@ -13557,7 +13557,7 @@ IP20 – идеально для помещений
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-97585248209478_+4ee9605b06.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-98871813621344_+855fc61098.jpg</picture>
@@ -15211,7 +15211,7 @@ IP20 – идеально для помещений
       <description><![CDATA[<p><strong>Беспроводная домашняя метеостанция E6016</strong></p> <p>Хотите всегда знать, какая погода на улице, чтобы планировать свой день без сюрпризов? Тогда метеостанция E6016 станет вашим незаменимым помощником! Она не только измеряет температуру и влажность, но и показывает точный прогноз погоды и важные показатели прямо на ярком цветном дисплее.</p> <p>Чем вас впечатлит эта современная станция? <strong>Измерение температуры и влажности</strong> как внутри помещения, так и на улице, <strong>прогноз погоды</strong> на ближайшие часы, <strong>барометр и анемометр</strong> для точного определения атмосферного давления и скорости ветра, а также <strong>дождемер</strong>. Дисплей с подсветкой делает информацию четкой и понятной в любое время суток.</p> <p><strong>Преимущества для вас</strong></p> <p>С E6016 вы всегда будете на шаг впереди погоды. Простая в использовании, станция позволяет: <strong>планировать выход из дома без лишних волнений</strong>, отслеживать атмосферное давление и скорость ветра, а также <strong>контролировать дождь и осадки</strong> в вашем дворе. Подключение до 3 дополнительных сенсоров позволяет еще точнее контролировать внешние условия.</p> <p><strong>Идеальна для дома и дачи</strong></p> <p>Станция E6016 выглядит стильно благодаря современному дизайну и легко впишется в любой интерьер. Вы можете поставить ее на стол или повесить на стену. Питание от сети или батареек делает её гибкой и удобной в использовании.</p> <p><strong>Как использовать:</strong> Установите внешний датчик на открытом месте, подключите станцию к питанию, и она начнет передавать данные. Вся информация о температуре, влажности, ветре и осадках всегда под рукой!</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E6018" available="true" group_id="46">
+    <offer id="E6018" available="false" group_id="46">
       <article>E6018</article>
       <name><![CDATA[Метеостанція EMOS E6018 бездротова цифрова]]></name>
       <brand>EMOS</brand>
@@ -15219,7 +15219,7 @@ IP20 – идеально для помещений
       <price_rrc>2999.00</price_rrc>
       <price>2459.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/43757864323957_+811fe30fc1.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/88354430774488_+69d4debf93.jpg</picture>
@@ -18336,7 +18336,7 @@ IP20 – идеально для помещений
 </ul>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56S11" available="true" group_id="79">
+    <offer id="P56S11" available="false" group_id="79">
       <article>P56S11</article>
       <name><![CDATA[Терморегулятор програмований EMOS P56S11 кімнатний бездротовий WiFi]]></name>
       <brand>EMOS</brand>
@@ -18344,7 +18344,7 @@ IP20 – идеально для помещений
       <price_rrc>5999.00</price_rrc>
       <price>4919.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/15/91425005661462_+9115112bfc.jpg</picture>
         <picture>https://extel.com.ua/content/images/15/96119690393097_+9648039c9c.jpg</picture>
