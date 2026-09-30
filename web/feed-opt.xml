@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-29">
+<price date="2026-09-30">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1832,7 +1832,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01825R" available="true" group_id="12">
+    <offer id="P01825R" available="false" group_id="12">
       <article>P01825R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01825R 1 розетка 25 м 2,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01825R 1 розетка 25 м 2,5 мм² IP44 резина/неопрен 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1841,7 +1841,7 @@
       <price_rrc>5149.00</price_rrc>
       <price>4016.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/15/99838062143931_+1478a93f32.jpg</picture>
         <picture>https://extel.com.ua/content/images/15/74040499955199_+d72b6ccd74.jpg</picture>
@@ -14295,7 +14295,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="GS32111" available="true" group_id="81">
+    <offer id="GS32111" available="false" group_id="81">
       <article>GS32111</article>
       <name_ua><![CDATA[Мікрохвильовий датчик руху та присутності EMOS GS32111 2000 W IP20 24 GHZ]]></name_ua>
       <name_ru><![CDATA[Микроволновый датчик движения и присутствия EMOS GS32111 2000 W IP20 24 GHZ]]></name_ru>
@@ -14304,7 +14304,7 @@ IP20 – идеально для помещений
       <price_rrc>1099.00</price_rrc>
       <price>769.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-97585248209478_+4ee9605b06.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/mikrokhvylovyi-datchyk-rukhu-ta-prysutnosti-emos-gs32111-2000-w-ip20-24-ghz-98871813621344_+855fc61098.jpg</picture>
@@ -16023,7 +16023,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="E6018" available="true" group_id="46">
+    <offer id="E6018" available="false" group_id="46">
       <article>E6018</article>
       <name_ua><![CDATA[Метеостанція EMOS E6018 бездротова цифрова]]></name_ua>
       <name_ru><![CDATA[Метеостанция EMOS E6018 беспроводная цифровая]]></name_ru>
@@ -16032,7 +16032,7 @@ IP20 – идеально для помещений
       <price_rrc>2999.00</price_rrc>
       <price>2099.28</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/43757864323957_+811fe30fc1.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/88354430774488_+69d4debf93.jpg</picture>
@@ -19315,7 +19315,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56S11" available="true" group_id="79">
+    <offer id="P56S11" available="false" group_id="79">
       <article>P56S11</article>
       <name_ua><![CDATA[Терморегулятор програмований EMOS P56S11 кімнатний бездротовий WiFi]]></name_ua>
       <name_ru><![CDATA[Терморегулятор программируемый EMOS P56S11 комнатный беспроводной WiFi]]></name_ru>
@@ -19324,7 +19324,7 @@ IP20 – идеально для помещений
       <price_rrc>5999.00</price_rrc>
       <price>4199.28</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/15/91425005661462_+9115112bfc.jpg</picture>
         <picture>https://extel.com.ua/content/images/15/96119690393097_+9648039c9c.jpg</picture>
