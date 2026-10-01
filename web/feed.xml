@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-09-30">
+<price date="2026-10-01">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -450,7 +450,7 @@
 <p>Катушка обеспечивает подачу электроэнергии в широком диапазоне рабочих температур от <b>-35&deg;C до +60&deg;C</b>. <b>Морозостойкий кабель</b> также обладает повышенной <b>устойчивостью к ультрафиолету</b> и не имеет характерного резинового запаха.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P09220" available="true" group_id="11">
+    <offer id="P09220" available="false" group_id="11">
       <article>P09220</article>
       <name><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм² з заземленням]]></name>
       <brand>EMOS</brand>
@@ -458,7 +458,7 @@
       <price_rrc>2049.00</price_rrc>
       <price>1680.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/47884341518343_+9f42e3efe2.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/42963628151804_+4080ed1aac.jpg</picture>
@@ -1641,7 +1641,7 @@
 </p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01805" available="true" group_id="12">
+    <offer id="P01805" available="false" group_id="12">
       <article>P01805</article>
       <name><![CDATA[Мережевий подовжувач Emos P01805 1 розетка 5 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -1649,7 +1649,7 @@
       <price_rrc>899.00</price_rrc>
       <price>737.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/11/26313647918347_+2121b907ca.jpg</picture>
         <picture>https://extel.com.ua/content/images/11/56731181884813_+c8fde00d9f.jpg</picture>
@@ -2382,7 +2382,7 @@
 <p>Три розетки позволяют одновременно подключать несколько электроприборов, обеспечивая комфортную работу и практичность использования.</p> <p><strong>Удлинитель P0622</strong> – практичное, безопасное и надежное решение для дома, офиса или мастерской.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0623R" available="true" group_id="12">
+    <offer id="P0623R" available="false" group_id="12">
       <article>P0623R</article>
       <name><![CDATA[Мережевий подовжувач Emos P0623R 6 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -2390,7 +2390,7 @@
       <price_rrc>519.00</price_rrc>
       <price>425.58</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/40/16339027143357_+19f80b1e1b.jpg</picture>
         <picture>https://extel.com.ua/content/images/40/87172282342115_+c589988fa0.jpg</picture>
@@ -3018,7 +3018,7 @@
 <p>Четыре розетки позволяют одновременно подключать несколько электроприборов, а выключатель делает управление электропитанием простым и удобным. Стильное сочетание черного и красного цветов придает эстетике и заметности.</p> <p><strong>Удлинитель P14251</strong> – практичное, безопасное и надежное решение для дома, мастерской или офиса.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1425R" available="true" group_id="12">
+    <offer id="P1425R" available="false" group_id="12">
       <article>P1425R</article>
       <name><![CDATA[Мережевий подовжувач Emos P1425R 4 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -3026,7 +3026,7 @@
       <price_rrc>739.00</price_rrc>
       <price>606</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/27/26904339815636_+eb478a3f4e.jpg</picture>
         <picture>https://extel.com.ua/content/images/27/62968183494850_+7e4837d747.jpg</picture>
@@ -3919,7 +3919,7 @@
 <p><strong>Удлинитель 10 м</strong> &ndash; это сочетание компактности, безопасности и надежности для дома, офиса или мастерской.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC0121R" available="true" group_id="12">
+    <offer id="PC0121R" available="false" group_id="12">
       <article>PC0121R</article>
       <name><![CDATA[Мережевий подовжувач EMOS PC0121R 1 розеткa 1,5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
@@ -3927,7 +3927,7 @@
       <price_rrc>289.00</price_rrc>
       <price>237</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-96671520401637_+c1e7a243dc.jpg</picture>
         <picture>https://extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-59210152454822_+c98ae5fcfb.jpg</picture>
@@ -4447,7 +4447,7 @@
 <p>Дайте дому заботиться о себе, а себе &mdash; больше времени для близких и хобби.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5532" available="true" group_id="15">
+    <offer id="P5532" available="false" group_id="15">
       <article>P5532</article>
       <name><![CDATA[Розумна вологозахищена WIFI розетка EMOS P5532 GoSmart IP44]]></name>
       <brand>EMOS</brand>
@@ -4455,7 +4455,7 @@
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/20/69871593435594_+edb335ca5f.jpg</picture>
         <picture>https://extel.com.ua/content/images/20/45919837502103_+51e2f012fd.jpg</picture>
@@ -11112,7 +11112,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 </ul> <p>Идеальный выбор для туризма, кемпинга, активного отдыха и аварийного освещения. <strong>P3170</strong> всегда готов обеспечить надежный свет в любых условиях.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3210" available="true" group_id="34">
+    <offer id="P3210" available="false" group_id="34">
       <article>P3210</article>
       <name><![CDATA[Лiхтар ручний Emos P3210 55 Lm 2×AA пластик]]></name>
       <brand>EMOS</brand>
@@ -11120,7 +11120,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>309.00</price_rrc>
       <price>253.38</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/23/49155973106504_+b3b5872573.jpg</picture>
         <picture>https://extel.com.ua/content/images/23/58547395435137_+5e93b18b9f.jpg</picture>
