@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-01">
+<price date="2026-10-02">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -11051,7 +11051,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4720" available="true" group_id="34">
+    <offer id="P4720" available="false" group_id="34">
       <article>P4720</article>
       <name_ua><![CDATA[Ліхтар акумуляторний Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ru>
@@ -11060,7 +11060,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>369.00</price_rrc>
       <price>280.44</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/7/58098067753306_+1c04e05273.jpg</picture>
         <picture>https://extel.com.ua/content/images/7/96610845272983_+d00da0fbca.jpg</picture>
