@@ -338,7 +338,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P08620W" available="false" group_id="11">
+    <offer id="P08620W" available="true" group_id="11">
       <article>P08620W</article>
       <name_ua><![CDATA[Мережевий подовжувач на котушці Emos P08620W 3 розетки 20 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель на катушке Emos P08620W 3 розетки 20 м 1,5 мм²]]></name_ru>
@@ -347,7 +347,7 @@
       <price_rrc>6649.00</price_rrc>
       <price>5186.22</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/49/12745975614671_+f978497e23.jpg</picture>
         <picture>https://extel.com.ua/content/images/49/43337052970794_+1ed4cf8e61.jpg</picture>
@@ -1302,7 +1302,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01215R" available="false" group_id="12">
+    <offer id="P01215R" available="true" group_id="12">
       <article>P01215R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01215R 1 розетка 15 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01215R 1 розетка 15 м 1,5 мм²]]></name_ru>
@@ -1311,7 +1311,7 @@
       <price_rrc>1599.00</price_rrc>
       <price>1119.3</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/14586443680699_+55e48a1113.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/16706694986100_+88b83c6a7f.jpg</picture>
@@ -1573,7 +1573,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01303" available="false" group_id="12">
+    <offer id="P01303" available="true" group_id="12">
       <article>P01303</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01303 1 розетка 3 м 0,75 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01303 1 розетка 3 м 0,75 мм²]]></name_ru>
@@ -1582,7 +1582,7 @@
       <price_rrc>209.00</price_rrc>
       <price>137.94</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/6/53932008379439_+4c463ea67f.jpg</picture>
         <picture>https://extel.com.ua/content/images/6/70447950004323_+2860f15042.jpg</picture>
@@ -1724,7 +1724,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01805" available="false" group_id="12">
+    <offer id="P01805" available="true" group_id="12">
       <article>P01805</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01805 1 розетка 5 м 1,5 мм² IP44 гума/неопрен 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01805 1 розетка 5 м 1,5 мм² IP44 резина/неопрен 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1733,7 +1733,7 @@
       <price_rrc>899.00</price_rrc>
       <price>629.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/11/26313647918347_+2121b907ca.jpg</picture>
         <picture>https://extel.com.ua/content/images/11/56731181884813_+c8fde00d9f.jpg</picture>
@@ -3372,7 +3372,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1523R" available="false" group_id="12">
+    <offer id="P1523R" available="true" group_id="12">
       <article>P1523R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P1523R 5 розеток 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P1523R 5 розеток 3 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -3381,7 +3381,7 @@
       <price_rrc>569.00</price_rrc>
       <price>398.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/35/merezhevyi-podovzhuvach-emos-p1523r-5-rozetky-3-m.-55602949692659_+9dd5ee3c70.jpg</picture>
         <picture>https://extel.com.ua/content/images/35/merezhevyi-podovzhuvach-emos-p1523r-5-rozetky-3-m.-34379050224074_+0ee569d40b.jpg</picture>
@@ -3612,7 +3612,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC1321R" available="false" group_id="12">
+    <offer id="PC1321R" available="true" group_id="12">
       <article>PC1321R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos PC1321R 3 розетки 1,5 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos PC1321R 3 розетки 1,5 м 1,5 мм²]]></name_ru>
@@ -3621,7 +3621,7 @@
       <price_rrc>369.00</price_rrc>
       <price>243.54</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/5/82204562040057_+d891b13ce9.jpg</picture>
         <picture>https://extel.com.ua/content/images/5/11999024883295_+167d0015b2.jpg</picture>
@@ -5464,7 +5464,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0050" available="false" group_id="17">
+    <offer id="P0050" available="true" group_id="17">
       <article>P0050</article>
       <name_ua><![CDATA[Вилка гумова IP44 чорна шуко EMOS P0050]]></name_ua>
       <name_ru><![CDATA[Вилка резиновая IP44 черная шуко EMOS P0050]]></name_ru>
@@ -5473,7 +5473,7 @@
       <price_rrc>149.00</price_rrc>
       <price>104.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/34/56393782487050_+221b4de7ed.jpg</picture>
         <picture>https://extel.com.ua/content/images/34/80761181922359_+c85d32db29.jpg</picture>
@@ -5750,7 +5750,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1320" available="false" group_id="17">
+    <offer id="P1320" available="true" group_id="17">
       <article>P1320</article>
       <name_ua><![CDATA[Колодка EMOS P1320, 3 розетки з вимикачем 16 A]]></name_ua>
       <name_ru><![CDATA[Колодка EMOS P1320, 3 розетки с выключателем 16 A]]></name_ru>
@@ -5759,7 +5759,7 @@
       <price_rrc>189.00</price_rrc>
       <price>124.74</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/10/15450526943972_+0ba17cfb52.jpg</picture>
         <picture>https://extel.com.ua/content/images/10/91430932154473_+5286498a12.jpg</picture>
@@ -9114,7 +9114,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="F61921" available="false" group_id="30">
+    <offer id="F61921" available="true" group_id="30">
       <article>F61921</article>
       <name_ua><![CDATA[Ізоляційна стрічка 19 мм/20 м, біла F61921]]></name_ua>
       <name_ru><![CDATA[Изоляционная лента 19 мм/20 м, белая F61921]]></name_ru>
@@ -9123,7 +9123,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>59.00</price_rrc>
       <price>38.94</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/9/87928070485488_+c957e3113b.jpg</picture>
         <picture>https://extel.com.ua/content/images/9/78682701713137_+0a0097fc57.jpg</picture>
@@ -9165,7 +9165,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="F61923" available="false" group_id="30">
+    <offer id="F61923" available="true" group_id="30">
       <article>F61923</article>
       <name_ua><![CDATA[Ізоляційна стрічка EMOS F61923 PVC 19/20 RED]]></name_ua>
       <name_ru><![CDATA[Изоляционная лента EMOS PVC 19/20 червоний F61923]]></name_ru>
@@ -9174,7 +9174,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>59.00</price_rrc>
       <price>38.94</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/11/84585754792274_+f8ba120060.jpg</picture>
         <picture>https://extel.com.ua/content/images/11/40450409557757_+75b1334a93.jpg</picture>
@@ -9219,7 +9219,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="F61925" available="false" group_id="30">
+    <offer id="F61925" available="true" group_id="30">
       <article>F61925</article>
       <name_ua><![CDATA[Ізоляційна стрічка EMOS F61925 PVC 19/20 Жовто/Зелена]]></name_ua>
       <name_ru><![CDATA[Изоляционная лента EMOS PVC 19/20 Желто/Зеленая F61925]]></name_ru>
@@ -9228,7 +9228,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>69.00</price_rrc>
       <price>45.54</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/13/25643686287960_+089351c8b7.jpg</picture>
         <picture>https://extel.com.ua/content/images/13/89251198435430_+67cc2b7860.jpg</picture>
@@ -9246,7 +9246,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="F61926" available="false" group_id="30">
+    <offer id="F61926" available="true" group_id="30">
       <article>F61926</article>
       <name_ua><![CDATA[Ізоляційна стрічка EMOS F61926 PVC 19/20 жовта]]></name_ua>
       <name_ru><![CDATA[Изоляционная лента EMOS PVC 19/20 желтая F61926]]></name_ru>
@@ -9255,7 +9255,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>59.00</price_rrc>
       <price>38.94</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/14/46972359838676_+60a96f8b24.jpg</picture>
         <picture>https://extel.com.ua/content/images/14/90284558865378_+4c81447348.jpg</picture>
@@ -9273,7 +9273,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="F61927" available="false" group_id="30">
+    <offer id="F61927" available="true" group_id="30">
       <article>F61927</article>
       <name_ua><![CDATA[Ізоляційна стрічка EMOS F61927 PVC 19/20 BROWN]]></name_ua>
       <name_ru><![CDATA[Изоляционная лента EMOS PVC 19/20 BROWN F61927]]></name_ru>
@@ -9282,7 +9282,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>59.00</price_rrc>
       <price>38.94</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/15/68397342096741_+9184c24e49.jpg</picture>
         <picture>https://extel.com.ua/content/images/15/40795378359135_+3a8b759d38.jpg</picture>
@@ -10842,7 +10842,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4535" available="false" group_id="35">
+    <offer id="P4535" available="true" group_id="35">
       <article>P4535</article>
       <name_ua><![CDATA[Ліхтар акумуляторний Emos P4535 670 Lm 2200 mAh]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P4535 670 Lm 2200 mAh]]></name_ru>
@@ -10851,7 +10851,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>1499.00</price_rrc>
       <price>1049.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/33/62180821553733_+883a40ff65.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/39910592002143_+862c910e13.jpg</picture>
@@ -11051,7 +11051,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4720" available="false" group_id="34">
+    <offer id="P4720" available="true" group_id="34">
       <article>P4720</article>
       <name_ua><![CDATA[Ліхтар акумуляторний Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ru>
@@ -11060,7 +11060,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>369.00</price_rrc>
       <price>258.3</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/7/58098067753306_+1c04e05273.jpg</picture>
         <picture>https://extel.com.ua/content/images/7/96610845272983_+d00da0fbca.jpg</picture>
@@ -12408,7 +12408,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4721" available="false" group_id="34">
+    <offer id="P4721" available="true" group_id="34">
       <article>P4721</article>
       <name_ua><![CDATA[Ліхтар-брелок Emos P4721 монстри зі звуком 5 Lm 3× LR54 пластик]]></name_ua>
       <name_ru><![CDATA[Фонарь-брелок Emos P4721 монстры со звуком 5 Lm 3× LR54 пластик]]></name_ru>
@@ -12417,7 +12417,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>179.00</price_rrc>
       <price>125.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/8/14990529107421_+63d3138c0e.jpg</picture>
         <picture>https://extel.com.ua/content/images/8/95150348621583_+d1adc220ae.jpg</picture>
@@ -13198,7 +13198,7 @@ Ultra Slim – компактность каждый день
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4104" available="false" group_id="39">
+    <offer id="P4104" available="true" group_id="39">
       <article>P4104</article>
       <name_ua><![CDATA[Електричний комахознищувач Emos P4104 3,3 W]]></name_ua>
       <name_ru><![CDATA[Электрический насекомоуничтожитель 3,3 Вт P4104]]></name_ru>
@@ -13207,7 +13207,7 @@ Ultra Slim – компактность каждый день
       <price_rrc>899.00</price_rrc>
       <price>629.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/23/97885939193324_+ef5ad61eb4.jpg</picture>
         <picture>https://extel.com.ua/content/images/23/82594066331962_+6267cfddf3.jpg</picture>
@@ -13556,7 +13556,7 @@ Ultra Slim – компактность каждый день
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4724" available="false" group_id="34">
+    <offer id="P4724" available="true" group_id="34">
       <article>P4724</article>
       <name_ua><![CDATA[Світлодіодний акумуляторний міні ліхтарик-брелок EMOS P4724 100 Lm Li-pol 200 mAh]]></name_ua>
       <name_ru><![CDATA[Светодиодный аккумуляторный мини фонарик-брелок EMOS P4724 100 Lm Li-pol 200 mAh]]></name_ru>
@@ -13565,7 +13565,7 @@ Ultra Slim – компактность каждый день
       <price_rrc>349.00</price_rrc>
       <price>244.32</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/30/86161253473239_+ce217abc8e.jpg</picture>
         <picture>https://extel.com.ua/content/images/30/70620817696395_+8d7b7986aa.jpg</picture>
@@ -15712,7 +15712,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4722" available="false" group_id="44">
+    <offer id="P4722" available="true" group_id="44">
       <article>P4722</article>
       <name_ua><![CDATA[Нічник LED EMOS P4722, 3× AAA, 10 шт., дисплей-бокс]]></name_ua>
       <name_ru><![CDATA[Ночник LED EMOS P4722, 3x AAA, 10 шт., дисплей-бокс]]></name_ru>
@@ -15721,7 +15721,7 @@ IP20 – идеально для помещений
       <price_rrc>169.00</price_rrc>
       <price>118.32</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/50/26104252392207_+d55b61c78c.jpg</picture>
         <picture>https://extel.com.ua/content/images/50/24511690827858_+a7c0210639.jpg</picture>
@@ -16023,7 +16023,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="E6018" available="false" group_id="46">
+    <offer id="E6018" available="true" group_id="46">
       <article>E6018</article>
       <name_ua><![CDATA[Метеостанція EMOS E6018 бездротова цифрова]]></name_ua>
       <name_ru><![CDATA[Метеостанция EMOS E6018 беспроводная цифровая]]></name_ru>
@@ -16032,7 +16032,7 @@ IP20 – идеально для помещений
       <price_rrc>2999.00</price_rrc>
       <price>2099.28</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/43757864323957_+811fe30fc1.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/88354430774488_+69d4debf93.jpg</picture>
@@ -21899,7 +21899,7 @@ P56402 можно установить на стену или свободно �
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG151S" available="false" group_id="67">
+    <offer id="ZG151S" available="true" group_id="67">
       <article>ZG151S</article>
       <name_ua><![CDATA[Світлодіодний сонячний світильник EMOS ZG151S 220 лм IP65 4000K]]></name_ua>
       <name_ru><![CDATA[Светодиодный солнечный светильник EMOS ZG151S 220 лм IP65 4000K]]></name_ru>
@@ -21908,7 +21908,7 @@ P56402 можно установить на стену или свободно �
       <price_rrc>679.00</price_rrc>
       <price>475.32</price>
       <currencyId>грн</currencyId>
-      <available>Очікується</available>
+      <available>В наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/43558722043451_+b9bf2f1331.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/87956318880460_+bd2282811c.jpg</picture>
@@ -29557,6 +29557,40 @@ ZigBee – стандартизированная технология, что �
 	<li>При открытии двери или обнаружении движения активируется громкая сирена и включается освещение в доме.</li>
 	<li>Все камеры безопасности начинают запись и сохраняют видео в облако или на SD-карту.</li>
 </ul>]]></description_ua>
+      <description_ru><![CDATA[0]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P3897" available="true" group_id="34">
+      <article>P3897</article>
+      <name_ua><![CDATA[Лiхтар ручний Emos P3897 230 Lm 3×AAA пластик]]></name_ua>
+      <name_ru><![CDATA[Фонарь ручной Emos P3897 230 Lm 3×AAA пластик]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>34</categoryId>
+      <price_rrc>229.00</price_rrc>
+      <price>160.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>https://extel.com.ua/content/images/14/83564769208523_+3e8724be60.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/26102661225982_+4d1d3157f4.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/57788007773171_+b5a391986b.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/66602309511318_+2968cca860.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/51876275376775_+190f5de156.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/64813334543193_+4715ef538d.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/50028793314765_+33f39d676d.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/92613625386759_+730eeb1d96.jpg</picture>
+        <picture>https://extel.com.ua/content/images/14/18133280322896_+75d64bfdab.jpg</picture>
+      </pictures>
+      <url>https://extel.com.ua/likhtar-led-emos-p3897-3w-230lm-3aaa-ruchn.plast/</url>
+      <description_ua><![CDATA[<p><strong>Ручной фонарь Emos P3897</strong> — универсальный компактный фонарь для дома, путешествий и работы. Оснащенный <strong>COB LED + LED</strong>, обеспечивает максимальный световой поток до <strong>230 лм</strong> и дальность луча до <strong>80 м</strong>.</p> <p>Работает от <strong>3x AAA батареек</strong> (в комплекте), время работы составляет <strong>47 часов на COB LED</strong> и <strong>72 часа на LED</strong>. Корпус из <strong>АБС-пластика</strong> устойчив к ударам, а удобный клип позволяет прикрепить фонарь к одежде или рюкзаку.</p> <p><strong>Особенности и преимущества:</strong></p>
+<ul>
+<li>Световой поток: <strong>230 лм</strong>.</li>
+<li>Дальность луча: <strong>COB LED – 20 м, LED – 80 м</strong>.</li>
+<li>Длительное время работы: <strong>COB LED – 47 часов, LED – 72 часа</strong>.</li>
+<li>Прочный пластиковый корпус, устойчивый к ударам.</li>
+<li>Удобный крепежный клип.</li>
+<li>2 режима освещения: <strong>LED 100%, COB LED 100%</strong>.</li>
+</ul> <p>Идеален для кемпинга, ремонта, аварийных ситуаций и повседневного использования.</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
