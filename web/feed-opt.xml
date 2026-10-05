@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-02">
+<price date="2026-10-05">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -5900,7 +5900,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="B0532B" available="true" group_id="18">
+    <offer id="B0532B" available="false" group_id="18">
       <article>B0532B</article>
       <name_ua><![CDATA[Павербанк EMOS B0532B 22,5W/20 000mAh, чорний, PD20W]]></name_ua>
       <name_ru><![CDATA[Повербанк EMOS B0532B 22,5W/20 000mAh, чёрный, PD20W]]></name_ru>
@@ -5909,7 +5909,7 @@
       <price_rrc>1399.00</price_rrc>
       <price>979.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/33/18353192306946_+1a77aa4caa.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/98778831193439_+99d4ec2ae1.jpg</picture>
@@ -10595,7 +10595,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3122" available="true" group_id="34">
+    <offer id="P3122" available="false" group_id="34">
       <article>P3122</article>
       <name_ua><![CDATA[Ліхтар акумуляторний Emos P3122 3000 Lm Li-Ion 5000 mAh метал фокус]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P3122 3000 Lm Li-Ion 5000 mAh металл фокус]]></name_ru>
@@ -10604,7 +10604,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>2299.00</price_rrc>
       <price>1609.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/59085077988786_+253a352e5f.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/73875048643715_+3378dce83c.jpg</picture>
@@ -15534,7 +15534,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="Z7902" available="true" group_id="45">
+    <offer id="Z7902" available="false" group_id="45">
       <article>Z7902</article>
       <name_ua><![CDATA[Світлодіодна LED лампа для рослин EMOS Z7902 для приміщень з таймером та димером]]></name_ua>
       <name_ru><![CDATA[Светодиодная LED лампа для растений EMOS Z7902 для помещений с таймером и диммером]]></name_ru>
@@ -15543,7 +15543,7 @@ IP20 – идеально для помещений
       <price_rrc>589.00</price_rrc>
       <price>412.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/13/40774508147399_+b924e2d3b2.jpg</picture>
         <picture>https://extel.com.ua/content/images/13/77773619318683_+bc07fc4ccd.jpg</picture>
