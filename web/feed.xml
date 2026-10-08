@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-05">
+<price date="2026-10-08">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -2691,7 +2691,7 @@
 <p>Три розетки позволяют подключать несколько электроприборов одновременно, USB-выходы обеспечивают быструю зарядку мобильных устройств, а выключатель и настольный крепеж делают использование максимально комфортным как дома, так и в офисе.</p> <p><strong>Удлинитель P1322R</strong> – практичное, безопасное и универсальное решение для любого помещения.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1323R" available="true" group_id="12">
+    <offer id="P1323R" available="false" group_id="12">
       <article>P1323R</article>
       <name><![CDATA[Мережевий подовжувач Emos P1323R 3 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -2699,7 +2699,7 @@
       <price_rrc>469.00</price_rrc>
       <price>384.6</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/17/17300448686182_+22351cad08.jpg</picture>
         <picture>https://extel.com.ua/content/images/17/35301704570827_+f663c5c059.jpg</picture>
@@ -3481,7 +3481,7 @@
 <p>Четыре розетки позволяют одновременно подключать несколько электроприборов, а выключатель обеспечивает быстрое и легкое управление электропитанием, делая устройство практичным для дома, офиса или мастерской.</p> <p><strong>Удлинитель P1423R</strong> – надежное, безопасное и комфортное решение для любых условий.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC1425R" available="true" group_id="12">
+    <offer id="PC1425R" available="false" group_id="12">
       <article>PC1425R</article>
       <name><![CDATA[Мережевий подовжувач Emos PC1425R 4 розетки 5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name>
       <brand>EMOS</brand>
@@ -3489,7 +3489,7 @@
       <price_rrc>739.00</price_rrc>
       <price>576.42</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/8/88969210730207_+522aa23759.jpg</picture>
         <picture>https://extel.com.ua/content/images/8/96251111236632_+806112a39d.jpg</picture>
@@ -4256,7 +4256,7 @@
 <p>Механический таймер P5522 SCHUKO поддерживает <strong>ручное включение</strong> и легко устанавливается в любом удобном месте благодаря компактным размерам <strong>58×119×68 мм</strong>. Это практичное решение для дома, офиса или мастерской, которое помогает контролировать электроприборы без лишних хлопот.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5523N" available="true" group_id="14">
+    <offer id="P5523N" available="false" group_id="14">
       <article>P5523N</article>
       <name><![CDATA[Механічний таймер розетка Emos P5523N 15GD/3A шуко]]></name>
       <brand>EMOS</brand>
@@ -4264,7 +4264,7 @@
       <price_rrc>249.00</price_rrc>
       <price>204.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/21/52307001678765_+034bad2813.jpg</picture>
         <picture>https://extel.com.ua/content/images/21/16235005000525_+a1c05fed24.jpg</picture>
@@ -10531,7 +10531,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 </ul> <p>Заказывайте <strong>EMOS P4010 COB LED</strong> сегодня, чтобы всегда быть готовыми к любой ситуации на дороге — безопасность начинается со света!</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4540" available="true" group_id="35">
+    <offer id="P4540" available="false" group_id="35">
       <article>P4540</article>
       <name><![CDATA[Ліхтар акумуляторний Emos P4540 750 Lm 2000 mAh Li-Ion пластик]]></name>
       <brand>EMOS</brand>
@@ -10539,7 +10539,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>999.00</price_rrc>
       <price>819.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/38/96917864444720_+c53e066b37.jpg</picture>
         <picture>https://extel.com.ua/content/images/38/75123487338076_+8d101fa1e6.jpg</picture>
@@ -26438,7 +26438,7 @@ Smart-управление через мобильное приложение
 <p>Классический проводной звонок &ndash; простое решение для всех обычных пользователей. Одна яркая мелодия с громкостью <strong>85 дБ</strong> сделает весь дом прекрасно слышимым. Без каких-либо длительных настроек звонок подключается напрямую к сети <strong>230 В</strong>, и в отличие от батарейных звонков, вам больше ни о чём не нужно беспокоиться.</p>]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P57002" available="true" group_id="77">
+    <offer id="P57002" available="false" group_id="77">
       <article>P57002</article>
       <name><![CDATA[Дротовий дверний дзвінок EMOS P57002]]></name>
       <brand>EMOS</brand>
@@ -26446,7 +26446,7 @@ Smart-управление через мобильное приложение
       <price_rrc>649.00</price_rrc>
       <price>532.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/71969687001928_+3ef2a1e1ef.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/38208617403107_+9dfca6efe0.jpg</picture>
