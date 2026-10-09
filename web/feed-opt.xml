@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-08">
+<price date="2026-10-09">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1232,7 +1232,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0120R" available="true" group_id="12">
+    <offer id="P0120R" available="false" group_id="12">
       <article>P0120R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0120R 1 розеткa 10 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0120R 1 розетка 10 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1241,7 +1241,7 @@
       <price_rrc>1049.00</price_rrc>
       <price>734.28</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/44/37768925883273_+f4cfcf371c.jpg</picture>
         <picture>https://extel.com.ua/content/images/44/52837984137191_+ddadd46dde.jpg</picture>
@@ -2580,7 +2580,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0702" available="true" group_id="12">
+    <offer id="P0702" available="false" group_id="12">
       <article>P0702</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0702 2 розетки 15 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0702 2 розетки 15 м 1,5 мм² IP44 резина 16 А 3680 Вт с заземлением]]></name_ru>
@@ -2589,7 +2589,7 @@
       <price_rrc>2199.00</price_rrc>
       <price>1539.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/42/80369373487527_+0e1e86fa0f.jpg</picture>
         <picture>https://extel.com.ua/content/images/42/22350038928747_+039fe563d0.jpg</picture>
@@ -5833,7 +5833,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="B0531B" available="true" group_id="18">
+    <offer id="B0531B" available="false" group_id="18">
       <article>B0531B</article>
       <name_ua><![CDATA[Павербанк EMOS B0531B 22,5W / 10 000mAh, чорний, PD20W]]></name_ua>
       <name_ru><![CDATA[Повербанк EMOS B0531B 22,5W / 10 000mAh, чёрный, PD20W]]></name_ru>
@@ -5842,7 +5842,7 @@
       <price_rrc>999.00</price_rrc>
       <price>699.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/32/45099775731653_+b2cfa6e80e.jpg</picture>
         <picture>https://extel.com.ua/content/images/32/87875881510185_+e688d2a5ac.jpg</picture>
@@ -6612,7 +6612,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="B0572B" available="true" group_id="18">
+    <offer id="B0572B" available="false" group_id="18">
       <article>B0572B</article>
       <name_ua><![CDATA[Павербанк EMOS B0572B 22,5W/20 000mAh, чорний, PD20W]]></name_ua>
       <name_ru><![CDATA[Повербанк EMOS B0572B 22,5W/20 000mAh, чёрный, PD20W]]></name_ru>
@@ -6621,7 +6621,7 @@
       <price_rrc>999.00</price_rrc>
       <price>699.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/31322960747693_+1742afa255.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/33338963203206_+4e22b65552.jpg</picture>
@@ -6668,7 +6668,7 @@
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="B9641" available="true" group_id="19">
+    <offer id="B9641" available="false" group_id="19">
       <article>B9641</article>
       <name_ua><![CDATA[Акумуляторна батарея EMOS B9641 AGM, 6V, 4Ah, fast 4,7mm]]></name_ua>
       <name_ru><![CDATA[Аккумуляторная батарея EMOS B9641 AGM, 6V, 4Ah, fast 4,7mm]]></name_ru>
@@ -6677,7 +6677,7 @@
       <price_rrc>369.00</price_rrc>
       <price>258.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/49/76996920128933_+b75f70a517.jpg</picture>
         <picture>https://extel.com.ua/content/images/49/27918826561480_+bd73ab9308.jpg</picture>
@@ -10201,7 +10201,7 @@ N1015 — надёжное решение для сезонного обслуж
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P2313" available="true" group_id="33">
+    <offer id="P2313" available="false" group_id="33">
       <article>P2313</article>
       <name_ua><![CDATA[Ліхтар акумуляторний кемпінговий Emos P2313 350 Lm 4000 mAh пластик гума]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный кемпинговый Emos P2313 350 Lm 4000 mAh пластик резина]]></name_ru>
@@ -10210,7 +10210,7 @@ N1015 — надёжное решение для сезонного обслуж
       <price_rrc>1669.00</price_rrc>
       <price>1168.32</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/3/68966447096790_+1d699d819c.jpg</picture>
         <picture>https://extel.com.ua/content/images/3/73009468605753_+9f52aaa2df.jpg</picture>
@@ -11051,7 +11051,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4720" available="true" group_id="34">
+    <offer id="P4720" available="false" group_id="34">
       <article>P4720</article>
       <name_ua><![CDATA[Ліхтар акумуляторний Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P4720 120 Lm 400 mAh Li-Ion]]></name_ru>
@@ -11060,7 +11060,7 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
       <price_rrc>369.00</price_rrc>
       <price>258.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/7/58098067753306_+1c04e05273.jpg</picture>
         <picture>https://extel.com.ua/content/images/7/96610845272983_+d00da0fbca.jpg</picture>
@@ -11365,47 +11365,6 @@ EMOS P3116 обеспечивает достаточную мощность, ч�
 Два мощных COB-светодиода обеспечивают яркое и равномерное освещение. Пять режимов работы позволяют подобрать оптимальную интенсивность света для любых задач — от подсветки рабочей зоны до освещения больших расстояний.
 </p> <h2>Легкая зарядка</h2> <p>
 Благодаря зарядке через <strong>USB-C</strong> прожектор можно заря]]></description_ua>
-      <description_ru><![CDATA[0]]></description_ru>
-      <warranty>12</warranty>
-    </offer>
-    <offer id="P4539" available="true" group_id="36">
-      <article>P4539</article>
-      <name_ua><![CDATA[Лiхтар прожектор акумуляторний Emos P4539 1000 Lm 2200 mAh Li-Ion]]></name_ua>
-      <name_ru><![CDATA[Фонарь-прожектор аккумуляторный Emos P4539 1000 Lm 2200 mAh Li-Ion]]></name_ru>
-      <brand>EMOS</brand>
-      <categoryId>36</categoryId>
-      <price_rrc>1429.00</price_rrc>
-      <currencyId>грн</currencyId>
-      <available>В наявності</available>
-      <pictures>
-        <picture>https://extel.com.ua/content/images/37/96452764885847_+b890684bbd.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/54256701917603_+d5437d91e4.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/82798385266133_+7ef2894d79.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/59478218841088_+65ebca9abb.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/46223455423408_+46fa640287.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/20970378972099_+49b1a24bfc.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/44774244351645_+24df18cfb7.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/49652118707489_+2839db16fb.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/96819640305471_+a9ba3e5156.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/26264212713909_+44faa6cd9a.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/21146962358202_+9a6a266022.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/58212733245504_+adc66f9f05.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/98311104231737_+4b65b47ed4.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/95239900079392_+e9c180cb8b.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/40661898152328_+66a5a2cf7f.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/31991965820463_+ec408cd2d5.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/93956119315365_+0434832579.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/40107528612925_+c5838d4aa5.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/95691099510177_+78b8224fd3.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/15532587989994_+de805c5c0e.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/38964889332010_+0258c1a5ad.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/68032469330221_+40cdcc63be.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/45075313247286_+c2f2c08e2f.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/67658566369292_+a8448279ab.jpg</picture>
-        <picture>https://extel.com.ua/content/images/37/34597955749648_+55a21fcd00.jpg</picture>
-      </pictures>
-      <url>https://extel.com.ua/likhtar-led-emos-p4539-1000lm-li-ion-prozhektor.plast./</url>
-      <description_ua><![CDATA[<p>аксессуары: кабель USB-C| батареи в комплекте: да | 104 &times; 39 &times; 94 мм|особенности: магнит, подставка, зажим|фокусировка: нет|ударостойкость: да|светодиодная индикация состояния аккумулятора: нет|светодиодная индикация процесса зарядки: да|режимы освещения: COB LED 100 %, COB LED COB LED 100% &ndash; 1 000 лм, COB LED 50% &ndash; 500 лм, COB LED 25% &ndash; 250 лм|материал: ABS-пластик|максимальная дальность луча: 40 м|максимальная световая мощность: 1000 лм|количество режимов освещения: разъема питания: USB C|возможность перезарядки: да|время зарядки: 3 ч|время работы: 3&ndash;17 ч|детали времени работы: COB LED 100 % &ndash; 3 ч, COB LED 50 % &ndash; 6 ч, COB LED 25 % &ndash; 17 ч|источник света: COB LED|особенные характеристики: включение/выключение, защита батареи|гарантийный срок: 2 года|водонепроницаемость: да (IP44)|вес: не указано</p>]]></description_ua>
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
@@ -19719,7 +19678,7 @@ IP20 – идеально для помещений
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56402" available="true" group_id="61">
+    <offer id="P56402" available="false" group_id="61">
       <article>P56402</article>
       <name_ua><![CDATA[Сигналізація чадного газу EMOS P56402]]></name_ua>
       <name_ru><![CDATA[Сигнализатор угарного газа EMOS P56402]]></name_ru>
@@ -19728,7 +19687,7 @@ IP20 – идеально для помещений
       <price_rrc>1599.00</price_rrc>
       <price>1119.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/42/12523097659713_+c7fc9bfb08.jpg</picture>
         <picture>https://extel.com.ua/content/images/42/42288437936508_+effe6b9691.jpg</picture>
@@ -20526,7 +20485,7 @@ P56402 можно установить на стену или свободно �
       <description_ru><![CDATA[0]]></description_ru>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56A11" available="true" group_id="79">
+    <offer id="P56A11" available="false" group_id="79">
       <article>P56A11</article>
       <name_ua><![CDATA[Терморегулятор програмований EMOS P56A11 кімнатний бездротовий OpenTherm]]></name_ua>
       <name_ru><![CDATA[Терморегулятор программируемый EMOS P56A11 комнатный беспроводной OpenTherm]]></name_ru>
@@ -20535,7 +20494,7 @@ P56402 можно установить на стену или свободно �
       <price_rrc>4599.00</price_rrc>
       <price>3219.3</price>
       <currencyId>UAH</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/70711933629359_+10b815c917.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/22769284968244_+f006238b48.jpg</picture>
