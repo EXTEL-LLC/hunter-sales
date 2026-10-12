@@ -11184,7 +11184,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8620" available="true" group_id="46">
+    <offer id="E8620" available="false" group_id="46">
       <article>E8620</article>
       <name_ua><![CDATA[Метеостанція EMOS E8620 бездротова цифрова]]></name_ua>
       <name_ru><![CDATA[Метеостанция EMOS E8620 беспроводная цифровая]]></name_ru>
@@ -11193,7 +11193,7 @@
       <price_rrc>2499.00</price_rrc>
       <price>1749.3</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/13077643652466_+cb5f7c219f.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/42748199442093_+bfca537338.jpg</picture>
