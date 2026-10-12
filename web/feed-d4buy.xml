@@ -918,7 +918,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01215R" available="true" group_id="12">
+    <offer id="P01215R" available="false" group_id="12">
       <article>P01215R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01215R 1 розетка 15 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01215R 1 розетка 15 м 1,5 мм²]]></name_ru>
@@ -927,7 +927,7 @@
       <price_rrc>1599.00</price_rrc>
       <price>1215.24</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/14586443680699_+55e48a1113.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/16706694986100_+88b83c6a7f.jpg</picture>
