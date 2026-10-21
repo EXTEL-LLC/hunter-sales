@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-20">
+<price date="2026-10-21">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -4170,7 +4170,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="B0551BL" available="true" group_id="18">
+    <offer id="B0551BL" available="false" group_id="18">
       <article>B0551BL</article>
       <name><![CDATA[Повербанк бездротовий EMOS B0551BL MagSafe 10 000 мАг 20 Вт]]></name>
       <brand>EMOS</brand>
@@ -4178,7 +4178,7 @@
       <price_rrc>1499.00</price_rrc>
       <price>1229.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/35/97505106735878_+a2a1ed5d83.jpg</picture>
         <picture>https://extel.com.ua/content/images/35/55595519999979_+4b30adf7da.jpg</picture>
@@ -9529,7 +9529,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="G1240" available="true" group_id="81">
+    <offer id="G1240" available="false" group_id="81">
       <article>G1240</article>
       <name><![CDATA[Датчик руху EMOS G1240 PIR IP65 W 1200W білий]]></name>
       <brand>EMOS</brand>
@@ -9537,7 +9537,7 @@
       <price_rrc>379.00</price_rrc>
       <price>0.00</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/33/96239143311319_+a5234195f8.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/59440349486833_+c10c0318ef.jpg</picture>
@@ -10787,7 +10787,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8620" available="true" group_id="46">
+    <offer id="E8620" available="false" group_id="46">
       <article>E8620</article>
       <name><![CDATA[Метеостанція EMOS E8620 бездротова цифрова]]></name>
       <brand>EMOS</brand>
@@ -10795,7 +10795,7 @@
       <price_rrc>2499.00</price_rrc>
       <price>2049.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/13077643652466_+cb5f7c219f.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/42748199442093_+bfca537338.jpg</picture>
@@ -10906,7 +10906,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E0345" available="true" group_id="47">
+    <offer id="E0345" available="false" group_id="47">
       <article>E0345</article>
       <name><![CDATA[Цифровий термометр-гігрометр EMOS E0345]]></name>
       <brand>EMOS</brand>
@@ -10914,7 +10914,7 @@
       <price_rrc>499.00</price_rrc>
       <price>409.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/50/68264258948763_+5cf949611d.jpg</picture>
         <picture>https://extel.com.ua/content/images/50/36535118144747_+64f0e69c4c.jpg</picture>
@@ -11965,7 +11965,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="M0003BN" available="true" group_id="53">
+    <offer id="M0003BN" available="false" group_id="53">
       <article>M0003BN</article>
       <name><![CDATA[Тестер наявності напруги EMOS M0003BN АС/DC6-400В CATIII]]></name>
       <brand>EMOS</brand>
@@ -11973,7 +11973,7 @@
       <price_rrc>350.00</price_rrc>
       <price>286.98</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/45/56183070964675_+4ba9896a5e.jpg</picture>
         <picture>https://extel.com.ua/content/images/45/37128279014061_+d993c0cbc6.jpg</picture>
@@ -12547,7 +12547,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56211" available="true" group_id="79">
+    <offer id="P56211" available="false" group_id="79">
       <article>P56211</article>
       <name><![CDATA[Цифровий терморегулятор EMOS P56211 кімнатний бездротовий з Wi-Fi]]></name>
       <brand>EMOS</brand>
@@ -12555,7 +12555,7 @@
       <price_rrc>4799.00</price_rrc>
       <price>4673.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/38/62553283228933_+c7f431cc46.jpg</picture>
         <picture>https://extel.com.ua/content/images/38/77810232588258_+afb5d50e7d.jpg</picture>
