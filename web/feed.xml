@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-21">
+<price date="2026-10-22">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1047,7 +1047,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0127R" available="true" group_id="12">
+    <offer id="P0127R" available="false" group_id="12">
       <article>P0127R</article>
       <name><![CDATA[Мережевий подовжувач Emos P0127R 1 розетка 7 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -1055,7 +1055,7 @@
       <price_rrc>779.00</price_rrc>
       <price>638.76</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/4/39611713403904_+b824c342ac.jpg</picture>
         <picture>https://extel.com.ua/content/images/4/93202742398221_+996312b968.jpg</picture>
