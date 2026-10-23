@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-22">
+<price date="2026-10-23">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -4054,7 +4054,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5531" available="true" group_id="15">
+    <offer id="P5531" available="false" group_id="15">
       <article>P5531</article>
       <name><![CDATA[Розумна WIFI розетка EMOS GoSmart P5531]]></name>
       <brand>EMOS</brand>
@@ -4062,7 +4062,7 @@
       <price_rrc>949.00</price_rrc>
       <price>778.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/85759087383159_+a92f91a014.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/42313323969269_+66dea36fa6.jpg</picture>
@@ -5321,7 +5321,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4544" available="true" group_id="35">
+    <offer id="P4544" available="false" group_id="35">
       <article>P4544</article>
       <name><![CDATA[Ліхтар акумуляторний Emos P4544 800 Lm 2000 mAh Li-Ion гума пластик]]></name>
       <brand>EMOS</brand>
@@ -5329,7 +5329,7 @@
       <price_rrc>1799.00</price_rrc>
       <price>1475.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/42/41842175210417_+e5306e3490.jpg</picture>
         <picture>https://extel.com.ua/content/images/42/59735906032393_+6b9d32d2fe.jpg</picture>
@@ -5762,7 +5762,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3541" available="true" group_id="37">
+    <offer id="P3541" available="false" group_id="37">
       <article>P3541</article>
       <name><![CDATA[Ліхтар налобний акумуляторний Emos P3541 380 Lm Li-Pol 1200 mAh]]></name>
       <brand>EMOS</brand>
@@ -5770,7 +5770,7 @@
       <price_rrc>799.00</price_rrc>
       <price>655.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/3/44945023972191_+429fdc4024.jpg</picture>
         <picture>https://extel.com.ua/content/images/3/81525954401816_+db58c64939.jpg</picture>
