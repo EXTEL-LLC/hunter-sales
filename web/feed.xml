@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-23">
+<price date="2026-10-26">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -3002,7 +3002,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0121" available="true" group_id="12">
+    <offer id="P0121" available="false" group_id="12">
       <article>P0121</article>
       <name><![CDATA[Мережевий подовжувач Emos P0121 1 розеткa 1,4 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -3010,7 +3010,7 @@
       <price_rrc>209.00</price_rrc>
       <price>171.36</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/45/21064017544613_+4311208927.jpg</picture>
         <picture>https://extel.com.ua/content/images/45/99148702521002_+160c275439.jpg</picture>
@@ -4227,7 +4227,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P00282" available="true" group_id="17">
+    <offer id="P00282" available="false" group_id="17">
       <article>P00282</article>
       <name><![CDATA[Адаптер розетка EMOS P00282 2× прямокутна + 1× кругла + вимикач]]></name>
       <brand>EMOS</brand>
@@ -4235,7 +4235,7 @@
       <price_rrc>219.00</price_rrc>
       <price>170.82</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/27/54985765461378_+f14c351a68.jpg</picture>
         <picture>https://extel.com.ua/content/images/27/50366302553768_+04dd3b0a2c.jpg</picture>
