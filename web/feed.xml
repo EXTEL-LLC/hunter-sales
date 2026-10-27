@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-26">
+<price date="2026-10-27">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -2781,7 +2781,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P08650W" available="true" group_id="11">
+    <offer id="P08650W" available="false" group_id="11">
       <article>P08650W</article>
       <name><![CDATA[Мережевий подовжувач на котушці Emos P08650W 4 розетки 50 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -2789,7 +2789,7 @@
       <price_rrc>8799.00</price_rrc>
       <price>7743.12</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/1/13274439255766_+256241e4e4.jpg</picture>
         <picture>https://extel.com.ua/content/images/1/47827001969148_+829dc79b92.jpg</picture>
@@ -4250,7 +4250,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P00292" available="true" group_id="17">
+    <offer id="P00292" available="false" group_id="17">
       <article>P00292</article>
       <name><![CDATA[Мережева розетка з вимикачем EMOS P00292 16A 250V IP44 одинарна]]></name>
       <brand>EMOS</brand>
@@ -4258,7 +4258,7 @@
       <price_rrc>299.00</price_rrc>
       <price>233.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/28/52081439764998_+83dc390cec.jpg</picture>
         <picture>https://extel.com.ua/content/images/28/72480018382653_+5ea1f5cadf.jpg</picture>
@@ -5588,7 +5588,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4113" available="true" group_id="36">
+    <offer id="P4113" available="false" group_id="36">
       <article>P4113</article>
       <name><![CDATA[Лiхтар прожектор Emos P4113 700 Lm 4xAA]]></name>
       <brand>EMOS</brand>
@@ -5596,7 +5596,7 @@
       <price_rrc>589.00</price_rrc>
       <price>483</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/25/68495257338395_+9fd540cdfb.jpg</picture>
         <picture>https://extel.com.ua/content/images/25/37268919547214_+0e48e1664d.jpg</picture>
