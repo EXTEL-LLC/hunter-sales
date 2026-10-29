@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-28">
+<price date="2026-10-29">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -105,7 +105,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P08215" available="true" group_id="11">
+    <offer id="P08215" available="false" group_id="11">
       <article>P08215</article>
       <name><![CDATA[Мережевий подовжувач на котушці Emos P08215 4 розетки 15 м 1,5 мм² з led прожектором гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -113,7 +113,7 @@
       <price_rrc>5099.00</price_rrc>
       <price>4487.1</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/45/48310584948402_+222142da62.jpg</picture>
         <picture>https://extel.com.ua/content/images/45/70261202914757_+534f4e8706.jpg</picture>
@@ -2222,7 +2222,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P14231" available="true" group_id="12">
+    <offer id="P14231" available="false" group_id="12">
       <article>P14231</article>
       <name><![CDATA[Мережевий подовжувач Emos P14231 4 розетки 3 м 1,5 мм² гума/неопрен 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -2230,7 +2230,7 @@
       <price_rrc>929.00</price_rrc>
       <price>761.76</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/15246227884807_+e66766d4c6.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/24569105700204_+e642fed7c5.jpg</picture>
@@ -2823,7 +2823,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC01305" available="true" group_id="12">
+    <offer id="PC01305" available="false" group_id="12">
       <article>PC01305</article>
       <name><![CDATA[Мережевий подовжувач EMOS PC01305 1 розеткa 5 м]]></name>
       <brand>EMOS</brand>
@@ -2831,7 +2831,7 @@
       <price_rrc>269.00</price_rrc>
       <price>220.56</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/1/80812087488559_+a24b6b0357.jpg</picture>
         <picture>https://extel.com.ua/content/images/1/82480095398017_+f75a8913ce.jpg</picture>
@@ -11132,7 +11132,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV029" available="true" group_id="82">
+    <offer id="EV029" available="false" group_id="82">
       <article>EV029</article>
       <name><![CDATA[Кухонні ваги EMOS EV029 цифрові, чорні]]></name>
       <brand>EMOS</brand>
@@ -11140,7 +11140,7 @@
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/37/23042071878138_+ef237b6271.jpg</picture>
         <picture>https://extel.com.ua/content/images/37/27174850553782_+a09ba9c616.jpg</picture>
