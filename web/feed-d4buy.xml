@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-10-29">
+<price date="2026-11-02">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -342,7 +342,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P09220" available="true" group_id="11">
+    <offer id="P09220" available="false" group_id="11">
       <article>P09220</article>
       <name_ua><![CDATA[Мережевий подовжувач на котушці Emos P09220 4 розетки 20 м 1,0 мм² з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель на катушке Emos P09220 4 розетки 20 м 1,0 мм² с заземлением]]></name_ru>
@@ -351,7 +351,7 @@
       <price_rrc>2049.00</price_rrc>
       <price>1557.24</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/47884341518343_+9f42e3efe2.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/42963628151804_+4080ed1aac.jpg</picture>
@@ -951,7 +951,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P01220R" available="true" group_id="12">
+    <offer id="P01220R" available="false" group_id="12">
       <article>P01220R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P01220R 1 розетка 20 м 1,5 мм²]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P01220R 1 розетка 20 м 1,5 мм²]]></name_ru>
@@ -960,7 +960,7 @@
       <price_rrc>2149.00</price_rrc>
       <price>1633.26</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/49/61800276985216_+f5ac1f2e7e.jpg</picture>
         <picture>https://extel.com.ua/content/images/49/39197958840199_+ab56eb93fc.jpg</picture>
@@ -1935,7 +1935,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0703" available="true" group_id="12">
+    <offer id="P0703" available="false" group_id="12">
       <article>P0703</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0703 2 розетки 20 м 1,5 мм² IP44 гума 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0703 2 розетки 20 м 1,5 мм² IP44 резина 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1944,7 +1944,7 @@
       <price_rrc>2499.00</price_rrc>
       <price>2049.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/43/38037702105700_+f551e993f2.jpg</picture>
         <picture>https://extel.com.ua/content/images/43/50512588417524_+50f0faff92.jpg</picture>
@@ -2510,7 +2510,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1523FC" available="true" group_id="12">
+    <offer id="P1523FC" available="false" group_id="12">
       <article>P1523FC</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P1523FC 5 розеток 3 м 1,5 мм² USB-A USB-C 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P1523FC 5 розеток 3 м 1,5 мм² USB-A USB-C 16 А 3680 Вт с заземлением]]></name_ru>
@@ -2519,7 +2519,7 @@
       <price_rrc>1349.00</price_rrc>
       <price>1025.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/33/20886187852685_+292586db84.jpg</picture>
         <picture>https://extel.com.ua/content/images/33/79569181014324_+991fffef7a.jpg</picture>
@@ -3566,7 +3566,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P00252N" available="true" group_id="17">
+    <offer id="P00252N" available="false" group_id="17">
       <article>P00252N</article>
       <name_ua><![CDATA[Мережевий розгалужувач EMOS P00252N на 2 розетки із заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой разветвитель EMOS P00252N на 2 розетки с заземлением]]></name_ru>
@@ -3575,7 +3575,7 @@
       <price_rrc>169.00</price_rrc>
       <price>125.04</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/17841587650178_+fffb37e051.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/86351217918178_+40f87aa36c.jpg</picture>
@@ -3589,7 +3589,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P00262" available="true" group_id="17">
+    <offer id="P00262" available="false" group_id="17">
       <article>P00262</article>
       <name_ua><![CDATA[Адаптер EMOS P00262 з вимикачем мережевий]]></name_ua>
       <name_ru><![CDATA[Адаптер EMOS P00262 сетевой с выключателем]]></name_ru>
@@ -3598,7 +3598,7 @@
       <price_rrc>219.00</price_rrc>
       <price>162.06</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/25/48415682908273_+1a0cfdaf4a.jpg</picture>
         <picture>https://extel.com.ua/content/images/25/82146457032953_+f8cd1bd820.jpg</picture>
@@ -7446,7 +7446,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P4536" available="true" group_id="36">
+    <offer id="P4536" available="false" group_id="36">
       <article>P4536</article>
       <name_ua><![CDATA[Ліхтар прожектор акумуляторний Emos P4536 2000 Lm 8000 mAh Li-Ion]]></name_ua>
       <name_ru><![CDATA[Фонарь-прожектор аккумуляторный Emos P4536 2000 Lm 8000 mAh Li-Ion]]></name_ru>
@@ -7455,7 +7455,7 @@
       <price_rrc>3669.00</price_rrc>
       <price>2788.44</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/34/41036125081683_+edc4bb8149.jpg</picture>
         <picture>https://extel.com.ua/content/images/34/52828366475780_+8a660f0012.jpg</picture>
@@ -11473,7 +11473,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="EV025" available="true" group_id="82">
+    <offer id="EV025" available="false" group_id="82">
       <article>EV025</article>
       <name_ua><![CDATA[Цифрові кухонні ваги EMOS EV025, чорні з чашею]]></name_ua>
       <name_ru><![CDATA[Цифровые кухонные весы EMOS EV025, чёрные с чашей]]></name_ru>
@@ -11482,7 +11482,7 @@
       <price_rrc>819.00</price_rrc>
       <price>622.44</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/35/90973258111903_+9319f2edcd.jpg</picture>
         <picture>https://extel.com.ua/content/images/35/53850161252969_+4435e62b09.jpg</picture>
@@ -12815,7 +12815,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5630S" available="true" group_id="83">
+    <offer id="P5630S" available="false" group_id="83">
       <article>P5630S</article>
       <name_ua><![CDATA[Розумна цифрова термоголовка Emos P5630S з бездротовим керуванням ZigBee]]></name_ua>
       <name_ru><![CDATA[Умная цифровая термоголовка Emos P5630S с беспроводным управлением ZigBee]]></name_ru>
@@ -12824,7 +12824,7 @@
       <price_rrc>1299.00</price_rrc>
       <price>1215.24</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/40/50024562825353_+5c409d1354.jpg</picture>
         <picture>https://extel.com.ua/content/images/40/98489559107069_+635c1028b6.jpg</picture>
@@ -14708,7 +14708,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P5734" available="true" group_id="75">
+    <offer id="P5734" available="false" group_id="75">
       <article>P5734</article>
       <name_ua><![CDATA[Бездротовий дверний дзвінок EMOS P5734]]></name_ua>
       <name_ru><![CDATA[Беспроводной дверной звонок EMOS P5734]]></name_ru>
@@ -14717,7 +14717,7 @@
       <price_rrc>899.00</price_rrc>
       <price>683.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/40/18978010158540_+d27657935d.jpg</picture>
         <picture>https://extel.com.ua/content/images/40/49621990089213_+921bad0392.jpg</picture>
