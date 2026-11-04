@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-11-02">
+<price date="2026-11-04">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -1020,7 +1020,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0123R" available="true" group_id="12">
+    <offer id="P0123R" available="false" group_id="12">
       <article>P0123R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0123R 1 розетка 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0123R 1 розетка 3 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1029,7 +1029,7 @@
       <price_rrc>429.00</price_rrc>
       <price>326.04</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/2/21804744323892_+c8383cbb72.jpg</picture>
         <picture>https://extel.com.ua/content/images/2/77177468764536_+8707d5edb6.jpg</picture>
@@ -1644,7 +1644,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0423R" available="true" group_id="12">
+    <offer id="P0423R" available="false" group_id="12">
       <article>P0423R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0423R 4 розетки 3 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0423R 4 розетки 3 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1653,7 +1653,7 @@
       <price_rrc>449.00</price_rrc>
       <price>341.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/30/48019321278458_+1f696ea7a5.jpg</picture>
         <picture>https://extel.com.ua/content/images/30/72405276157478_+fe6e184a5a.jpg</picture>
@@ -1790,7 +1790,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0525R" available="true" group_id="12">
+    <offer id="P0525R" available="false" group_id="12">
       <article>P0525R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1799,7 +1799,7 @@
       <price_rrc>679.00</price_rrc>
       <price>516.06</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/37/56959030028112_+e2c147be5f.jpg</picture>
         <picture>https://extel.com.ua/content/images/37/14215579087444_+57c7c70d00.jpg</picture>
@@ -10273,7 +10273,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="E0352" available="true" group_id="46">
+    <offer id="E0352" available="false" group_id="46">
       <article>E0352</article>
       <name_ua><![CDATA[Бездротова цифрова метеостанція EMOS E0352]]></name_ua>
       <name_ru><![CDATA[Беспроводная цифровая метеостанция EMOS E0352]]></name_ru>
@@ -10282,7 +10282,7 @@
       <price_rrc>1399.00</price_rrc>
       <price>1063.26</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/1/24345954755376_+3d1980b006.jpg</picture>
         <picture>https://extel.com.ua/content/images/1/67856618392718_+a39995e13f.jpg</picture>
@@ -13828,7 +13828,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG112S" available="true" group_id="67">
+    <offer id="ZG112S" available="false" group_id="67">
       <article>ZG112S</article>
       <name_ua><![CDATA[Світлодіодний сонячний прожектор EMOS ZG112S 1300 лм IP54 4000K]]></name_ua>
       <name_ru><![CDATA[Светодиодный солнечный прожектор EMOS ZG112S 1300 лм IP54 4000K]]></name_ru>
@@ -13837,7 +13837,7 @@
       <price_rrc>1199.00</price_rrc>
       <price>911.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/12/62895040549819_+77cb037fba.jpg</picture>
         <picture>https://extel.com.ua/content/images/12/80219755188808_+36f26f1301.jpg</picture>
