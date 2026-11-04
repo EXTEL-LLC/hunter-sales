@@ -931,7 +931,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0122" available="true" group_id="12">
+    <offer id="P0122" available="false" group_id="12">
       <article>P0122</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0122 1 розеткa 2 м 1,0 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0122 1 розетка 2 м 1,0 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -940,7 +940,7 @@
       <price_rrc>289.00</price_rrc>
       <price>219.66</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/47/20652794508769_+a68d799169.jpg</picture>
         <picture>https://extel.com.ua/content/images/47/77922184261862_+4ed34e2c40.jpg</picture>
@@ -1048,7 +1048,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0125R" available="true" group_id="12">
+    <offer id="P0125R" available="false" group_id="12">
       <article>P0125R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0125R 1 розетка 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0125R 1 розетка 5 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1057,7 +1057,7 @@
       <price_rrc>599.00</price_rrc>
       <price>455.22</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/3/65298890030897_+e3b4683539.jpg</picture>
         <picture>https://extel.com.ua/content/images/3/69437766709878_+3ac9546651.jpg</picture>
@@ -1523,7 +1523,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0325R" available="true" group_id="12">
+    <offer id="P0325R" available="false" group_id="12">
       <article>P0325R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P0325R 3 розетки 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P0325R 3 розетки 5 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -1532,7 +1532,7 @@
       <price_rrc>629.00</price_rrc>
       <price>478.02</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/25/41187951471713_+e596cb7a57.jpg</picture>
         <picture>https://extel.com.ua/content/images/25/53647676030842_+ba9152f8dc.jpg</picture>
@@ -2572,7 +2572,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1525R" available="true" group_id="12">
+    <offer id="P1525R" available="false" group_id="12">
       <article>P1525R</article>
       <name_ua><![CDATA[Мережевий подовжувач Emos P1525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель Emos P1525R 5 розеток 5 м 1,5 мм² 16 А 3680 Вт с заземлением]]></name_ru>
@@ -2581,7 +2581,7 @@
       <price_rrc>799.00</price_rrc>
       <price>591.24</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/36/50418339980908_+8b5b01bff4.jpg</picture>
         <picture>https://extel.com.ua/content/images/36/33745379079887_+8c3f7e87e9.jpg</picture>
@@ -2981,7 +2981,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="PC0121R" available="true" group_id="12">
+    <offer id="PC0121R" available="false" group_id="12">
       <article>PC0121R</article>
       <name_ua><![CDATA[Мережевий подовжувач EMOS PC0121R 1 розеткa 1,5 м 16 А 3680 Вт 3х1.5 мм² з заземленням]]></name_ua>
       <name_ru><![CDATA[Сетевой удлинитель EMOS PC0121R 1 розетка 1,5 м 16 А 3680 Вт 3х1.5 мм² с заземлением]]></name_ru>
@@ -2990,7 +2990,7 @@
       <price_rrc>289.00</price_rrc>
       <price>219.66</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-96671520401637_+c1e7a243dc.jpg</picture>
         <picture>https://extel.com.ua/content/images/11/merezhevyi-podovzhuvach-emos-pc0121r-1-rozetka-15-m-59210152454822_+c98ae5fcfb.jpg</picture>
@@ -6963,7 +6963,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P3214" available="true" group_id="34">
+    <offer id="P3214" available="false" group_id="34">
       <article>P3214</article>
       <name_ua><![CDATA[Лiхтар акумуляторний Emos P3214 150 Lm Li-Ion 1200 mAh пласт.]]></name_ua>
       <name_ru><![CDATA[Фонарь аккумуляторный Emos P3214 150 Lm Li-Ion 1200 mAh пласт.]]></name_ru>
@@ -6972,7 +6972,7 @@
       <price_rrc>489.00</price_rrc>
       <price>371.64</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/24/77914378791500_+a95ca5f0c7.jpg</picture>
         <picture>https://extel.com.ua/content/images/24/96746343405181_+d70eeec17e.jpg</picture>
@@ -13005,7 +13005,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="P56400S" available="true" group_id="61">
+    <offer id="P56400S" available="false" group_id="61">
       <article>P56400S</article>
       <name_ua><![CDATA[Сигналізатор CO GoSmart TCS0101W з WiFi P56400S]]></name_ua>
       <name_ru><![CDATA[Сигнализатор CO GoSmart TCS0101W с WiFi P56400S]]></name_ru>
@@ -13014,7 +13014,7 @@
       <price_rrc>1899.00</price_rrc>
       <price>1443.24</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/41/54942953609522_+c4879b6d6d.jpg</picture>
         <picture>https://extel.com.ua/content/images/41/72574532167831_+4748587f99.jpg</picture>
@@ -14255,7 +14255,7 @@
       <description_ua><![CDATA[Emos]]></description_ua>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZS2813" available="true" group_id="68">
+    <offer id="ZS2813" available="false" group_id="68">
       <article>ZS2813</article>
       <name_ua><![CDATA[Прожектор з акумулятором EMOS ZS2813 20W 1650Lm 6500K Li-Ion 5000mAh IP54]]></name_ua>
       <name_ru><![CDATA[Прожектор с аккумулятором EMOS ZS2813 20W 1650Lm 6500K Li-Ion 5000mAh IP54]]></name_ru>
@@ -14264,7 +14264,7 @@
       <price_rrc>2119.00</price_rrc>
       <price>1610.46</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/19/83869607610696_+1cafcc88e5.jpg</picture>
         <picture>https://extel.com.ua/content/images/19/52863741451439_+5ecbd0f507.jpg</picture>
