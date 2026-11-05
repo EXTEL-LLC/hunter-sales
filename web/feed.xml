@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-11-04">
+<price date="2026-11-05">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -143,7 +143,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P08225" available="true" group_id="11">
+    <offer id="P08225" available="false" group_id="11">
       <article>P08225</article>
       <name><![CDATA[Мережевий подовжувач на котушці Emos P08225 4 розетки 25 м 1,5 мм² гума 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -151,7 +151,7 @@
       <price_rrc>4199.00</price_rrc>
       <price>3695.1</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/63504302753324_+e647fe9ce4.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/57875922140929_+a0d9ce2493.jpg</picture>
@@ -2525,7 +2525,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P1621R" available="true" group_id="12">
+    <offer id="P1621R" available="false" group_id="12">
       <article>P1621R</article>
       <name><![CDATA[Мережевий подовжувач Emos P1621R 6 розеток 1,5 м 1,5 мм² 16 А 3680 Вт з заземленням]]></name>
       <brand>EMOS</brand>
@@ -2533,7 +2533,7 @@
       <price_rrc>469.00</price_rrc>
       <price>384.6</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/38/97042481397440_+54d64fa952.jpg</picture>
         <picture>https://extel.com.ua/content/images/38/91757886803588_+7beda812d4.jpg</picture>
@@ -3386,7 +3386,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="P0004C" available="true" group_id="17">
+    <offer id="P0004C" available="false" group_id="17">
       <article>P0004C</article>
       <name><![CDATA[Тримач до подовжувачів EMOS P0004C на 5-6 розеток]]></name>
       <brand>EMOS</brand>
@@ -3394,7 +3394,7 @@
       <price_rrc>59.00</price_rrc>
       <price>46.02</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/22/55978543574295_+b26fd4b78a.jpg</picture>
         <picture>https://extel.com.ua/content/images/22/69375776986409_+caa6996611.jpg</picture>
@@ -4147,7 +4147,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="B0560B" available="true" group_id="18">
+    <offer id="B0560B" available="false" group_id="18">
       <article>B0560B</article>
       <name><![CDATA[Повербанк EMOS B0560B 65 W 20 000mAh чорний]]></name>
       <brand>EMOS</brand>
@@ -4155,7 +4155,7 @@
       <price_rrc>2199.00</price_rrc>
       <price>1803.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/43/48171999271523_+53b42a0177.jpg</picture>
         <picture>https://extel.com.ua/content/images/43/13808330358045_+e5a3919651.jpg</picture>
@@ -10767,7 +10767,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8647W" available="true" group_id="46">
+    <offer id="E8647W" available="false" group_id="46">
       <article>E8647W</article>
       <name><![CDATA[Бездротова цифрова метеостанція Emos E8647W]]></name>
       <brand>EMOS</brand>
@@ -10775,7 +10775,7 @@
       <price_rrc>1599.00</price_rrc>
       <price>1311.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/37/bezdrotova-tsyfrova-meteostantsiia-emos-e8647w-45234280198474_+bdfa2c93ee.jpg</picture>
         <picture>https://extel.com.ua/content/images/37/bezdrotova-tsyfrova-meteostantsiia-emos-e8647w-75907053440707_+0080653479.jpg</picture>
@@ -10835,7 +10835,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="E8625" available="true" group_id="46">
+    <offer id="E8625" available="false" group_id="46">
       <article>E8625</article>
       <name><![CDATA[Метеостанція з бездротовим датчиком EMOS E8625]]></name>
       <brand>EMOS</brand>
@@ -10843,7 +10843,7 @@
       <price_rrc>2999.00</price_rrc>
       <price>2459.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/48/34229488330820_+6162d966fb.jpg</picture>
         <picture>https://extel.com.ua/content/images/48/62223371783416_+85d5a07adf.jpg</picture>
@@ -13550,7 +13550,7 @@
       <description><![CDATA[Emos]]></description>
       <warranty>12</warranty>
     </offer>
-    <offer id="ZG161S" available="true" group_id="67">
+    <offer id="ZG161S" available="false" group_id="67">
       <article>ZG161S</article>
       <name><![CDATA[Світлодіодний сонячний світильник EMOS ZG161S 350 лм IP65 4000K]]></name>
       <brand>EMOS</brand>
@@ -13558,7 +13558,7 @@
       <price_rrc>799.00</price_rrc>
       <price>655.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Очікується</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/18/30843105940312_+f752990363.jpg</picture>
         <picture>https://extel.com.ua/content/images/18/20679756459309_+d438fdb74a.jpg</picture>
