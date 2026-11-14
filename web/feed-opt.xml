@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-11-13">
+<price date="2026-11-14">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -29,6 +29,7 @@
     <category id="36" parentId="4">Ліхтарі прожектори</category>
     <category id="37" parentId="4">Налобні ліхтарі</category>
     <category id="38" parentId="4">Велосипедні LED-ліхтарі</category>
+    <category id="39" parentId="4">Туристичні лампи та знищувачі комах</category>
     <category id="42" parentId="5">Аварійне освітлення</category>
     <category id="44" parentId="5">Нічники</category>
     <category id="45" parentId="5">Лампи для рослин</category>
@@ -8595,6 +8596,216 @@
       </pictures>
       <url>https://extel.com.ua/likhtar-led-emos-p4536-20w-2000lm-li-ion-prozhektor.plast./</url>
       <description_ua><![CDATA[Emos]]></description_ua>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P19221" available="true" group_id="11">
+      <article>P19221</article>
+      <name_ua><![CDATA[Мережевий подовжувач на котушці Emos P19221 4 розетки 50 м 3х2,5 мм² гума 16 А 3680 Вт з заземленням]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель на катушке Emos P19221 4 розетки 50 м 3х2,5 мм² резина 16 А 3680 Вт с заземлением]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>11</categoryId>
+      <price_rrc>11999.00</price_rrc>
+      <price>9905.22</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>podovzhuvach-na-kotushtsi-emos-emos-p19221-4-rozetky-50-m-huma</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="E8614" available="true" group_id="46">
+      <article>E8614</article>
+      <name_ua><![CDATA[Бездротова цифрова Метеостанція EMOS E8614]]></name_ua>
+      <name_ru><![CDATA[Беспроводная цифровая метеостанция EMOS E8614]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>46</categoryId>
+      <price_rrc>3599.00</price_rrc>
+      <price>2519.28</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>bezdrotova-tsyfrova-meteostantsiia-emos-e8614</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P3118" available="true" group_id="34">
+      <article>P3118</article>
+      <name_ua><![CDATA[Ліхтар акумуляторний Emos P3118 600 Lm 1200 mAh метал]]></name_ua>
+      <name_ru><![CDATA[Фонарь аккумуляторный Emos P3118 600 Lm 1200 mAh металл]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>34</categoryId>
+      <price_rrc>1099.00</price_rrc>
+      <price>769.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>Ліхтарітапортативнеосвітлення/Акумуляторніліхтарі</picture>
+      </pictures>
+      <url>likhtar-led-emos-p3118-600lm-li-ion-1200-mah-ruchn.metal</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P3215" available="true" group_id="34">
+      <article>P3215</article>
+      <name_ua><![CDATA[Лiхтар акумуляторний Emos P3215 80 Lm Li-Ion 800 mAh]]></name_ua>
+      <name_ru><![CDATA[Фонарь аккумуляторный Emos P3215 80 Lm Li-Ion 800 mAh]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>34</categoryId>
+      <price_rrc>319.00</price_rrc>
+      <price>223.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>Ліхтарітапортативнеосвітлення/Акумуляторніліхтарі</picture>
+      </pictures>
+      <url>likhtar-led-emos-p3215-80lm-li-ion-800-mah-plast.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P4112" available="true" group_id="36">
+      <article>P4112</article>
+      <name_ua><![CDATA[Лiхтар прожектор Emos P4112 350 Lm 3xAA]]></name_ua>
+      <name_ru><![CDATA[Фонарь-прожектор Emos P4112 350 Lm 3xAA]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>36</categoryId>
+      <price_rrc>389.00</price_rrc>
+      <price>272.28</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>Ліхтарітапортативнеосвітлення/Ручніліхтарі</picture>
+      </pictures>
+      <url>likhtar-led-emos-p4112-350lm-3xaa-prozhektor.plast.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PS1721" available="true" group_id="12">
+      <article>PS1721</article>
+      <name_ua><![CDATA[Мережевий подовжувач Emos PS1721 7 розеток 1,5 м 1,0 мм²]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель Emos PS1721 7 розеток 1,5 м 1,0 мм²]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>479.00</price_rrc>
+      <price>335.28</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>merezhevyi-podovzhuvach-emos-ps1721-7-rozetok-15-m.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P4725" available="true" group_id="33">
+      <article>P4725</article>
+      <name_ua><![CDATA[Ліхтар акумуляторний Emos P4725 200 Lm 500 mAh Li-Ion пластик]]></name_ua>
+      <name_ru><![CDATA[Фонарь аккумуляторный Emos P4725 200 Lm 500 mAh Li-Ion пластик]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>33</categoryId>
+      <price_rrc>229.00</price_rrc>
+      <price>139.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>Ліхтарітапортативнеосвітлення/Ручніліхтарі</picture>
+      </pictures>
+      <url>likhtar-akumuliatornyi-emos-p4725-200-lm-500-mah-li-ion-plastyk</url>
+      <description_ua><![CDATA[0]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PC1421R" available="true" group_id="12">
+      <article>PC1421R</article>
+      <name_ua><![CDATA[Мережевий подовжувач Emos PC1421R 4 розетки 1,5 м 1,5 мм²]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель Emos PC1421R 4 розетки 1,5 м 1,5 мм²]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>379.00</price_rrc>
+      <price>265.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>merezhevyi-podovzhuvach-emos-pc1421r-4-rozetky-15-m.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="PC1621R" available="true" group_id="12">
+      <article>PC1621R</article>
+      <name_ua><![CDATA[Мережевий подовжувач Emos PC1621R 6 розеток 1,5 м 1,5 мм²]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель Emos PC1621R 6 розеток 1,5 м 1,5 мм²]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>469.00</price_rrc>
+      <price>321.3</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>merezhevyi-podovzhuvach-emos-pc1621r-6-rozetky-15-m.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P4006" available="true" group_id="39">
+      <article>P4006</article>
+      <name_ua><![CDATA[Лiхтар кемпінговий Emos P4006 300 Lm 3×AA пластик]]></name_ua>
+      <name_ru><![CDATA[Фонарь кемпинговый Emos P4006 300 Lm 3×AA пластик]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>39</categoryId>
+      <price_rrc>439.00</price_rrc>
+      <price>307.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>likhtar-led-emos-p4006-3w-300lm-3aa-ruchn.plast.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P2313" available="true" group_id="33">
+      <article>P2313</article>
+      <name_ua><![CDATA[Ліхтар акумуляторний кемпінговий Emos P2313 350 Lm 4000 mAh пластик гума]]></name_ua>
+      <name_ru><![CDATA[Фонарь аккумуляторный кемпинговый Emos P2313 350 Lm 4000 mAh пластик резина]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>33</categoryId>
+      <price_rrc>1669.00</price_rrc>
+      <price>1168.32</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <pictures>
+        <picture>Ліхтарітапортативнеосвітлення/Туристичнілампитазнищувачікомах</picture>
+      </pictures>
+      <url>likhtar-led-ruchnyi-plastykovyi-emos-p2313-350lm-li-ion</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P3210" available="true" group_id="34">
+      <article>P3210</article>
+      <name_ua><![CDATA[Лiхтар ручний Emos P3210 55 Lm 2×AA пластик]]></name_ua>
+      <name_ru><![CDATA[Фонарь ручной Emos P3210 55 Lm 2×AA пластик]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>34</categoryId>
+      <price_rrc>350.00</price_rrc>
+      <price>216.3</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>likhtar-led-emos-p3210-1w-55lm-2aaa-ruchn.plast</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
+      <warranty>12</warranty>
+    </offer>
+    <offer id="P1521R" available="true" group_id="12">
+      <article>P1521R</article>
+      <name_ua><![CDATA[Мережевий подовжувач Emos P1521R 5 розеток 1,5 м 1,5 мм²]]></name_ua>
+      <name_ru><![CDATA[Сетевой удлинитель Emos P1521R 5 розеток 1,5 м 1,5 мм²]]></name_ru>
+      <brand>EMOS</brand>
+      <categoryId>12</categoryId>
+      <price_rrc>429.00</price_rrc>
+      <price>283.14</price>
+      <currencyId>грн</currencyId>
+      <available>В наявності</available>
+      <url>merezhevyi-podovzhuvach-emos-p1521r-5-rozetky-15-m.</url>
+      <description_ua><![CDATA[1]]></description_ua>
+      <description_ru><![CDATA[Emos]]></description_ru>
       <warranty>12</warranty>
     </offer>
   </offers>
