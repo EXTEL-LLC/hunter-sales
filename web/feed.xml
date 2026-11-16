@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<price date="2026-11-14">
+<price date="2026-11-16">
   <categories>
     <category id="1">Подовжувачі, кабельні котушки та аксесуари</category>
     <category id="2">Батарейки, акумулятори та зарядні пристрої</category>
@@ -576,7 +576,7 @@
       <price_rrc>5999.00</price_rrc>
       <price>5279.1</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/50/27555431793949_+68437f62f4.jpg</picture>
         <picture>https://extel.com.ua/content/images/50/30415942359993_+2518c9c243.jpg</picture>
@@ -767,7 +767,7 @@
       <price_rrc>2449.00</price_rrc>
       <price>2008.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/13/37382566101212_+74a942877f.jpg</picture>
         <picture>https://extel.com.ua/content/images/13/14553917466079_+6d745ee2d7.jpg</picture>
@@ -1194,7 +1194,7 @@
       <price_rrc>699.00</price_rrc>
       <price>573.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/18/21513773314338_+33a5f57ecd.jpg</picture>
         <picture>https://extel.com.ua/content/images/18/86369157512699_+f7b0ef67a5.jpg</picture>
@@ -1294,7 +1294,7 @@
       <price_rrc>1349.00</price_rrc>
       <price>1106.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/26/16054431018540_+f337869082.jpg</picture>
         <picture>https://extel.com.ua/content/images/26/62775242449320_+addd7b7d81.jpg</picture>
@@ -1489,7 +1489,7 @@
       <price_rrc>299.00</price_rrc>
       <price>245.16</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/4/41779860403871_+35041585bd.jpg</picture>
         <picture>https://extel.com.ua/content/images/4/35385173717492_+9ccc93f410.jpg</picture>
@@ -1760,7 +1760,7 @@
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/20/69871593435594_+edb335ca5f.jpg</picture>
         <picture>https://extel.com.ua/content/images/20/45919837502103_+51e2f012fd.jpg</picture>
@@ -2973,7 +2973,7 @@
       <price_rrc>1299.00</price_rrc>
       <price>1065.18</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/16/95777630334400_+7b0445f55e.jpg</picture>
         <picture>https://extel.com.ua/content/images/16/70738539410972_+85c167f9ed.jpg</picture>
@@ -6221,7 +6221,7 @@
       <price_rrc>1099.00</price_rrc>
       <price>901.2</price>
       <currencyId>грн</currencyId>
-      <available>В наявності</available>
+      <available>Немає в наявності</available>
       <pictures>
         <picture>https://extel.com.ua/content/images/46/31322960747693_+1742afa255.jpg</picture>
         <picture>https://extel.com.ua/content/images/46/33338963203206_+4e22b65552.jpg</picture>
